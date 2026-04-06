@@ -10,60 +10,57 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          persist-credentials: false
 
       - name: Create symlinks & generate manifest.json
         run: |
-          # Create/update _latest.png symlinks for each word
-          declare -A latest_ver
-          for img in $(find styles -name "*_v*.png" | sort); do
-            dir=$(dirname $img)
-            basename=$(basename $img .png)
-            word=$(echo $basename | sed 's/_v[0-9]*$//')
-            version=$(echo $basename | grep -oP '_v\K[0-9]+')
-            
-            # Track highest version per word
-            current=${latest_ver[$word]:-0}
-            if [ "$version" -gt "$current" ]; then
-              latest_ver[$word]=$version
-            fi
-          done
-          
-          # Create symlinks
-          for word in "${!latest_ver[@]}"; do
-            ver=${latest_ver[$word]}
-            # Find the actual file
-            src=$(find styles -name "${word}_v${ver}.png" | head -1)
-            dir=$(dirname $src)
-            ln -sf "${word}_v${ver}.png" "${dir}/${word}_latest.png"
-          done
-          
-          # Generate manifest.json
           python3 << 'PYEOF'
 import json, glob, os, re
 
 manifest = []
+latest = {}  # word -> (ver_num, img_path)
+
 for img in sorted(glob.glob('styles/**/*.png', recursive=True)):
     basename = os.path.splitext(os.path.basename(img))[0]
-    if basename.endswith('_latest'):
-        word = basename.replace('_latest', '')
-        version = 'latest'
-    else:
-        match = re.match(r'(.+?)_v(\d+)$', basename)
-        if not match:
-            continue
-        word = match.group(1)
-        version = f'v{match.group(2)}'
+    match = re.match(r'(.+?)_v(\d+)$', basename)
+    if not match:
+        continue
+    word = match.group(1)
+    ver_num = int(match.group(2))
+    version = f'v{ver_num}'
+    
     manifest.append({
         'word': word,
         'version': version,
         'path': img,
-        'url': img  # relative path works everywhere
+        'url': img
+    })
+    
+    if word not in latest or ver_num > latest[word][0]:
+        latest[word] = (ver_num, img)
+
+# Create symlinks
+for word, (ver_num, img_path) in latest.items():
+    link_path = os.path.join(os.path.dirname(img_path), f'{word}_latest.png')
+    target = f'{word}_v{ver_num}.png'
+    if os.path.islink(link_path) or os.path.exists(link_path):
+        os.remove(link_path)
+    os.symlink(target, link_path)
+    manifest.append({
+        'word': word,
+        'version': 'latest',
+        'path': link_path,
+        'url': link_path
     })
 
 with open('manifest.json', 'w') as f:
     json.dump(manifest, f, indent=2)
+
+print(f'Created {len(manifest)} manifest entries, {len(latest)} symlinks')
 PYEOF
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update manifest.json [skip ci]"
