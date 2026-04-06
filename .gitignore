@@ -1,0 +1,41 @@
+# API keys and secrets
+.env
+.env.local
+*.key
+*.token
+
+# Node modules
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Local caches
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+
+# Test results
+test-results/
+playwright-report/
+
+# Generated (will be created by workflow)
+*_latest.png
+*.tmp
+*.bak
+_fix_images.py
+
+# Local agent context
+.qwen/
+QWEN.md

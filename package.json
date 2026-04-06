@@ -1,0 +1,18 @@
+{
+  "name": "open-word-images",
+  "version": "1.0.0",
+  "description": "Open-source library of AI-generated word images. Consistent style, versioned, free to use.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx http-server -p 8080 -c-1 --cors",
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "http-server": "^14.1.1"
+  }
+}

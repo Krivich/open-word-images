@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>open-word-images</title>
+  <style>
+    :root { --bg: #f8f9fa; --card: #fff; --primary: #2563eb; --text: #1f2937; --gray: #6b7280; }
+    body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 20px; }
+    .container { max-width: 900px; margin: 0 auto; }
+    header { text-align: center; margin-bottom: 30px; }
+    h1 { margin: 0 0 10px; }
+    input, button { font-family: inherit; }
+    input { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; box-sizing: border-box; margin-bottom: 10px; }
+    button { background: var(--primary); color: white; border: none; padding: 10px 16px; border-radius: 6px; cursor: pointer; font-size: 14px; margin: 4px; }
+    button:hover { opacity: 0.9; }
+    button.secondary { background: #e5e7eb; color: var(--text); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 16px; }
+    .card { background: var(--card); padding: 12px; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.05); cursor: pointer; }
+    .card img { width: 100px; height: 100px; object-fit: contain; }
+    .card .word { font-weight: 600; margin-top: 8px; text-transform: uppercase; font-size: 14px; }
+    .card .meta { font-size: 11px; color: var(--gray); margin-top: 4px; }
+    #generator { display: none; background: var(--card); padding: 20px; border-radius: 12px; margin-top: 20px; text-align: center; border: 2px dashed var(--primary); }
+    #preview { width: 200px; height: 200px; border-radius: 8px; margin: 10px auto; display: none; object-fit: contain; background: #fff; }
+    .loader { border: 3px solid #f3f3f3; border-top: 3px solid var(--primary); border-radius: 50%; width: 24px; height: 24px; animation: spin 1s linear infinite; display: inline-block; vertical-align: middle; margin-right: 8px; }
+    @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    .suggestions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+    .chip { background: var(--card); border: 1px solid #ddd; border-radius: 16px; padding: 4px 12px; font-size: 13px; cursor: pointer; transition: background 0.15s; }
+    .chip:hover { background: #e5e7eb; }
+    .privacy-notice { font-size: 12px; color: var(--gray); margin-top: 8px; }
+    .toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: #333; color: white; padding: 12px 24px; border-radius: 8px; display: none; z-index: 1000; }
+    @media (max-width: 600px) {
+      .grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); }
+      input { font-size: 14px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🖼️ open-word-images</h1>
+      <p style="color:var(--gray)">Consistent AI images for any word</p>
+      <input type="text" id="search" placeholder="Search word (e.g., cat)..." autocomplete="off">
+      <div id="suggestions" class="suggestions"></div>
+    </header>
+
+    <div id="gallery" class="grid"></div>
+
+    <div id="generator">
+      <h3 id="gen-word">Word: ???</h3>
+      <p id="spellcheck" style="color: #f59e0b; display: none;">⚠️ Did you mean: <span id="spellcheck-word"></span>?</p>
+      <select id="provider" onchange="onProviderChange()" style="width:100%;padding:12px;font-size:16px;border:2px solid #ddd;border-radius:8px;margin-bottom:8px;box-sizing:border-box;background:#fff;">
+        <option value="openai">🤖 OpenAI (DALL·E 3)</option>
+        <option value="custom">🔗 Custom OpenAI-compatible API</option>
+      </select>
+      <input type="text" id="api-url" placeholder="https://your-api.example.com/v1/images/generations" style="display:none;margin-bottom:8px;">
+      <input type="password" id="api-key" placeholder="OpenAI API Key (sk-...)" autocomplete="off">
+      <p class="privacy-notice">🔒 Key is used only in your browser. We don't store or send it anywhere.</p>
+      <br>
+      <button onclick="generate()">🎨 Generate Image</button>
+      <button class="secondary" onclick="clearKey()">Clear Key</button>
+      <div id="loading" style="display:none; margin-top:10px;"><span class="loader"></span> Generating...</div>
+      <img id="preview" alt="Generated">
+      <div id="actions" style="display:none; margin-top:10px;">
+        <button class="secondary" onclick="download()">💾 Download</button>
+        <button onclick="contribute()">🚀 Contribute to Repo</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast"></div>
+
+  <script>
+    let dictionary = [];
+    let existingImages = [];
+    let currentWord = '';
+    let lastImageUrl = '';
+
+    // Hardcoded style prompt (no regex parsing)
+    const STYLE_PROMPT = `[OBJECT] icon for learning apps,
+flat vector style, thick black outline (3px),
+white background, minimalist, no shading,
+primary colors only: #FF0000 red, #0099FF blue, #FFCC00 yellow, #33CC33 green,
+educational clipart, isolated object, simple geometric shapes,
+clean lines, children's illustration style`;
+
+    // Levenshtein distance for spellcheck
+    function levenshtein(a, b) {
+      const m = [];
+      for(let i=0;i<=b.length;i++) m[i]=[i];
+      for(let j=0;j<=a.length;j++) m[0][j]=j;
+      for(let i=1;i<=b.length;i++) for(let j=1;j<=a.length;j++)
+        m[i][j] = b[i-1]===a[j-1] ? m[i-1][j-1] : Math.min(m[i-1][j-1],m[i][j-1],m[i-1][j])+1;
+      return m[b.length][a.length];
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      toast.textContent = msg;
+      toast.style.display = 'block';
+      setTimeout(() => toast.style.display = 'none', 3000);
+    }
+
+    async function init() {
+      try {
+        // Load dictionary
+        try {
+          dictionary = await fetch('dictionary.json?t=' + Date.now()).then(r => r.json());
+        } catch(e) {
+          console.warn('Dictionary unavailable');
+          dictionary = [];
+        }
+
+        // Load manifest (NO GitHub API!)
+        try {
+          existingImages = await fetch('manifest.json?t=' + Date.now()).then(r => r.json());
+        } catch(e) {
+          console.warn('Manifest unavailable');
+          existingImages = [];
+        }
+
+        renderGallery();
+      } catch(e) {
+        console.warn('Failed to load data', e);
+      }
+    }
+
+    function renderGallery(images = existingImages) {
+      const gallery = document.getElementById('gallery');
+      gallery.innerHTML = '';
+      const grouped = {};
+      images.forEach(img => {
+        if(!grouped[img.word]) grouped[img.word] = [];
+        grouped[img.word].push(img);
+      });
+      Object.entries(grouped).forEach(([word, imgs]) => {
+        const latest = imgs.find(i=>i.version==='latest') || imgs[imgs.length-1];
+        const count = imgs.length;
+        gallery.innerHTML += `
+          <div class="card" onclick="selectWord('${word}')">
+            <img src="${latest.url}" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖼️</text></svg>'">
+            <div class="word">${word}</div>
+            <div class="meta">${count} version${count>1?'s':''}</div>
+          </div>`;
+      });
+    }
+
+    const searchInput = document.getElementById('search');
+    const suggestionsBox = document.getElementById('suggestions');
+
+    searchInput.addEventListener('input', (e) => {
+      const val = e.target.value.trim().toLowerCase();
+      showSuggestions(val);
+      handleSearch(val);
+    });
+
+    function showSuggestions(query) {
+      if(!query || query.length < 2) { suggestionsBox.innerHTML = ''; return; }
+      
+      const matches = dictionary
+        .filter(([w]) => w.startsWith(query))
+        .sort((a,b) => b[1]-a[1])
+        .slice(0, 8);
+
+      if(matches.length === 0) { suggestionsBox.innerHTML = ''; return; }
+
+      suggestionsBox.innerHTML = matches.map(([w]) =>
+        `<span class="chip" onclick="selectWord('${w}')">${w}</span>`
+      ).join('');
+    }
+
+    function selectWord(word) {
+      searchInput.value = word;
+      suggestionsBox.innerHTML = '';
+      handleSearch(word);
+    }
+
+    function handleSearch(word) {
+      currentWord = word;
+      const gen = document.getElementById('generator');
+
+      // Exact match
+      const exact = existingImages.find(i => i.word === word.toLowerCase());
+      if(exact) {
+        gen.style.display = 'none';
+        renderGallery(existingImages.filter(i => i.word === word.toLowerCase()));
+        return;
+      }
+
+      // Filter gallery by prefix
+      const prefixMatches = existingImages.filter(i => i.word.startsWith(word.toLowerCase()));
+      if(prefixMatches.length > 0) {
+        gen.style.display = 'none';
+        renderGallery(prefixMatches);
+        return;
+      }
+
+      // No matches at all — show generator (3+ chars) or just hide
+      if(word.length >= 3) {
+        document.getElementById('gen-word').textContent = `Word: ${word.toUpperCase()}`;
+        const wordLower = word.toLowerCase();
+        // Sort by distance first, then frequency
+        const similar = dictionary
+          .map(([w, f]) => ({ word: w, freq: f, dist: levenshtein(w, wordLower) }))
+          .filter(x => x.dist <= 3 && x.dist > 0)
+          .sort((a, b) => a.dist - b.dist || b.freq - a.freq)[0];
+        const spellcheckEl = document.getElementById('spellcheck');
+        if(similar) {
+          document.getElementById('spellcheck-word').textContent = similar.word;
+          spellcheckEl.style.display = 'block';
+        } else {
+          spellcheckEl.style.display = 'none';
+        }
+        gen.style.display = 'block';
+        document.getElementById('preview').style.display = 'none';
+        document.getElementById('actions').style.display = 'none';
+      } else {
+        gen.style.display = 'none';
+        renderGallery();
+      }
+    }
+
+    function onProviderChange() {
+      const provider = document.getElementById('provider').value;
+      const urlInput = document.getElementById('api-url');
+      const keyInput = document.getElementById('api-key');
+      if(provider === 'custom') {
+        urlInput.style.display = 'block';
+        keyInput.placeholder = 'Your API Key';
+      } else {
+        urlInput.style.display = 'none';
+        keyInput.placeholder = 'OpenAI API Key (sk-...)';
+      }
+    }
+
+    async function generate() {
+      const token = document.getElementById('api-key').value;
+      if(!token) return showToast('⚠️ Enter API Key');
+
+      const provider = document.getElementById('provider').value;
+      const url = provider === 'custom'
+        ? document.getElementById('api-url').value || 'https://api.openai.com/v1/images/generations'
+        : 'https://api.openai.com/v1/images/generations';
+
+      document.getElementById('loading').style.display = 'block';
+      document.getElementById('actions').style.display = 'none';
+
+      try {
+        const res = await fetch(url, {
+          method: 'POST',
+          headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' },
+          body: JSON.stringify({ model: 'dall-e-3', prompt: `${currentWord} icon, ${STYLE_PROMPT}`, size: '1024x1024', n: 1 })
+        });
+        const data = await res.json();
+        if(data.error) throw new Error(data.error.message);
+
+        lastImageUrl = data.data[0].url;
+        const preview = document.getElementById('preview');
+        preview.src = lastImageUrl;
+        preview.style.display = 'block';
+        document.getElementById('actions').style.display = 'block';
+        showToast('✅ Image generated!');
+      } catch(e) {
+        showToast('❌ Generation failed: ' + e.message);
+      } finally {
+        document.getElementById('loading').style.display = 'none';
+      }
+    }
+
+    function download() {
+      if(!lastImageUrl) return;
+      fetch(lastImageUrl)
+        .then(r => r.blob())
+        .then(blob => {
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.href = url;
+          a.download = `${currentWord.toLowerCase()}_v1.png`;
+          a.click();
+          URL.revokeObjectURL(url);
+          showToast('💾 Download started!');
+        })
+        .catch(() => {
+          // Fallback
+          const a = document.createElement('a');
+          a.href = lastImageUrl;
+          a.download = `${currentWord.toLowerCase()}_v1.png`;
+          a.target = '_blank';
+          a.click();
+        });
+    }
+
+    function contribute() {
+      download();
+      setTimeout(() => {
+        const url = `https://github.com/krivich/open-word-images/issues/new?title=Add%20${currentWord}&body=Generated%20image%20for%20**${currentWord}**.%0A%0APlease%20attach%20the%20downloaded%20file%20to%20this%20issue.`;
+        if(confirm('📥 File downloaded! Open GitHub to upload it?')) {
+          window.open(url, '_blank');
+        }
+      }, 500);
+    }
+
+    function clearKey() {
+      document.getElementById('api-key').value = '';
+      showToast('🧹 Key cleared');
+    }
+
+    // Close suggestions on outside click
+    document.addEventListener('click', (e) => {
+      if(!e.target.closest('#search') && !e.target.closest('#suggestions')) {
+        suggestionsBox.innerHTML = '';
+      }
+    });
+
+    init();
+  </script>
+</body>
+</html>
