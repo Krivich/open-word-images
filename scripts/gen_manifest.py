@@ -1,20 +1,24 @@
-import json, glob, os, re
+import json, os, re
 
 manifest = []
 latest = {}
 
-for img in sorted(glob.glob('styles/**/*.png', recursive=True)):
-    if os.path.islink(img):
-        continue
-    basename = os.path.splitext(os.path.basename(img))[0]
-    match = re.match(r'(.+?)_v(\d+)$', basename)
-    if not match:
-        continue
-    word = match.group(1)
-    ver_num = int(match.group(2))
-    manifest.append({'word': word, 'version': 'v' + str(ver_num), 'path': img, 'url': img})
-    if word not in latest or ver_num > latest[word][0]:
-        latest[word] = (ver_num, img)
+for root, dirs, files in os.walk('styles'):
+    for fname in sorted(files):
+        if not fname.endswith('.png'):
+            continue
+        img = os.path.join(root, fname)
+        if os.path.islink(img):
+            continue
+        basename = fname[:-4]  # remove .png
+        match = re.match(r'(.+?)_v(\d+)$', basename)
+        if not match:
+            continue
+        word = match.group(1)
+        ver_num = int(match.group(2))
+        manifest.append({'word': word, 'version': 'v' + str(ver_num), 'path': img, 'url': img})
+        if word not in latest or ver_num > latest[word][0]:
+            latest[word] = (ver_num, img)
 
 for word, (ver_num, img_path) in latest.items():
     link_path = os.path.join(os.path.dirname(img_path), word + '_latest.png')
