@@ -10,55 +10,41 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:
-          persist-credentials: false
 
-      - name: Create symlinks & generate manifest.json
+      - name: Create symlinks & generate manifest
         run: |
-          python3 << 'PYEOF'
+          cat > /tmp/update_manifest.py << 'EOF'
 import json, glob, os, re
 
 manifest = []
-latest = {}  # word -> (ver_num, img_path)
+latest = {}
 
 for img in sorted(glob.glob('styles/**/*.png', recursive=True)):
+    if os.path.islink(img):
+        continue
     basename = os.path.splitext(os.path.basename(img))[0]
     match = re.match(r'(.+?)_v(\d+)$', basename)
     if not match:
         continue
     word = match.group(1)
     ver_num = int(match.group(2))
-    version = f'v{ver_num}'
-    
-    manifest.append({
-        'word': word,
-        'version': version,
-        'path': img,
-        'url': img
-    })
-    
+    manifest.append({'word': word, 'version': 'v' + str(ver_num), 'path': img, 'url': img})
     if word not in latest or ver_num > latest[word][0]:
         latest[word] = (ver_num, img)
 
-# Create symlinks
 for word, (ver_num, img_path) in latest.items():
-    link_path = os.path.join(os.path.dirname(img_path), f'{word}_latest.png')
-    target = f'{word}_v{ver_num}.png'
+    link_path = os.path.join(os.path.dirname(img_path), word + '_latest.png')
+    target = word + '_v' + str(ver_num) + '.png'
     if os.path.islink(link_path) or os.path.exists(link_path):
         os.remove(link_path)
     os.symlink(target, link_path)
-    manifest.append({
-        'word': word,
-        'version': 'latest',
-        'path': link_path,
-        'url': link_path
-    })
+    manifest.append({'word': word, 'version': 'latest', 'path': link_path, 'url': link_path})
 
 with open('manifest.json', 'w') as f:
     json.dump(manifest, f, indent=2)
-
-print(f'Created {len(manifest)} manifest entries, {len(latest)} symlinks')
-PYEOF
+print('Done:', len(manifest), 'entries,', len(latest), 'symlinks')
+EOF
+          python3 /tmp/update_manifest.py
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
