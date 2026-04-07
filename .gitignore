@@ -31,7 +31,6 @@ test-results/
 playwright-report/
 
 # Generated (will be created by workflow)
-*_latest.png
 *.tmp
 *.bak
 _fix_images.py
