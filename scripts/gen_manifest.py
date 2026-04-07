@@ -12,7 +12,7 @@ for root, dirs, files in os.walk('styles'):
         if not m:
             continue
         word, ver = m.group(1), int(m.group(2))
-        p = os.path.join(root, f)
+        p = os.path.join(root, f).replace('\\', '/')
         manifest.append({'word': word, 'version': 'v' + str(ver), 'path': p, 'url': p})
         if word not in latest or ver > latest[word][0]:
             latest[word] = (ver, p)
