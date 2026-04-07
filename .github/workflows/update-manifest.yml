@@ -12,85 +12,37 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Process images & generate manifest
+      - name: Generate manifest
         run: |
-          python3 << 'PYEOF'
-import json, os, re, glob, shutil
+          python3 -c "
+import json, os, re, glob
 
-STYLES_DIR = 'styles'
 manifest = []
-latest = {}  # word -> (max_ver, path)
+latest = {}
 
-# Step 1: Find and version unversioned files
-for root, dirs, files in os.walk(STYLES_DIR):
-    for fname in sorted(files):
-        if not fname.endswith('.png'):
+for root, dirs, files in os.walk('styles'):
+    for f in sorted(files):
+        if not f.endswith('.png') or os.path.islink(os.path.join(root, f)):
             continue
-        img_path = os.path.join(root, fname)
-        if os.path.islink(img_path):
+        bn = f[:-4]
+        m = re.match(r'(.+?)_v(\d+)$', bn)
+        if not m:
             continue
-        basename = fname[:-4]
-        
-        match = re.match(r'(.+?)_v(\d+)$', basename)
-        if match:
-            word = match.group(1)
-            ver_num = int(match.group(2))
-        else:
-            word = basename
-            existing = glob.glob(os.path.join(root, f'{word}_v*.png'))
-            max_ver = 0
-            for ep in existing:
-                em = re.match(rf'{re.escape(word)}_v(\d+)\.png$', os.path.basename(ep))
-                if em:
-                    max_ver = max(max_ver, int(em.group(1)))
-            new_ver = max_ver + 1
-            new_name = f'{word}_v{new_ver}.png'
-            new_path = os.path.join(root, new_name)
-            shutil.move(img_path, new_path)
-            img_path = new_path
-            ver_num = new_ver
-        
-        manifest.append({
-            'word': word,
-            'version': f'v{ver_num}',
-            'path': img_path,
-            'url': img_path
-        })
-        
-        if word not in latest or ver_num > latest[word][0]:
-            latest[word] = (ver_num, img_path)
+        word, ver = m.group(1), int(m.group(2))
+        p = os.path.join(root, f)
+        manifest.append({'word': word, 'version': 'v' + str(ver), 'path': p, 'url': p})
+        if word not in latest or ver > latest[word][0]:
+            latest[word] = (ver, p)
 
-# Step 2: Create symlinks and add latest entries
-for word, (ver_num, img_path) in latest.items():
-    dir_path = os.path.dirname(img_path)
-    link_path = os.path.join(dir_path, f'{word}_latest.png')
-    target = os.path.basename(img_path)
-    
-    if os.path.islink(link_path) or os.path.exists(link_path):
-        os.remove(link_path)
-    os.symlink(target, link_path)
-    
-    manifest.append({
-        'word': word,
-        'version': 'latest',
-        'path': link_path,
-        'url': link_path
-    })
+for word, (ver, p) in latest.items():
+    manifest.append({'word': word, 'version': 'latest', 'path': p, 'url': p})
 
-# Step 3: Write manifest
 manifest.sort(key=lambda x: (x['word'], 0 if x['version'] == 'latest' else int(x['version'][1:])))
+with open('manifest.json', 'w') as out:
+    json.dump(manifest, out, indent=2)
+print('Done:', len(manifest))
+"
 
-with open('manifest.json', 'w') as f:
-    json.dump(manifest, f, indent=2)
-
-print(f'Done: {len(manifest)} entries, {len(latest)} words')
-PYEOF
-
-      - name: Commit changes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git config core.symlinks true
-          git add -A
-          git diff --cached --quiet || git commit -m "chore: update manifest [skip ci]"
-          git push
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update manifest [skip ci]"
