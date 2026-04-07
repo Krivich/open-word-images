@@ -2,27 +2,22 @@ import json, os, re
 
 manifest = []
 latest = {}
-
 for root, dirs, files in os.walk('styles'):
-    for fname in sorted(files):
-        if not fname.endswith('.png'):
+    for f in sorted(files):
+        if not f.endswith('.png') or os.path.islink(os.path.join(root, f)):
             continue
-        img = os.path.join(root, fname)
-        if os.path.islink(img):
+        bn = f[:-4]
+        m = re.match(r'(.+?)_v(\d+)$', bn)
+        if not m:
             continue
-        basename = fname[:-4]
-        match = re.match(r'(.+?)_v(\d+)$', basename)
-        if not match:
-            continue
-        word = match.group(1)
-        ver_num = int(match.group(2))
-        manifest.append({'word': word, 'version': 'v' + str(ver_num), 'path': img, 'url': img})
-        if word not in latest or ver_num > latest[word][0]:
-            latest[word] = (ver_num, img)
-
-for word, (ver_num, img_path) in latest.items():
-    manifest.append({'word': word, 'version': 'latest', 'path': img_path, 'url': img_path})
-
-with open('manifest.json', 'w') as f:
-    json.dump(manifest, f, indent=2)
-print('Done:', len(manifest), 'entries,', len(latest), 'latest')
+        word, ver = m.group(1), int(m.group(2))
+        p = os.path.join(root, f)
+        manifest.append({'word': word, 'version': 'v' + str(ver), 'path': p, 'url': p})
+        if word not in latest or ver > latest[word][0]:
+            latest[word] = (ver, p)
+for word, (ver, p) in latest.items():
+    manifest.append({'word': word, 'version': 'latest', 'path': p, 'url': p})
+manifest.sort(key=lambda x: (x['word'], 0 if x['version'] == 'latest' else int(x['version'][1:])))
+with open('manifest.json', 'w') as out:
+    json.dump(manifest, out, indent=2)
+print('Done:', len(manifest))
