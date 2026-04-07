@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'styles/**/*.png'
+  workflow_dispatch:
 
 jobs:
   update:
