@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'styles/**/*.png'
+      - '.github/workflows/*.yml'
   workflow_dispatch:
 
 jobs:
