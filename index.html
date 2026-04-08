@@ -35,9 +35,10 @@
     .modal h3 { margin: 0 0 16px; text-align: center; }
     .modal-close { position: absolute; top: 12px; right: 16px; background: none; border: none; font-size: 24px; cursor: pointer; color: var(--gray); padding: 4px; }
     .versions-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 12px; }
-    .version-item { text-align: center; cursor: pointer; }
+    .version-item { text-align: center; cursor: pointer; position: relative; }
     .version-item img { width: 100px; height: 100px; object-fit: contain; border-radius: 8px; border: 2px solid transparent; transition: border-color 0.15s; }
     .version-item img:hover { border-color: var(--primary); }
+    .version-item.latest img { border-color: #2563eb; box-shadow: 0 0 8px rgba(37,99,235,0.3); }
     .version-label { font-size: 12px; color: var(--gray); margin-top: 4px; }
     @media (max-width: 600px) {
       .grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); }
@@ -123,21 +124,23 @@ clean lines, children's illustration style`;
       const wordImages = existingImages.filter(i => i.word === word.toLowerCase());
       if(!wordImages.length) return;
       
+      const latestImg = wordImages.find(i => i.version === 'latest');
+      
       document.getElementById('modal-title').textContent = word.charAt(0).toUpperCase() + word.slice(1) + ' — Versions';
       
-      // Sort: latest first, then v1, v2...
-      const sorted = wordImages.sort((a, b) => {
-        if(a.version === 'latest') return -1;
-        if(b.version === 'latest') return 1;
-        return parseInt(b.version.slice(1)) - parseInt(a.version.slice(1));
+      // Exclude 'latest' from the grid, just show v1, v2...
+      const sorted = wordImages.filter(i => i.version !== 'latest').sort((a, b) => {
+        return parseInt(a.version.slice(1)) - parseInt(b.version.slice(1));
       });
       
-      document.getElementById('modal-body').innerHTML = sorted.map(img => `
-        <div class="version-item" onclick="downloadVersion('${img.path}', '${word}_${img.version}.png')">
+      document.getElementById('modal-body').innerHTML = sorted.map(img => {
+        const isLatest = latestImg && img.path === latestImg.path;
+        return `
+        <div class="version-item ${isLatest ? 'latest' : ''}" onclick="downloadVersion('${img.path}', '${word}_${img.version}.png')">
           <img src="${img.url}" loading="lazy">
-          <div class="version-label">${img.version}</div>
+          <div class="version-label">${img.version} ${isLatest ? '✨' : ''}</div>
         </div>
-      `).join('');
+      `}).join('');
       
       document.getElementById('modal-overlay').classList.add('active');
     }
@@ -192,7 +195,7 @@ clean lines, children's illustration style`;
       });
       Object.entries(grouped).forEach(([word, imgs]) => {
         const latest = imgs.find(i=>i.version==='latest') || imgs[imgs.length-1];
-        const count = imgs.length;
+        const count = imgs.filter(i => i.version !== 'latest').length;
         gallery.innerHTML += `
           <div class="card" onclick="showVersions('${word}')">
             <img src="${latest.url}" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖼️</text></svg>'">
