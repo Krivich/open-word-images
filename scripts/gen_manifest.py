@@ -9,6 +9,11 @@ for root, dirs, files in os.walk('styles'):
         if not f.endswith('.png') or os.path.islink(os.path.join(root, f)):
             continue
         bn = f[:-4]
+        
+        # CRITICAL: Skip thumbnails to prevent auto-versioning them
+        if any(skip in bn for skip in ['_latest_128', '_latest_256', '_latest_512']):
+            continue
+            
         m = re.match(r'(.+?)_v(\d+)$', bn)
         if not m:
             # Unversioned file — find max version and rename
