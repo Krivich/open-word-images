@@ -13,7 +13,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 scripts/gen_manifest.py
-      - run: python3 scripts/create_symlinks.py
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
