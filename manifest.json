@@ -1008,6 +1008,12 @@
     "url": "styles/new/\u0430\u0431\u0440\u0438\u043a\u043e\u0441_v1.png"
   },
   {
+    "word": "\u0430\u0431\u0440\u0438\u043a\u043e\u0441",
+    "version": "v2",
+    "path": "styles/new/\u0430\u0431\u0440\u0438\u043a\u043e\u0441_v2.png",
+    "url": "styles/new/\u0430\u0431\u0440\u0438\u043a\u043e\u0441_v2.png"
+  },
+  {
     "word": "\u0430\u0432\u043e\u0441\u044c\u043a\u0430",
     "version": "latest",
     "path": "styles/new/\u0430\u0432\u043e\u0441\u044c\u043a\u0430_latest.png",
@@ -1018,6 +1024,12 @@
     "version": "v1",
     "path": "styles/new/\u0430\u0432\u043e\u0441\u044c\u043a\u0430_v1.png",
     "url": "styles/new/\u0430\u0432\u043e\u0441\u044c\u043a\u0430_v1.png"
+  },
+  {
+    "word": "\u0430\u0432\u043e\u0441\u044c\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0430\u0432\u043e\u0441\u044c\u043a\u0430_v2.png",
+    "url": "styles/new/\u0430\u0432\u043e\u0441\u044c\u043a\u0430_v2.png"
   },
   {
     "word": "\u0430\u0432\u0442\u043e\u0431\u0443\u0441",
@@ -1032,6 +1044,12 @@
     "url": "styles/new/\u0430\u0432\u0442\u043e\u0431\u0443\u0441_v1.png"
   },
   {
+    "word": "\u0430\u0432\u0442\u043e\u0431\u0443\u0441",
+    "version": "v2",
+    "path": "styles/new/\u0430\u0432\u0442\u043e\u0431\u0443\u0441_v2.png",
+    "url": "styles/new/\u0430\u0432\u0442\u043e\u0431\u0443\u0441_v2.png"
+  },
+  {
     "word": "\u0430\u0432\u0442\u043e\u043c\u0430\u0442",
     "version": "latest",
     "path": "styles/new/\u0430\u0432\u0442\u043e\u043c\u0430\u0442_latest.png",
@@ -1042,6 +1060,12 @@
     "version": "v1",
     "path": "styles/new/\u0430\u0432\u0442\u043e\u043c\u0430\u0442_v1.png",
     "url": "styles/new/\u0430\u0432\u0442\u043e\u043c\u0430\u0442_v1.png"
+  },
+  {
+    "word": "\u0430\u0432\u0442\u043e\u043c\u0430\u0442",
+    "version": "v2",
+    "path": "styles/new/\u0430\u0432\u0442\u043e\u043c\u0430\u0442_v2.png",
+    "url": "styles/new/\u0430\u0432\u0442\u043e\u043c\u0430\u0442_v2.png"
   },
   {
     "word": "\u0430\u0432\u0442\u043e\u043f\u0438\u043b\u043e\u0442",
@@ -1056,6 +1080,12 @@
     "url": "styles/new/\u0430\u0432\u0442\u043e\u043f\u0438\u043b\u043e\u0442_v1.png"
   },
   {
+    "word": "\u0430\u0432\u0442\u043e\u043f\u0438\u043b\u043e\u0442",
+    "version": "v2",
+    "path": "styles/new/\u0430\u0432\u0442\u043e\u043f\u0438\u043b\u043e\u0442_v2.png",
+    "url": "styles/new/\u0430\u0432\u0442\u043e\u043f\u0438\u043b\u043e\u0442_v2.png"
+  },
+  {
     "word": "\u0430\u043d\u0430\u043d\u0430\u0441",
     "version": "latest",
     "path": "styles/new/\u0430\u043d\u0430\u043d\u0430\u0441_latest.png",
@@ -1066,6 +1096,12 @@
     "version": "v1",
     "path": "styles/new/\u0430\u043d\u0430\u043d\u0430\u0441_v1.png",
     "url": "styles/new/\u0430\u043d\u0430\u043d\u0430\u0441_v1.png"
+  },
+  {
+    "word": "\u0430\u043d\u0430\u043d\u0430\u0441",
+    "version": "v2",
+    "path": "styles/new/\u0430\u043d\u0430\u043d\u0430\u0441_v2.png",
+    "url": "styles/new/\u0430\u043d\u0430\u043d\u0430\u0441_v2.png"
   },
   {
     "word": "\u0430\u043f\u0435\u043b\u044c\u0441\u0438\u043d",
@@ -1080,6 +1116,12 @@
     "url": "styles/new/\u0430\u043f\u0435\u043b\u044c\u0441\u0438\u043d_v1.png"
   },
   {
+    "word": "\u0430\u043f\u0435\u043b\u044c\u0441\u0438\u043d",
+    "version": "v2",
+    "path": "styles/new/\u0430\u043f\u0435\u043b\u044c\u0441\u0438\u043d_v2.png",
+    "url": "styles/new/\u0430\u043f\u0435\u043b\u044c\u0441\u0438\u043d_v2.png"
+  },
+  {
     "word": "\u0431\u0430\u0431\u043e\u0447\u043a\u0430",
     "version": "latest",
     "path": "styles/new/\u0431\u0430\u0431\u043e\u0447\u043a\u0430_latest.png",
@@ -1090,6 +1132,12 @@
     "version": "v1",
     "path": "styles/new/\u0431\u0430\u0431\u043e\u0447\u043a\u0430_v1.png",
     "url": "styles/new/\u0431\u0430\u0431\u043e\u0447\u043a\u0430_v1.png"
+  },
+  {
+    "word": "\u0431\u0430\u0431\u043e\u0447\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0431\u0430\u0431\u043e\u0447\u043a\u0430_v2.png",
+    "url": "styles/new/\u0431\u0430\u0431\u043e\u0447\u043a\u0430_v2.png"
   },
   {
     "word": "\u0431\u0430\u043a",
@@ -1104,6 +1152,12 @@
     "url": "styles/new/\u0431\u0430\u043a_v1.png"
   },
   {
+    "word": "\u0431\u0430\u043a",
+    "version": "v2",
+    "path": "styles/new/\u0431\u0430\u043a_v2.png",
+    "url": "styles/new/\u0431\u0430\u043a_v2.png"
+  },
+  {
     "word": "\u0431\u0430\u043d\u043a\u0438",
     "version": "latest",
     "path": "styles/new/\u0431\u0430\u043d\u043a\u0438_latest.png",
@@ -1114,6 +1168,12 @@
     "version": "v1",
     "path": "styles/new/\u0431\u0430\u043d\u043a\u0438_v1.png",
     "url": "styles/new/\u0431\u0430\u043d\u043a\u0438_v1.png"
+  },
+  {
+    "word": "\u0431\u0430\u043d\u043a\u0438",
+    "version": "v2",
+    "path": "styles/new/\u0431\u0430\u043d\u043a\u0438_v2.png",
+    "url": "styles/new/\u0431\u0430\u043d\u043a\u0438_v2.png"
   },
   {
     "word": "\u0431\u0430\u043d\u043e\u0447\u043a\u0430",
@@ -1128,6 +1188,12 @@
     "url": "styles/new/\u0431\u0430\u043d\u043e\u0447\u043a\u0430_v1.png"
   },
   {
+    "word": "\u0431\u0430\u043d\u043e\u0447\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0431\u0430\u043d\u043e\u0447\u043a\u0430_v2.png",
+    "url": "styles/new/\u0431\u0430\u043d\u043e\u0447\u043a\u0430_v2.png"
+  },
+  {
     "word": "\u0431\u0430\u0440\u0430\u043d\u043a\u0430",
     "version": "latest",
     "path": "styles/new/\u0431\u0430\u0440\u0430\u043d\u043a\u0430_latest.png",
@@ -1138,6 +1204,12 @@
     "version": "v1",
     "path": "styles/new/\u0431\u0430\u0440\u0430\u043d\u043a\u0430_v1.png",
     "url": "styles/new/\u0431\u0430\u0440\u0430\u043d\u043a\u0430_v1.png"
+  },
+  {
+    "word": "\u0431\u0430\u0440\u0430\u043d\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0431\u0430\u0440\u0430\u043d\u043a\u0430_v2.png",
+    "url": "styles/new/\u0431\u0430\u0440\u0430\u043d\u043a\u0430_v2.png"
   },
   {
     "word": "\u0431\u0430\u0448\u043c\u0430\u043a",
@@ -1152,6 +1224,12 @@
     "url": "styles/new/\u0431\u0430\u0448\u043c\u0430\u043a_v1.png"
   },
   {
+    "word": "\u0431\u0430\u0448\u043c\u0430\u043a",
+    "version": "v2",
+    "path": "styles/new/\u0431\u0430\u0448\u043c\u0430\u043a_v2.png",
+    "url": "styles/new/\u0431\u0430\u0448\u043c\u0430\u043a_v2.png"
+  },
+  {
     "word": "\u0431\u044b\u043a",
     "version": "latest",
     "path": "styles/new/\u0431\u044b\u043a_latest.png",
@@ -1162,6 +1240,12 @@
     "version": "v1",
     "path": "styles/new/\u0431\u044b\u043a_v1.png",
     "url": "styles/new/\u0431\u044b\u043a_v1.png"
+  },
+  {
+    "word": "\u0431\u044b\u043a",
+    "version": "v2",
+    "path": "styles/new/\u0431\u044b\u043a_v2.png",
+    "url": "styles/new/\u0431\u044b\u043a_v2.png"
   },
   {
     "word": "\u0432\u0435\u0435\u0440",
@@ -1176,6 +1260,12 @@
     "url": "styles/new/\u0432\u0435\u0435\u0440_v1.png"
   },
   {
+    "word": "\u0432\u0435\u0435\u0440",
+    "version": "v2",
+    "path": "styles/new/\u0432\u0435\u0435\u0440_v2.png",
+    "url": "styles/new/\u0432\u0435\u0435\u0440_v2.png"
+  },
+  {
     "word": "\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434",
     "version": "latest",
     "path": "styles/new/\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434_latest.png",
@@ -1186,6 +1276,12 @@
     "version": "v1",
     "path": "styles/new/\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434_v1.png",
     "url": "styles/new/\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434_v1.png"
+  },
+  {
+    "word": "\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434",
+    "version": "v2",
+    "path": "styles/new/\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434_v2.png",
+    "url": "styles/new/\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434_v2.png"
   },
   {
     "word": "\u0432\u0435\u043b\u044e\u0440",
@@ -1200,6 +1296,12 @@
     "url": "styles/new/\u0432\u0435\u043b\u044e\u0440_v1.png"
   },
   {
+    "word": "\u0432\u0435\u043b\u044e\u0440",
+    "version": "v2",
+    "path": "styles/new/\u0432\u0435\u043b\u044e\u0440_v2.png",
+    "url": "styles/new/\u0432\u0435\u043b\u044e\u0440_v2.png"
+  },
+  {
     "word": "\u0432\u0435\u043d\u0438\u043a",
     "version": "latest",
     "path": "styles/new/\u0432\u0435\u043d\u0438\u043a_latest.png",
@@ -1210,6 +1312,12 @@
     "version": "v1",
     "path": "styles/new/\u0432\u0435\u043d\u0438\u043a_v1.png",
     "url": "styles/new/\u0432\u0435\u043d\u0438\u043a_v1.png"
+  },
+  {
+    "word": "\u0432\u0435\u043d\u0438\u043a",
+    "version": "v2",
+    "path": "styles/new/\u0432\u0435\u043d\u0438\u043a_v2.png",
+    "url": "styles/new/\u0432\u0435\u043d\u0438\u043a_v2.png"
   },
   {
     "word": "\u0432\u0435\u0441\u043d\u0430",
@@ -1224,6 +1332,12 @@
     "url": "styles/new/\u0432\u0435\u0441\u043d\u0430_v1.png"
   },
   {
+    "word": "\u0432\u0435\u0441\u043d\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0432\u0435\u0441\u043d\u0430_v2.png",
+    "url": "styles/new/\u0432\u0435\u0441\u043d\u0430_v2.png"
+  },
+  {
     "word": "\u0432\u0435\u0442\u0435\u0440",
     "version": "latest",
     "path": "styles/new/\u0432\u0435\u0442\u0435\u0440_latest.png",
@@ -1234,6 +1348,12 @@
     "version": "v1",
     "path": "styles/new/\u0432\u0435\u0442\u0435\u0440_v1.png",
     "url": "styles/new/\u0432\u0435\u0442\u0435\u0440_v1.png"
+  },
+  {
+    "word": "\u0432\u0435\u0442\u0435\u0440",
+    "version": "v2",
+    "path": "styles/new/\u0432\u0435\u0442\u0435\u0440_v2.png",
+    "url": "styles/new/\u0432\u0435\u0442\u0435\u0440_v2.png"
   },
   {
     "word": "\u0432\u0435\u0447\u0435\u0440",
@@ -1248,6 +1368,12 @@
     "url": "styles/new/\u0432\u0435\u0447\u0435\u0440_v1.png"
   },
   {
+    "word": "\u0432\u0435\u0447\u0435\u0440",
+    "version": "v2",
+    "path": "styles/new/\u0432\u0435\u0447\u0435\u0440_v2.png",
+    "url": "styles/new/\u0432\u0435\u0447\u0435\u0440_v2.png"
+  },
+  {
     "word": "\u0432\u0435\u0449\u044c",
     "version": "latest",
     "path": "styles/new/\u0432\u0435\u0449\u044c_latest.png",
@@ -1258,6 +1384,12 @@
     "version": "v1",
     "path": "styles/new/\u0432\u0435\u0449\u044c_v1.png",
     "url": "styles/new/\u0432\u0435\u0449\u044c_v1.png"
+  },
+  {
+    "word": "\u0432\u0435\u0449\u044c",
+    "version": "v2",
+    "path": "styles/new/\u0432\u0435\u0449\u044c_v2.png",
+    "url": "styles/new/\u0432\u0435\u0449\u044c_v2.png"
   },
   {
     "word": "\u0432\u0438\u043b\u043a\u0430",
@@ -1272,6 +1404,12 @@
     "url": "styles/new/\u0432\u0438\u043b\u043a\u0430_v1.png"
   },
   {
+    "word": "\u0432\u0438\u043b\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0432\u0438\u043b\u043a\u0430_v2.png",
+    "url": "styles/new/\u0432\u0438\u043b\u043a\u0430_v2.png"
+  },
+  {
     "word": "\u0432\u0438\u0448\u043d\u044f",
     "version": "latest",
     "path": "styles/new/\u0432\u0438\u0448\u043d\u044f_latest.png",
@@ -1282,6 +1420,12 @@
     "version": "v1",
     "path": "styles/new/\u0432\u0438\u0448\u043d\u044f_v1.png",
     "url": "styles/new/\u0432\u0438\u0448\u043d\u044f_v1.png"
+  },
+  {
+    "word": "\u0432\u0438\u0448\u043d\u044f",
+    "version": "v2",
+    "path": "styles/new/\u0432\u0438\u0448\u043d\u044f_v2.png",
+    "url": "styles/new/\u0432\u0438\u0448\u043d\u044f_v2.png"
   },
   {
     "word": "\u0432\u043e\u043b\u0430\u043d",
@@ -1296,6 +1440,12 @@
     "url": "styles/new/\u0432\u043e\u043b\u0430\u043d_v1.png"
   },
   {
+    "word": "\u0432\u043e\u043b\u0430\u043d",
+    "version": "v2",
+    "path": "styles/new/\u0432\u043e\u043b\u0430\u043d_v2.png",
+    "url": "styles/new/\u0432\u043e\u043b\u0430\u043d_v2.png"
+  },
+  {
     "word": "\u0433\u043e\u0434",
     "version": "latest",
     "path": "styles/new/\u0433\u043e\u0434_latest.png",
@@ -1306,6 +1456,12 @@
     "version": "v1",
     "path": "styles/new/\u0433\u043e\u0434_v1.png",
     "url": "styles/new/\u0433\u043e\u0434_v1.png"
+  },
+  {
+    "word": "\u0433\u043e\u0434",
+    "version": "v2",
+    "path": "styles/new/\u0433\u043e\u0434_v2.png",
+    "url": "styles/new/\u0433\u043e\u0434_v2.png"
   },
   {
     "word": "\u0433\u0440\u0430\u0447",
@@ -1320,6 +1476,12 @@
     "url": "styles/new/\u0433\u0440\u0430\u0447_v1.png"
   },
   {
+    "word": "\u0433\u0440\u0430\u0447",
+    "version": "v2",
+    "path": "styles/new/\u0433\u0440\u0430\u0447_v2.png",
+    "url": "styles/new/\u0433\u0440\u0430\u0447_v2.png"
+  },
+  {
     "word": "\u0433\u0440\u0438\u0431",
     "version": "latest",
     "path": "styles/new/\u0433\u0440\u0438\u0431_latest.png",
@@ -1330,6 +1492,12 @@
     "version": "v1",
     "path": "styles/new/\u0433\u0440\u0438\u0431_v1.png",
     "url": "styles/new/\u0433\u0440\u0438\u0431_v1.png"
+  },
+  {
+    "word": "\u0433\u0440\u0438\u0431",
+    "version": "v2",
+    "path": "styles/new/\u0433\u0440\u0438\u0431_v2.png",
+    "url": "styles/new/\u0433\u0440\u0438\u0431_v2.png"
   },
   {
     "word": "\u0434\u043d\u043e",
@@ -1344,6 +1512,12 @@
     "url": "styles/new/\u0434\u043d\u043e_v1.png"
   },
   {
+    "word": "\u0434\u043d\u043e",
+    "version": "v2",
+    "path": "styles/new/\u0434\u043d\u043e_v2.png",
+    "url": "styles/new/\u0434\u043d\u043e_v2.png"
+  },
+  {
     "word": "\u0434\u043e\u0436\u0434\u044c",
     "version": "latest",
     "path": "styles/new/\u0434\u043e\u0436\u0434\u044c_latest.png",
@@ -1354,6 +1528,12 @@
     "version": "v1",
     "path": "styles/new/\u0434\u043e\u0436\u0434\u044c_v1.png",
     "url": "styles/new/\u0434\u043e\u0436\u0434\u044c_v1.png"
+  },
+  {
+    "word": "\u0434\u043e\u0436\u0434\u044c",
+    "version": "v2",
+    "path": "styles/new/\u0434\u043e\u0436\u0434\u044c_v2.png",
+    "url": "styles/new/\u0434\u043e\u0436\u0434\u044c_v2.png"
   },
   {
     "word": "\u0434\u043e\u043c",
@@ -1368,6 +1548,12 @@
     "url": "styles/new/\u0434\u043e\u043c_v1.png"
   },
   {
+    "word": "\u0434\u043e\u043c",
+    "version": "v2",
+    "path": "styles/new/\u0434\u043e\u043c_v2.png",
+    "url": "styles/new/\u0434\u043e\u043c_v2.png"
+  },
+  {
     "word": "\u0434\u043e\u0441\u043a\u0430",
     "version": "latest",
     "path": "styles/new/\u0434\u043e\u0441\u043a\u0430_latest.png",
@@ -1378,6 +1564,12 @@
     "version": "v1",
     "path": "styles/new/\u0434\u043e\u0441\u043a\u0430_v1.png",
     "url": "styles/new/\u0434\u043e\u0441\u043a\u0430_v1.png"
+  },
+  {
+    "word": "\u0434\u043e\u0441\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0434\u043e\u0441\u043a\u0430_v2.png",
+    "url": "styles/new/\u0434\u043e\u0441\u043a\u0430_v2.png"
   },
   {
     "word": "\u0434\u043e\u0441\u043a\u0438",
@@ -1392,6 +1584,12 @@
     "url": "styles/new/\u0434\u043e\u0441\u043a\u0438_v1.png"
   },
   {
+    "word": "\u0434\u043e\u0441\u043a\u0438",
+    "version": "v2",
+    "path": "styles/new/\u0434\u043e\u0441\u043a\u0438_v2.png",
+    "url": "styles/new/\u0434\u043e\u0441\u043a\u0438_v2.png"
+  },
+  {
     "word": "\u0434\u043e\u0441\u043f\u0435\u0445\u0438",
     "version": "latest",
     "path": "styles/new/\u0434\u043e\u0441\u043f\u0435\u0445\u0438_latest.png",
@@ -1402,6 +1600,12 @@
     "version": "v1",
     "path": "styles/new/\u0434\u043e\u0441\u043f\u0435\u0445\u0438_v1.png",
     "url": "styles/new/\u0434\u043e\u0441\u043f\u0435\u0445\u0438_v1.png"
+  },
+  {
+    "word": "\u0434\u043e\u0441\u043f\u0435\u0445\u0438",
+    "version": "v2",
+    "path": "styles/new/\u0434\u043e\u0441\u043f\u0435\u0445\u0438_v2.png",
+    "url": "styles/new/\u0434\u043e\u0441\u043f\u0435\u0445\u0438_v2.png"
   },
   {
     "word": "\u0434\u043e\u0447\u044c",
@@ -1416,6 +1620,12 @@
     "url": "styles/new/\u0434\u043e\u0447\u044c_v1.png"
   },
   {
+    "word": "\u0434\u043e\u0447\u044c",
+    "version": "v2",
+    "path": "styles/new/\u0434\u043e\u0447\u044c_v2.png",
+    "url": "styles/new/\u0434\u043e\u0447\u044c_v2.png"
+  },
+  {
     "word": "\u0434\u044b\u043c",
     "version": "latest",
     "path": "styles/new/\u0434\u044b\u043c_latest.png",
@@ -1426,6 +1636,12 @@
     "version": "v1",
     "path": "styles/new/\u0434\u044b\u043c_v1.png",
     "url": "styles/new/\u0434\u044b\u043c_v1.png"
+  },
+  {
+    "word": "\u0434\u044b\u043c",
+    "version": "v2",
+    "path": "styles/new/\u0434\u044b\u043c_v2.png",
+    "url": "styles/new/\u0434\u044b\u043c_v2.png"
   },
   {
     "word": "\u0436\u0443\u043a",
@@ -1440,6 +1656,12 @@
     "url": "styles/new/\u0436\u0443\u043a_v1.png"
   },
   {
+    "word": "\u0436\u0443\u043a",
+    "version": "v2",
+    "path": "styles/new/\u0436\u0443\u043a_v2.png",
+    "url": "styles/new/\u0436\u0443\u043a_v2.png"
+  },
+  {
     "word": "\u0437\u0435\u043d\u0438\u0442",
     "version": "latest",
     "path": "styles/new/\u0437\u0435\u043d\u0438\u0442_latest.png",
@@ -1450,6 +1672,12 @@
     "version": "v1",
     "path": "styles/new/\u0437\u0435\u043d\u0438\u0442_v1.png",
     "url": "styles/new/\u0437\u0435\u043d\u0438\u0442_v1.png"
+  },
+  {
+    "word": "\u0437\u0435\u043d\u0438\u0442",
+    "version": "v2",
+    "path": "styles/new/\u0437\u0435\u043d\u0438\u0442_v2.png",
+    "url": "styles/new/\u0437\u0435\u043d\u0438\u0442_v2.png"
   },
   {
     "word": "\u0437\u043c\u0435\u044f",
@@ -1464,6 +1692,12 @@
     "url": "styles/new/\u0437\u043c\u0435\u044f_v1.png"
   },
   {
+    "word": "\u0437\u043c\u0435\u044f",
+    "version": "v2",
+    "path": "styles/new/\u0437\u043c\u0435\u044f_v2.png",
+    "url": "styles/new/\u0437\u043c\u0435\u044f_v2.png"
+  },
+  {
     "word": "\u0437\u043e\u043d\u0442\u0438\u043a",
     "version": "latest",
     "path": "styles/new/\u0437\u043e\u043d\u0442\u0438\u043a_latest.png",
@@ -1474,6 +1708,12 @@
     "version": "v1",
     "path": "styles/new/\u0437\u043e\u043d\u0442\u0438\u043a_v1.png",
     "url": "styles/new/\u0437\u043e\u043d\u0442\u0438\u043a_v1.png"
+  },
+  {
+    "word": "\u0437\u043e\u043d\u0442\u0438\u043a",
+    "version": "v2",
+    "path": "styles/new/\u0437\u043e\u043d\u0442\u0438\u043a_v2.png",
+    "url": "styles/new/\u0437\u043e\u043d\u0442\u0438\u043a_v2.png"
   },
   {
     "word": "\u0437\u0443\u0431",
@@ -1488,6 +1728,12 @@
     "url": "styles/new/\u0437\u0443\u0431_v1.png"
   },
   {
+    "word": "\u0437\u0443\u0431",
+    "version": "v2",
+    "path": "styles/new/\u0437\u0443\u0431_v2.png",
+    "url": "styles/new/\u0437\u0443\u0431_v2.png"
+  },
+  {
     "word": "\u043a\u0430\u0440\u0430\u043d\u0434\u0430\u0448",
     "version": "latest",
     "path": "styles/new/\u043a\u0430\u0440\u0430\u043d\u0434\u0430\u0448_latest.png",
@@ -1498,6 +1744,12 @@
     "version": "v1",
     "path": "styles/new/\u043a\u0430\u0440\u0430\u043d\u0434\u0430\u0448_v1.png",
     "url": "styles/new/\u043a\u0430\u0440\u0430\u043d\u0434\u0430\u0448_v1.png"
+  },
+  {
+    "word": "\u043a\u0430\u0440\u0430\u043d\u0434\u0430\u0448",
+    "version": "v2",
+    "path": "styles/new/\u043a\u0430\u0440\u0430\u043d\u0434\u0430\u0448_v2.png",
+    "url": "styles/new/\u043a\u0430\u0440\u0430\u043d\u0434\u0430\u0448_v2.png"
   },
   {
     "word": "\u043a\u0430\u0440\u043c\u0430\u043d",
@@ -1512,6 +1764,12 @@
     "url": "styles/new/\u043a\u0430\u0440\u043c\u0430\u043d_v1.png"
   },
   {
+    "word": "\u043a\u0430\u0440\u043c\u0430\u043d",
+    "version": "v2",
+    "path": "styles/new/\u043a\u0430\u0440\u043c\u0430\u043d_v2.png",
+    "url": "styles/new/\u043a\u0430\u0440\u043c\u0430\u043d_v2.png"
+  },
+  {
     "word": "\u043a\u0430\u0440\u0442\u043e\u0448\u043a\u0430",
     "version": "latest",
     "path": "styles/new/\u043a\u0430\u0440\u0442\u043e\u0448\u043a\u0430_latest.png",
@@ -1522,6 +1780,12 @@
     "version": "v1",
     "path": "styles/new/\u043a\u0430\u0440\u0442\u043e\u0448\u043a\u0430_v1.png",
     "url": "styles/new/\u043a\u0430\u0440\u0442\u043e\u0448\u043a\u0430_v1.png"
+  },
+  {
+    "word": "\u043a\u0430\u0440\u0442\u043e\u0448\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043a\u0430\u0440\u0442\u043e\u0448\u043a\u0430_v2.png",
+    "url": "styles/new/\u043a\u0430\u0440\u0442\u043e\u0448\u043a\u0430_v2.png"
   },
   {
     "word": "\u043a\u0430\u0440\u0443\u0441\u0435\u043b\u044c",
@@ -1536,6 +1800,12 @@
     "url": "styles/new/\u043a\u0430\u0440\u0443\u0441\u0435\u043b\u044c_v1.png"
   },
   {
+    "word": "\u043a\u0430\u0440\u0443\u0441\u0435\u043b\u044c",
+    "version": "v2",
+    "path": "styles/new/\u043a\u0430\u0440\u0443\u0441\u0435\u043b\u044c_v2.png",
+    "url": "styles/new/\u043a\u0430\u0440\u0443\u0441\u0435\u043b\u044c_v2.png"
+  },
+  {
     "word": "\u043a\u0438\u0442",
     "version": "latest",
     "path": "styles/new/\u043a\u0438\u0442_latest.png",
@@ -1546,6 +1816,12 @@
     "version": "v1",
     "path": "styles/new/\u043a\u0438\u0442_v1.png",
     "url": "styles/new/\u043a\u0438\u0442_v1.png"
+  },
+  {
+    "word": "\u043a\u0438\u0442",
+    "version": "v2",
+    "path": "styles/new/\u043a\u0438\u0442_v2.png",
+    "url": "styles/new/\u043a\u0438\u0442_v2.png"
   },
   {
     "word": "\u043a\u043b\u0438\u043f",
@@ -1560,6 +1836,12 @@
     "url": "styles/new/\u043a\u043b\u0438\u043f_v1.png"
   },
   {
+    "word": "\u043a\u043b\u0438\u043f",
+    "version": "v2",
+    "path": "styles/new/\u043a\u043b\u0438\u043f_v2.png",
+    "url": "styles/new/\u043a\u043b\u0438\u043f_v2.png"
+  },
+  {
     "word": "\u043a\u043b\u044e\u0447",
     "version": "latest",
     "path": "styles/new/\u043a\u043b\u044e\u0447_latest.png",
@@ -1570,6 +1852,12 @@
     "version": "v1",
     "path": "styles/new/\u043a\u043b\u044e\u0447_v1.png",
     "url": "styles/new/\u043a\u043b\u044e\u0447_v1.png"
+  },
+  {
+    "word": "\u043a\u043b\u044e\u0447",
+    "version": "v2",
+    "path": "styles/new/\u043a\u043b\u044e\u0447_v2.png",
+    "url": "styles/new/\u043a\u043b\u044e\u0447_v2.png"
   },
   {
     "word": "\u043a\u043d\u0438\u0433\u0430",
@@ -1584,6 +1872,12 @@
     "url": "styles/new/\u043a\u043d\u0438\u0433\u0430_v1.png"
   },
   {
+    "word": "\u043a\u043d\u0438\u0433\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043a\u043d\u0438\u0433\u0430_v2.png",
+    "url": "styles/new/\u043a\u043d\u0438\u0433\u0430_v2.png"
+  },
+  {
     "word": "\u043a\u043d\u0438\u0436\u043a\u0430",
     "version": "latest",
     "path": "styles/new/\u043a\u043d\u0438\u0436\u043a\u0430_latest.png",
@@ -1594,6 +1888,12 @@
     "version": "v1",
     "path": "styles/new/\u043a\u043d\u0438\u0436\u043a\u0430_v1.png",
     "url": "styles/new/\u043a\u043d\u0438\u0436\u043a\u0430_v1.png"
+  },
+  {
+    "word": "\u043a\u043d\u0438\u0436\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043a\u043d\u0438\u0436\u043a\u0430_v2.png",
+    "url": "styles/new/\u043a\u043d\u0438\u0436\u043a\u0430_v2.png"
   },
   {
     "word": "\u043a\u043e\u043c",
@@ -1608,6 +1908,12 @@
     "url": "styles/new/\u043a\u043e\u043c_v1.png"
   },
   {
+    "word": "\u043a\u043e\u043c",
+    "version": "v2",
+    "path": "styles/new/\u043a\u043e\u043c_v2.png",
+    "url": "styles/new/\u043a\u043e\u043c_v2.png"
+  },
+  {
     "word": "\u043a\u043e\u043d\u0438",
     "version": "latest",
     "path": "styles/new/\u043a\u043e\u043d\u0438_latest.png",
@@ -1618,6 +1924,12 @@
     "version": "v1",
     "path": "styles/new/\u043a\u043e\u043d\u0438_v1.png",
     "url": "styles/new/\u043a\u043e\u043d\u0438_v1.png"
+  },
+  {
+    "word": "\u043a\u043e\u043d\u0438",
+    "version": "v2",
+    "path": "styles/new/\u043a\u043e\u043d\u0438_v2.png",
+    "url": "styles/new/\u043a\u043e\u043d\u0438_v2.png"
   },
   {
     "word": "\u043a\u043e\u043d\u0444\u0435\u0442\u044b",
@@ -1632,6 +1944,12 @@
     "url": "styles/new/\u043a\u043e\u043d\u0444\u0435\u0442\u044b_v1.png"
   },
   {
+    "word": "\u043a\u043e\u043d\u0444\u0435\u0442\u044b",
+    "version": "v2",
+    "path": "styles/new/\u043a\u043e\u043d\u0444\u0435\u0442\u044b_v2.png",
+    "url": "styles/new/\u043a\u043e\u043d\u0444\u0435\u0442\u044b_v2.png"
+  },
+  {
     "word": "\u043a\u043e\u043d\u044c\u043a\u0438",
     "version": "latest",
     "path": "styles/new/\u043a\u043e\u043d\u044c\u043a\u0438_latest.png",
@@ -1642,6 +1960,12 @@
     "version": "v1",
     "path": "styles/new/\u043a\u043e\u043d\u044c\u043a\u0438_v1.png",
     "url": "styles/new/\u043a\u043e\u043d\u044c\u043a\u0438_v1.png"
+  },
+  {
+    "word": "\u043a\u043e\u043d\u044c\u043a\u0438",
+    "version": "v2",
+    "path": "styles/new/\u043a\u043e\u043d\u044c\u043a\u0438_v2.png",
+    "url": "styles/new/\u043a\u043e\u043d\u044c\u043a\u0438_v2.png"
   },
   {
     "word": "\u043a\u043e\u0440\u043e\u0431\u043a\u0430",
@@ -1656,6 +1980,12 @@
     "url": "styles/new/\u043a\u043e\u0440\u043e\u0431\u043a\u0430_v1.png"
   },
   {
+    "word": "\u043a\u043e\u0440\u043e\u0431\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043a\u043e\u0440\u043e\u0431\u043a\u0430_v2.png",
+    "url": "styles/new/\u043a\u043e\u0440\u043e\u0431\u043a\u0430_v2.png"
+  },
+  {
     "word": "\u043a\u043e\u0440\u043e\u0431\u043e\u043a",
     "version": "latest",
     "path": "styles/new/\u043a\u043e\u0440\u043e\u0431\u043e\u043a_latest.png",
@@ -1666,6 +1996,12 @@
     "version": "v1",
     "path": "styles/new/\u043a\u043e\u0440\u043e\u0431\u043e\u043a_v1.png",
     "url": "styles/new/\u043a\u043e\u0440\u043e\u0431\u043e\u043a_v1.png"
+  },
+  {
+    "word": "\u043a\u043e\u0440\u043e\u0431\u043e\u043a",
+    "version": "v2",
+    "path": "styles/new/\u043a\u043e\u0440\u043e\u0431\u043e\u043a_v2.png",
+    "url": "styles/new/\u043a\u043e\u0440\u043e\u0431\u043e\u043a_v2.png"
   },
   {
     "word": "\u043a\u043e\u0440\u043e\u0447\u043a\u0430",
@@ -1680,6 +2016,12 @@
     "url": "styles/new/\u043a\u043e\u0440\u043e\u0447\u043a\u0430_v1.png"
   },
   {
+    "word": "\u043a\u043e\u0440\u043e\u0447\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043a\u043e\u0440\u043e\u0447\u043a\u0430_v2.png",
+    "url": "styles/new/\u043a\u043e\u0440\u043e\u0447\u043a\u0430_v2.png"
+  },
+  {
     "word": "\u043a\u043e\u0441\u0430",
     "version": "latest",
     "path": "styles/new/\u043a\u043e\u0441\u0430_latest.png",
@@ -1690,6 +2032,12 @@
     "version": "v1",
     "path": "styles/new/\u043a\u043e\u0441\u0430_v1.png",
     "url": "styles/new/\u043a\u043e\u0441\u0430_v1.png"
+  },
+  {
+    "word": "\u043a\u043e\u0441\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043a\u043e\u0441\u0430_v2.png",
+    "url": "styles/new/\u043a\u043e\u0441\u0430_v2.png"
   },
   {
     "word": "\u043a\u043e\u0442",
@@ -1704,6 +2052,12 @@
     "url": "styles/new/\u043a\u043e\u0442_v1.png"
   },
   {
+    "word": "\u043a\u043e\u0442",
+    "version": "v2",
+    "path": "styles/new/\u043a\u043e\u0442_v2.png",
+    "url": "styles/new/\u043a\u043e\u0442_v2.png"
+  },
+  {
     "word": "\u043a\u043e\u0448\u043a\u0430",
     "version": "latest",
     "path": "styles/new/\u043a\u043e\u0448\u043a\u0430_latest.png",
@@ -1714,6 +2068,12 @@
     "version": "v1",
     "path": "styles/new/\u043a\u043e\u0448\u043a\u0430_v1.png",
     "url": "styles/new/\u043a\u043e\u0448\u043a\u0430_v1.png"
+  },
+  {
+    "word": "\u043a\u043e\u0448\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043a\u043e\u0448\u043a\u0430_v2.png",
+    "url": "styles/new/\u043a\u043e\u0448\u043a\u0430_v2.png"
   },
   {
     "word": "\u043a\u0440\u0430\u0431",
@@ -1728,6 +2088,12 @@
     "url": "styles/new/\u043a\u0440\u0430\u0431_v1.png"
   },
   {
+    "word": "\u043a\u0440\u0430\u0431",
+    "version": "v2",
+    "path": "styles/new/\u043a\u0440\u0430\u0431_v2.png",
+    "url": "styles/new/\u043a\u0440\u0430\u0431_v2.png"
+  },
+  {
     "word": "\u043a\u0440\u043e\u0448\u043a\u0430",
     "version": "latest",
     "path": "styles/new/\u043a\u0440\u043e\u0448\u043a\u0430_latest.png",
@@ -1738,6 +2104,12 @@
     "version": "v1",
     "path": "styles/new/\u043a\u0440\u043e\u0448\u043a\u0430_v1.png",
     "url": "styles/new/\u043a\u0440\u043e\u0448\u043a\u0430_v1.png"
+  },
+  {
+    "word": "\u043a\u0440\u043e\u0448\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043a\u0440\u043e\u0448\u043a\u0430_v2.png",
+    "url": "styles/new/\u043a\u0440\u043e\u0448\u043a\u0430_v2.png"
   },
   {
     "word": "\u043a\u0440\u0443\u043f\u0430",
@@ -1752,6 +2124,12 @@
     "url": "styles/new/\u043a\u0440\u0443\u043f\u0430_v1.png"
   },
   {
+    "word": "\u043a\u0440\u0443\u043f\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043a\u0440\u0443\u043f\u0430_v2.png",
+    "url": "styles/new/\u043a\u0440\u0443\u043f\u0430_v2.png"
+  },
+  {
     "word": "\u043b\u0430\u043a",
     "version": "latest",
     "path": "styles/new/\u043b\u0430\u043a_latest.png",
@@ -1762,6 +2140,12 @@
     "version": "v1",
     "path": "styles/new/\u043b\u0430\u043a_v1.png",
     "url": "styles/new/\u043b\u0430\u043a_v1.png"
+  },
+  {
+    "word": "\u043b\u0430\u043a",
+    "version": "v2",
+    "path": "styles/new/\u043b\u0430\u043a_v2.png",
+    "url": "styles/new/\u043b\u0430\u043a_v2.png"
   },
   {
     "word": "\u043b\u0430\u043c\u0430",
@@ -1776,6 +2160,12 @@
     "url": "styles/new/\u043b\u0430\u043c\u0430_v1.png"
   },
   {
+    "word": "\u043b\u0430\u043c\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043b\u0430\u043c\u0430_v2.png",
+    "url": "styles/new/\u043b\u0430\u043c\u0430_v2.png"
+  },
+  {
     "word": "\u043b\u0430\u043c\u043f\u0430",
     "version": "latest",
     "path": "styles/new/\u043b\u0430\u043c\u043f\u0430_latest.png",
@@ -1786,6 +2176,12 @@
     "version": "v1",
     "path": "styles/new/\u043b\u0430\u043c\u043f\u0430_v1.png",
     "url": "styles/new/\u043b\u0430\u043c\u043f\u0430_v1.png"
+  },
+  {
+    "word": "\u043b\u0430\u043c\u043f\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043b\u0430\u043c\u043f\u0430_v2.png",
+    "url": "styles/new/\u043b\u0430\u043c\u043f\u0430_v2.png"
   },
   {
     "word": "\u043b\u0430\u043f\u0430",
@@ -1800,6 +2196,12 @@
     "url": "styles/new/\u043b\u0430\u043f\u0430_v1.png"
   },
   {
+    "word": "\u043b\u0430\u043f\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043b\u0430\u043f\u0430_v2.png",
+    "url": "styles/new/\u043b\u0430\u043f\u0430_v2.png"
+  },
+  {
     "word": "\u043b\u0435\u0432",
     "version": "latest",
     "path": "styles/new/\u043b\u0435\u0432_latest.png",
@@ -1810,6 +2212,12 @@
     "version": "v1",
     "path": "styles/new/\u043b\u0435\u0432_v1.png",
     "url": "styles/new/\u043b\u0435\u0432_v1.png"
+  },
+  {
+    "word": "\u043b\u0435\u0432",
+    "version": "v2",
+    "path": "styles/new/\u043b\u0435\u0432_v2.png",
+    "url": "styles/new/\u043b\u0435\u0432_v2.png"
   },
   {
     "word": "\u043b\u0435\u0441",
@@ -1824,6 +2232,12 @@
     "url": "styles/new/\u043b\u0435\u0441_v1.png"
   },
   {
+    "word": "\u043b\u0435\u0441",
+    "version": "v2",
+    "path": "styles/new/\u043b\u0435\u0441_v2.png",
+    "url": "styles/new/\u043b\u0435\u0441_v2.png"
+  },
+  {
     "word": "\u043b\u0435\u0442\u043e",
     "version": "latest",
     "path": "styles/new/\u043b\u0435\u0442\u043e_latest.png",
@@ -1834,6 +2248,12 @@
     "version": "v1",
     "path": "styles/new/\u043b\u0435\u0442\u043e_v1.png",
     "url": "styles/new/\u043b\u0435\u0442\u043e_v1.png"
+  },
+  {
+    "word": "\u043b\u0435\u0442\u043e",
+    "version": "v2",
+    "path": "styles/new/\u043b\u0435\u0442\u043e_v2.png",
+    "url": "styles/new/\u043b\u0435\u0442\u043e_v2.png"
   },
   {
     "word": "\u043b\u0438\u0441",
@@ -1848,6 +2268,12 @@
     "url": "styles/new/\u043b\u0438\u0441_v1.png"
   },
   {
+    "word": "\u043b\u0438\u0441",
+    "version": "v2",
+    "path": "styles/new/\u043b\u0438\u0441_v2.png",
+    "url": "styles/new/\u043b\u0438\u0441_v2.png"
+  },
+  {
     "word": "\u043b\u043e\u0434\u043a\u0430",
     "version": "latest",
     "path": "styles/new/\u043b\u043e\u0434\u043a\u0430_latest.png",
@@ -1858,6 +2284,12 @@
     "version": "v1",
     "path": "styles/new/\u043b\u043e\u0434\u043a\u0430_v1.png",
     "url": "styles/new/\u043b\u043e\u0434\u043a\u0430_v1.png"
+  },
+  {
+    "word": "\u043b\u043e\u0434\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043b\u043e\u0434\u043a\u0430_v2.png",
+    "url": "styles/new/\u043b\u043e\u0434\u043a\u0430_v2.png"
   },
   {
     "word": "\u043b\u043e\u0436\u043a\u0430",
@@ -1872,6 +2304,12 @@
     "url": "styles/new/\u043b\u043e\u0436\u043a\u0430_v1.png"
   },
   {
+    "word": "\u043b\u043e\u0436\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043b\u043e\u0436\u043a\u0430_v2.png",
+    "url": "styles/new/\u043b\u043e\u0436\u043a\u0430_v2.png"
+  },
+  {
     "word": "\u043b\u043e\u0442\u043e",
     "version": "latest",
     "path": "styles/new/\u043b\u043e\u0442\u043e_latest.png",
@@ -1882,6 +2320,12 @@
     "version": "v1",
     "path": "styles/new/\u043b\u043e\u0442\u043e_v1.png",
     "url": "styles/new/\u043b\u043e\u0442\u043e_v1.png"
+  },
+  {
+    "word": "\u043b\u043e\u0442\u043e",
+    "version": "v2",
+    "path": "styles/new/\u043b\u043e\u0442\u043e_v2.png",
+    "url": "styles/new/\u043b\u043e\u0442\u043e_v2.png"
   },
   {
     "word": "\u043b\u0443\u0436\u0430",
@@ -1896,6 +2340,12 @@
     "url": "styles/new/\u043b\u0443\u0436\u0430_v1.png"
   },
   {
+    "word": "\u043b\u0443\u0436\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043b\u0443\u0436\u0430_v2.png",
+    "url": "styles/new/\u043b\u0443\u0436\u0430_v2.png"
+  },
+  {
     "word": "\u043b\u0443\u043a",
     "version": "latest",
     "path": "styles/new/\u043b\u0443\u043a_latest.png",
@@ -1906,6 +2356,12 @@
     "version": "v1",
     "path": "styles/new/\u043b\u0443\u043a_v1.png",
     "url": "styles/new/\u043b\u0443\u043a_v1.png"
+  },
+  {
+    "word": "\u043b\u0443\u043a",
+    "version": "v2",
+    "path": "styles/new/\u043b\u0443\u043a_v2.png",
+    "url": "styles/new/\u043b\u0443\u043a_v2.png"
   },
   {
     "word": "\u043b\u0443\u043a\u043e\u0432\u0438\u0446\u0430",
@@ -1920,6 +2376,12 @@
     "url": "styles/new/\u043b\u0443\u043a\u043e\u0432\u0438\u0446\u0430_v1.png"
   },
   {
+    "word": "\u043b\u0443\u043a\u043e\u0432\u0438\u0446\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043b\u0443\u043a\u043e\u0432\u0438\u0446\u0430_v2.png",
+    "url": "styles/new/\u043b\u0443\u043a\u043e\u0432\u0438\u0446\u0430_v2.png"
+  },
+  {
     "word": "\u043b\u044e\u043b\u044c\u043a\u0430",
     "version": "latest",
     "path": "styles/new/\u043b\u044e\u043b\u044c\u043a\u0430_latest.png",
@@ -1930,6 +2392,12 @@
     "version": "v1",
     "path": "styles/new/\u043b\u044e\u043b\u044c\u043a\u0430_v1.png",
     "url": "styles/new/\u043b\u044e\u043b\u044c\u043a\u0430_v1.png"
+  },
+  {
+    "word": "\u043b\u044e\u043b\u044c\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043b\u044e\u043b\u044c\u043a\u0430_v2.png",
+    "url": "styles/new/\u043b\u044e\u043b\u044c\u043a\u0430_v2.png"
   },
   {
     "word": "\u043c\u0430\u043a",
@@ -1944,6 +2412,12 @@
     "url": "styles/new/\u043c\u0430\u043a_v1.png"
   },
   {
+    "word": "\u043c\u0430\u043a",
+    "version": "v2",
+    "path": "styles/new/\u043c\u0430\u043a_v2.png",
+    "url": "styles/new/\u043c\u0430\u043a_v2.png"
+  },
+  {
     "word": "\u043c\u0430\u043b\u0438\u043d\u0430",
     "version": "latest",
     "path": "styles/new/\u043c\u0430\u043b\u0438\u043d\u0430_latest.png",
@@ -1954,6 +2428,12 @@
     "version": "v1",
     "path": "styles/new/\u043c\u0430\u043b\u0438\u043d\u0430_v1.png",
     "url": "styles/new/\u043c\u0430\u043b\u0438\u043d\u0430_v1.png"
+  },
+  {
+    "word": "\u043c\u0430\u043b\u0438\u043d\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043c\u0430\u043b\u0438\u043d\u0430_v2.png",
+    "url": "styles/new/\u043c\u0430\u043b\u0438\u043d\u0430_v2.png"
   },
   {
     "word": "\u043c\u0430\u043c\u0430",
@@ -1968,6 +2448,12 @@
     "url": "styles/new/\u043c\u0430\u043c\u0430_v1.png"
   },
   {
+    "word": "\u043c\u0430\u043c\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043c\u0430\u043c\u0430_v2.png",
+    "url": "styles/new/\u043c\u0430\u043c\u0430_v2.png"
+  },
+  {
     "word": "\u043c\u0430\u043d\u0434\u0430\u0440\u0438\u043d",
     "version": "latest",
     "path": "styles/new/\u043c\u0430\u043d\u0434\u0430\u0440\u0438\u043d_latest.png",
@@ -1978,6 +2464,12 @@
     "version": "v1",
     "path": "styles/new/\u043c\u0430\u043d\u0434\u0430\u0440\u0438\u043d_v1.png",
     "url": "styles/new/\u043c\u0430\u043d\u0434\u0430\u0440\u0438\u043d_v1.png"
+  },
+  {
+    "word": "\u043c\u0430\u043d\u0434\u0430\u0440\u0438\u043d",
+    "version": "v2",
+    "path": "styles/new/\u043c\u0430\u043d\u0434\u0430\u0440\u0438\u043d_v2.png",
+    "url": "styles/new/\u043c\u0430\u043d\u0434\u0430\u0440\u0438\u043d_v2.png"
   },
   {
     "word": "\u043c\u0430\u043d\u0442\u0438\u044f",
@@ -1992,6 +2484,12 @@
     "url": "styles/new/\u043c\u0430\u043d\u0442\u0438\u044f_v1.png"
   },
   {
+    "word": "\u043c\u0430\u043d\u0442\u0438\u044f",
+    "version": "v2",
+    "path": "styles/new/\u043c\u0430\u043d\u0442\u0438\u044f_v2.png",
+    "url": "styles/new/\u043c\u0430\u043d\u0442\u0438\u044f_v2.png"
+  },
+  {
     "word": "\u043c\u0430\u0441\u043a\u0430",
     "version": "latest",
     "path": "styles/new/\u043c\u0430\u0441\u043a\u0430_latest.png",
@@ -2002,6 +2500,12 @@
     "version": "v1",
     "path": "styles/new/\u043c\u0430\u0441\u043a\u0430_v1.png",
     "url": "styles/new/\u043c\u0430\u0441\u043a\u0430_v1.png"
+  },
+  {
+    "word": "\u043c\u0430\u0441\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043c\u0430\u0441\u043a\u0430_v2.png",
+    "url": "styles/new/\u043c\u0430\u0441\u043a\u0430_v2.png"
   },
   {
     "word": "\u043c\u0430\u0448\u0438\u043d\u0430",
@@ -2016,6 +2520,12 @@
     "url": "styles/new/\u043c\u0430\u0448\u0438\u043d\u0430_v1.png"
   },
   {
+    "word": "\u043c\u0430\u0448\u0438\u043d\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043c\u0430\u0448\u0438\u043d\u0430_v2.png",
+    "url": "styles/new/\u043c\u0430\u0448\u0438\u043d\u0430_v2.png"
+  },
+  {
     "word": "\u043c\u0435\u0447",
     "version": "latest",
     "path": "styles/new/\u043c\u0435\u0447_latest.png",
@@ -2026,6 +2536,12 @@
     "version": "v1",
     "path": "styles/new/\u043c\u0435\u0447_v1.png",
     "url": "styles/new/\u043c\u0435\u0447_v1.png"
+  },
+  {
+    "word": "\u043c\u0435\u0447",
+    "version": "v2",
+    "path": "styles/new/\u043c\u0435\u0447_v2.png",
+    "url": "styles/new/\u043c\u0435\u0447_v2.png"
   },
   {
     "word": "\u043c\u0438\u0441\u043a\u0430",
@@ -2040,6 +2556,12 @@
     "url": "styles/new/\u043c\u0438\u0441\u043a\u0430_v1.png"
   },
   {
+    "word": "\u043c\u0438\u0441\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043c\u0438\u0441\u043a\u0430_v2.png",
+    "url": "styles/new/\u043c\u0438\u0441\u043a\u0430_v2.png"
+  },
+  {
     "word": "\u043c\u0438\u0448\u043a\u0430",
     "version": "latest",
     "path": "styles/new/\u043c\u0438\u0448\u043a\u0430_latest.png",
@@ -2050,6 +2572,12 @@
     "version": "v1",
     "path": "styles/new/\u043c\u0438\u0448\u043a\u0430_v1.png",
     "url": "styles/new/\u043c\u0438\u0448\u043a\u0430_v1.png"
+  },
+  {
+    "word": "\u043c\u0438\u0448\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043c\u0438\u0448\u043a\u0430_v2.png",
+    "url": "styles/new/\u043c\u0438\u0448\u043a\u0430_v2.png"
   },
   {
     "word": "\u043c\u043e\u0448\u043a\u0430",
@@ -2064,6 +2592,12 @@
     "url": "styles/new/\u043c\u043e\u0448\u043a\u0430_v1.png"
   },
   {
+    "word": "\u043c\u043e\u0448\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043c\u043e\u0448\u043a\u0430_v2.png",
+    "url": "styles/new/\u043c\u043e\u0448\u043a\u0430_v2.png"
+  },
+  {
     "word": "\u043c\u0443\u0448\u043a\u0430",
     "version": "latest",
     "path": "styles/new/\u043c\u0443\u0448\u043a\u0430_latest.png",
@@ -2074,6 +2608,12 @@
     "version": "v1",
     "path": "styles/new/\u043c\u0443\u0448\u043a\u0430_v1.png",
     "url": "styles/new/\u043c\u0443\u0448\u043a\u0430_v1.png"
+  },
+  {
+    "word": "\u043c\u0443\u0448\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043c\u0443\u0448\u043a\u0430_v2.png",
+    "url": "styles/new/\u043c\u0443\u0448\u043a\u0430_v2.png"
   },
   {
     "word": "\u043c\u044b\u0448\u043a\u0430",
@@ -2088,6 +2628,12 @@
     "url": "styles/new/\u043c\u044b\u0448\u043a\u0430_v1.png"
   },
   {
+    "word": "\u043c\u044b\u0448\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043c\u044b\u0448\u043a\u0430_v2.png",
+    "url": "styles/new/\u043c\u044b\u0448\u043a\u0430_v2.png"
+  },
+  {
     "word": "\u043c\u044f\u0441\u043e",
     "version": "latest",
     "path": "styles/new/\u043c\u044f\u0441\u043e_latest.png",
@@ -2098,6 +2644,12 @@
     "version": "v1",
     "path": "styles/new/\u043c\u044f\u0441\u043e_v1.png",
     "url": "styles/new/\u043c\u044f\u0441\u043e_v1.png"
+  },
+  {
+    "word": "\u043c\u044f\u0441\u043e",
+    "version": "v2",
+    "path": "styles/new/\u043c\u044f\u0441\u043e_v2.png",
+    "url": "styles/new/\u043c\u044f\u0441\u043e_v2.png"
   },
   {
     "word": "\u043c\u044f\u0447",
@@ -2112,6 +2664,12 @@
     "url": "styles/new/\u043c\u044f\u0447_v1.png"
   },
   {
+    "word": "\u043c\u044f\u0447",
+    "version": "v2",
+    "path": "styles/new/\u043c\u044f\u0447_v2.png",
+    "url": "styles/new/\u043c\u044f\u0447_v2.png"
+  },
+  {
     "word": "\u043d\u043e\u0441",
     "version": "latest",
     "path": "styles/new/\u043d\u043e\u0441_latest.png",
@@ -2122,6 +2680,12 @@
     "version": "v1",
     "path": "styles/new/\u043d\u043e\u0441_v1.png",
     "url": "styles/new/\u043d\u043e\u0441_v1.png"
+  },
+  {
+    "word": "\u043d\u043e\u0441",
+    "version": "v2",
+    "path": "styles/new/\u043d\u043e\u0441_v2.png",
+    "url": "styles/new/\u043d\u043e\u0441_v2.png"
   },
   {
     "word": "\u043f\u0430\u043f\u0430",
@@ -2136,6 +2700,12 @@
     "url": "styles/new/\u043f\u0430\u043f\u0430_v1.png"
   },
   {
+    "word": "\u043f\u0430\u043f\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043f\u0430\u043f\u0430_v2.png",
+    "url": "styles/new/\u043f\u0430\u043f\u0430_v2.png"
+  },
+  {
     "word": "\u043f\u0435\u0434\u0430\u043b\u044c",
     "version": "latest",
     "path": "styles/new/\u043f\u0435\u0434\u0430\u043b\u044c_latest.png",
@@ -2146,6 +2716,12 @@
     "version": "v1",
     "path": "styles/new/\u043f\u0435\u0434\u0430\u043b\u044c_v1.png",
     "url": "styles/new/\u043f\u0435\u0434\u0430\u043b\u044c_v1.png"
+  },
+  {
+    "word": "\u043f\u0435\u0434\u0430\u043b\u044c",
+    "version": "v2",
+    "path": "styles/new/\u043f\u0435\u0434\u0430\u043b\u044c_v2.png",
+    "url": "styles/new/\u043f\u0435\u0434\u0430\u043b\u044c_v2.png"
   },
   {
     "word": "\u043f\u0435\u0440\u0435\u0446",
@@ -2160,6 +2736,12 @@
     "url": "styles/new/\u043f\u0435\u0440\u0435\u0446_v1.png"
   },
   {
+    "word": "\u043f\u0435\u0440\u0435\u0446",
+    "version": "v2",
+    "path": "styles/new/\u043f\u0435\u0440\u0435\u0446_v2.png",
+    "url": "styles/new/\u043f\u0435\u0440\u0435\u0446_v2.png"
+  },
+  {
     "word": "\u043f\u0435\u0440\u043e",
     "version": "latest",
     "path": "styles/new/\u043f\u0435\u0440\u043e_latest.png",
@@ -2170,6 +2752,12 @@
     "version": "v1",
     "path": "styles/new/\u043f\u0435\u0440\u043e_v1.png",
     "url": "styles/new/\u043f\u0435\u0440\u043e_v1.png"
+  },
+  {
+    "word": "\u043f\u0435\u0440\u043e",
+    "version": "v2",
+    "path": "styles/new/\u043f\u0435\u0440\u043e_v2.png",
+    "url": "styles/new/\u043f\u0435\u0440\u043e_v2.png"
   },
   {
     "word": "\u043f\u0435\u0440\u0441\u0438\u043a",
@@ -2184,6 +2772,12 @@
     "url": "styles/new/\u043f\u0435\u0440\u0441\u0438\u043a_v1.png"
   },
   {
+    "word": "\u043f\u0435\u0440\u0441\u0438\u043a",
+    "version": "v2",
+    "path": "styles/new/\u043f\u0435\u0440\u0441\u0438\u043a_v2.png",
+    "url": "styles/new/\u043f\u0435\u0440\u0441\u0438\u043a_v2.png"
+  },
+  {
     "word": "\u043f\u0435\u0440\u0447\u0438\u043a",
     "version": "latest",
     "path": "styles/new/\u043f\u0435\u0440\u0447\u0438\u043a_latest.png",
@@ -2194,6 +2788,12 @@
     "version": "v1",
     "path": "styles/new/\u043f\u0435\u0440\u0447\u0438\u043a_v1.png",
     "url": "styles/new/\u043f\u0435\u0440\u0447\u0438\u043a_v1.png"
+  },
+  {
+    "word": "\u043f\u0435\u0440\u0447\u0438\u043a",
+    "version": "v2",
+    "path": "styles/new/\u043f\u0435\u0440\u0447\u0438\u043a_v2.png",
+    "url": "styles/new/\u043f\u0435\u0440\u0447\u0438\u043a_v2.png"
   },
   {
     "word": "\u043f\u0435\u0447\u043a\u0430",
@@ -2208,6 +2808,12 @@
     "url": "styles/new/\u043f\u0435\u0447\u043a\u0430_v1.png"
   },
   {
+    "word": "\u043f\u0435\u0447\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043f\u0435\u0447\u043a\u0430_v2.png",
+    "url": "styles/new/\u043f\u0435\u0447\u043a\u0430_v2.png"
+  },
+  {
     "word": "\u043f\u0438\u0440\u0430\u0442",
     "version": "latest",
     "path": "styles/new/\u043f\u0438\u0440\u0430\u0442_latest.png",
@@ -2218,6 +2824,12 @@
     "version": "v1",
     "path": "styles/new/\u043f\u0438\u0440\u0430\u0442_v1.png",
     "url": "styles/new/\u043f\u0438\u0440\u0430\u0442_v1.png"
+  },
+  {
+    "word": "\u043f\u0438\u0440\u0430\u0442",
+    "version": "v2",
+    "path": "styles/new/\u043f\u0438\u0440\u0430\u0442_v2.png",
+    "url": "styles/new/\u043f\u0438\u0440\u0430\u0442_v2.png"
   },
   {
     "word": "\u043f\u0438\u0440\u043e\u0433",
@@ -2232,6 +2844,12 @@
     "url": "styles/new/\u043f\u0438\u0440\u043e\u0433_v1.png"
   },
   {
+    "word": "\u043f\u0438\u0440\u043e\u0433",
+    "version": "v2",
+    "path": "styles/new/\u043f\u0438\u0440\u043e\u0433_v2.png",
+    "url": "styles/new/\u043f\u0438\u0440\u043e\u0433_v2.png"
+  },
+  {
     "word": "\u043f\u0438\u0440\u043e\u0436\u043d\u043e\u0435",
     "version": "latest",
     "path": "styles/new/\u043f\u0438\u0440\u043e\u0436\u043d\u043e\u0435_latest.png",
@@ -2242,6 +2860,12 @@
     "version": "v1",
     "path": "styles/new/\u043f\u0438\u0440\u043e\u0436\u043d\u043e\u0435_v1.png",
     "url": "styles/new/\u043f\u0438\u0440\u043e\u0436\u043d\u043e\u0435_v1.png"
+  },
+  {
+    "word": "\u043f\u0438\u0440\u043e\u0436\u043d\u043e\u0435",
+    "version": "v2",
+    "path": "styles/new/\u043f\u0438\u0440\u043e\u0436\u043d\u043e\u0435_v2.png",
+    "url": "styles/new/\u043f\u0438\u0440\u043e\u0436\u043d\u043e\u0435_v2.png"
   },
   {
     "word": "\u043f\u0438\u0440\u043e\u0436\u043e\u043a",
@@ -2256,6 +2880,12 @@
     "url": "styles/new/\u043f\u0438\u0440\u043e\u0436\u043e\u043a_v1.png"
   },
   {
+    "word": "\u043f\u0438\u0440\u043e\u0436\u043e\u043a",
+    "version": "v2",
+    "path": "styles/new/\u043f\u0438\u0440\u043e\u0436\u043e\u043a_v2.png",
+    "url": "styles/new/\u043f\u0438\u0440\u043e\u0436\u043e\u043a_v2.png"
+  },
+  {
     "word": "\u043f\u0438\u0449\u0430",
     "version": "latest",
     "path": "styles/new/\u043f\u0438\u0449\u0430_latest.png",
@@ -2266,6 +2896,12 @@
     "version": "v1",
     "path": "styles/new/\u043f\u0438\u0449\u0430_v1.png",
     "url": "styles/new/\u043f\u0438\u0449\u0430_v1.png"
+  },
+  {
+    "word": "\u043f\u0438\u0449\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043f\u0438\u0449\u0430_v2.png",
+    "url": "styles/new/\u043f\u0438\u0449\u0430_v2.png"
   },
   {
     "word": "\u043f\u043b\u044e\u0448\u043a\u0430",
@@ -2280,6 +2916,12 @@
     "url": "styles/new/\u043f\u043b\u044e\u0448\u043a\u0430_v1.png"
   },
   {
+    "word": "\u043f\u043b\u044e\u0448\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043f\u043b\u044e\u0448\u043a\u0430_v2.png",
+    "url": "styles/new/\u043f\u043b\u044e\u0448\u043a\u0430_v2.png"
+  },
+  {
     "word": "\u043f\u043e\u0432\u0430\u0440",
     "version": "latest",
     "path": "styles/new/\u043f\u043e\u0432\u0430\u0440_latest.png",
@@ -2290,6 +2932,12 @@
     "version": "v1",
     "path": "styles/new/\u043f\u043e\u0432\u0430\u0440_v1.png",
     "url": "styles/new/\u043f\u043e\u0432\u0430\u0440_v1.png"
+  },
+  {
+    "word": "\u043f\u043e\u0432\u0430\u0440",
+    "version": "v2",
+    "path": "styles/new/\u043f\u043e\u0432\u0430\u0440_v2.png",
+    "url": "styles/new/\u043f\u043e\u0432\u0430\u0440_v2.png"
   },
   {
     "word": "\u043f\u043e\u043c\u0438\u0434\u043e\u0440",
@@ -2304,6 +2952,12 @@
     "url": "styles/new/\u043f\u043e\u043c\u0438\u0434\u043e\u0440_v1.png"
   },
   {
+    "word": "\u043f\u043e\u043c\u0438\u0434\u043e\u0440",
+    "version": "v2",
+    "path": "styles/new/\u043f\u043e\u043c\u0438\u0434\u043e\u0440_v2.png",
+    "url": "styles/new/\u043f\u043e\u043c\u0438\u0434\u043e\u0440_v2.png"
+  },
+  {
     "word": "\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u043a",
     "version": "latest",
     "path": "styles/new/\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u043a_latest.png",
@@ -2314,6 +2968,12 @@
     "version": "v1",
     "path": "styles/new/\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u043a_v1.png",
     "url": "styles/new/\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u043a_v1.png"
+  },
+  {
+    "word": "\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u043a",
+    "version": "v2",
+    "path": "styles/new/\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u043a_v2.png",
+    "url": "styles/new/\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u043a_v2.png"
   },
   {
     "word": "\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u0446\u0430",
@@ -2328,6 +2988,12 @@
     "url": "styles/new/\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u0446\u0430_v1.png"
   },
   {
+    "word": "\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u0446\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u0446\u0430_v2.png",
+    "url": "styles/new/\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u0446\u0430_v2.png"
+  },
+  {
     "word": "\u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430",
     "version": "latest",
     "path": "styles/new/\u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430_latest.png",
@@ -2338,6 +3004,12 @@
     "version": "v1",
     "path": "styles/new/\u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430_v1.png",
     "url": "styles/new/\u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430_v1.png"
+  },
+  {
+    "word": "\u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430_v2.png",
+    "url": "styles/new/\u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430_v2.png"
   },
   {
     "word": "\u043f\u0440\u0443\u0434",
@@ -2352,6 +3024,12 @@
     "url": "styles/new/\u043f\u0440\u0443\u0434_v1.png"
   },
   {
+    "word": "\u043f\u0440\u0443\u0434",
+    "version": "v2",
+    "path": "styles/new/\u043f\u0440\u0443\u0434_v2.png",
+    "url": "styles/new/\u043f\u0440\u0443\u0434_v2.png"
+  },
+  {
     "word": "\u043f\u0440\u0443\u0436\u0438\u043d\u0430",
     "version": "latest",
     "path": "styles/new/\u043f\u0440\u0443\u0436\u0438\u043d\u0430_latest.png",
@@ -2362,6 +3040,12 @@
     "version": "v1",
     "path": "styles/new/\u043f\u0440\u0443\u0436\u0438\u043d\u0430_v1.png",
     "url": "styles/new/\u043f\u0440\u0443\u0436\u0438\u043d\u0430_v1.png"
+  },
+  {
+    "word": "\u043f\u0440\u0443\u0436\u0438\u043d\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043f\u0440\u0443\u0436\u0438\u043d\u0430_v2.png",
+    "url": "styles/new/\u043f\u0440\u0443\u0436\u0438\u043d\u0430_v2.png"
   },
   {
     "word": "\u043f\u0440\u0443\u0442",
@@ -2376,6 +3060,12 @@
     "url": "styles/new/\u043f\u0440\u0443\u0442_v1.png"
   },
   {
+    "word": "\u043f\u0440\u0443\u0442",
+    "version": "v2",
+    "path": "styles/new/\u043f\u0440\u0443\u0442_v2.png",
+    "url": "styles/new/\u043f\u0440\u0443\u0442_v2.png"
+  },
+  {
     "word": "\u043f\u0442\u0438\u0446\u0430",
     "version": "latest",
     "path": "styles/new/\u043f\u0442\u0438\u0446\u0430_latest.png",
@@ -2386,6 +3076,12 @@
     "version": "v1",
     "path": "styles/new/\u043f\u0442\u0438\u0446\u0430_v1.png",
     "url": "styles/new/\u043f\u0442\u0438\u0446\u0430_v1.png"
+  },
+  {
+    "word": "\u043f\u0442\u0438\u0446\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043f\u0442\u0438\u0446\u0430_v2.png",
+    "url": "styles/new/\u043f\u0442\u0438\u0446\u0430_v2.png"
   },
   {
     "word": "\u043f\u0442\u0438\u0447\u043a\u0430",
@@ -2400,6 +3096,12 @@
     "url": "styles/new/\u043f\u0442\u0438\u0447\u043a\u0430_v1.png"
   },
   {
+    "word": "\u043f\u0442\u0438\u0447\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043f\u0442\u0438\u0447\u043a\u0430_v2.png",
+    "url": "styles/new/\u043f\u0442\u0438\u0447\u043a\u0430_v2.png"
+  },
+  {
     "word": "\u043f\u0443\u0433\u043e\u0432\u0438\u0446\u0430",
     "version": "latest",
     "path": "styles/new/\u043f\u0443\u0433\u043e\u0432\u0438\u0446\u0430_latest.png",
@@ -2410,6 +3112,12 @@
     "version": "v1",
     "path": "styles/new/\u043f\u0443\u0433\u043e\u0432\u0438\u0446\u0430_v1.png",
     "url": "styles/new/\u043f\u0443\u0433\u043e\u0432\u0438\u0446\u0430_v1.png"
+  },
+  {
+    "word": "\u043f\u0443\u0433\u043e\u0432\u0438\u0446\u0430",
+    "version": "v2",
+    "path": "styles/new/\u043f\u0443\u0433\u043e\u0432\u0438\u0446\u0430_v2.png",
+    "url": "styles/new/\u043f\u0443\u0433\u043e\u0432\u0438\u0446\u0430_v2.png"
   },
   {
     "word": "\u0440\u0430\u043a",
@@ -2424,6 +3132,12 @@
     "url": "styles/new/\u0440\u0430\u043a_v1.png"
   },
   {
+    "word": "\u0440\u0430\u043a",
+    "version": "v2",
+    "path": "styles/new/\u0440\u0430\u043a_v2.png",
+    "url": "styles/new/\u0440\u0430\u043a_v2.png"
+  },
+  {
     "word": "\u0440\u0430\u043c\u0430",
     "version": "latest",
     "path": "styles/new/\u0440\u0430\u043c\u0430_latest.png",
@@ -2434,6 +3148,12 @@
     "version": "v1",
     "path": "styles/new/\u0440\u0430\u043c\u0430_v1.png",
     "url": "styles/new/\u0440\u0430\u043c\u0430_v1.png"
+  },
+  {
+    "word": "\u0440\u0430\u043c\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0440\u0430\u043c\u0430_v2.png",
+    "url": "styles/new/\u0440\u0430\u043c\u0430_v2.png"
   },
   {
     "word": "\u0440\u0435\u043a\u0430",
@@ -2448,6 +3168,12 @@
     "url": "styles/new/\u0440\u0435\u043a\u0430_v1.png"
   },
   {
+    "word": "\u0440\u0435\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0440\u0435\u043a\u0430_v2.png",
+    "url": "styles/new/\u0440\u0435\u043a\u0430_v2.png"
+  },
+  {
     "word": "\u0440\u0435\u043f\u0430",
     "version": "latest",
     "path": "styles/new/\u0440\u0435\u043f\u0430_latest.png",
@@ -2458,6 +3184,12 @@
     "version": "v1",
     "path": "styles/new/\u0440\u0435\u043f\u0430_v1.png",
     "url": "styles/new/\u0440\u0435\u043f\u0430_v1.png"
+  },
+  {
+    "word": "\u0440\u0435\u043f\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0440\u0435\u043f\u0430_v2.png",
+    "url": "styles/new/\u0440\u0435\u043f\u0430_v2.png"
   },
   {
     "word": "\u0440\u0435\u0447\u043a\u0430",
@@ -2472,6 +3204,12 @@
     "url": "styles/new/\u0440\u0435\u0447\u043a\u0430_v1.png"
   },
   {
+    "word": "\u0440\u0435\u0447\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0440\u0435\u0447\u043a\u0430_v2.png",
+    "url": "styles/new/\u0440\u0435\u0447\u043a\u0430_v2.png"
+  },
+  {
     "word": "\u0440\u043e\u0433\u0430",
     "version": "latest",
     "path": "styles/new/\u0440\u043e\u0433\u0430_latest.png",
@@ -2482,6 +3220,12 @@
     "version": "v1",
     "path": "styles/new/\u0440\u043e\u0433\u0430_v1.png",
     "url": "styles/new/\u0440\u043e\u0433\u0430_v1.png"
+  },
+  {
+    "word": "\u0440\u043e\u0433\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0440\u043e\u0433\u0430_v2.png",
+    "url": "styles/new/\u0440\u043e\u0433\u0430_v2.png"
   },
   {
     "word": "\u0440\u043e\u0441\u0430",
@@ -2496,6 +3240,12 @@
     "url": "styles/new/\u0440\u043e\u0441\u0430_v1.png"
   },
   {
+    "word": "\u0440\u043e\u0441\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0440\u043e\u0441\u0430_v2.png",
+    "url": "styles/new/\u0440\u043e\u0441\u0430_v2.png"
+  },
+  {
     "word": "\u0440\u043e\u0442",
     "version": "latest",
     "path": "styles/new/\u0440\u043e\u0442_latest.png",
@@ -2506,6 +3256,12 @@
     "version": "v1",
     "path": "styles/new/\u0440\u043e\u0442_v1.png",
     "url": "styles/new/\u0440\u043e\u0442_v1.png"
+  },
+  {
+    "word": "\u0440\u043e\u0442",
+    "version": "v2",
+    "path": "styles/new/\u0440\u043e\u0442_v2.png",
+    "url": "styles/new/\u0440\u043e\u0442_v2.png"
   },
   {
     "word": "\u0440\u0443\u043a\u0430",
@@ -2520,6 +3276,12 @@
     "url": "styles/new/\u0440\u0443\u043a\u0430_v1.png"
   },
   {
+    "word": "\u0440\u0443\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0440\u0443\u043a\u0430_v2.png",
+    "url": "styles/new/\u0440\u0443\u043a\u0430_v2.png"
+  },
+  {
     "word": "\u0440\u0443\u043b\u044c",
     "version": "latest",
     "path": "styles/new/\u0440\u0443\u043b\u044c_latest.png",
@@ -2530,6 +3292,12 @@
     "version": "v1",
     "path": "styles/new/\u0440\u0443\u043b\u044c_v1.png",
     "url": "styles/new/\u0440\u0443\u043b\u044c_v1.png"
+  },
+  {
+    "word": "\u0440\u0443\u043b\u044c",
+    "version": "v2",
+    "path": "styles/new/\u0440\u0443\u043b\u044c_v2.png",
+    "url": "styles/new/\u0440\u0443\u043b\u044c_v2.png"
   },
   {
     "word": "\u0440\u044b\u0431\u0430",
@@ -2544,6 +3312,12 @@
     "url": "styles/new/\u0440\u044b\u0431\u0430_v1.png"
   },
   {
+    "word": "\u0440\u044b\u0431\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0440\u044b\u0431\u0430_v2.png",
+    "url": "styles/new/\u0440\u044b\u0431\u0430_v2.png"
+  },
+  {
     "word": "\u0441\u0430\u043b\u043e",
     "version": "latest",
     "path": "styles/new/\u0441\u0430\u043b\u043e_latest.png",
@@ -2554,6 +3328,12 @@
     "version": "v1",
     "path": "styles/new/\u0441\u0430\u043b\u043e_v1.png",
     "url": "styles/new/\u0441\u0430\u043b\u043e_v1.png"
+  },
+  {
+    "word": "\u0441\u0430\u043b\u043e",
+    "version": "v2",
+    "path": "styles/new/\u0441\u0430\u043b\u043e_v2.png",
+    "url": "styles/new/\u0441\u0430\u043b\u043e_v2.png"
   },
   {
     "word": "\u0441\u0430\u043d\u0438",
@@ -2568,6 +3348,12 @@
     "url": "styles/new/\u0441\u0430\u043d\u0438_v1.png"
   },
   {
+    "word": "\u0441\u0430\u043d\u0438",
+    "version": "v2",
+    "path": "styles/new/\u0441\u0430\u043d\u0438_v2.png",
+    "url": "styles/new/\u0441\u0430\u043d\u0438_v2.png"
+  },
+  {
     "word": "\u0441\u0430\u043f\u043e\u0433",
     "version": "latest",
     "path": "styles/new/\u0441\u0430\u043f\u043e\u0433_latest.png",
@@ -2578,6 +3364,12 @@
     "version": "v1",
     "path": "styles/new/\u0441\u0430\u043f\u043e\u0433_v1.png",
     "url": "styles/new/\u0441\u0430\u043f\u043e\u0433_v1.png"
+  },
+  {
+    "word": "\u0441\u0430\u043f\u043e\u0433",
+    "version": "v2",
+    "path": "styles/new/\u0441\u0430\u043f\u043e\u0433_v2.png",
+    "url": "styles/new/\u0441\u0430\u043f\u043e\u0433_v2.png"
   },
   {
     "word": "\u0441\u0432\u0435\u0440\u043b\u043e",
@@ -2592,6 +3384,12 @@
     "url": "styles/new/\u0441\u0432\u0435\u0440\u043b\u043e_v1.png"
   },
   {
+    "word": "\u0441\u0432\u0435\u0440\u043b\u043e",
+    "version": "v2",
+    "path": "styles/new/\u0441\u0432\u0435\u0440\u043b\u043e_v2.png",
+    "url": "styles/new/\u0441\u0432\u0435\u0440\u043b\u043e_v2.png"
+  },
+  {
     "word": "\u0441\u0432\u0435\u0442\u0438\u043b\u044c\u043d\u0438\u043a",
     "version": "latest",
     "path": "styles/new/\u0441\u0432\u0435\u0442\u0438\u043b\u044c\u043d\u0438\u043a_latest.png",
@@ -2602,6 +3400,12 @@
     "version": "v1",
     "path": "styles/new/\u0441\u0432\u0435\u0442\u0438\u043b\u044c\u043d\u0438\u043a_v1.png",
     "url": "styles/new/\u0441\u0432\u0435\u0442\u0438\u043b\u044c\u043d\u0438\u043a_v1.png"
+  },
+  {
+    "word": "\u0441\u0432\u0435\u0442\u0438\u043b\u044c\u043d\u0438\u043a",
+    "version": "v2",
+    "path": "styles/new/\u0441\u0432\u0435\u0442\u0438\u043b\u044c\u043d\u0438\u043a_v2.png",
+    "url": "styles/new/\u0441\u0432\u0435\u0442\u0438\u043b\u044c\u043d\u0438\u043a_v2.png"
   },
   {
     "word": "\u0441\u0432\u0435\u0442\u043b\u044f\u0447\u043e\u043a",
@@ -2616,6 +3420,12 @@
     "url": "styles/new/\u0441\u0432\u0435\u0442\u043b\u044f\u0447\u043e\u043a_v1.png"
   },
   {
+    "word": "\u0441\u0432\u0435\u0442\u043b\u044f\u0447\u043e\u043a",
+    "version": "v2",
+    "path": "styles/new/\u0441\u0432\u0435\u0442\u043b\u044f\u0447\u043e\u043a_v2.png",
+    "url": "styles/new/\u0441\u0432\u0435\u0442\u043b\u044f\u0447\u043e\u043a_v2.png"
+  },
+  {
     "word": "\u0441\u0432\u0435\u0442\u043e\u0444\u043e\u0440",
     "version": "latest",
     "path": "styles/new/\u0441\u0432\u0435\u0442\u043e\u0444\u043e\u0440_latest.png",
@@ -2626,6 +3436,12 @@
     "version": "v1",
     "path": "styles/new/\u0441\u0432\u0435\u0442\u043e\u0444\u043e\u0440_v1.png",
     "url": "styles/new/\u0441\u0432\u0435\u0442\u043e\u0444\u043e\u0440_v1.png"
+  },
+  {
+    "word": "\u0441\u0432\u0435\u0442\u043e\u0444\u043e\u0440",
+    "version": "v2",
+    "path": "styles/new/\u0441\u0432\u0435\u0442\u043e\u0444\u043e\u0440_v2.png",
+    "url": "styles/new/\u0441\u0432\u0435\u0442\u043e\u0444\u043e\u0440_v2.png"
   },
   {
     "word": "\u0441\u0432\u0435\u0447\u0430",
@@ -2640,6 +3456,12 @@
     "url": "styles/new/\u0441\u0432\u0435\u0447\u0430_v1.png"
   },
   {
+    "word": "\u0441\u0432\u0435\u0447\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0441\u0432\u0435\u0447\u0430_v2.png",
+    "url": "styles/new/\u0441\u0432\u0435\u0447\u0430_v2.png"
+  },
+  {
     "word": "\u0441\u0432\u0435\u0447\u043a\u0430",
     "version": "latest",
     "path": "styles/new/\u0441\u0432\u0435\u0447\u043a\u0430_latest.png",
@@ -2650,6 +3472,12 @@
     "version": "v1",
     "path": "styles/new/\u0441\u0432\u0435\u0447\u043a\u0430_v1.png",
     "url": "styles/new/\u0441\u0432\u0435\u0447\u043a\u0430_v1.png"
+  },
+  {
+    "word": "\u0441\u0432\u0435\u0447\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0441\u0432\u0435\u0447\u043a\u0430_v2.png",
+    "url": "styles/new/\u0441\u0432\u0435\u0447\u043a\u0430_v2.png"
   },
   {
     "word": "\u0441\u0435\u0440\u0434\u0446\u0435",
@@ -2664,6 +3492,12 @@
     "url": "styles/new/\u0441\u0435\u0440\u0434\u0446\u0435_v1.png"
   },
   {
+    "word": "\u0441\u0435\u0440\u0434\u0446\u0435",
+    "version": "v2",
+    "path": "styles/new/\u0441\u0435\u0440\u0434\u0446\u0435_v2.png",
+    "url": "styles/new/\u0441\u0435\u0440\u0434\u0446\u0435_v2.png"
+  },
+  {
     "word": "\u0441\u0435\u0441\u0442\u0440\u0430",
     "version": "latest",
     "path": "styles/new/\u0441\u0435\u0441\u0442\u0440\u0430_latest.png",
@@ -2674,6 +3508,12 @@
     "version": "v1",
     "path": "styles/new/\u0441\u0435\u0441\u0442\u0440\u0430_v1.png",
     "url": "styles/new/\u0441\u0435\u0441\u0442\u0440\u0430_v1.png"
+  },
+  {
+    "word": "\u0441\u0435\u0441\u0442\u0440\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0441\u0435\u0441\u0442\u0440\u0430_v2.png",
+    "url": "styles/new/\u0441\u0435\u0441\u0442\u0440\u0430_v2.png"
   },
   {
     "word": "\u0441\u0435\u0442\u043a\u0430",
@@ -2688,6 +3528,12 @@
     "url": "styles/new/\u0441\u0435\u0442\u043a\u0430_v1.png"
   },
   {
+    "word": "\u0441\u0435\u0442\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0441\u0435\u0442\u043a\u0430_v2.png",
+    "url": "styles/new/\u0441\u0435\u0442\u043a\u0430_v2.png"
+  },
+  {
     "word": "\u0441\u043a\u0430\u0437\u043a\u0430",
     "version": "latest",
     "path": "styles/new/\u0441\u043a\u0430\u0437\u043a\u0430_latest.png",
@@ -2698,6 +3544,12 @@
     "version": "v1",
     "path": "styles/new/\u0441\u043a\u0430\u0437\u043a\u0430_v1.png",
     "url": "styles/new/\u0441\u043a\u0430\u0437\u043a\u0430_v1.png"
+  },
+  {
+    "word": "\u0441\u043a\u0430\u0437\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0441\u043a\u0430\u0437\u043a\u0430_v2.png",
+    "url": "styles/new/\u0441\u043a\u0430\u0437\u043a\u0430_v2.png"
   },
   {
     "word": "\u0441\u043a\u0430\u043a\u0430\u043b\u043a\u0430",
@@ -2712,6 +3564,12 @@
     "url": "styles/new/\u0441\u043a\u0430\u043a\u0430\u043b\u043a\u0430_v1.png"
   },
   {
+    "word": "\u0441\u043a\u0430\u043a\u0430\u043b\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0441\u043a\u0430\u043a\u0430\u043b\u043a\u0430_v2.png",
+    "url": "styles/new/\u0441\u043a\u0430\u043a\u0430\u043b\u043a\u0430_v2.png"
+  },
+  {
     "word": "\u0441\u043a\u0430\u043b\u0430",
     "version": "latest",
     "path": "styles/new/\u0441\u043a\u0430\u043b\u0430_latest.png",
@@ -2722,6 +3580,12 @@
     "version": "v1",
     "path": "styles/new/\u0441\u043a\u0430\u043b\u0430_v1.png",
     "url": "styles/new/\u0441\u043a\u0430\u043b\u0430_v1.png"
+  },
+  {
+    "word": "\u0441\u043a\u0430\u043b\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0441\u043a\u0430\u043b\u0430_v2.png",
+    "url": "styles/new/\u0441\u043a\u0430\u043b\u0430_v2.png"
   },
   {
     "word": "\u0441\u043a\u0430\u043b\u043e\u043b\u0430\u0437",
@@ -2736,6 +3600,12 @@
     "url": "styles/new/\u0441\u043a\u0430\u043b\u043e\u043b\u0430\u0437_v1.png"
   },
   {
+    "word": "\u0441\u043a\u0430\u043b\u043e\u043b\u0430\u0437",
+    "version": "v2",
+    "path": "styles/new/\u0441\u043a\u0430\u043b\u043e\u043b\u0430\u0437_v2.png",
+    "url": "styles/new/\u0441\u043a\u0430\u043b\u043e\u043b\u0430\u0437_v2.png"
+  },
+  {
     "word": "\u0441\u043a\u0430\u0447\u043a\u0430",
     "version": "latest",
     "path": "styles/new/\u0441\u043a\u0430\u0447\u043a\u0430_latest.png",
@@ -2746,6 +3616,12 @@
     "version": "v1",
     "path": "styles/new/\u0441\u043a\u0430\u0447\u043a\u0430_v1.png",
     "url": "styles/new/\u0441\u043a\u0430\u0447\u043a\u0430_v1.png"
+  },
+  {
+    "word": "\u0441\u043a\u0430\u0447\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0441\u043a\u0430\u0447\u043a\u0430_v2.png",
+    "url": "styles/new/\u0441\u043a\u0430\u0447\u043a\u0430_v2.png"
   },
   {
     "word": "\u0441\u043b\u043e\u043d",
@@ -2760,6 +3636,12 @@
     "url": "styles/new/\u0441\u043b\u043e\u043d_v1.png"
   },
   {
+    "word": "\u0441\u043b\u043e\u043d",
+    "version": "v2",
+    "path": "styles/new/\u0441\u043b\u043e\u043d_v2.png",
+    "url": "styles/new/\u0441\u043b\u043e\u043d_v2.png"
+  },
+  {
     "word": "\u0441\u043b\u043e\u043d\u044b",
     "version": "latest",
     "path": "styles/new/\u0441\u043b\u043e\u043d\u044b_latest.png",
@@ -2770,6 +3652,12 @@
     "version": "v1",
     "path": "styles/new/\u0441\u043b\u043e\u043d\u044b_v1.png",
     "url": "styles/new/\u0441\u043b\u043e\u043d\u044b_v1.png"
+  },
+  {
+    "word": "\u0441\u043b\u043e\u043d\u044b",
+    "version": "v2",
+    "path": "styles/new/\u0441\u043b\u043e\u043d\u044b_v2.png",
+    "url": "styles/new/\u0441\u043b\u043e\u043d\u044b_v2.png"
   },
   {
     "word": "\u0441\u043d\u0435\u0433",
@@ -2784,6 +3672,12 @@
     "url": "styles/new/\u0441\u043d\u0435\u0433_v1.png"
   },
   {
+    "word": "\u0441\u043d\u0435\u0433",
+    "version": "v2",
+    "path": "styles/new/\u0441\u043d\u0435\u0433_v2.png",
+    "url": "styles/new/\u0441\u043d\u0435\u0433_v2.png"
+  },
+  {
     "word": "\u0441\u043d\u0435\u0433\u043e\u0432\u0438\u043a",
     "version": "latest",
     "path": "styles/new/\u0441\u043d\u0435\u0433\u043e\u0432\u0438\u043a_latest.png",
@@ -2794,6 +3688,12 @@
     "version": "v1",
     "path": "styles/new/\u0441\u043d\u0435\u0433\u043e\u0432\u0438\u043a_v1.png",
     "url": "styles/new/\u0441\u043d\u0435\u0433\u043e\u0432\u0438\u043a_v1.png"
+  },
+  {
+    "word": "\u0441\u043d\u0435\u0433\u043e\u0432\u0438\u043a",
+    "version": "v2",
+    "path": "styles/new/\u0441\u043d\u0435\u0433\u043e\u0432\u0438\u043a_v2.png",
+    "url": "styles/new/\u0441\u043d\u0435\u0433\u043e\u0432\u0438\u043a_v2.png"
   },
   {
     "word": "\u0441\u043d\u0435\u0436\u0438\u043d\u043a\u0430",
@@ -2808,6 +3708,12 @@
     "url": "styles/new/\u0441\u043d\u0435\u0436\u0438\u043d\u043a\u0430_v1.png"
   },
   {
+    "word": "\u0441\u043d\u0435\u0436\u0438\u043d\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0441\u043d\u0435\u0436\u0438\u043d\u043a\u0430_v2.png",
+    "url": "styles/new/\u0441\u043d\u0435\u0436\u0438\u043d\u043a\u0430_v2.png"
+  },
+  {
     "word": "\u0441\u043d\u0435\u0436\u043e\u043a",
     "version": "latest",
     "path": "styles/new/\u0441\u043d\u0435\u0436\u043e\u043a_latest.png",
@@ -2818,6 +3724,12 @@
     "version": "v1",
     "path": "styles/new/\u0441\u043d\u0435\u0436\u043e\u043a_v1.png",
     "url": "styles/new/\u0441\u043d\u0435\u0436\u043e\u043a_v1.png"
+  },
+  {
+    "word": "\u0441\u043d\u0435\u0436\u043e\u043a",
+    "version": "v2",
+    "path": "styles/new/\u0441\u043d\u0435\u0436\u043e\u043a_v2.png",
+    "url": "styles/new/\u0441\u043d\u0435\u0436\u043e\u043a_v2.png"
   },
   {
     "word": "\u0441\u043e\u0431\u0430\u043a\u0430",
@@ -2832,6 +3744,12 @@
     "url": "styles/new/\u0441\u043e\u0431\u0430\u043a\u0430_v1.png"
   },
   {
+    "word": "\u0441\u043e\u0431\u0430\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0441\u043e\u0431\u0430\u043a\u0430_v2.png",
+    "url": "styles/new/\u0441\u043e\u0431\u0430\u043a\u0430_v2.png"
+  },
+  {
     "word": "\u0441\u043e\u0432\u0430",
     "version": "latest",
     "path": "styles/new/\u0441\u043e\u0432\u0430_latest.png",
@@ -2842,6 +3760,12 @@
     "version": "v1",
     "path": "styles/new/\u0441\u043e\u0432\u0430_v1.png",
     "url": "styles/new/\u0441\u043e\u0432\u0430_v1.png"
+  },
+  {
+    "word": "\u0441\u043e\u0432\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0441\u043e\u0432\u0430_v2.png",
+    "url": "styles/new/\u0441\u043e\u0432\u0430_v2.png"
   },
   {
     "word": "\u0441\u043e\u043a",
@@ -2856,6 +3780,12 @@
     "url": "styles/new/\u0441\u043e\u043a_v1.png"
   },
   {
+    "word": "\u0441\u043e\u043a",
+    "version": "v2",
+    "path": "styles/new/\u0441\u043e\u043a_v2.png",
+    "url": "styles/new/\u0441\u043e\u043a_v2.png"
+  },
+  {
     "word": "\u0441\u043e\u043c",
     "version": "latest",
     "path": "styles/new/\u0441\u043e\u043c_latest.png",
@@ -2866,6 +3796,12 @@
     "version": "v1",
     "path": "styles/new/\u0441\u043e\u043c_v1.png",
     "url": "styles/new/\u0441\u043e\u043c_v1.png"
+  },
+  {
+    "word": "\u0441\u043e\u043c",
+    "version": "v2",
+    "path": "styles/new/\u0441\u043e\u043c_v2.png",
+    "url": "styles/new/\u0441\u043e\u043c_v2.png"
   },
   {
     "word": "\u0441\u043e\u0440\u043e\u043a\u0430",
@@ -2880,6 +3816,12 @@
     "url": "styles/new/\u0441\u043e\u0440\u043e\u043a\u0430_v1.png"
   },
   {
+    "word": "\u0441\u043e\u0440\u043e\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0441\u043e\u0440\u043e\u043a\u0430_v2.png",
+    "url": "styles/new/\u0441\u043e\u0440\u043e\u043a\u0430_v2.png"
+  },
+  {
     "word": "\u0441\u043e\u0441\u043d\u0430",
     "version": "latest",
     "path": "styles/new/\u0441\u043e\u0441\u043d\u0430_latest.png",
@@ -2890,6 +3832,12 @@
     "version": "v1",
     "path": "styles/new/\u0441\u043e\u0441\u043d\u0430_v1.png",
     "url": "styles/new/\u0441\u043e\u0441\u043d\u0430_v1.png"
+  },
+  {
+    "word": "\u0441\u043e\u0441\u043d\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0441\u043e\u0441\u043d\u0430_v2.png",
+    "url": "styles/new/\u0441\u043e\u0441\u043d\u0430_v2.png"
   },
   {
     "word": "\u0441\u0442\u043e\u043b",
@@ -2904,6 +3852,12 @@
     "url": "styles/new/\u0441\u0442\u043e\u043b_v1.png"
   },
   {
+    "word": "\u0441\u0442\u043e\u043b",
+    "version": "v2",
+    "path": "styles/new/\u0441\u0442\u043e\u043b_v2.png",
+    "url": "styles/new/\u0441\u0442\u043e\u043b_v2.png"
+  },
+  {
     "word": "\u0441\u0442\u0443\u043a",
     "version": "latest",
     "path": "styles/new/\u0441\u0442\u0443\u043a_latest.png",
@@ -2914,6 +3868,12 @@
     "version": "v1",
     "path": "styles/new/\u0441\u0442\u0443\u043a_v1.png",
     "url": "styles/new/\u0441\u0442\u0443\u043a_v1.png"
+  },
+  {
+    "word": "\u0441\u0442\u0443\u043a",
+    "version": "v2",
+    "path": "styles/new/\u0441\u0442\u0443\u043a_v2.png",
+    "url": "styles/new/\u0441\u0442\u0443\u043a_v2.png"
   },
   {
     "word": "\u0441\u0442\u0443\u043b",
@@ -2928,6 +3888,12 @@
     "url": "styles/new/\u0441\u0442\u0443\u043b_v1.png"
   },
   {
+    "word": "\u0441\u0442\u0443\u043b",
+    "version": "v2",
+    "path": "styles/new/\u0441\u0442\u0443\u043b_v2.png",
+    "url": "styles/new/\u0441\u0442\u0443\u043b_v2.png"
+  },
+  {
     "word": "\u0441\u0443\u043a",
     "version": "latest",
     "path": "styles/new/\u0441\u0443\u043a_latest.png",
@@ -2938,6 +3904,12 @@
     "version": "v1",
     "path": "styles/new/\u0441\u0443\u043a_v1.png",
     "url": "styles/new/\u0441\u0443\u043a_v1.png"
+  },
+  {
+    "word": "\u0441\u0443\u043a",
+    "version": "v2",
+    "path": "styles/new/\u0441\u0443\u043a_v2.png",
+    "url": "styles/new/\u0441\u0443\u043a_v2.png"
   },
   {
     "word": "\u0441\u0443\u043f",
@@ -2952,6 +3924,12 @@
     "url": "styles/new/\u0441\u0443\u043f_v1.png"
   },
   {
+    "word": "\u0441\u0443\u043f",
+    "version": "v2",
+    "path": "styles/new/\u0441\u0443\u043f_v2.png",
+    "url": "styles/new/\u0441\u0443\u043f_v2.png"
+  },
+  {
     "word": "\u0441\u044b\u0440",
     "version": "latest",
     "path": "styles/new/\u0441\u044b\u0440_latest.png",
@@ -2962,6 +3940,12 @@
     "version": "v1",
     "path": "styles/new/\u0441\u044b\u0440_v1.png",
     "url": "styles/new/\u0441\u044b\u0440_v1.png"
+  },
+  {
+    "word": "\u0441\u044b\u0440",
+    "version": "v2",
+    "path": "styles/new/\u0441\u044b\u0440_v2.png",
+    "url": "styles/new/\u0441\u044b\u0440_v2.png"
   },
   {
     "word": "\u0442\u0435\u043b\u0435\u0433\u0430",
@@ -2976,6 +3960,12 @@
     "url": "styles/new/\u0442\u0435\u043b\u0435\u0433\u0430_v1.png"
   },
   {
+    "word": "\u0442\u0435\u043b\u0435\u0433\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0442\u0435\u043b\u0435\u0433\u0430_v2.png",
+    "url": "styles/new/\u0442\u0435\u043b\u0435\u0433\u0430_v2.png"
+  },
+  {
     "word": "\u0442\u0435\u043b\u0435\u0441\u043a\u043e\u043f",
     "version": "latest",
     "path": "styles/new/\u0442\u0435\u043b\u0435\u0441\u043a\u043e\u043f_latest.png",
@@ -2986,6 +3976,12 @@
     "version": "v1",
     "path": "styles/new/\u0442\u0435\u043b\u0435\u0441\u043a\u043e\u043f_v1.png",
     "url": "styles/new/\u0442\u0435\u043b\u0435\u0441\u043a\u043e\u043f_v1.png"
+  },
+  {
+    "word": "\u0442\u0435\u043b\u0435\u0441\u043a\u043e\u043f",
+    "version": "v2",
+    "path": "styles/new/\u0442\u0435\u043b\u0435\u0441\u043a\u043e\u043f_v2.png",
+    "url": "styles/new/\u0442\u0435\u043b\u0435\u0441\u043a\u043e\u043f_v2.png"
   },
   {
     "word": "\u0442\u0435\u043b\u0435\u0444\u043e\u043d",
@@ -3000,6 +3996,12 @@
     "url": "styles/new/\u0442\u0435\u043b\u0435\u0444\u043e\u043d_v1.png"
   },
   {
+    "word": "\u0442\u0435\u043b\u0435\u0444\u043e\u043d",
+    "version": "v2",
+    "path": "styles/new/\u0442\u0435\u043b\u0435\u0444\u043e\u043d_v2.png",
+    "url": "styles/new/\u0442\u0435\u043b\u0435\u0444\u043e\u043d_v2.png"
+  },
+  {
     "word": "\u0442\u0435\u043b\u0451\u043d\u043e\u043a",
     "version": "latest",
     "path": "styles/new/\u0442\u0435\u043b\u0451\u043d\u043e\u043a_latest.png",
@@ -3010,6 +4012,12 @@
     "version": "v1",
     "path": "styles/new/\u0442\u0435\u043b\u0451\u043d\u043e\u043a_v1.png",
     "url": "styles/new/\u0442\u0435\u043b\u0451\u043d\u043e\u043a_v1.png"
+  },
+  {
+    "word": "\u0442\u0435\u043b\u0451\u043d\u043e\u043a",
+    "version": "v2",
+    "path": "styles/new/\u0442\u0435\u043b\u0451\u043d\u043e\u043a_v2.png",
+    "url": "styles/new/\u0442\u0435\u043b\u0451\u043d\u043e\u043a_v2.png"
   },
   {
     "word": "\u0442\u043e\u0447\u043a\u0430",
@@ -3024,6 +4032,12 @@
     "url": "styles/new/\u0442\u043e\u0447\u043a\u0430_v1.png"
   },
   {
+    "word": "\u0442\u043e\u0447\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0442\u043e\u0447\u043a\u0430_v2.png",
+    "url": "styles/new/\u0442\u043e\u0447\u043a\u0430_v2.png"
+  },
+  {
     "word": "\u0443\u043b\u0438\u0446\u0430",
     "version": "latest",
     "path": "styles/new/\u0443\u043b\u0438\u0446\u0430_latest.png",
@@ -3034,6 +4048,12 @@
     "version": "v1",
     "path": "styles/new/\u0443\u043b\u0438\u0446\u0430_v1.png",
     "url": "styles/new/\u0443\u043b\u0438\u0446\u0430_v1.png"
+  },
+  {
+    "word": "\u0443\u043b\u0438\u0446\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0443\u043b\u0438\u0446\u0430_v2.png",
+    "url": "styles/new/\u0443\u043b\u0438\u0446\u0430_v2.png"
   },
   {
     "word": "\u0444\u043e\u0442\u043e",
@@ -3048,6 +4068,12 @@
     "url": "styles/new/\u0444\u043e\u0442\u043e_v1.png"
   },
   {
+    "word": "\u0444\u043e\u0442\u043e",
+    "version": "v2",
+    "path": "styles/new/\u0444\u043e\u0442\u043e_v2.png",
+    "url": "styles/new/\u0444\u043e\u0442\u043e_v2.png"
+  },
+  {
     "word": "\u0445\u043b\u0435\u0431",
     "version": "latest",
     "path": "styles/new/\u0445\u043b\u0435\u0431_latest.png",
@@ -3060,6 +4086,12 @@
     "url": "styles/new/\u0445\u043b\u0435\u0431_v1.png"
   },
   {
+    "word": "\u0445\u043b\u0435\u0431",
+    "version": "v2",
+    "path": "styles/new/\u0445\u043b\u0435\u0431_v2.png",
+    "url": "styles/new/\u0445\u043b\u0435\u0431_v2.png"
+  },
+  {
     "word": "\u0447\u0435\u0440\u0435\u043f",
     "version": "latest",
     "path": "styles/new/\u0447\u0435\u0440\u0435\u043f_latest.png",
@@ -3070,6 +4102,24 @@
     "version": "v1",
     "path": "styles/new/\u0447\u0435\u0440\u0435\u043f_v1.png",
     "url": "styles/new/\u0447\u0435\u0440\u0435\u043f_v1.png"
+  },
+  {
+    "word": "\u0447\u0435\u0440\u0435\u043f",
+    "version": "v2",
+    "path": "styles/new/\u0447\u0435\u0440\u0435\u043f_v2.png",
+    "url": "styles/new/\u0447\u0435\u0440\u0435\u043f_v2.png"
+  },
+  {
+    "word": "\u0447\u0435\u0440\u0435\u043f\u0430\u0445\u0430",
+    "version": "latest",
+    "path": "styles/new/\u0447\u0435\u0440\u0435\u043f\u0430\u0445\u0430_latest.png",
+    "url": "styles/new/\u0447\u0435\u0440\u0435\u043f\u0430\u0445\u0430_latest.png"
+  },
+  {
+    "word": "\u0447\u0435\u0440\u0435\u043f\u0430\u0445\u0430",
+    "version": "v1",
+    "path": "styles/new/\u0447\u0435\u0440\u0435\u043f\u0430\u0445\u0430_v1.png",
+    "url": "styles/new/\u0447\u0435\u0440\u0435\u043f\u0430\u0445\u0430_v1.png"
   },
   {
     "word": "\u0447\u0435\u0440\u0435\u043f\u0430\u0448\u043a\u0430",
@@ -3096,6 +4146,12 @@
     "url": "styles/new/\u0447\u0435\u0440\u043d\u0438\u043a\u0430_v1.png"
   },
   {
+    "word": "\u0447\u0435\u0440\u043d\u0438\u043a\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0447\u0435\u0440\u043d\u0438\u043a\u0430_v2.png",
+    "url": "styles/new/\u0447\u0435\u0440\u043d\u0438\u043a\u0430_v2.png"
+  },
+  {
     "word": "\u0447\u0435\u0440\u043d\u0438\u043b\u0430",
     "version": "latest",
     "path": "styles/new/\u0447\u0435\u0440\u043d\u0438\u043b\u0430_latest.png",
@@ -3106,6 +4162,12 @@
     "version": "v1",
     "path": "styles/new/\u0447\u0435\u0440\u043d\u0438\u043b\u0430_v1.png",
     "url": "styles/new/\u0447\u0435\u0440\u043d\u0438\u043b\u0430_v1.png"
+  },
+  {
+    "word": "\u0447\u0435\u0440\u043d\u0438\u043b\u0430",
+    "version": "v2",
+    "path": "styles/new/\u0447\u0435\u0440\u043d\u0438\u043b\u0430_v2.png",
+    "url": "styles/new/\u0447\u0435\u0440\u043d\u0438\u043b\u0430_v2.png"
   },
   {
     "word": "\u044d\u043a\u0440\u0430\u043d",
@@ -3120,6 +4182,12 @@
     "url": "styles/new/\u044d\u043a\u0440\u0430\u043d_v1.png"
   },
   {
+    "word": "\u044d\u043a\u0440\u0430\u043d",
+    "version": "v2",
+    "path": "styles/new/\u044d\u043a\u0440\u0430\u043d_v2.png",
+    "url": "styles/new/\u044d\u043a\u0440\u0430\u043d_v2.png"
+  },
+  {
     "word": "\u044d\u043a\u0441\u043a\u0430\u0432\u0430\u0442\u043e\u0440",
     "version": "latest",
     "path": "styles/new/\u044d\u043a\u0441\u043a\u0430\u0432\u0430\u0442\u043e\u0440_latest.png",
@@ -3130,6 +4198,12 @@
     "version": "v1",
     "path": "styles/new/\u044d\u043a\u0441\u043a\u0430\u0432\u0430\u0442\u043e\u0440_v1.png",
     "url": "styles/new/\u044d\u043a\u0441\u043a\u0430\u0432\u0430\u0442\u043e\u0440_v1.png"
+  },
+  {
+    "word": "\u044d\u043a\u0441\u043a\u0430\u0432\u0430\u0442\u043e\u0440",
+    "version": "v2",
+    "path": "styles/new/\u044d\u043a\u0441\u043a\u0430\u0432\u0430\u0442\u043e\u0440_v2.png",
+    "url": "styles/new/\u044d\u043a\u0441\u043a\u0430\u0432\u0430\u0442\u043e\u0440_v2.png"
   },
   {
     "word": "\u044d\u0441\u043a\u0430\u043b\u0430\u0442\u043e\u0440",
@@ -3144,6 +4218,12 @@
     "url": "styles/new/\u044d\u0441\u043a\u0430\u043b\u0430\u0442\u043e\u0440_v1.png"
   },
   {
+    "word": "\u044d\u0441\u043a\u0430\u043b\u0430\u0442\u043e\u0440",
+    "version": "v2",
+    "path": "styles/new/\u044d\u0441\u043a\u0430\u043b\u0430\u0442\u043e\u0440_v2.png",
+    "url": "styles/new/\u044d\u0441\u043a\u0430\u043b\u0430\u0442\u043e\u0440_v2.png"
+  },
+  {
     "word": "\u044d\u0441\u043a\u0438\u043c\u043e",
     "version": "latest",
     "path": "styles/new/\u044d\u0441\u043a\u0438\u043c\u043e_latest.png",
@@ -3154,5 +4234,11 @@
     "version": "v1",
     "path": "styles/new/\u044d\u0441\u043a\u0438\u043c\u043e_v1.png",
     "url": "styles/new/\u044d\u0441\u043a\u0438\u043c\u043e_v1.png"
+  },
+  {
+    "word": "\u044d\u0441\u043a\u0438\u043c\u043e",
+    "version": "v2",
+    "path": "styles/new/\u044d\u0441\u043a\u0438\u043c\u043e_v2.png",
+    "url": "styles/new/\u044d\u0441\u043a\u0438\u043c\u043e_v2.png"
   }
 ]
