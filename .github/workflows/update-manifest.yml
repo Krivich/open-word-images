@@ -5,6 +5,7 @@ on:
     paths:
       - 'styles/**/*.png'
       - '.github/workflows/*.yml'
+      - 'scripts/*.py'
   workflow_dispatch:
 
 permissions:
