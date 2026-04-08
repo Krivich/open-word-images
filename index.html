@@ -17,6 +17,7 @@
     button.secondary { background: #e5e7eb; color: var(--text); }
     .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 16px; }
     .card { background: var(--card); padding: 12px; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.05); cursor: pointer; }
+    .card.selected { border: 3px solid var(--primary); box-shadow: 0 0 12px rgba(37,99,235,0.3); }
     .card img { width: 100px; height: 100px; object-fit: contain; }
     .card .word { font-weight: 600; margin-top: 8px; text-transform: uppercase; font-size: 14px; }
     .card .meta { font-size: 11px; color: var(--gray); margin-top: 4px; }
@@ -89,11 +90,18 @@
 
   <div id="toast" class="toast"></div>
 
+  <div id="selection-bar" style="position:fixed;bottom:0;left:0;right:0;background:var(--card);border-top:2px solid var(--primary);padding:12px 20px;display:none;justify-content:center;align-items:center;gap:12px;z-index:3000;box-shadow:0 -2px 10px rgba(0,0,0,0.1);">
+    <span id="selection-count" style="font-weight:600;font-size:14px;">0 selected</span>
+    <button onclick="copySelected()" style="padding:8px 16px;">📋 Copy words</button>
+    <button class="secondary" onclick="clearSelection()" style="padding:8px 16px;">✕ Clear</button>
+  </div>
+
   <script>
     let dictionary = [];
     let existingImages = [];
     let currentWord = '';
     let lastImageUrl = '';
+    let selectedWords = new Set();
 
     // Hardcoded style prompt (no regex parsing)
     const STYLE_PROMPT = `[OBJECT] icon for learning apps,
@@ -118,6 +126,57 @@ clean lines, children's illustration style`;
       toast.textContent = msg;
       toast.style.display = 'block';
       setTimeout(() => toast.style.display = 'none', 3000);
+    }
+
+    function selectCard(event, word) {
+      if(event.ctrlKey || event.metaKey) {
+        event.preventDefault();
+        event.stopPropagation();
+        if(selectedWords.has(word)) {
+          selectedWords.delete(word);
+        } else {
+          selectedWords.add(word);
+        }
+        // Toggle visual
+        const cards = document.querySelectorAll(`.card[data-word="${word}"]`);
+        cards.forEach(c => c.classList.toggle('selected', selectedWords.has(word)));
+        updateSelectionBar();
+      } else {
+        showVersions(word);
+      }
+    }
+
+    function updateSelectionBar() {
+      const bar = document.getElementById('selection-bar');
+      const count = document.getElementById('selection-count');
+      if(selectedWords.size > 0) {
+        bar.style.display = 'flex';
+        count.textContent = selectedWords.size + ' selected';
+      } else {
+        bar.style.display = 'none';
+      }
+    }
+
+    function copySelected() {
+      const words = [...selectedWords].sort().join(', ');
+      navigator.clipboard.writeText(words).then(() => {
+        showToast('📋 Copied: ' + words);
+      }).catch(() => {
+        // Fallback
+        const ta = document.createElement('textarea');
+        ta.value = words;
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+        showToast('📋 Copied: ' + words);
+      });
+    }
+
+    function clearSelection() {
+      selectedWords.clear();
+      document.querySelectorAll('.card.selected').forEach(c => c.classList.remove('selected'));
+      updateSelectionBar();
     }
 
     function showVersions(word) {
@@ -197,7 +256,7 @@ clean lines, children's illustration style`;
         const latest = imgs.find(i=>i.version==='latest') || imgs[imgs.length-1];
         const count = imgs.filter(i => i.version !== 'latest').length;
         gallery.innerHTML += `
-          <div class="card" onclick="showVersions('${word}')">
+          <div class="card" onclick="selectCard(event, '${word}')" data-word="${word}">
             <img src="${latest.url}" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖼️</text></svg>'">
             <div class="word">${word}</div>
             <div class="meta">${count} version${count>1?'s':''}</div>
