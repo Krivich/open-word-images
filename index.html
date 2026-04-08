@@ -264,9 +264,17 @@ clean lines, children's illustration style`;
       Object.entries(grouped).forEach(([word, imgs]) => {
         const latest = imgs.find(i=>i.version==='latest') || imgs[imgs.length-1];
         const count = imgs.filter(i => i.version !== 'latest').length;
+        
+        // Generate srcset URLs
+        const base = latest.url.replace('.png', '');
+        const src128 = base + '_128.png';
+        const src256 = base + '_256.png';
+        const src512 = base + '_512.png';
+
         gallery.innerHTML += `
           <div class="card" onclick="selectCard(event, '${word}')" data-word="${word}">
-            <img src="${latest.url}" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖼️</text></svg>'">
+            <img src="${src256}" srcset="${src128} 128w, ${src256} 256w, ${src512} 512w" sizes="100px" loading="lazy" 
+                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖼️</text></svg>'">
             <div class="word">${word}</div>
             <div class="meta">${count} version${count>1?'s':''}</div>
           </div>`;

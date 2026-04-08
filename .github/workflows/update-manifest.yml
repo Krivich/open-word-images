@@ -15,7 +15,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: python3 scripts/gen_manifest.py
+      - run: |
+          pip install Pillow
+          python3 scripts/gen_manifest.py
+          python3 scripts/generate_thumbnails.py
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: auto-version and update manifest [skip ci]"
+          commit_message: "chore: update manifest and thumbnails [skip ci]"
