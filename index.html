@@ -29,6 +29,16 @@
     .chip:hover { background: #e5e7eb; }
     .privacy-notice { font-size: 12px; color: var(--gray); margin-top: 8px; }
     .toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: #333; color: white; padding: 12px 24px; border-radius: 8px; display: none; z-index: 1000; }
+    .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); display: none; z-index: 2000; justify-content: center; align-items: center; }
+    .modal-overlay.active { display: flex; }
+    .modal { background: var(--card); border-radius: 16px; padding: 24px; max-width: 600px; width: 90%; max-height: 80vh; overflow-y: auto; position: relative; }
+    .modal h3 { margin: 0 0 16px; text-align: center; }
+    .modal-close { position: absolute; top: 12px; right: 16px; background: none; border: none; font-size: 24px; cursor: pointer; color: var(--gray); padding: 4px; }
+    .versions-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 12px; }
+    .version-item { text-align: center; cursor: pointer; }
+    .version-item img { width: 100px; height: 100px; object-fit: contain; border-radius: 8px; border: 2px solid transparent; transition: border-color 0.15s; }
+    .version-item img:hover { border-color: var(--primary); }
+    .version-label { font-size: 12px; color: var(--gray); margin-top: 4px; }
     @media (max-width: 600px) {
       .grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); }
       input { font-size: 14px; }
@@ -68,6 +78,14 @@
     </div>
   </div>
 
+  <div id="modal-overlay" class="modal-overlay" onclick="closeModal(event)">
+    <div class="modal">
+      <button class="modal-close" onclick="closeModal()">&times;</button>
+      <h3 id="modal-title">Versions</h3>
+      <div id="modal-body" class="versions-grid"></div>
+    </div>
+  </div>
+
   <div id="toast" class="toast"></div>
 
   <script>
@@ -99,6 +117,45 @@ clean lines, children's illustration style`;
       toast.textContent = msg;
       toast.style.display = 'block';
       setTimeout(() => toast.style.display = 'none', 3000);
+    }
+
+    function showVersions(word) {
+      const wordImages = existingImages.filter(i => i.word === word.toLowerCase());
+      if(!wordImages.length) return;
+      
+      document.getElementById('modal-title').textContent = word.charAt(0).toUpperCase() + word.slice(1) + ' — Versions';
+      
+      // Sort: latest first, then v1, v2...
+      const sorted = wordImages.sort((a, b) => {
+        if(a.version === 'latest') return -1;
+        if(b.version === 'latest') return 1;
+        return parseInt(b.version.slice(1)) - parseInt(a.version.slice(1));
+      });
+      
+      document.getElementById('modal-body').innerHTML = sorted.map(img => `
+        <div class="version-item" onclick="downloadVersion('${img.path}', '${word}_${img.version}.png')">
+          <img src="${img.url}" loading="lazy">
+          <div class="version-label">${img.version}</div>
+        </div>
+      `).join('');
+      
+      document.getElementById('modal-overlay').classList.add('active');
+    }
+
+    function downloadVersion(url, filename) {
+      fetch(url).then(r => r.blob()).then(blob => {
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = filename;
+        a.click();
+        URL.revokeObjectURL(a.href);
+        showToast('💾 Downloaded ' + filename);
+      });
+    }
+
+    function closeModal(e) {
+      if(e && e.target !== e.currentTarget) return;
+      document.getElementById('modal-overlay').classList.remove('active');
     }
 
     async function init() {
@@ -137,7 +194,7 @@ clean lines, children's illustration style`;
         const latest = imgs.find(i=>i.version==='latest') || imgs[imgs.length-1];
         const count = imgs.length;
         gallery.innerHTML += `
-          <div class="card" onclick="selectWord('${word}')">
+          <div class="card" onclick="showVersions('${word}')">
             <img src="${latest.url}" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖼️</text></svg>'">
             <div class="word">${word}</div>
             <div class="meta">${count} version${count>1?'s':''}</div>
@@ -305,11 +362,14 @@ clean lines, children's illustration style`;
       showToast('🧹 Key cleared');
     }
 
-    // Close suggestions on outside click
+    // Close suggestions/modal on outside click or Escape
     document.addEventListener('click', (e) => {
       if(!e.target.closest('#search') && !e.target.closest('#suggestions')) {
         suggestionsBox.innerHTML = '';
       }
+    });
+    document.addEventListener('keydown', (e) => {
+      if(e.key === 'Escape') closeModal();
     });
 
     init();
