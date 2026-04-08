@@ -5,10 +5,15 @@ SIZES = [128, 256, 512]
 
 for root, dirs, files in os.walk('styles'):
     for f in sorted(files):
-        if not f.endswith('.png') or '_latest_' in f:
+        # Skip non-PNG files and existing thumbnails
+        if not f.endswith('.png'):
             continue
         bn = f[:-4]
         
+        # Skip if this is already a thumbnail (ends with _128, _256, _512)
+        if any(bn.endswith(f'_{size}') for size in SIZES):
+            continue
+            
         # Process only _latest.png files (including symlinks)
         if not bn.endswith('_latest'):
             continue
