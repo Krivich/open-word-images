@@ -14,8 +14,14 @@ for root, dirs, files in os.walk('styles'):
             continue
             
         img_path = os.path.join(root, f)
+        
+        # Skip if all thumbnails already exist
+        all_exist = all(os.path.exists(os.path.join(root, f'{bn}_{size}.png')) for size in SIZES)
+        if all_exist:
+            continue
+        
         try:
-            # Follow symlinks
+            # Follow symlinks to get the real image
             real_path = os.path.realpath(img_path)
             img = Image.open(real_path).convert('RGBA')
             

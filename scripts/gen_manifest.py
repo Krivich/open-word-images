@@ -43,10 +43,18 @@ for root, dirs, files in os.walk('styles'):
 # Step 3: Create symlinks (works on Linux)
 for word, (ver, p) in latest.items():
     link_path = p.replace('_v' + str(ver) + '.png', '_latest.png')
+    
+    # Remove existing symlink and old thumbnails
     if os.path.exists(link_path) or os.path.islink(link_path):
         os.remove(link_path)
+    for size in [128, 256, 512]:
+        thumb = link_path.replace('_latest.png', f'_latest_{size}.png')
+        if os.path.exists(thumb):
+            os.remove(thumb)
+    
     try:
         os.symlink(os.path.basename(p), link_path)  # Linux symlink
+        print(f'Updated symlink: {word}')
     except OSError:
         shutil.copy2(p, link_path)  # Windows fallback
     manifest.append({'word': word, 'version': 'latest', 'path': link_path, 'url': link_path})
