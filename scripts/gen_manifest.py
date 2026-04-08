@@ -42,13 +42,14 @@ for root, dirs, files in os.walk('styles'):
 
 # Step 3: Create symlinks (works on Linux)
 for word, (ver, p) in latest.items():
-    link_path = p.replace('_v' + str(ver) + '.png', '_latest.png')
+    dir_path = os.path.dirname(p)
+    link_path = os.path.join(dir_path, f'{word}_latest.png')
     
     # Remove existing symlink and old thumbnails
     if os.path.exists(link_path) or os.path.islink(link_path):
         os.remove(link_path)
     for size in [128, 256, 512]:
-        thumb = link_path.replace('_latest.png', f'_latest_{size}.png')
+        thumb = os.path.join(dir_path, f'{word}_latest_{size}.png')
         if os.path.exists(thumb):
             os.remove(thumb)
     
