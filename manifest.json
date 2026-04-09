@@ -1,3506 +1,2922 @@
 [
   {
-    "word": "\u0430\u0431\u0440\u0438\u043a\u043e\u0441",
+    "word": "абрикос",
     "version": "latest",
-    "path": "styles/new/\u0430\u0431\u0440\u0438\u043a\u043e\u0441_latest.png",
-    "url": "styles/new/\u0430\u0431\u0440\u0438\u043a\u043e\u0441_latest.png"
+    "path": "styles/new/абрикос_latest.png"
   },
   {
-    "word": "\u0430\u0431\u0440\u0438\u043a\u043e\u0441",
+    "word": "абрикос",
     "version": "v1",
-    "path": "styles/new/\u0430\u0431\u0440\u0438\u043a\u043e\u0441_v1.png",
-    "url": "styles/new/\u0430\u0431\u0440\u0438\u043a\u043e\u0441_v1.png"
+    "path": "styles/new/абрикос_v1.png"
   },
   {
-    "word": "\u0430\u0431\u0440\u0438\u043a\u043e\u0441",
+    "word": "абрикос",
     "version": "v2",
-    "path": "styles/new/\u0430\u0431\u0440\u0438\u043a\u043e\u0441_v2.png",
-    "url": "styles/new/\u0430\u0431\u0440\u0438\u043a\u043e\u0441_v2.png"
+    "path": "styles/new/абрикос_v2.png"
   },
   {
-    "word": "\u0430\u0431\u0440\u0438\u043a\u043e\u0441",
+    "word": "абрикос",
     "version": "v3",
-    "path": "styles/new/\u0430\u0431\u0440\u0438\u043a\u043e\u0441_v3.png",
-    "url": "styles/new/\u0430\u0431\u0440\u0438\u043a\u043e\u0441_v3.png"
+    "path": "styles/new/абрикос_v3.png"
   },
   {
-    "word": "\u0430\u0432\u043e\u0441\u044c\u043a\u0430",
+    "word": "авоська",
     "version": "latest",
-    "path": "styles/new/\u0430\u0432\u043e\u0441\u044c\u043a\u0430_latest.png",
-    "url": "styles/new/\u0430\u0432\u043e\u0441\u044c\u043a\u0430_latest.png"
+    "path": "styles/new/авоська_latest.png"
   },
   {
-    "word": "\u0430\u0432\u043e\u0441\u044c\u043a\u0430",
+    "word": "авоська",
     "version": "v1",
-    "path": "styles/new/\u0430\u0432\u043e\u0441\u044c\u043a\u0430_v1.png",
-    "url": "styles/new/\u0430\u0432\u043e\u0441\u044c\u043a\u0430_v1.png"
+    "path": "styles/new/авоська_v1.png"
   },
   {
-    "word": "\u0430\u0432\u043e\u0441\u044c\u043a\u0430",
+    "word": "авоська",
     "version": "v2",
-    "path": "styles/new/\u0430\u0432\u043e\u0441\u044c\u043a\u0430_v2.png",
-    "url": "styles/new/\u0430\u0432\u043e\u0441\u044c\u043a\u0430_v2.png"
+    "path": "styles/new/авоська_v2.png"
   },
   {
-    "word": "\u0430\u0432\u0442\u043e\u0431\u0443\u0441",
+    "word": "автобус",
     "version": "latest",
-    "path": "styles/new/\u0430\u0432\u0442\u043e\u0431\u0443\u0441_latest.png",
-    "url": "styles/new/\u0430\u0432\u0442\u043e\u0431\u0443\u0441_latest.png"
+    "path": "styles/new/автобус_latest.png"
   },
   {
-    "word": "\u0430\u0432\u0442\u043e\u0431\u0443\u0441",
+    "word": "автобус",
     "version": "v1",
-    "path": "styles/new/\u0430\u0432\u0442\u043e\u0431\u0443\u0441_v1.png",
-    "url": "styles/new/\u0430\u0432\u0442\u043e\u0431\u0443\u0441_v1.png"
+    "path": "styles/new/автобус_v1.png"
   },
   {
-    "word": "\u0430\u0432\u0442\u043e\u0431\u0443\u0441",
+    "word": "автобус",
     "version": "v2",
-    "path": "styles/new/\u0430\u0432\u0442\u043e\u0431\u0443\u0441_v2.png",
-    "url": "styles/new/\u0430\u0432\u0442\u043e\u0431\u0443\u0441_v2.png"
+    "path": "styles/new/автобус_v2.png"
   },
   {
-    "word": "\u0430\u0432\u0442\u043e\u043c\u0430\u0442",
+    "word": "автомат",
     "version": "latest",
-    "path": "styles/new/\u0430\u0432\u0442\u043e\u043c\u0430\u0442_latest.png",
-    "url": "styles/new/\u0430\u0432\u0442\u043e\u043c\u0430\u0442_latest.png"
+    "path": "styles/new/автомат_latest.png"
   },
   {
-    "word": "\u0430\u0432\u0442\u043e\u043c\u0430\u0442",
+    "word": "автомат",
     "version": "v1",
-    "path": "styles/new/\u0430\u0432\u0442\u043e\u043c\u0430\u0442_v1.png",
-    "url": "styles/new/\u0430\u0432\u0442\u043e\u043c\u0430\u0442_v1.png"
+    "path": "styles/new/автомат_v1.png"
   },
   {
-    "word": "\u0430\u0432\u0442\u043e\u043c\u0430\u0442",
+    "word": "автомат",
     "version": "v2",
-    "path": "styles/new/\u0430\u0432\u0442\u043e\u043c\u0430\u0442_v2.png",
-    "url": "styles/new/\u0430\u0432\u0442\u043e\u043c\u0430\u0442_v2.png"
+    "path": "styles/new/автомат_v2.png"
   },
   {
-    "word": "\u0430\u0432\u0442\u043e\u043f\u0438\u043b\u043e\u0442",
+    "word": "автопилот",
     "version": "latest",
-    "path": "styles/new/\u0430\u0432\u0442\u043e\u043f\u0438\u043b\u043e\u0442_latest.png",
-    "url": "styles/new/\u0430\u0432\u0442\u043e\u043f\u0438\u043b\u043e\u0442_latest.png"
+    "path": "styles/new/автопилот_latest.png"
   },
   {
-    "word": "\u0430\u0432\u0442\u043e\u043f\u0438\u043b\u043e\u0442",
+    "word": "автопилот",
     "version": "v1",
-    "path": "styles/new/\u0430\u0432\u0442\u043e\u043f\u0438\u043b\u043e\u0442_v1.png",
-    "url": "styles/new/\u0430\u0432\u0442\u043e\u043f\u0438\u043b\u043e\u0442_v1.png"
+    "path": "styles/new/автопилот_v1.png"
   },
   {
-    "word": "\u0430\u0432\u0442\u043e\u043f\u0438\u043b\u043e\u0442",
+    "word": "автопилот",
     "version": "v2",
-    "path": "styles/new/\u0430\u0432\u0442\u043e\u043f\u0438\u043b\u043e\u0442_v2.png",
-    "url": "styles/new/\u0430\u0432\u0442\u043e\u043f\u0438\u043b\u043e\u0442_v2.png"
+    "path": "styles/new/автопилот_v2.png"
   },
   {
-    "word": "\u0430\u043d\u0430\u043d\u0430\u0441",
+    "word": "ананас",
     "version": "latest",
-    "path": "styles/new/\u0430\u043d\u0430\u043d\u0430\u0441_latest.png",
-    "url": "styles/new/\u0430\u043d\u0430\u043d\u0430\u0441_latest.png"
+    "path": "styles/new/ананас_latest.png"
   },
   {
-    "word": "\u0430\u043d\u0430\u043d\u0430\u0441",
+    "word": "ананас",
     "version": "v1",
-    "path": "styles/new/\u0430\u043d\u0430\u043d\u0430\u0441_v1.png",
-    "url": "styles/new/\u0430\u043d\u0430\u043d\u0430\u0441_v1.png"
+    "path": "styles/new/ананас_v1.png"
   },
   {
-    "word": "\u0430\u043d\u0430\u043d\u0430\u0441",
+    "word": "ананас",
     "version": "v2",
-    "path": "styles/new/\u0430\u043d\u0430\u043d\u0430\u0441_v2.png",
-    "url": "styles/new/\u0430\u043d\u0430\u043d\u0430\u0441_v2.png"
+    "path": "styles/new/ананас_v2.png"
   },
   {
-    "word": "\u0430\u043f\u0435\u043b\u044c\u0441\u0438\u043d",
+    "word": "апельсин",
     "version": "latest",
-    "path": "styles/new/\u0430\u043f\u0435\u043b\u044c\u0441\u0438\u043d_latest.png",
-    "url": "styles/new/\u0430\u043f\u0435\u043b\u044c\u0441\u0438\u043d_latest.png"
+    "path": "styles/new/апельсин_latest.png"
   },
   {
-    "word": "\u0430\u043f\u0435\u043b\u044c\u0441\u0438\u043d",
+    "word": "апельсин",
     "version": "v1",
-    "path": "styles/new/\u0430\u043f\u0435\u043b\u044c\u0441\u0438\u043d_v1.png",
-    "url": "styles/new/\u0430\u043f\u0435\u043b\u044c\u0441\u0438\u043d_v1.png"
+    "path": "styles/new/апельсин_v1.png"
   },
   {
-    "word": "\u0430\u043f\u0435\u043b\u044c\u0441\u0438\u043d",
+    "word": "апельсин",
     "version": "v2",
-    "path": "styles/new/\u0430\u043f\u0435\u043b\u044c\u0441\u0438\u043d_v2.png",
-    "url": "styles/new/\u0430\u043f\u0435\u043b\u044c\u0441\u0438\u043d_v2.png"
+    "path": "styles/new/апельсин_v2.png"
   },
   {
-    "word": "\u0431\u0430\u0431\u043e\u0447\u043a\u0430",
+    "word": "бабочка",
     "version": "latest",
-    "path": "styles/new/\u0431\u0430\u0431\u043e\u0447\u043a\u0430_latest.png",
-    "url": "styles/new/\u0431\u0430\u0431\u043e\u0447\u043a\u0430_latest.png"
+    "path": "styles/new/бабочка_latest.png"
   },
   {
-    "word": "\u0431\u0430\u0431\u043e\u0447\u043a\u0430",
+    "word": "бабочка",
     "version": "v1",
-    "path": "styles/new/\u0431\u0430\u0431\u043e\u0447\u043a\u0430_v1.png",
-    "url": "styles/new/\u0431\u0430\u0431\u043e\u0447\u043a\u0430_v1.png"
+    "path": "styles/new/бабочка_v1.png"
   },
   {
-    "word": "\u0431\u0430\u0431\u043e\u0447\u043a\u0430",
+    "word": "бабочка",
     "version": "v2",
-    "path": "styles/new/\u0431\u0430\u0431\u043e\u0447\u043a\u0430_v2.png",
-    "url": "styles/new/\u0431\u0430\u0431\u043e\u0447\u043a\u0430_v2.png"
+    "path": "styles/new/бабочка_v2.png"
   },
   {
-    "word": "\u0431\u0430\u0431\u043e\u0447\u043a\u0430",
+    "word": "бабочка",
     "version": "v3",
-    "path": "styles/new/\u0431\u0430\u0431\u043e\u0447\u043a\u0430_v3.png",
-    "url": "styles/new/\u0431\u0430\u0431\u043e\u0447\u043a\u0430_v3.png"
+    "path": "styles/new/бабочка_v3.png"
   },
   {
-    "word": "\u0431\u0430\u043a",
+    "word": "бак",
     "version": "latest",
-    "path": "styles/new/\u0431\u0430\u043a_latest.png",
-    "url": "styles/new/\u0431\u0430\u043a_latest.png"
+    "path": "styles/new/бак_latest.png"
   },
   {
-    "word": "\u0431\u0430\u043a",
+    "word": "бак",
     "version": "v1",
-    "path": "styles/new/\u0431\u0430\u043a_v1.png",
-    "url": "styles/new/\u0431\u0430\u043a_v1.png"
+    "path": "styles/new/бак_v1.png"
   },
   {
-    "word": "\u0431\u0430\u043a",
+    "word": "бак",
     "version": "v2",
-    "path": "styles/new/\u0431\u0430\u043a_v2.png",
-    "url": "styles/new/\u0431\u0430\u043a_v2.png"
+    "path": "styles/new/бак_v2.png"
   },
   {
-    "word": "\u0431\u0430\u043d\u043a\u0438",
+    "word": "банки",
     "version": "latest",
-    "path": "styles/new/\u0431\u0430\u043d\u043a\u0438_latest.png",
-    "url": "styles/new/\u0431\u0430\u043d\u043a\u0438_latest.png"
+    "path": "styles/new/банки_latest.png"
   },
   {
-    "word": "\u0431\u0430\u043d\u043a\u0438",
+    "word": "банки",
     "version": "v1",
-    "path": "styles/new/\u0431\u0430\u043d\u043a\u0438_v1.png",
-    "url": "styles/new/\u0431\u0430\u043d\u043a\u0438_v1.png"
+    "path": "styles/new/банки_v1.png"
   },
   {
-    "word": "\u0431\u0430\u043d\u043a\u0438",
+    "word": "банки",
     "version": "v2",
-    "path": "styles/new/\u0431\u0430\u043d\u043a\u0438_v2.png",
-    "url": "styles/new/\u0431\u0430\u043d\u043a\u0438_v2.png"
+    "path": "styles/new/банки_v2.png"
   },
   {
-    "word": "\u0431\u0430\u043d\u043e\u0447\u043a\u0430",
+    "word": "баночка",
     "version": "latest",
-    "path": "styles/new/\u0431\u0430\u043d\u043e\u0447\u043a\u0430_latest.png",
-    "url": "styles/new/\u0431\u0430\u043d\u043e\u0447\u043a\u0430_latest.png"
+    "path": "styles/new/баночка_latest.png"
   },
   {
-    "word": "\u0431\u0430\u043d\u043e\u0447\u043a\u0430",
+    "word": "баночка",
     "version": "v1",
-    "path": "styles/new/\u0431\u0430\u043d\u043e\u0447\u043a\u0430_v1.png",
-    "url": "styles/new/\u0431\u0430\u043d\u043e\u0447\u043a\u0430_v1.png"
+    "path": "styles/new/баночка_v1.png"
   },
   {
-    "word": "\u0431\u0430\u043d\u043e\u0447\u043a\u0430",
+    "word": "баночка",
     "version": "v2",
-    "path": "styles/new/\u0431\u0430\u043d\u043e\u0447\u043a\u0430_v2.png",
-    "url": "styles/new/\u0431\u0430\u043d\u043e\u0447\u043a\u0430_v2.png"
+    "path": "styles/new/баночка_v2.png"
   },
   {
-    "word": "\u0431\u0430\u0440\u0430\u043d\u043a\u0430",
+    "word": "баранка",
     "version": "latest",
-    "path": "styles/new/\u0431\u0430\u0440\u0430\u043d\u043a\u0430_latest.png",
-    "url": "styles/new/\u0431\u0430\u0440\u0430\u043d\u043a\u0430_latest.png"
+    "path": "styles/new/баранка_latest.png"
   },
   {
-    "word": "\u0431\u0430\u0440\u0430\u043d\u043a\u0430",
+    "word": "баранка",
     "version": "v1",
-    "path": "styles/new/\u0431\u0430\u0440\u0430\u043d\u043a\u0430_v1.png",
-    "url": "styles/new/\u0431\u0430\u0440\u0430\u043d\u043a\u0430_v1.png"
+    "path": "styles/new/баранка_v1.png"
   },
   {
-    "word": "\u0431\u0430\u0440\u0430\u043d\u043a\u0430",
+    "word": "баранка",
     "version": "v2",
-    "path": "styles/new/\u0431\u0430\u0440\u0430\u043d\u043a\u0430_v2.png",
-    "url": "styles/new/\u0431\u0430\u0440\u0430\u043d\u043a\u0430_v2.png"
+    "path": "styles/new/баранка_v2.png"
   },
   {
-    "word": "\u0431\u0430\u0448\u043c\u0430\u043a",
+    "word": "башмак",
     "version": "latest",
-    "path": "styles/new/\u0431\u0430\u0448\u043c\u0430\u043a_latest.png",
-    "url": "styles/new/\u0431\u0430\u0448\u043c\u0430\u043a_latest.png"
+    "path": "styles/new/башмак_latest.png"
   },
   {
-    "word": "\u0431\u0430\u0448\u043c\u0430\u043a",
+    "word": "башмак",
     "version": "v1",
-    "path": "styles/new/\u0431\u0430\u0448\u043c\u0430\u043a_v1.png",
-    "url": "styles/new/\u0431\u0430\u0448\u043c\u0430\u043a_v1.png"
+    "path": "styles/new/башмак_v1.png"
   },
   {
-    "word": "\u0431\u0430\u0448\u043c\u0430\u043a",
+    "word": "башмак",
     "version": "v2",
-    "path": "styles/new/\u0431\u0430\u0448\u043c\u0430\u043a_v2.png",
-    "url": "styles/new/\u0431\u0430\u0448\u043c\u0430\u043a_v2.png"
+    "path": "styles/new/башмак_v2.png"
   },
   {
-    "word": "\u0431\u044b\u043a",
+    "word": "бык",
     "version": "latest",
-    "path": "styles/new/\u0431\u044b\u043a_latest.png",
-    "url": "styles/new/\u0431\u044b\u043a_latest.png"
+    "path": "styles/new/бык_latest.png"
   },
   {
-    "word": "\u0431\u044b\u043a",
+    "word": "бык",
     "version": "v1",
-    "path": "styles/new/\u0431\u044b\u043a_v1.png",
-    "url": "styles/new/\u0431\u044b\u043a_v1.png"
+    "path": "styles/new/бык_v1.png"
   },
   {
-    "word": "\u0431\u044b\u043a",
+    "word": "бык",
     "version": "v2",
-    "path": "styles/new/\u0431\u044b\u043a_v2.png",
-    "url": "styles/new/\u0431\u044b\u043a_v2.png"
+    "path": "styles/new/бык_v2.png"
   },
   {
-    "word": "\u0432\u0435\u0435\u0440",
+    "word": "веер",
     "version": "latest",
-    "path": "styles/new/\u0432\u0435\u0435\u0440_latest.png",
-    "url": "styles/new/\u0432\u0435\u0435\u0440_latest.png"
+    "path": "styles/new/веер_latest.png"
   },
   {
-    "word": "\u0432\u0435\u0435\u0440",
+    "word": "веер",
     "version": "v1",
-    "path": "styles/new/\u0432\u0435\u0435\u0440_v1.png",
-    "url": "styles/new/\u0432\u0435\u0435\u0440_v1.png"
+    "path": "styles/new/веер_v1.png"
   },
   {
-    "word": "\u0432\u0435\u0435\u0440",
+    "word": "веер",
     "version": "v2",
-    "path": "styles/new/\u0432\u0435\u0435\u0440_v2.png",
-    "url": "styles/new/\u0432\u0435\u0435\u0440_v2.png"
+    "path": "styles/new/веер_v2.png"
   },
   {
-    "word": "\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434",
+    "word": "велосипед",
     "version": "latest",
-    "path": "styles/new/\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434_latest.png",
-    "url": "styles/new/\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434_latest.png"
+    "path": "styles/new/велосипед_latest.png"
   },
   {
-    "word": "\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434",
+    "word": "велосипед",
     "version": "v1",
-    "path": "styles/new/\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434_v1.png",
-    "url": "styles/new/\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434_v1.png"
+    "path": "styles/new/велосипед_v1.png"
   },
   {
-    "word": "\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434",
+    "word": "велосипед",
     "version": "v2",
-    "path": "styles/new/\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434_v2.png",
-    "url": "styles/new/\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434_v2.png"
+    "path": "styles/new/велосипед_v2.png"
   },
   {
-    "word": "\u0432\u0435\u043b\u044e\u0440",
+    "word": "велюр",
     "version": "latest",
-    "path": "styles/new/\u0432\u0435\u043b\u044e\u0440_latest.png",
-    "url": "styles/new/\u0432\u0435\u043b\u044e\u0440_latest.png"
+    "path": "styles/new/велюр_latest.png"
   },
   {
-    "word": "\u0432\u0435\u043b\u044e\u0440",
+    "word": "велюр",
     "version": "v1",
-    "path": "styles/new/\u0432\u0435\u043b\u044e\u0440_v1.png",
-    "url": "styles/new/\u0432\u0435\u043b\u044e\u0440_v1.png"
+    "path": "styles/new/велюр_v1.png"
   },
   {
-    "word": "\u0432\u0435\u043b\u044e\u0440",
+    "word": "велюр",
     "version": "v2",
-    "path": "styles/new/\u0432\u0435\u043b\u044e\u0440_v2.png",
-    "url": "styles/new/\u0432\u0435\u043b\u044e\u0440_v2.png"
+    "path": "styles/new/велюр_v2.png"
   },
   {
-    "word": "\u0432\u0435\u043d\u0438\u043a",
+    "word": "веник",
     "version": "latest",
-    "path": "styles/new/\u0432\u0435\u043d\u0438\u043a_latest.png",
-    "url": "styles/new/\u0432\u0435\u043d\u0438\u043a_latest.png"
+    "path": "styles/new/веник_latest.png"
   },
   {
-    "word": "\u0432\u0435\u043d\u0438\u043a",
+    "word": "веник",
     "version": "v1",
-    "path": "styles/new/\u0432\u0435\u043d\u0438\u043a_v1.png",
-    "url": "styles/new/\u0432\u0435\u043d\u0438\u043a_v1.png"
+    "path": "styles/new/веник_v1.png"
   },
   {
-    "word": "\u0432\u0435\u043d\u0438\u043a",
+    "word": "веник",
     "version": "v2",
-    "path": "styles/new/\u0432\u0435\u043d\u0438\u043a_v2.png",
-    "url": "styles/new/\u0432\u0435\u043d\u0438\u043a_v2.png"
+    "path": "styles/new/веник_v2.png"
   },
   {
-    "word": "\u0432\u0435\u043d\u0438\u043a",
+    "word": "веник",
     "version": "v3",
-    "path": "styles/new/\u0432\u0435\u043d\u0438\u043a_v3.png",
-    "url": "styles/new/\u0432\u0435\u043d\u0438\u043a_v3.png"
+    "path": "styles/new/веник_v3.png"
   },
   {
-    "word": "\u0432\u0435\u0441\u043d\u0430",
+    "word": "весна",
     "version": "latest",
-    "path": "styles/new/\u0432\u0435\u0441\u043d\u0430_latest.png",
-    "url": "styles/new/\u0432\u0435\u0441\u043d\u0430_latest.png"
+    "path": "styles/new/весна_latest.png"
   },
   {
-    "word": "\u0432\u0435\u0441\u043d\u0430",
+    "word": "весна",
     "version": "v1",
-    "path": "styles/new/\u0432\u0435\u0441\u043d\u0430_v1.png",
-    "url": "styles/new/\u0432\u0435\u0441\u043d\u0430_v1.png"
+    "path": "styles/new/весна_v1.png"
   },
   {
-    "word": "\u0432\u0435\u0441\u043d\u0430",
+    "word": "весна",
     "version": "v2",
-    "path": "styles/new/\u0432\u0435\u0441\u043d\u0430_v2.png",
-    "url": "styles/new/\u0432\u0435\u0441\u043d\u0430_v2.png"
+    "path": "styles/new/весна_v2.png"
   },
   {
-    "word": "\u0432\u0435\u0442\u0435\u0440",
+    "word": "ветер",
     "version": "latest",
-    "path": "styles/new/\u0432\u0435\u0442\u0435\u0440_latest.png",
-    "url": "styles/new/\u0432\u0435\u0442\u0435\u0440_latest.png"
+    "path": "styles/new/ветер_latest.png"
   },
   {
-    "word": "\u0432\u0435\u0442\u0435\u0440",
+    "word": "ветер",
     "version": "v1",
-    "path": "styles/new/\u0432\u0435\u0442\u0435\u0440_v1.png",
-    "url": "styles/new/\u0432\u0435\u0442\u0435\u0440_v1.png"
+    "path": "styles/new/ветер_v1.png"
   },
   {
-    "word": "\u0432\u0435\u0442\u0435\u0440",
+    "word": "ветер",
     "version": "v2",
-    "path": "styles/new/\u0432\u0435\u0442\u0435\u0440_v2.png",
-    "url": "styles/new/\u0432\u0435\u0442\u0435\u0440_v2.png"
+    "path": "styles/new/ветер_v2.png"
   },
   {
-    "word": "\u0432\u0435\u0442\u0435\u0440",
+    "word": "ветер",
     "version": "v3",
-    "path": "styles/new/\u0432\u0435\u0442\u0435\u0440_v3.png",
-    "url": "styles/new/\u0432\u0435\u0442\u0435\u0440_v3.png"
+    "path": "styles/new/ветер_v3.png"
   },
   {
-    "word": "\u0432\u0435\u0447\u0435\u0440",
+    "word": "вечер",
     "version": "latest",
-    "path": "styles/new/\u0432\u0435\u0447\u0435\u0440_latest.png",
-    "url": "styles/new/\u0432\u0435\u0447\u0435\u0440_latest.png"
+    "path": "styles/new/вечер_latest.png"
   },
   {
-    "word": "\u0432\u0435\u0447\u0435\u0440",
+    "word": "вечер",
     "version": "v1",
-    "path": "styles/new/\u0432\u0435\u0447\u0435\u0440_v1.png",
-    "url": "styles/new/\u0432\u0435\u0447\u0435\u0440_v1.png"
+    "path": "styles/new/вечер_v1.png"
   },
   {
-    "word": "\u0432\u0435\u0447\u0435\u0440",
+    "word": "вечер",
     "version": "v2",
-    "path": "styles/new/\u0432\u0435\u0447\u0435\u0440_v2.png",
-    "url": "styles/new/\u0432\u0435\u0447\u0435\u0440_v2.png"
+    "path": "styles/new/вечер_v2.png"
   },
   {
-    "word": "\u0432\u0435\u0449\u044c",
+    "word": "вещь",
     "version": "latest",
-    "path": "styles/new/\u0432\u0435\u0449\u044c_latest.png",
-    "url": "styles/new/\u0432\u0435\u0449\u044c_latest.png"
+    "path": "styles/new/вещь_latest.png"
   },
   {
-    "word": "\u0432\u0435\u0449\u044c",
+    "word": "вещь",
     "version": "v1",
-    "path": "styles/new/\u0432\u0435\u0449\u044c_v1.png",
-    "url": "styles/new/\u0432\u0435\u0449\u044c_v1.png"
+    "path": "styles/new/вещь_v1.png"
   },
   {
-    "word": "\u0432\u0435\u0449\u044c",
+    "word": "вещь",
     "version": "v2",
-    "path": "styles/new/\u0432\u0435\u0449\u044c_v2.png",
-    "url": "styles/new/\u0432\u0435\u0449\u044c_v2.png"
+    "path": "styles/new/вещь_v2.png"
   },
   {
-    "word": "\u0432\u0435\u0449\u044c",
+    "word": "вещь",
     "version": "v3",
-    "path": "styles/new/\u0432\u0435\u0449\u044c_v3.png",
-    "url": "styles/new/\u0432\u0435\u0449\u044c_v3.png"
+    "path": "styles/new/вещь_v3.png"
   },
   {
-    "word": "\u0432\u0438\u043b\u043a\u0430",
+    "word": "вилка",
     "version": "latest",
-    "path": "styles/new/\u0432\u0438\u043b\u043a\u0430_latest.png",
-    "url": "styles/new/\u0432\u0438\u043b\u043a\u0430_latest.png"
+    "path": "styles/new/вилка_latest.png"
   },
   {
-    "word": "\u0432\u0438\u043b\u043a\u0430",
+    "word": "вилка",
     "version": "v1",
-    "path": "styles/new/\u0432\u0438\u043b\u043a\u0430_v1.png",
-    "url": "styles/new/\u0432\u0438\u043b\u043a\u0430_v1.png"
+    "path": "styles/new/вилка_v1.png"
   },
   {
-    "word": "\u0432\u0438\u043b\u043a\u0430",
+    "word": "вилка",
     "version": "v2",
-    "path": "styles/new/\u0432\u0438\u043b\u043a\u0430_v2.png",
-    "url": "styles/new/\u0432\u0438\u043b\u043a\u0430_v2.png"
+    "path": "styles/new/вилка_v2.png"
   },
   {
-    "word": "\u0432\u0438\u0448\u043d\u044f",
+    "word": "вишня",
     "version": "latest",
-    "path": "styles/new/\u0432\u0438\u0448\u043d\u044f_latest.png",
-    "url": "styles/new/\u0432\u0438\u0448\u043d\u044f_latest.png"
+    "path": "styles/new/вишня_latest.png"
   },
   {
-    "word": "\u0432\u0438\u0448\u043d\u044f",
+    "word": "вишня",
     "version": "v1",
-    "path": "styles/new/\u0432\u0438\u0448\u043d\u044f_v1.png",
-    "url": "styles/new/\u0432\u0438\u0448\u043d\u044f_v1.png"
+    "path": "styles/new/вишня_v1.png"
   },
   {
-    "word": "\u0432\u0438\u0448\u043d\u044f",
+    "word": "вишня",
     "version": "v2",
-    "path": "styles/new/\u0432\u0438\u0448\u043d\u044f_v2.png",
-    "url": "styles/new/\u0432\u0438\u0448\u043d\u044f_v2.png"
+    "path": "styles/new/вишня_v2.png"
   },
   {
-    "word": "\u0432\u043e\u043b\u0430\u043d",
+    "word": "волан",
     "version": "latest",
-    "path": "styles/new/\u0432\u043e\u043b\u0430\u043d_latest.png",
-    "url": "styles/new/\u0432\u043e\u043b\u0430\u043d_latest.png"
+    "path": "styles/new/волан_latest.png"
   },
   {
-    "word": "\u0432\u043e\u043b\u0430\u043d",
+    "word": "волан",
     "version": "v1",
-    "path": "styles/new/\u0432\u043e\u043b\u0430\u043d_v1.png",
-    "url": "styles/new/\u0432\u043e\u043b\u0430\u043d_v1.png"
+    "path": "styles/new/волан_v1.png"
   },
   {
-    "word": "\u0432\u043e\u043b\u0430\u043d",
+    "word": "волан",
     "version": "v2",
-    "path": "styles/new/\u0432\u043e\u043b\u0430\u043d_v2.png",
-    "url": "styles/new/\u0432\u043e\u043b\u0430\u043d_v2.png"
+    "path": "styles/new/волан_v2.png"
   },
   {
-    "word": "\u0433\u043e\u0434",
+    "word": "год",
     "version": "latest",
-    "path": "styles/new/\u0433\u043e\u0434_latest.png",
-    "url": "styles/new/\u0433\u043e\u0434_latest.png"
+    "path": "styles/new/год_latest.png"
   },
   {
-    "word": "\u0433\u043e\u0434",
+    "word": "год",
     "version": "v1",
-    "path": "styles/new/\u0433\u043e\u0434_v1.png",
-    "url": "styles/new/\u0433\u043e\u0434_v1.png"
+    "path": "styles/new/год_v1.png"
   },
   {
-    "word": "\u0433\u043e\u0434",
+    "word": "год",
     "version": "v2",
-    "path": "styles/new/\u0433\u043e\u0434_v2.png",
-    "url": "styles/new/\u0433\u043e\u0434_v2.png"
+    "path": "styles/new/год_v2.png"
   },
   {
-    "word": "\u0433\u043e\u0434",
+    "word": "год",
     "version": "v3",
-    "path": "styles/new/\u0433\u043e\u0434_v3.png",
-    "url": "styles/new/\u0433\u043e\u0434_v3.png"
+    "path": "styles/new/год_v3.png"
   },
   {
-    "word": "\u0433\u0440\u0430\u0447",
+    "word": "грач",
     "version": "latest",
-    "path": "styles/new/\u0433\u0440\u0430\u0447_latest.png",
-    "url": "styles/new/\u0433\u0440\u0430\u0447_latest.png"
+    "path": "styles/new/грач_latest.png"
   },
   {
-    "word": "\u0433\u0440\u0430\u0447",
+    "word": "грач",
     "version": "v1",
-    "path": "styles/new/\u0433\u0440\u0430\u0447_v1.png",
-    "url": "styles/new/\u0433\u0440\u0430\u0447_v1.png"
+    "path": "styles/new/грач_v1.png"
   },
   {
-    "word": "\u0433\u0440\u0430\u0447",
+    "word": "грач",
     "version": "v2",
-    "path": "styles/new/\u0433\u0440\u0430\u0447_v2.png",
-    "url": "styles/new/\u0433\u0440\u0430\u0447_v2.png"
+    "path": "styles/new/грач_v2.png"
   },
   {
-    "word": "\u0433\u0440\u0438\u0431",
+    "word": "гриб",
     "version": "latest",
-    "path": "styles/new/\u0433\u0440\u0438\u0431_latest.png",
-    "url": "styles/new/\u0433\u0440\u0438\u0431_latest.png"
+    "path": "styles/new/гриб_latest.png"
   },
   {
-    "word": "\u0433\u0440\u0438\u0431",
+    "word": "гриб",
     "version": "v1",
-    "path": "styles/new/\u0433\u0440\u0438\u0431_v1.png",
-    "url": "styles/new/\u0433\u0440\u0438\u0431_v1.png"
+    "path": "styles/new/гриб_v1.png"
   },
   {
-    "word": "\u0433\u0440\u0438\u0431",
+    "word": "гриб",
     "version": "v2",
-    "path": "styles/new/\u0433\u0440\u0438\u0431_v2.png",
-    "url": "styles/new/\u0433\u0440\u0438\u0431_v2.png"
+    "path": "styles/new/гриб_v2.png"
   },
   {
-    "word": "\u0434\u043d\u043e",
+    "word": "дно",
     "version": "latest",
-    "path": "styles/new/\u0434\u043d\u043e_latest.png",
-    "url": "styles/new/\u0434\u043d\u043e_latest.png"
+    "path": "styles/new/дно_latest.png"
   },
   {
-    "word": "\u0434\u043d\u043e",
+    "word": "дно",
     "version": "v1",
-    "path": "styles/new/\u0434\u043d\u043e_v1.png",
-    "url": "styles/new/\u0434\u043d\u043e_v1.png"
+    "path": "styles/new/дно_v1.png"
   },
   {
-    "word": "\u0434\u043d\u043e",
+    "word": "дно",
     "version": "v2",
-    "path": "styles/new/\u0434\u043d\u043e_v2.png",
-    "url": "styles/new/\u0434\u043d\u043e_v2.png"
+    "path": "styles/new/дно_v2.png"
   },
   {
-    "word": "\u0434\u043d\u043e",
+    "word": "дно",
     "version": "v3",
-    "path": "styles/new/\u0434\u043d\u043e_v3.png",
-    "url": "styles/new/\u0434\u043d\u043e_v3.png"
+    "path": "styles/new/дно_v3.png"
   },
   {
-    "word": "\u0434\u043e\u0436\u0434\u044c",
+    "word": "дождь",
     "version": "latest",
-    "path": "styles/new/\u0434\u043e\u0436\u0434\u044c_latest.png",
-    "url": "styles/new/\u0434\u043e\u0436\u0434\u044c_latest.png"
+    "path": "styles/new/дождь_latest.png"
   },
   {
-    "word": "\u0434\u043e\u0436\u0434\u044c",
+    "word": "дождь",
     "version": "v1",
-    "path": "styles/new/\u0434\u043e\u0436\u0434\u044c_v1.png",
-    "url": "styles/new/\u0434\u043e\u0436\u0434\u044c_v1.png"
+    "path": "styles/new/дождь_v1.png"
   },
   {
-    "word": "\u0434\u043e\u0436\u0434\u044c",
+    "word": "дождь",
     "version": "v2",
-    "path": "styles/new/\u0434\u043e\u0436\u0434\u044c_v2.png",
-    "url": "styles/new/\u0434\u043e\u0436\u0434\u044c_v2.png"
+    "path": "styles/new/дождь_v2.png"
   },
   {
-    "word": "\u0434\u043e\u043c",
+    "word": "дом",
     "version": "latest",
-    "path": "styles/new/\u0434\u043e\u043c_latest.png",
-    "url": "styles/new/\u0434\u043e\u043c_latest.png"
+    "path": "styles/new/дом_latest.png"
   },
   {
-    "word": "\u0434\u043e\u043c",
+    "word": "дом",
     "version": "v1",
-    "path": "styles/new/\u0434\u043e\u043c_v1.png",
-    "url": "styles/new/\u0434\u043e\u043c_v1.png"
+    "path": "styles/new/дом_v1.png"
   },
   {
-    "word": "\u0434\u043e\u043c",
+    "word": "дом",
     "version": "v2",
-    "path": "styles/new/\u0434\u043e\u043c_v2.png",
-    "url": "styles/new/\u0434\u043e\u043c_v2.png"
+    "path": "styles/new/дом_v2.png"
   },
   {
-    "word": "\u0434\u043e\u0441\u043a\u0430",
+    "word": "доска",
     "version": "latest",
-    "path": "styles/new/\u0434\u043e\u0441\u043a\u0430_latest.png",
-    "url": "styles/new/\u0434\u043e\u0441\u043a\u0430_latest.png"
+    "path": "styles/new/доска_latest.png"
   },
   {
-    "word": "\u0434\u043e\u0441\u043a\u0430",
+    "word": "доска",
     "version": "v1",
-    "path": "styles/new/\u0434\u043e\u0441\u043a\u0430_v1.png",
-    "url": "styles/new/\u0434\u043e\u0441\u043a\u0430_v1.png"
+    "path": "styles/new/доска_v1.png"
   },
   {
-    "word": "\u0434\u043e\u0441\u043a\u0430",
+    "word": "доска",
     "version": "v2",
-    "path": "styles/new/\u0434\u043e\u0441\u043a\u0430_v2.png",
-    "url": "styles/new/\u0434\u043e\u0441\u043a\u0430_v2.png"
+    "path": "styles/new/доска_v2.png"
   },
   {
-    "word": "\u0434\u043e\u0441\u043a\u0430",
+    "word": "доска",
     "version": "v3",
-    "path": "styles/new/\u0434\u043e\u0441\u043a\u0430_v3.png",
-    "url": "styles/new/\u0434\u043e\u0441\u043a\u0430_v3.png"
+    "path": "styles/new/доска_v3.png"
   },
   {
-    "word": "\u0434\u043e\u0441\u043a\u0438",
+    "word": "доски",
     "version": "latest",
-    "path": "styles/new/\u0434\u043e\u0441\u043a\u0438_latest.png",
-    "url": "styles/new/\u0434\u043e\u0441\u043a\u0438_latest.png"
+    "path": "styles/new/доски_latest.png"
   },
   {
-    "word": "\u0434\u043e\u0441\u043a\u0438",
+    "word": "доски",
     "version": "v1",
-    "path": "styles/new/\u0434\u043e\u0441\u043a\u0438_v1.png",
-    "url": "styles/new/\u0434\u043e\u0441\u043a\u0438_v1.png"
+    "path": "styles/new/доски_v1.png"
   },
   {
-    "word": "\u0434\u043e\u0441\u043a\u0438",
+    "word": "доски",
     "version": "v2",
-    "path": "styles/new/\u0434\u043e\u0441\u043a\u0438_v2.png",
-    "url": "styles/new/\u0434\u043e\u0441\u043a\u0438_v2.png"
+    "path": "styles/new/доски_v2.png"
   },
   {
-    "word": "\u0434\u043e\u0441\u043f\u0435\u0445\u0438",
+    "word": "доспехи",
     "version": "latest",
-    "path": "styles/new/\u0434\u043e\u0441\u043f\u0435\u0445\u0438_latest.png",
-    "url": "styles/new/\u0434\u043e\u0441\u043f\u0435\u0445\u0438_latest.png"
+    "path": "styles/new/доспехи_latest.png"
   },
   {
-    "word": "\u0434\u043e\u0441\u043f\u0435\u0445\u0438",
+    "word": "доспехи",
     "version": "v1",
-    "path": "styles/new/\u0434\u043e\u0441\u043f\u0435\u0445\u0438_v1.png",
-    "url": "styles/new/\u0434\u043e\u0441\u043f\u0435\u0445\u0438_v1.png"
+    "path": "styles/new/доспехи_v1.png"
   },
   {
-    "word": "\u0434\u043e\u0441\u043f\u0435\u0445\u0438",
+    "word": "доспехи",
     "version": "v2",
-    "path": "styles/new/\u0434\u043e\u0441\u043f\u0435\u0445\u0438_v2.png",
-    "url": "styles/new/\u0434\u043e\u0441\u043f\u0435\u0445\u0438_v2.png"
+    "path": "styles/new/доспехи_v2.png"
   },
   {
-    "word": "\u0434\u043e\u0447\u044c",
+    "word": "дочь",
     "version": "latest",
-    "path": "styles/new/\u0434\u043e\u0447\u044c_latest.png",
-    "url": "styles/new/\u0434\u043e\u0447\u044c_latest.png"
+    "path": "styles/new/дочь_latest.png"
   },
   {
-    "word": "\u0434\u043e\u0447\u044c",
+    "word": "дочь",
     "version": "v1",
-    "path": "styles/new/\u0434\u043e\u0447\u044c_v1.png",
-    "url": "styles/new/\u0434\u043e\u0447\u044c_v1.png"
+    "path": "styles/new/дочь_v1.png"
   },
   {
-    "word": "\u0434\u043e\u0447\u044c",
+    "word": "дочь",
     "version": "v2",
-    "path": "styles/new/\u0434\u043e\u0447\u044c_v2.png",
-    "url": "styles/new/\u0434\u043e\u0447\u044c_v2.png"
+    "path": "styles/new/дочь_v2.png"
   },
   {
-    "word": "\u0434\u044b\u043c",
+    "word": "дым",
     "version": "latest",
-    "path": "styles/new/\u0434\u044b\u043c_latest.png",
-    "url": "styles/new/\u0434\u044b\u043c_latest.png"
+    "path": "styles/new/дым_latest.png"
   },
   {
-    "word": "\u0434\u044b\u043c",
+    "word": "дым",
     "version": "v1",
-    "path": "styles/new/\u0434\u044b\u043c_v1.png",
-    "url": "styles/new/\u0434\u044b\u043c_v1.png"
+    "path": "styles/new/дым_v1.png"
   },
   {
-    "word": "\u0434\u044b\u043c",
+    "word": "дым",
     "version": "v2",
-    "path": "styles/new/\u0434\u044b\u043c_v2.png",
-    "url": "styles/new/\u0434\u044b\u043c_v2.png"
+    "path": "styles/new/дым_v2.png"
   },
   {
-    "word": "\u0436\u0443\u043a",
+    "word": "жук",
     "version": "latest",
-    "path": "styles/new/\u0436\u0443\u043a_latest.png",
-    "url": "styles/new/\u0436\u0443\u043a_latest.png"
+    "path": "styles/new/жук_latest.png"
   },
   {
-    "word": "\u0436\u0443\u043a",
+    "word": "жук",
     "version": "v1",
-    "path": "styles/new/\u0436\u0443\u043a_v1.png",
-    "url": "styles/new/\u0436\u0443\u043a_v1.png"
+    "path": "styles/new/жук_v1.png"
   },
   {
-    "word": "\u0436\u0443\u043a",
+    "word": "жук",
     "version": "v2",
-    "path": "styles/new/\u0436\u0443\u043a_v2.png",
-    "url": "styles/new/\u0436\u0443\u043a_v2.png"
+    "path": "styles/new/жук_v2.png"
   },
   {
-    "word": "\u0437\u0435\u043d\u0438\u0442",
+    "word": "зенит",
     "version": "latest",
-    "path": "styles/new/\u0437\u0435\u043d\u0438\u0442_latest.png",
-    "url": "styles/new/\u0437\u0435\u043d\u0438\u0442_latest.png"
+    "path": "styles/new/зенит_latest.png"
   },
   {
-    "word": "\u0437\u0435\u043d\u0438\u0442",
+    "word": "зенит",
     "version": "v1",
-    "path": "styles/new/\u0437\u0435\u043d\u0438\u0442_v1.png",
-    "url": "styles/new/\u0437\u0435\u043d\u0438\u0442_v1.png"
+    "path": "styles/new/зенит_v1.png"
   },
   {
-    "word": "\u0437\u0435\u043d\u0438\u0442",
+    "word": "зенит",
     "version": "v2",
-    "path": "styles/new/\u0437\u0435\u043d\u0438\u0442_v2.png",
-    "url": "styles/new/\u0437\u0435\u043d\u0438\u0442_v2.png"
+    "path": "styles/new/зенит_v2.png"
   },
   {
-    "word": "\u0437\u043c\u0435\u044f",
+    "word": "змея",
     "version": "latest",
-    "path": "styles/new/\u0437\u043c\u0435\u044f_latest.png",
-    "url": "styles/new/\u0437\u043c\u0435\u044f_latest.png"
+    "path": "styles/new/змея_latest.png"
   },
   {
-    "word": "\u0437\u043c\u0435\u044f",
+    "word": "змея",
     "version": "v1",
-    "path": "styles/new/\u0437\u043c\u0435\u044f_v1.png",
-    "url": "styles/new/\u0437\u043c\u0435\u044f_v1.png"
+    "path": "styles/new/змея_v1.png"
   },
   {
-    "word": "\u0437\u043c\u0435\u044f",
+    "word": "змея",
     "version": "v2",
-    "path": "styles/new/\u0437\u043c\u0435\u044f_v2.png",
-    "url": "styles/new/\u0437\u043c\u0435\u044f_v2.png"
+    "path": "styles/new/змея_v2.png"
   },
   {
-    "word": "\u0437\u043e\u043d\u0442\u0438\u043a",
+    "word": "зонтик",
     "version": "latest",
-    "path": "styles/new/\u0437\u043e\u043d\u0442\u0438\u043a_latest.png",
-    "url": "styles/new/\u0437\u043e\u043d\u0442\u0438\u043a_latest.png"
+    "path": "styles/new/зонтик_latest.png"
   },
   {
-    "word": "\u0437\u043e\u043d\u0442\u0438\u043a",
+    "word": "зонтик",
     "version": "v1",
-    "path": "styles/new/\u0437\u043e\u043d\u0442\u0438\u043a_v1.png",
-    "url": "styles/new/\u0437\u043e\u043d\u0442\u0438\u043a_v1.png"
+    "path": "styles/new/зонтик_v1.png"
   },
   {
-    "word": "\u0437\u043e\u043d\u0442\u0438\u043a",
+    "word": "зонтик",
     "version": "v2",
-    "path": "styles/new/\u0437\u043e\u043d\u0442\u0438\u043a_v2.png",
-    "url": "styles/new/\u0437\u043e\u043d\u0442\u0438\u043a_v2.png"
+    "path": "styles/new/зонтик_v2.png"
   },
   {
-    "word": "\u0437\u0443\u0431",
+    "word": "зуб",
     "version": "latest",
-    "path": "styles/new/\u0437\u0443\u0431_latest.png",
-    "url": "styles/new/\u0437\u0443\u0431_latest.png"
+    "path": "styles/new/зуб_latest.png"
   },
   {
-    "word": "\u0437\u0443\u0431",
+    "word": "зуб",
     "version": "v1",
-    "path": "styles/new/\u0437\u0443\u0431_v1.png",
-    "url": "styles/new/\u0437\u0443\u0431_v1.png"
+    "path": "styles/new/зуб_v1.png"
   },
   {
-    "word": "\u0437\u0443\u0431",
+    "word": "зуб",
     "version": "v2",
-    "path": "styles/new/\u0437\u0443\u0431_v2.png",
-    "url": "styles/new/\u0437\u0443\u0431_v2.png"
+    "path": "styles/new/зуб_v2.png"
   },
   {
-    "word": "\u043a\u0430\u0440\u0430\u043d\u0434\u0430\u0448",
+    "word": "карандаш",
     "version": "latest",
-    "path": "styles/new/\u043a\u0430\u0440\u0430\u043d\u0434\u0430\u0448_latest.png",
-    "url": "styles/new/\u043a\u0430\u0440\u0430\u043d\u0434\u0430\u0448_latest.png"
+    "path": "styles/new/карандаш_latest.png"
   },
   {
-    "word": "\u043a\u0430\u0440\u0430\u043d\u0434\u0430\u0448",
+    "word": "карандаш",
     "version": "v1",
-    "path": "styles/new/\u043a\u0430\u0440\u0430\u043d\u0434\u0430\u0448_v1.png",
-    "url": "styles/new/\u043a\u0430\u0440\u0430\u043d\u0434\u0430\u0448_v1.png"
+    "path": "styles/new/карандаш_v1.png"
   },
   {
-    "word": "\u043a\u0430\u0440\u0430\u043d\u0434\u0430\u0448",
+    "word": "карандаш",
     "version": "v2",
-    "path": "styles/new/\u043a\u0430\u0440\u0430\u043d\u0434\u0430\u0448_v2.png",
-    "url": "styles/new/\u043a\u0430\u0440\u0430\u043d\u0434\u0430\u0448_v2.png"
+    "path": "styles/new/карандаш_v2.png"
   },
   {
-    "word": "\u043a\u0430\u0440\u043c\u0430\u043d",
+    "word": "карман",
     "version": "latest",
-    "path": "styles/new/\u043a\u0430\u0440\u043c\u0430\u043d_latest.png",
-    "url": "styles/new/\u043a\u0430\u0440\u043c\u0430\u043d_latest.png"
+    "path": "styles/new/карман_latest.png"
   },
   {
-    "word": "\u043a\u0430\u0440\u043c\u0430\u043d",
+    "word": "карман",
     "version": "v1",
-    "path": "styles/new/\u043a\u0430\u0440\u043c\u0430\u043d_v1.png",
-    "url": "styles/new/\u043a\u0430\u0440\u043c\u0430\u043d_v1.png"
+    "path": "styles/new/карман_v1.png"
   },
   {
-    "word": "\u043a\u0430\u0440\u043c\u0430\u043d",
+    "word": "карман",
     "version": "v2",
-    "path": "styles/new/\u043a\u0430\u0440\u043c\u0430\u043d_v2.png",
-    "url": "styles/new/\u043a\u0430\u0440\u043c\u0430\u043d_v2.png"
+    "path": "styles/new/карман_v2.png"
   },
   {
-    "word": "\u043a\u0430\u0440\u043c\u0430\u043d",
+    "word": "карман",
     "version": "v3",
-    "path": "styles/new/\u043a\u0430\u0440\u043c\u0430\u043d_v3.png",
-    "url": "styles/new/\u043a\u0430\u0440\u043c\u0430\u043d_v3.png"
+    "path": "styles/new/карман_v3.png"
   },
   {
-    "word": "\u043a\u0430\u0440\u0442\u043e\u0448\u043a\u0430",
+    "word": "картошка",
     "version": "latest",
-    "path": "styles/new/\u043a\u0430\u0440\u0442\u043e\u0448\u043a\u0430_latest.png",
-    "url": "styles/new/\u043a\u0430\u0440\u0442\u043e\u0448\u043a\u0430_latest.png"
+    "path": "styles/new/картошка_latest.png"
   },
   {
-    "word": "\u043a\u0430\u0440\u0442\u043e\u0448\u043a\u0430",
+    "word": "картошка",
     "version": "v1",
-    "path": "styles/new/\u043a\u0430\u0440\u0442\u043e\u0448\u043a\u0430_v1.png",
-    "url": "styles/new/\u043a\u0430\u0440\u0442\u043e\u0448\u043a\u0430_v1.png"
+    "path": "styles/new/картошка_v1.png"
   },
   {
-    "word": "\u043a\u0430\u0440\u0442\u043e\u0448\u043a\u0430",
+    "word": "картошка",
     "version": "v2",
-    "path": "styles/new/\u043a\u0430\u0440\u0442\u043e\u0448\u043a\u0430_v2.png",
-    "url": "styles/new/\u043a\u0430\u0440\u0442\u043e\u0448\u043a\u0430_v2.png"
+    "path": "styles/new/картошка_v2.png"
   },
   {
-    "word": "\u043a\u0430\u0440\u0442\u043e\u0448\u043a\u0430",
+    "word": "картошка",
     "version": "v3",
-    "path": "styles/new/\u043a\u0430\u0440\u0442\u043e\u0448\u043a\u0430_v3.png",
-    "url": "styles/new/\u043a\u0430\u0440\u0442\u043e\u0448\u043a\u0430_v3.png"
+    "path": "styles/new/картошка_v3.png"
   },
   {
-    "word": "\u043a\u0430\u0440\u0443\u0441\u0435\u043b\u044c",
+    "word": "карусель",
     "version": "latest",
-    "path": "styles/new/\u043a\u0430\u0440\u0443\u0441\u0435\u043b\u044c_latest.png",
-    "url": "styles/new/\u043a\u0430\u0440\u0443\u0441\u0435\u043b\u044c_latest.png"
+    "path": "styles/new/карусель_latest.png"
   },
   {
-    "word": "\u043a\u0430\u0440\u0443\u0441\u0435\u043b\u044c",
+    "word": "карусель",
     "version": "v1",
-    "path": "styles/new/\u043a\u0430\u0440\u0443\u0441\u0435\u043b\u044c_v1.png",
-    "url": "styles/new/\u043a\u0430\u0440\u0443\u0441\u0435\u043b\u044c_v1.png"
+    "path": "styles/new/карусель_v1.png"
   },
   {
-    "word": "\u043a\u0430\u0440\u0443\u0441\u0435\u043b\u044c",
+    "word": "карусель",
     "version": "v2",
-    "path": "styles/new/\u043a\u0430\u0440\u0443\u0441\u0435\u043b\u044c_v2.png",
-    "url": "styles/new/\u043a\u0430\u0440\u0443\u0441\u0435\u043b\u044c_v2.png"
+    "path": "styles/new/карусель_v2.png"
   },
   {
-    "word": "\u043a\u0438\u0442",
+    "word": "кит",
     "version": "latest",
-    "path": "styles/new/\u043a\u0438\u0442_latest.png",
-    "url": "styles/new/\u043a\u0438\u0442_latest.png"
+    "path": "styles/new/кит_latest.png"
   },
   {
-    "word": "\u043a\u0438\u0442",
+    "word": "кит",
     "version": "v1",
-    "path": "styles/new/\u043a\u0438\u0442_v1.png",
-    "url": "styles/new/\u043a\u0438\u0442_v1.png"
+    "path": "styles/new/кит_v1.png"
   },
   {
-    "word": "\u043a\u0438\u0442",
+    "word": "кит",
     "version": "v2",
-    "path": "styles/new/\u043a\u0438\u0442_v2.png",
-    "url": "styles/new/\u043a\u0438\u0442_v2.png"
+    "path": "styles/new/кит_v2.png"
   },
   {
-    "word": "\u043a\u043b\u0438\u043f",
+    "word": "клип",
     "version": "latest",
-    "path": "styles/new/\u043a\u043b\u0438\u043f_latest.png",
-    "url": "styles/new/\u043a\u043b\u0438\u043f_latest.png"
+    "path": "styles/new/клип_latest.png"
   },
   {
-    "word": "\u043a\u043b\u0438\u043f",
+    "word": "клип",
     "version": "v1",
-    "path": "styles/new/\u043a\u043b\u0438\u043f_v1.png",
-    "url": "styles/new/\u043a\u043b\u0438\u043f_v1.png"
+    "path": "styles/new/клип_v1.png"
   },
   {
-    "word": "\u043a\u043b\u0438\u043f",
+    "word": "клип",
     "version": "v2",
-    "path": "styles/new/\u043a\u043b\u0438\u043f_v2.png",
-    "url": "styles/new/\u043a\u043b\u0438\u043f_v2.png"
+    "path": "styles/new/клип_v2.png"
   },
   {
-    "word": "\u043a\u043b\u0438\u043f",
+    "word": "клип",
     "version": "v3",
-    "path": "styles/new/\u043a\u043b\u0438\u043f_v3.png",
-    "url": "styles/new/\u043a\u043b\u0438\u043f_v3.png"
+    "path": "styles/new/клип_v3.png"
   },
   {
-    "word": "\u043a\u043b\u044e\u0447",
+    "word": "ключ",
     "version": "latest",
-    "path": "styles/new/\u043a\u043b\u044e\u0447_latest.png",
-    "url": "styles/new/\u043a\u043b\u044e\u0447_latest.png"
+    "path": "styles/new/ключ_latest.png"
   },
   {
-    "word": "\u043a\u043b\u044e\u0447",
+    "word": "ключ",
     "version": "v1",
-    "path": "styles/new/\u043a\u043b\u044e\u0447_v1.png",
-    "url": "styles/new/\u043a\u043b\u044e\u0447_v1.png"
+    "path": "styles/new/ключ_v1.png"
   },
   {
-    "word": "\u043a\u043b\u044e\u0447",
+    "word": "ключ",
     "version": "v2",
-    "path": "styles/new/\u043a\u043b\u044e\u0447_v2.png",
-    "url": "styles/new/\u043a\u043b\u044e\u0447_v2.png"
+    "path": "styles/new/ключ_v2.png"
   },
   {
-    "word": "\u043a\u043d\u0438\u0433\u0430",
+    "word": "книга",
     "version": "latest",
-    "path": "styles/new/\u043a\u043d\u0438\u0433\u0430_latest.png",
-    "url": "styles/new/\u043a\u043d\u0438\u0433\u0430_latest.png"
+    "path": "styles/new/книга_latest.png"
   },
   {
-    "word": "\u043a\u043d\u0438\u0433\u0430",
+    "word": "книга",
     "version": "v1",
-    "path": "styles/new/\u043a\u043d\u0438\u0433\u0430_v1.png",
-    "url": "styles/new/\u043a\u043d\u0438\u0433\u0430_v1.png"
+    "path": "styles/new/книга_v1.png"
   },
   {
-    "word": "\u043a\u043d\u0438\u0433\u0430",
+    "word": "книга",
     "version": "v2",
-    "path": "styles/new/\u043a\u043d\u0438\u0433\u0430_v2.png",
-    "url": "styles/new/\u043a\u043d\u0438\u0433\u0430_v2.png"
+    "path": "styles/new/книга_v2.png"
   },
   {
-    "word": "\u043a\u043d\u0438\u0433\u0430",
+    "word": "книга",
     "version": "v3",
-    "path": "styles/new/\u043a\u043d\u0438\u0433\u0430_v3.png",
-    "url": "styles/new/\u043a\u043d\u0438\u0433\u0430_v3.png"
+    "path": "styles/new/книга_v3.png"
   },
   {
-    "word": "\u043a\u043d\u0438\u0436\u043a\u0430",
+    "word": "книжка",
     "version": "latest",
-    "path": "styles/new/\u043a\u043d\u0438\u0436\u043a\u0430_latest.png",
-    "url": "styles/new/\u043a\u043d\u0438\u0436\u043a\u0430_latest.png"
+    "path": "styles/new/книжка_latest.png"
   },
   {
-    "word": "\u043a\u043d\u0438\u0436\u043a\u0430",
+    "word": "книжка",
     "version": "v1",
-    "path": "styles/new/\u043a\u043d\u0438\u0436\u043a\u0430_v1.png",
-    "url": "styles/new/\u043a\u043d\u0438\u0436\u043a\u0430_v1.png"
+    "path": "styles/new/книжка_v1.png"
   },
   {
-    "word": "\u043a\u043d\u0438\u0436\u043a\u0430",
+    "word": "книжка",
     "version": "v2",
-    "path": "styles/new/\u043a\u043d\u0438\u0436\u043a\u0430_v2.png",
-    "url": "styles/new/\u043a\u043d\u0438\u0436\u043a\u0430_v2.png"
+    "path": "styles/new/книжка_v2.png"
   },
   {
-    "word": "\u043a\u043d\u0438\u0436\u043a\u0430",
+    "word": "книжка",
     "version": "v3",
-    "path": "styles/new/\u043a\u043d\u0438\u0436\u043a\u0430_v3.png",
-    "url": "styles/new/\u043a\u043d\u0438\u0436\u043a\u0430_v3.png"
+    "path": "styles/new/книжка_v3.png"
   },
   {
-    "word": "\u043a\u043e\u043c",
+    "word": "ком",
     "version": "latest",
-    "path": "styles/new/\u043a\u043e\u043c_latest.png",
-    "url": "styles/new/\u043a\u043e\u043c_latest.png"
+    "path": "styles/new/ком_latest.png"
   },
   {
-    "word": "\u043a\u043e\u043c",
+    "word": "ком",
     "version": "v1",
-    "path": "styles/new/\u043a\u043e\u043c_v1.png",
-    "url": "styles/new/\u043a\u043e\u043c_v1.png"
+    "path": "styles/new/ком_v1.png"
   },
   {
-    "word": "\u043a\u043e\u043c",
+    "word": "ком",
     "version": "v2",
-    "path": "styles/new/\u043a\u043e\u043c_v2.png",
-    "url": "styles/new/\u043a\u043e\u043c_v2.png"
+    "path": "styles/new/ком_v2.png"
   },
   {
-    "word": "\u043a\u043e\u043c",
+    "word": "ком",
     "version": "v3",
-    "path": "styles/new/\u043a\u043e\u043c_v3.png",
-    "url": "styles/new/\u043a\u043e\u043c_v3.png"
+    "path": "styles/new/ком_v3.png"
   },
   {
-    "word": "\u043a\u043e\u043d\u0438",
+    "word": "кони",
     "version": "latest",
-    "path": "styles/new/\u043a\u043e\u043d\u0438_latest.png",
-    "url": "styles/new/\u043a\u043e\u043d\u0438_latest.png"
+    "path": "styles/new/кони_latest.png"
   },
   {
-    "word": "\u043a\u043e\u043d\u0438",
+    "word": "кони",
     "version": "v1",
-    "path": "styles/new/\u043a\u043e\u043d\u0438_v1.png",
-    "url": "styles/new/\u043a\u043e\u043d\u0438_v1.png"
+    "path": "styles/new/кони_v1.png"
   },
   {
-    "word": "\u043a\u043e\u043d\u0438",
+    "word": "кони",
     "version": "v2",
-    "path": "styles/new/\u043a\u043e\u043d\u0438_v2.png",
-    "url": "styles/new/\u043a\u043e\u043d\u0438_v2.png"
+    "path": "styles/new/кони_v2.png"
   },
   {
-    "word": "\u043a\u043e\u043d\u0444\u0435\u0442\u044b",
+    "word": "конфеты",
     "version": "latest",
-    "path": "styles/new/\u043a\u043e\u043d\u0444\u0435\u0442\u044b_latest.png",
-    "url": "styles/new/\u043a\u043e\u043d\u0444\u0435\u0442\u044b_latest.png"
+    "path": "styles/new/конфеты_latest.png"
   },
   {
-    "word": "\u043a\u043e\u043d\u0444\u0435\u0442\u044b",
+    "word": "конфеты",
     "version": "v1",
-    "path": "styles/new/\u043a\u043e\u043d\u0444\u0435\u0442\u044b_v1.png",
-    "url": "styles/new/\u043a\u043e\u043d\u0444\u0435\u0442\u044b_v1.png"
+    "path": "styles/new/конфеты_v1.png"
   },
   {
-    "word": "\u043a\u043e\u043d\u0444\u0435\u0442\u044b",
+    "word": "конфеты",
     "version": "v2",
-    "path": "styles/new/\u043a\u043e\u043d\u0444\u0435\u0442\u044b_v2.png",
-    "url": "styles/new/\u043a\u043e\u043d\u0444\u0435\u0442\u044b_v2.png"
+    "path": "styles/new/конфеты_v2.png"
   },
   {
-    "word": "\u043a\u043e\u043d\u044c\u043a\u0438",
+    "word": "коньки",
     "version": "latest",
-    "path": "styles/new/\u043a\u043e\u043d\u044c\u043a\u0438_latest.png",
-    "url": "styles/new/\u043a\u043e\u043d\u044c\u043a\u0438_latest.png"
+    "path": "styles/new/коньки_latest.png"
   },
   {
-    "word": "\u043a\u043e\u043d\u044c\u043a\u0438",
+    "word": "коньки",
     "version": "v1",
-    "path": "styles/new/\u043a\u043e\u043d\u044c\u043a\u0438_v1.png",
-    "url": "styles/new/\u043a\u043e\u043d\u044c\u043a\u0438_v1.png"
+    "path": "styles/new/коньки_v1.png"
   },
   {
-    "word": "\u043a\u043e\u043d\u044c\u043a\u0438",
+    "word": "коньки",
     "version": "v2",
-    "path": "styles/new/\u043a\u043e\u043d\u044c\u043a\u0438_v2.png",
-    "url": "styles/new/\u043a\u043e\u043d\u044c\u043a\u0438_v2.png"
+    "path": "styles/new/коньки_v2.png"
   },
   {
-    "word": "\u043a\u043e\u0440\u043e\u0431\u043a\u0430",
+    "word": "коробка",
     "version": "latest",
-    "path": "styles/new/\u043a\u043e\u0440\u043e\u0431\u043a\u0430_latest.png",
-    "url": "styles/new/\u043a\u043e\u0440\u043e\u0431\u043a\u0430_latest.png"
+    "path": "styles/new/коробка_latest.png"
   },
   {
-    "word": "\u043a\u043e\u0440\u043e\u0431\u043a\u0430",
+    "word": "коробка",
     "version": "v1",
-    "path": "styles/new/\u043a\u043e\u0440\u043e\u0431\u043a\u0430_v1.png",
-    "url": "styles/new/\u043a\u043e\u0440\u043e\u0431\u043a\u0430_v1.png"
+    "path": "styles/new/коробка_v1.png"
   },
   {
-    "word": "\u043a\u043e\u0440\u043e\u0431\u043a\u0430",
+    "word": "коробка",
     "version": "v2",
-    "path": "styles/new/\u043a\u043e\u0440\u043e\u0431\u043a\u0430_v2.png",
-    "url": "styles/new/\u043a\u043e\u0440\u043e\u0431\u043a\u0430_v2.png"
+    "path": "styles/new/коробка_v2.png"
   },
   {
-    "word": "\u043a\u043e\u0440\u043e\u0431\u043e\u043a",
+    "word": "коробок",
     "version": "latest",
-    "path": "styles/new/\u043a\u043e\u0440\u043e\u0431\u043e\u043a_latest.png",
-    "url": "styles/new/\u043a\u043e\u0440\u043e\u0431\u043e\u043a_latest.png"
+    "path": "styles/new/коробок_latest.png"
   },
   {
-    "word": "\u043a\u043e\u0440\u043e\u0431\u043e\u043a",
+    "word": "коробок",
     "version": "v1",
-    "path": "styles/new/\u043a\u043e\u0440\u043e\u0431\u043e\u043a_v1.png",
-    "url": "styles/new/\u043a\u043e\u0440\u043e\u0431\u043e\u043a_v1.png"
+    "path": "styles/new/коробок_v1.png"
   },
   {
-    "word": "\u043a\u043e\u0440\u043e\u0431\u043e\u043a",
+    "word": "коробок",
     "version": "v2",
-    "path": "styles/new/\u043a\u043e\u0440\u043e\u0431\u043e\u043a_v2.png",
-    "url": "styles/new/\u043a\u043e\u0440\u043e\u0431\u043e\u043a_v2.png"
+    "path": "styles/new/коробок_v2.png"
   },
   {
-    "word": "\u043a\u043e\u0440\u043e\u0431\u043e\u043a",
+    "word": "коробок",
     "version": "v3",
-    "path": "styles/new/\u043a\u043e\u0440\u043e\u0431\u043e\u043a_v3.png",
-    "url": "styles/new/\u043a\u043e\u0440\u043e\u0431\u043e\u043a_v3.png"
+    "path": "styles/new/коробок_v3.png"
   },
   {
-    "word": "\u043a\u043e\u0440\u043e\u0447\u043a\u0430",
+    "word": "корочка",
     "version": "latest",
-    "path": "styles/new/\u043a\u043e\u0440\u043e\u0447\u043a\u0430_latest.png",
-    "url": "styles/new/\u043a\u043e\u0440\u043e\u0447\u043a\u0430_latest.png"
+    "path": "styles/new/корочка_latest.png"
   },
   {
-    "word": "\u043a\u043e\u0440\u043e\u0447\u043a\u0430",
+    "word": "корочка",
     "version": "v1",
-    "path": "styles/new/\u043a\u043e\u0440\u043e\u0447\u043a\u0430_v1.png",
-    "url": "styles/new/\u043a\u043e\u0440\u043e\u0447\u043a\u0430_v1.png"
+    "path": "styles/new/корочка_v1.png"
   },
   {
-    "word": "\u043a\u043e\u0440\u043e\u0447\u043a\u0430",
+    "word": "корочка",
     "version": "v2",
-    "path": "styles/new/\u043a\u043e\u0440\u043e\u0447\u043a\u0430_v2.png",
-    "url": "styles/new/\u043a\u043e\u0440\u043e\u0447\u043a\u0430_v2.png"
+    "path": "styles/new/корочка_v2.png"
   },
   {
-    "word": "\u043a\u043e\u0441\u0430",
+    "word": "коса",
     "version": "latest",
-    "path": "styles/new/\u043a\u043e\u0441\u0430_latest.png",
-    "url": "styles/new/\u043a\u043e\u0441\u0430_latest.png"
+    "path": "styles/new/коса_latest.png"
   },
   {
-    "word": "\u043a\u043e\u0441\u0430",
+    "word": "коса",
     "version": "v1",
-    "path": "styles/new/\u043a\u043e\u0441\u0430_v1.png",
-    "url": "styles/new/\u043a\u043e\u0441\u0430_v1.png"
+    "path": "styles/new/коса_v1.png"
   },
   {
-    "word": "\u043a\u043e\u0441\u0430",
+    "word": "коса",
     "version": "v2",
-    "path": "styles/new/\u043a\u043e\u0441\u0430_v2.png",
-    "url": "styles/new/\u043a\u043e\u0441\u0430_v2.png"
+    "path": "styles/new/коса_v2.png"
   },
   {
-    "word": "\u043a\u043e\u0442",
+    "word": "кот",
     "version": "latest",
-    "path": "styles/new/\u043a\u043e\u0442_latest.png",
-    "url": "styles/new/\u043a\u043e\u0442_latest.png"
+    "path": "styles/new/кот_latest.png"
   },
   {
-    "word": "\u043a\u043e\u0442",
+    "word": "кот",
     "version": "v1",
-    "path": "styles/new/\u043a\u043e\u0442_v1.png",
-    "url": "styles/new/\u043a\u043e\u0442_v1.png"
+    "path": "styles/new/кот_v1.png"
   },
   {
-    "word": "\u043a\u043e\u0442",
+    "word": "кот",
     "version": "v2",
-    "path": "styles/new/\u043a\u043e\u0442_v2.png",
-    "url": "styles/new/\u043a\u043e\u0442_v2.png"
+    "path": "styles/new/кот_v2.png"
   },
   {
-    "word": "\u043a\u043e\u0448\u043a\u0430",
+    "word": "кошка",
     "version": "latest",
-    "path": "styles/new/\u043a\u043e\u0448\u043a\u0430_latest.png",
-    "url": "styles/new/\u043a\u043e\u0448\u043a\u0430_latest.png"
+    "path": "styles/new/кошка_latest.png"
   },
   {
-    "word": "\u043a\u043e\u0448\u043a\u0430",
+    "word": "кошка",
     "version": "v1",
-    "path": "styles/new/\u043a\u043e\u0448\u043a\u0430_v1.png",
-    "url": "styles/new/\u043a\u043e\u0448\u043a\u0430_v1.png"
+    "path": "styles/new/кошка_v1.png"
   },
   {
-    "word": "\u043a\u043e\u0448\u043a\u0430",
+    "word": "кошка",
     "version": "v2",
-    "path": "styles/new/\u043a\u043e\u0448\u043a\u0430_v2.png",
-    "url": "styles/new/\u043a\u043e\u0448\u043a\u0430_v2.png"
+    "path": "styles/new/кошка_v2.png"
   },
   {
-    "word": "\u043a\u0440\u0430\u0431",
+    "word": "краб",
     "version": "latest",
-    "path": "styles/new/\u043a\u0440\u0430\u0431_latest.png",
-    "url": "styles/new/\u043a\u0440\u0430\u0431_latest.png"
+    "path": "styles/new/краб_latest.png"
   },
   {
-    "word": "\u043a\u0440\u0430\u0431",
+    "word": "краб",
     "version": "v1",
-    "path": "styles/new/\u043a\u0440\u0430\u0431_v1.png",
-    "url": "styles/new/\u043a\u0440\u0430\u0431_v1.png"
+    "path": "styles/new/краб_v1.png"
   },
   {
-    "word": "\u043a\u0440\u0430\u0431",
+    "word": "краб",
     "version": "v2",
-    "path": "styles/new/\u043a\u0440\u0430\u0431_v2.png",
-    "url": "styles/new/\u043a\u0440\u0430\u0431_v2.png"
+    "path": "styles/new/краб_v2.png"
   },
   {
-    "word": "\u043a\u0440\u043e\u0448\u043a\u0430",
+    "word": "крошка",
     "version": "latest",
-    "path": "styles/new/\u043a\u0440\u043e\u0448\u043a\u0430_latest.png",
-    "url": "styles/new/\u043a\u0440\u043e\u0448\u043a\u0430_latest.png"
+    "path": "styles/new/крошка_latest.png"
   },
   {
-    "word": "\u043a\u0440\u043e\u0448\u043a\u0430",
+    "word": "крошка",
     "version": "v1",
-    "path": "styles/new/\u043a\u0440\u043e\u0448\u043a\u0430_v1.png",
-    "url": "styles/new/\u043a\u0440\u043e\u0448\u043a\u0430_v1.png"
+    "path": "styles/new/крошка_v1.png"
   },
   {
-    "word": "\u043a\u0440\u043e\u0448\u043a\u0430",
+    "word": "крошка",
     "version": "v2",
-    "path": "styles/new/\u043a\u0440\u043e\u0448\u043a\u0430_v2.png",
-    "url": "styles/new/\u043a\u0440\u043e\u0448\u043a\u0430_v2.png"
+    "path": "styles/new/крошка_v2.png"
   },
   {
-    "word": "\u043a\u0440\u0443\u043f\u0430",
+    "word": "крупа",
     "version": "latest",
-    "path": "styles/new/\u043a\u0440\u0443\u043f\u0430_latest.png",
-    "url": "styles/new/\u043a\u0440\u0443\u043f\u0430_latest.png"
+    "path": "styles/new/крупа_latest.png"
   },
   {
-    "word": "\u043a\u0440\u0443\u043f\u0430",
+    "word": "крупа",
     "version": "v1",
-    "path": "styles/new/\u043a\u0440\u0443\u043f\u0430_v1.png",
-    "url": "styles/new/\u043a\u0440\u0443\u043f\u0430_v1.png"
+    "path": "styles/new/крупа_v1.png"
   },
   {
-    "word": "\u043a\u0440\u0443\u043f\u0430",
+    "word": "крупа",
     "version": "v2",
-    "path": "styles/new/\u043a\u0440\u0443\u043f\u0430_v2.png",
-    "url": "styles/new/\u043a\u0440\u0443\u043f\u0430_v2.png"
+    "path": "styles/new/крупа_v2.png"
   },
   {
-    "word": "\u043b\u0430\u043a",
+    "word": "лак",
     "version": "latest",
-    "path": "styles/new/\u043b\u0430\u043a_latest.png",
-    "url": "styles/new/\u043b\u0430\u043a_latest.png"
+    "path": "styles/new/лак_latest.png"
   },
   {
-    "word": "\u043b\u0430\u043a",
+    "word": "лак",
     "version": "v1",
-    "path": "styles/new/\u043b\u0430\u043a_v1.png",
-    "url": "styles/new/\u043b\u0430\u043a_v1.png"
+    "path": "styles/new/лак_v1.png"
   },
   {
-    "word": "\u043b\u0430\u043a",
+    "word": "лак",
     "version": "v2",
-    "path": "styles/new/\u043b\u0430\u043a_v2.png",
-    "url": "styles/new/\u043b\u0430\u043a_v2.png"
+    "path": "styles/new/лак_v2.png"
   },
   {
-    "word": "\u043b\u0430\u043c\u0430",
+    "word": "лама",
     "version": "latest",
-    "path": "styles/new/\u043b\u0430\u043c\u0430_latest.png",
-    "url": "styles/new/\u043b\u0430\u043c\u0430_latest.png"
+    "path": "styles/new/лама_latest.png"
   },
   {
-    "word": "\u043b\u0430\u043c\u0430",
+    "word": "лама",
     "version": "v1",
-    "path": "styles/new/\u043b\u0430\u043c\u0430_v1.png",
-    "url": "styles/new/\u043b\u0430\u043c\u0430_v1.png"
+    "path": "styles/new/лама_v1.png"
   },
   {
-    "word": "\u043b\u0430\u043c\u0430",
+    "word": "лама",
     "version": "v2",
-    "path": "styles/new/\u043b\u0430\u043c\u0430_v2.png",
-    "url": "styles/new/\u043b\u0430\u043c\u0430_v2.png"
+    "path": "styles/new/лама_v2.png"
   },
   {
-    "word": "\u043b\u0430\u043c\u043f\u0430",
+    "word": "лампа",
     "version": "latest",
-    "path": "styles/new/\u043b\u0430\u043c\u043f\u0430_latest.png",
-    "url": "styles/new/\u043b\u0430\u043c\u043f\u0430_latest.png"
+    "path": "styles/new/лампа_latest.png"
   },
   {
-    "word": "\u043b\u0430\u043c\u043f\u0430",
+    "word": "лампа",
     "version": "v1",
-    "path": "styles/new/\u043b\u0430\u043c\u043f\u0430_v1.png",
-    "url": "styles/new/\u043b\u0430\u043c\u043f\u0430_v1.png"
+    "path": "styles/new/лампа_v1.png"
   },
   {
-    "word": "\u043b\u0430\u043c\u043f\u0430",
+    "word": "лампа",
     "version": "v2",
-    "path": "styles/new/\u043b\u0430\u043c\u043f\u0430_v2.png",
-    "url": "styles/new/\u043b\u0430\u043c\u043f\u0430_v2.png"
+    "path": "styles/new/лампа_v2.png"
   },
   {
-    "word": "\u043b\u0430\u043f\u0430",
+    "word": "лапа",
     "version": "latest",
-    "path": "styles/new/\u043b\u0430\u043f\u0430_latest.png",
-    "url": "styles/new/\u043b\u0430\u043f\u0430_latest.png"
+    "path": "styles/new/лапа_latest.png"
   },
   {
-    "word": "\u043b\u0430\u043f\u0430",
+    "word": "лапа",
     "version": "v1",
-    "path": "styles/new/\u043b\u0430\u043f\u0430_v1.png",
-    "url": "styles/new/\u043b\u0430\u043f\u0430_v1.png"
+    "path": "styles/new/лапа_v1.png"
   },
   {
-    "word": "\u043b\u0430\u043f\u0430",
+    "word": "лапа",
     "version": "v2",
-    "path": "styles/new/\u043b\u0430\u043f\u0430_v2.png",
-    "url": "styles/new/\u043b\u0430\u043f\u0430_v2.png"
+    "path": "styles/new/лапа_v2.png"
   },
   {
-    "word": "\u043b\u0435\u0432",
+    "word": "лев",
     "version": "latest",
-    "path": "styles/new/\u043b\u0435\u0432_latest.png",
-    "url": "styles/new/\u043b\u0435\u0432_latest.png"
+    "path": "styles/new/лев_latest.png"
   },
   {
-    "word": "\u043b\u0435\u0432",
+    "word": "лев",
     "version": "v1",
-    "path": "styles/new/\u043b\u0435\u0432_v1.png",
-    "url": "styles/new/\u043b\u0435\u0432_v1.png"
+    "path": "styles/new/лев_v1.png"
   },
   {
-    "word": "\u043b\u0435\u0432",
+    "word": "лев",
     "version": "v2",
-    "path": "styles/new/\u043b\u0435\u0432_v2.png",
-    "url": "styles/new/\u043b\u0435\u0432_v2.png"
+    "path": "styles/new/лев_v2.png"
   },
   {
-    "word": "\u043b\u0435\u0441",
+    "word": "лес",
     "version": "latest",
-    "path": "styles/new/\u043b\u0435\u0441_latest.png",
-    "url": "styles/new/\u043b\u0435\u0441_latest.png"
+    "path": "styles/new/лес_latest.png"
   },
   {
-    "word": "\u043b\u0435\u0441",
+    "word": "лес",
     "version": "v1",
-    "path": "styles/new/\u043b\u0435\u0441_v1.png",
-    "url": "styles/new/\u043b\u0435\u0441_v1.png"
+    "path": "styles/new/лес_v1.png"
   },
   {
-    "word": "\u043b\u0435\u0441",
+    "word": "лес",
     "version": "v2",
-    "path": "styles/new/\u043b\u0435\u0441_v2.png",
-    "url": "styles/new/\u043b\u0435\u0441_v2.png"
+    "path": "styles/new/лес_v2.png"
   },
   {
-    "word": "\u043b\u0435\u0442\u043e",
+    "word": "лето",
     "version": "latest",
-    "path": "styles/new/\u043b\u0435\u0442\u043e_latest.png",
-    "url": "styles/new/\u043b\u0435\u0442\u043e_latest.png"
+    "path": "styles/new/лето_latest.png"
   },
   {
-    "word": "\u043b\u0435\u0442\u043e",
+    "word": "лето",
     "version": "v1",
-    "path": "styles/new/\u043b\u0435\u0442\u043e_v1.png",
-    "url": "styles/new/\u043b\u0435\u0442\u043e_v1.png"
+    "path": "styles/new/лето_v1.png"
   },
   {
-    "word": "\u043b\u0435\u0442\u043e",
+    "word": "лето",
     "version": "v2",
-    "path": "styles/new/\u043b\u0435\u0442\u043e_v2.png",
-    "url": "styles/new/\u043b\u0435\u0442\u043e_v2.png"
+    "path": "styles/new/лето_v2.png"
   },
   {
-    "word": "\u043b\u0438\u0441",
+    "word": "лис",
     "version": "latest",
-    "path": "styles/new/\u043b\u0438\u0441_latest.png",
-    "url": "styles/new/\u043b\u0438\u0441_latest.png"
+    "path": "styles/new/лис_latest.png"
   },
   {
-    "word": "\u043b\u0438\u0441",
+    "word": "лис",
     "version": "v1",
-    "path": "styles/new/\u043b\u0438\u0441_v1.png",
-    "url": "styles/new/\u043b\u0438\u0441_v1.png"
+    "path": "styles/new/лис_v1.png"
   },
   {
-    "word": "\u043b\u0438\u0441",
+    "word": "лис",
     "version": "v2",
-    "path": "styles/new/\u043b\u0438\u0441_v2.png",
-    "url": "styles/new/\u043b\u0438\u0441_v2.png"
+    "path": "styles/new/лис_v2.png"
   },
   {
-    "word": "\u043b\u043e\u0434\u043a\u0430",
+    "word": "лодка",
     "version": "latest",
-    "path": "styles/new/\u043b\u043e\u0434\u043a\u0430_latest.png",
-    "url": "styles/new/\u043b\u043e\u0434\u043a\u0430_latest.png"
+    "path": "styles/new/лодка_latest.png"
   },
   {
-    "word": "\u043b\u043e\u0434\u043a\u0430",
+    "word": "лодка",
     "version": "v1",
-    "path": "styles/new/\u043b\u043e\u0434\u043a\u0430_v1.png",
-    "url": "styles/new/\u043b\u043e\u0434\u043a\u0430_v1.png"
+    "path": "styles/new/лодка_v1.png"
   },
   {
-    "word": "\u043b\u043e\u0434\u043a\u0430",
+    "word": "лодка",
     "version": "v2",
-    "path": "styles/new/\u043b\u043e\u0434\u043a\u0430_v2.png",
-    "url": "styles/new/\u043b\u043e\u0434\u043a\u0430_v2.png"
+    "path": "styles/new/лодка_v2.png"
   },
   {
-    "word": "\u043b\u043e\u0436\u043a\u0430",
+    "word": "ложка",
     "version": "latest",
-    "path": "styles/new/\u043b\u043e\u0436\u043a\u0430_latest.png",
-    "url": "styles/new/\u043b\u043e\u0436\u043a\u0430_latest.png"
+    "path": "styles/new/ложка_latest.png"
   },
   {
-    "word": "\u043b\u043e\u0436\u043a\u0430",
+    "word": "ложка",
     "version": "v1",
-    "path": "styles/new/\u043b\u043e\u0436\u043a\u0430_v1.png",
-    "url": "styles/new/\u043b\u043e\u0436\u043a\u0430_v1.png"
+    "path": "styles/new/ложка_v1.png"
   },
   {
-    "word": "\u043b\u043e\u0436\u043a\u0430",
+    "word": "ложка",
     "version": "v2",
-    "path": "styles/new/\u043b\u043e\u0436\u043a\u0430_v2.png",
-    "url": "styles/new/\u043b\u043e\u0436\u043a\u0430_v2.png"
+    "path": "styles/new/ложка_v2.png"
   },
   {
-    "word": "\u043b\u043e\u0442\u043e",
+    "word": "лото",
     "version": "latest",
-    "path": "styles/new/\u043b\u043e\u0442\u043e_latest.png",
-    "url": "styles/new/\u043b\u043e\u0442\u043e_latest.png"
+    "path": "styles/new/лото_latest.png"
   },
   {
-    "word": "\u043b\u043e\u0442\u043e",
+    "word": "лото",
     "version": "v1",
-    "path": "styles/new/\u043b\u043e\u0442\u043e_v1.png",
-    "url": "styles/new/\u043b\u043e\u0442\u043e_v1.png"
+    "path": "styles/new/лото_v1.png"
   },
   {
-    "word": "\u043b\u043e\u0442\u043e",
+    "word": "лото",
     "version": "v2",
-    "path": "styles/new/\u043b\u043e\u0442\u043e_v2.png",
-    "url": "styles/new/\u043b\u043e\u0442\u043e_v2.png"
+    "path": "styles/new/лото_v2.png"
   },
   {
-    "word": "\u043b\u043e\u0442\u043e",
+    "word": "лото",
     "version": "v3",
-    "path": "styles/new/\u043b\u043e\u0442\u043e_v3.png",
-    "url": "styles/new/\u043b\u043e\u0442\u043e_v3.png"
+    "path": "styles/new/лото_v3.png"
   },
   {
-    "word": "\u043b\u0443\u0436\u0430",
+    "word": "лужа",
     "version": "latest",
-    "path": "styles/new/\u043b\u0443\u0436\u0430_latest.png",
-    "url": "styles/new/\u043b\u0443\u0436\u0430_latest.png"
+    "path": "styles/new/лужа_latest.png"
   },
   {
-    "word": "\u043b\u0443\u0436\u0430",
+    "word": "лужа",
     "version": "v1",
-    "path": "styles/new/\u043b\u0443\u0436\u0430_v1.png",
-    "url": "styles/new/\u043b\u0443\u0436\u0430_v1.png"
+    "path": "styles/new/лужа_v1.png"
   },
   {
-    "word": "\u043b\u0443\u0436\u0430",
+    "word": "лужа",
     "version": "v2",
-    "path": "styles/new/\u043b\u0443\u0436\u0430_v2.png",
-    "url": "styles/new/\u043b\u0443\u0436\u0430_v2.png"
+    "path": "styles/new/лужа_v2.png"
   },
   {
-    "word": "\u043b\u0443\u0436\u0430",
+    "word": "лужа",
     "version": "v3",
-    "path": "styles/new/\u043b\u0443\u0436\u0430_v3.png",
-    "url": "styles/new/\u043b\u0443\u0436\u0430_v3.png"
+    "path": "styles/new/лужа_v3.png"
   },
   {
-    "word": "\u043b\u0443\u043a",
+    "word": "лук",
     "version": "latest",
-    "path": "styles/new/\u043b\u0443\u043a_latest.png",
-    "url": "styles/new/\u043b\u0443\u043a_latest.png"
+    "path": "styles/new/лук_latest.png"
   },
   {
-    "word": "\u043b\u0443\u043a",
+    "word": "лук",
     "version": "v1",
-    "path": "styles/new/\u043b\u0443\u043a_v1.png",
-    "url": "styles/new/\u043b\u0443\u043a_v1.png"
+    "path": "styles/new/лук_v1.png"
   },
   {
-    "word": "\u043b\u0443\u043a",
+    "word": "лук",
     "version": "v2",
-    "path": "styles/new/\u043b\u0443\u043a_v2.png",
-    "url": "styles/new/\u043b\u0443\u043a_v2.png"
+    "path": "styles/new/лук_v2.png"
   },
   {
-    "word": "\u043b\u0443\u043a",
+    "word": "лук",
     "version": "v3",
-    "path": "styles/new/\u043b\u0443\u043a_v3.png",
-    "url": "styles/new/\u043b\u0443\u043a_v3.png"
+    "path": "styles/new/лук_v3.png"
   },
   {
-    "word": "\u043b\u0443\u043a\u043e\u0432\u0438\u0446\u0430",
+    "word": "луковица",
     "version": "latest",
-    "path": "styles/new/\u043b\u0443\u043a\u043e\u0432\u0438\u0446\u0430_latest.png",
-    "url": "styles/new/\u043b\u0443\u043a\u043e\u0432\u0438\u0446\u0430_latest.png"
+    "path": "styles/new/луковица_latest.png"
   },
   {
-    "word": "\u043b\u0443\u043a\u043e\u0432\u0438\u0446\u0430",
+    "word": "луковица",
     "version": "v1",
-    "path": "styles/new/\u043b\u0443\u043a\u043e\u0432\u0438\u0446\u0430_v1.png",
-    "url": "styles/new/\u043b\u0443\u043a\u043e\u0432\u0438\u0446\u0430_v1.png"
+    "path": "styles/new/луковица_v1.png"
   },
   {
-    "word": "\u043b\u0443\u043a\u043e\u0432\u0438\u0446\u0430",
+    "word": "луковица",
     "version": "v2",
-    "path": "styles/new/\u043b\u0443\u043a\u043e\u0432\u0438\u0446\u0430_v2.png",
-    "url": "styles/new/\u043b\u0443\u043a\u043e\u0432\u0438\u0446\u0430_v2.png"
+    "path": "styles/new/луковица_v2.png"
   },
   {
-    "word": "\u043b\u0443\u043a\u043e\u0432\u0438\u0446\u0430",
+    "word": "луковица",
     "version": "v3",
-    "path": "styles/new/\u043b\u0443\u043a\u043e\u0432\u0438\u0446\u0430_v3.png",
-    "url": "styles/new/\u043b\u0443\u043a\u043e\u0432\u0438\u0446\u0430_v3.png"
+    "path": "styles/new/луковица_v3.png"
   },
   {
-    "word": "\u043b\u044e\u043b\u044c\u043a\u0430",
+    "word": "люлька",
     "version": "latest",
-    "path": "styles/new/\u043b\u044e\u043b\u044c\u043a\u0430_latest.png",
-    "url": "styles/new/\u043b\u044e\u043b\u044c\u043a\u0430_latest.png"
+    "path": "styles/new/люлька_latest.png"
   },
   {
-    "word": "\u043b\u044e\u043b\u044c\u043a\u0430",
+    "word": "люлька",
     "version": "v1",
-    "path": "styles/new/\u043b\u044e\u043b\u044c\u043a\u0430_v1.png",
-    "url": "styles/new/\u043b\u044e\u043b\u044c\u043a\u0430_v1.png"
+    "path": "styles/new/люлька_v1.png"
   },
   {
-    "word": "\u043b\u044e\u043b\u044c\u043a\u0430",
+    "word": "люлька",
     "version": "v2",
-    "path": "styles/new/\u043b\u044e\u043b\u044c\u043a\u0430_v2.png",
-    "url": "styles/new/\u043b\u044e\u043b\u044c\u043a\u0430_v2.png"
+    "path": "styles/new/люлька_v2.png"
   },
   {
-    "word": "\u043c\u0430\u043a",
+    "word": "мак",
     "version": "latest",
-    "path": "styles/new/\u043c\u0430\u043a_latest.png",
-    "url": "styles/new/\u043c\u0430\u043a_latest.png"
+    "path": "styles/new/мак_latest.png"
   },
   {
-    "word": "\u043c\u0430\u043a",
+    "word": "мак",
     "version": "v1",
-    "path": "styles/new/\u043c\u0430\u043a_v1.png",
-    "url": "styles/new/\u043c\u0430\u043a_v1.png"
+    "path": "styles/new/мак_v1.png"
   },
   {
-    "word": "\u043c\u0430\u043a",
+    "word": "мак",
     "version": "v2",
-    "path": "styles/new/\u043c\u0430\u043a_v2.png",
-    "url": "styles/new/\u043c\u0430\u043a_v2.png"
+    "path": "styles/new/мак_v2.png"
   },
   {
-    "word": "\u043c\u0430\u043b\u0438\u043d\u0430",
+    "word": "малина",
     "version": "latest",
-    "path": "styles/new/\u043c\u0430\u043b\u0438\u043d\u0430_latest.png",
-    "url": "styles/new/\u043c\u0430\u043b\u0438\u043d\u0430_latest.png"
+    "path": "styles/new/малина_latest.png"
   },
   {
-    "word": "\u043c\u0430\u043b\u0438\u043d\u0430",
+    "word": "малина",
     "version": "v1",
-    "path": "styles/new/\u043c\u0430\u043b\u0438\u043d\u0430_v1.png",
-    "url": "styles/new/\u043c\u0430\u043b\u0438\u043d\u0430_v1.png"
+    "path": "styles/new/малина_v1.png"
   },
   {
-    "word": "\u043c\u0430\u043b\u0438\u043d\u0430",
+    "word": "малина",
     "version": "v2",
-    "path": "styles/new/\u043c\u0430\u043b\u0438\u043d\u0430_v2.png",
-    "url": "styles/new/\u043c\u0430\u043b\u0438\u043d\u0430_v2.png"
+    "path": "styles/new/малина_v2.png"
   },
   {
-    "word": "\u043c\u0430\u043c\u0430",
+    "word": "мама",
     "version": "latest",
-    "path": "styles/new/\u043c\u0430\u043c\u0430_latest.png",
-    "url": "styles/new/\u043c\u0430\u043c\u0430_latest.png"
+    "path": "styles/new/мама_latest.png"
   },
   {
-    "word": "\u043c\u0430\u043c\u0430",
+    "word": "мама",
     "version": "v1",
-    "path": "styles/new/\u043c\u0430\u043c\u0430_v1.png",
-    "url": "styles/new/\u043c\u0430\u043c\u0430_v1.png"
+    "path": "styles/new/мама_v1.png"
   },
   {
-    "word": "\u043c\u0430\u043c\u0430",
+    "word": "мама",
     "version": "v2",
-    "path": "styles/new/\u043c\u0430\u043c\u0430_v2.png",
-    "url": "styles/new/\u043c\u0430\u043c\u0430_v2.png"
+    "path": "styles/new/мама_v2.png"
   },
   {
-    "word": "\u043c\u0430\u043d\u0434\u0430\u0440\u0438\u043d",
+    "word": "мандарин",
     "version": "latest",
-    "path": "styles/new/\u043c\u0430\u043d\u0434\u0430\u0440\u0438\u043d_latest.png",
-    "url": "styles/new/\u043c\u0430\u043d\u0434\u0430\u0440\u0438\u043d_latest.png"
+    "path": "styles/new/мандарин_latest.png"
   },
   {
-    "word": "\u043c\u0430\u043d\u0434\u0430\u0440\u0438\u043d",
+    "word": "мандарин",
     "version": "v1",
-    "path": "styles/new/\u043c\u0430\u043d\u0434\u0430\u0440\u0438\u043d_v1.png",
-    "url": "styles/new/\u043c\u0430\u043d\u0434\u0430\u0440\u0438\u043d_v1.png"
+    "path": "styles/new/мандарин_v1.png"
   },
   {
-    "word": "\u043c\u0430\u043d\u0434\u0430\u0440\u0438\u043d",
+    "word": "мандарин",
     "version": "v2",
-    "path": "styles/new/\u043c\u0430\u043d\u0434\u0430\u0440\u0438\u043d_v2.png",
-    "url": "styles/new/\u043c\u0430\u043d\u0434\u0430\u0440\u0438\u043d_v2.png"
+    "path": "styles/new/мандарин_v2.png"
   },
   {
-    "word": "\u043c\u0430\u043d\u0442\u0438\u044f",
+    "word": "мантия",
     "version": "latest",
-    "path": "styles/new/\u043c\u0430\u043d\u0442\u0438\u044f_latest.png",
-    "url": "styles/new/\u043c\u0430\u043d\u0442\u0438\u044f_latest.png"
+    "path": "styles/new/мантия_latest.png"
   },
   {
-    "word": "\u043c\u0430\u043d\u0442\u0438\u044f",
+    "word": "мантия",
     "version": "v1",
-    "path": "styles/new/\u043c\u0430\u043d\u0442\u0438\u044f_v1.png",
-    "url": "styles/new/\u043c\u0430\u043d\u0442\u0438\u044f_v1.png"
+    "path": "styles/new/мантия_v1.png"
   },
   {
-    "word": "\u043c\u0430\u043d\u0442\u0438\u044f",
+    "word": "мантия",
     "version": "v2",
-    "path": "styles/new/\u043c\u0430\u043d\u0442\u0438\u044f_v2.png",
-    "url": "styles/new/\u043c\u0430\u043d\u0442\u0438\u044f_v2.png"
+    "path": "styles/new/мантия_v2.png"
   },
   {
-    "word": "\u043c\u0430\u0441\u043a\u0430",
+    "word": "маска",
     "version": "latest",
-    "path": "styles/new/\u043c\u0430\u0441\u043a\u0430_latest.png",
-    "url": "styles/new/\u043c\u0430\u0441\u043a\u0430_latest.png"
+    "path": "styles/new/маска_latest.png"
   },
   {
-    "word": "\u043c\u0430\u0441\u043a\u0430",
+    "word": "маска",
     "version": "v1",
-    "path": "styles/new/\u043c\u0430\u0441\u043a\u0430_v1.png",
-    "url": "styles/new/\u043c\u0430\u0441\u043a\u0430_v1.png"
+    "path": "styles/new/маска_v1.png"
   },
   {
-    "word": "\u043c\u0430\u0441\u043a\u0430",
+    "word": "маска",
     "version": "v2",
-    "path": "styles/new/\u043c\u0430\u0441\u043a\u0430_v2.png",
-    "url": "styles/new/\u043c\u0430\u0441\u043a\u0430_v2.png"
+    "path": "styles/new/маска_v2.png"
   },
   {
-    "word": "\u043c\u0430\u0448\u0438\u043d\u0430",
+    "word": "машина",
     "version": "latest",
-    "path": "styles/new/\u043c\u0430\u0448\u0438\u043d\u0430_latest.png",
-    "url": "styles/new/\u043c\u0430\u0448\u0438\u043d\u0430_latest.png"
+    "path": "styles/new/машина_latest.png"
   },
   {
-    "word": "\u043c\u0430\u0448\u0438\u043d\u0430",
+    "word": "машина",
     "version": "v1",
-    "path": "styles/new/\u043c\u0430\u0448\u0438\u043d\u0430_v1.png",
-    "url": "styles/new/\u043c\u0430\u0448\u0438\u043d\u0430_v1.png"
+    "path": "styles/new/машина_v1.png"
   },
   {
-    "word": "\u043c\u0430\u0448\u0438\u043d\u0430",
+    "word": "машина",
     "version": "v2",
-    "path": "styles/new/\u043c\u0430\u0448\u0438\u043d\u0430_v2.png",
-    "url": "styles/new/\u043c\u0430\u0448\u0438\u043d\u0430_v2.png"
+    "path": "styles/new/машина_v2.png"
   },
   {
-    "word": "\u043c\u0435\u0447",
+    "word": "меч",
     "version": "latest",
-    "path": "styles/new/\u043c\u0435\u0447_latest.png",
-    "url": "styles/new/\u043c\u0435\u0447_latest.png"
+    "path": "styles/new/меч_latest.png"
   },
   {
-    "word": "\u043c\u0435\u0447",
+    "word": "меч",
     "version": "v1",
-    "path": "styles/new/\u043c\u0435\u0447_v1.png",
-    "url": "styles/new/\u043c\u0435\u0447_v1.png"
+    "path": "styles/new/меч_v1.png"
   },
   {
-    "word": "\u043c\u0435\u0447",
+    "word": "меч",
     "version": "v2",
-    "path": "styles/new/\u043c\u0435\u0447_v2.png",
-    "url": "styles/new/\u043c\u0435\u0447_v2.png"
+    "path": "styles/new/меч_v2.png"
   },
   {
-    "word": "\u043c\u0435\u0447",
+    "word": "меч",
     "version": "v3",
-    "path": "styles/new/\u043c\u0435\u0447_v3.png",
-    "url": "styles/new/\u043c\u0435\u0447_v3.png"
+    "path": "styles/new/меч_v3.png"
   },
   {
-    "word": "\u043c\u0438\u0441\u043a\u0430",
+    "word": "миска",
     "version": "latest",
-    "path": "styles/new/\u043c\u0438\u0441\u043a\u0430_latest.png",
-    "url": "styles/new/\u043c\u0438\u0441\u043a\u0430_latest.png"
+    "path": "styles/new/миска_latest.png"
   },
   {
-    "word": "\u043c\u0438\u0441\u043a\u0430",
+    "word": "миска",
     "version": "v1",
-    "path": "styles/new/\u043c\u0438\u0441\u043a\u0430_v1.png",
-    "url": "styles/new/\u043c\u0438\u0441\u043a\u0430_v1.png"
+    "path": "styles/new/миска_v1.png"
   },
   {
-    "word": "\u043c\u0438\u0441\u043a\u0430",
+    "word": "миска",
     "version": "v2",
-    "path": "styles/new/\u043c\u0438\u0441\u043a\u0430_v2.png",
-    "url": "styles/new/\u043c\u0438\u0441\u043a\u0430_v2.png"
+    "path": "styles/new/миска_v2.png"
   },
   {
-    "word": "\u043c\u0438\u0448\u043a\u0430",
+    "word": "мишка",
     "version": "latest",
-    "path": "styles/new/\u043c\u0438\u0448\u043a\u0430_latest.png",
-    "url": "styles/new/\u043c\u0438\u0448\u043a\u0430_latest.png"
+    "path": "styles/new/мишка_latest.png"
   },
   {
-    "word": "\u043c\u0438\u0448\u043a\u0430",
+    "word": "мишка",
     "version": "v1",
-    "path": "styles/new/\u043c\u0438\u0448\u043a\u0430_v1.png",
-    "url": "styles/new/\u043c\u0438\u0448\u043a\u0430_v1.png"
+    "path": "styles/new/мишка_v1.png"
   },
   {
-    "word": "\u043c\u0438\u0448\u043a\u0430",
+    "word": "мишка",
     "version": "v2",
-    "path": "styles/new/\u043c\u0438\u0448\u043a\u0430_v2.png",
-    "url": "styles/new/\u043c\u0438\u0448\u043a\u0430_v2.png"
+    "path": "styles/new/мишка_v2.png"
   },
   {
-    "word": "\u043c\u043e\u0448\u043a\u0430",
+    "word": "мошка",
     "version": "latest",
-    "path": "styles/new/\u043c\u043e\u0448\u043a\u0430_latest.png",
-    "url": "styles/new/\u043c\u043e\u0448\u043a\u0430_latest.png"
+    "path": "styles/new/мошка_latest.png"
   },
   {
-    "word": "\u043c\u043e\u0448\u043a\u0430",
+    "word": "мошка",
     "version": "v1",
-    "path": "styles/new/\u043c\u043e\u0448\u043a\u0430_v1.png",
-    "url": "styles/new/\u043c\u043e\u0448\u043a\u0430_v1.png"
+    "path": "styles/new/мошка_v1.png"
   },
   {
-    "word": "\u043c\u043e\u0448\u043a\u0430",
+    "word": "мошка",
     "version": "v2",
-    "path": "styles/new/\u043c\u043e\u0448\u043a\u0430_v2.png",
-    "url": "styles/new/\u043c\u043e\u0448\u043a\u0430_v2.png"
+    "path": "styles/new/мошка_v2.png"
   },
   {
-    "word": "\u043c\u0443\u0448\u043a\u0430",
+    "word": "мушка",
     "version": "latest",
-    "path": "styles/new/\u043c\u0443\u0448\u043a\u0430_latest.png",
-    "url": "styles/new/\u043c\u0443\u0448\u043a\u0430_latest.png"
+    "path": "styles/new/мушка_latest.png"
   },
   {
-    "word": "\u043c\u0443\u0448\u043a\u0430",
+    "word": "мушка",
     "version": "v1",
-    "path": "styles/new/\u043c\u0443\u0448\u043a\u0430_v1.png",
-    "url": "styles/new/\u043c\u0443\u0448\u043a\u0430_v1.png"
+    "path": "styles/new/мушка_v1.png"
   },
   {
-    "word": "\u043c\u0443\u0448\u043a\u0430",
+    "word": "мушка",
     "version": "v2",
-    "path": "styles/new/\u043c\u0443\u0448\u043a\u0430_v2.png",
-    "url": "styles/new/\u043c\u0443\u0448\u043a\u0430_v2.png"
+    "path": "styles/new/мушка_v2.png"
   },
   {
-    "word": "\u043c\u044b\u0448\u043a\u0430",
+    "word": "мышка",
     "version": "latest",
-    "path": "styles/new/\u043c\u044b\u0448\u043a\u0430_latest.png",
-    "url": "styles/new/\u043c\u044b\u0448\u043a\u0430_latest.png"
+    "path": "styles/new/мышка_latest.png"
   },
   {
-    "word": "\u043c\u044b\u0448\u043a\u0430",
+    "word": "мышка",
     "version": "v1",
-    "path": "styles/new/\u043c\u044b\u0448\u043a\u0430_v1.png",
-    "url": "styles/new/\u043c\u044b\u0448\u043a\u0430_v1.png"
+    "path": "styles/new/мышка_v1.png"
   },
   {
-    "word": "\u043c\u044b\u0448\u043a\u0430",
+    "word": "мышка",
     "version": "v2",
-    "path": "styles/new/\u043c\u044b\u0448\u043a\u0430_v2.png",
-    "url": "styles/new/\u043c\u044b\u0448\u043a\u0430_v2.png"
+    "path": "styles/new/мышка_v2.png"
   },
   {
-    "word": "\u043c\u044b\u0448\u043a\u0430",
+    "word": "мышка",
     "version": "v3",
-    "path": "styles/new/\u043c\u044b\u0448\u043a\u0430_v3.png",
-    "url": "styles/new/\u043c\u044b\u0448\u043a\u0430_v3.png"
+    "path": "styles/new/мышка_v3.png"
   },
   {
-    "word": "\u043c\u044f\u0441\u043e",
+    "word": "мясо",
     "version": "latest",
-    "path": "styles/new/\u043c\u044f\u0441\u043e_latest.png",
-    "url": "styles/new/\u043c\u044f\u0441\u043e_latest.png"
+    "path": "styles/new/мясо_latest.png"
   },
   {
-    "word": "\u043c\u044f\u0441\u043e",
+    "word": "мясо",
     "version": "v1",
-    "path": "styles/new/\u043c\u044f\u0441\u043e_v1.png",
-    "url": "styles/new/\u043c\u044f\u0441\u043e_v1.png"
+    "path": "styles/new/мясо_v1.png"
   },
   {
-    "word": "\u043c\u044f\u0441\u043e",
+    "word": "мясо",
     "version": "v2",
-    "path": "styles/new/\u043c\u044f\u0441\u043e_v2.png",
-    "url": "styles/new/\u043c\u044f\u0441\u043e_v2.png"
+    "path": "styles/new/мясо_v2.png"
   },
   {
-    "word": "\u043c\u044f\u0447",
+    "word": "мяч",
     "version": "latest",
-    "path": "styles/new/\u043c\u044f\u0447_latest.png",
-    "url": "styles/new/\u043c\u044f\u0447_latest.png"
+    "path": "styles/new/мяч_latest.png"
   },
   {
-    "word": "\u043c\u044f\u0447",
+    "word": "мяч",
     "version": "v1",
-    "path": "styles/new/\u043c\u044f\u0447_v1.png",
-    "url": "styles/new/\u043c\u044f\u0447_v1.png"
+    "path": "styles/new/мяч_v1.png"
   },
   {
-    "word": "\u043c\u044f\u0447",
+    "word": "мяч",
     "version": "v2",
-    "path": "styles/new/\u043c\u044f\u0447_v2.png",
-    "url": "styles/new/\u043c\u044f\u0447_v2.png"
+    "path": "styles/new/мяч_v2.png"
   },
   {
-    "word": "\u043d\u043e\u0441",
+    "word": "нос",
     "version": "latest",
-    "path": "styles/new/\u043d\u043e\u0441_latest.png",
-    "url": "styles/new/\u043d\u043e\u0441_latest.png"
+    "path": "styles/new/нос_latest.png"
   },
   {
-    "word": "\u043d\u043e\u0441",
+    "word": "нос",
     "version": "v1",
-    "path": "styles/new/\u043d\u043e\u0441_v1.png",
-    "url": "styles/new/\u043d\u043e\u0441_v1.png"
+    "path": "styles/new/нос_v1.png"
   },
   {
-    "word": "\u043d\u043e\u0441",
+    "word": "нос",
     "version": "v2",
-    "path": "styles/new/\u043d\u043e\u0441_v2.png",
-    "url": "styles/new/\u043d\u043e\u0441_v2.png"
+    "path": "styles/new/нос_v2.png"
   },
   {
-    "word": "\u043d\u043e\u0441",
+    "word": "нос",
     "version": "v3",
-    "path": "styles/new/\u043d\u043e\u0441_v3.png",
-    "url": "styles/new/\u043d\u043e\u0441_v3.png"
+    "path": "styles/new/нос_v3.png"
   },
   {
-    "word": "\u043f\u0430\u043f\u0430",
+    "word": "папа",
     "version": "latest",
-    "path": "styles/new/\u043f\u0430\u043f\u0430_latest.png",
-    "url": "styles/new/\u043f\u0430\u043f\u0430_latest.png"
+    "path": "styles/new/папа_latest.png"
   },
   {
-    "word": "\u043f\u0430\u043f\u0430",
+    "word": "папа",
     "version": "v1",
-    "path": "styles/new/\u043f\u0430\u043f\u0430_v1.png",
-    "url": "styles/new/\u043f\u0430\u043f\u0430_v1.png"
+    "path": "styles/new/папа_v1.png"
   },
   {
-    "word": "\u043f\u0430\u043f\u0430",
+    "word": "папа",
     "version": "v2",
-    "path": "styles/new/\u043f\u0430\u043f\u0430_v2.png",
-    "url": "styles/new/\u043f\u0430\u043f\u0430_v2.png"
+    "path": "styles/new/папа_v2.png"
   },
   {
-    "word": "\u043f\u0435\u0434\u0430\u043b\u044c",
+    "word": "педаль",
     "version": "latest",
-    "path": "styles/new/\u043f\u0435\u0434\u0430\u043b\u044c_latest.png",
-    "url": "styles/new/\u043f\u0435\u0434\u0430\u043b\u044c_latest.png"
+    "path": "styles/new/педаль_latest.png"
   },
   {
-    "word": "\u043f\u0435\u0434\u0430\u043b\u044c",
+    "word": "педаль",
     "version": "v1",
-    "path": "styles/new/\u043f\u0435\u0434\u0430\u043b\u044c_v1.png",
-    "url": "styles/new/\u043f\u0435\u0434\u0430\u043b\u044c_v1.png"
+    "path": "styles/new/педаль_v1.png"
   },
   {
-    "word": "\u043f\u0435\u0434\u0430\u043b\u044c",
+    "word": "педаль",
     "version": "v2",
-    "path": "styles/new/\u043f\u0435\u0434\u0430\u043b\u044c_v2.png",
-    "url": "styles/new/\u043f\u0435\u0434\u0430\u043b\u044c_v2.png"
+    "path": "styles/new/педаль_v2.png"
   },
   {
-    "word": "\u043f\u0435\u0434\u0430\u043b\u044c",
+    "word": "педаль",
     "version": "v3",
-    "path": "styles/new/\u043f\u0435\u0434\u0430\u043b\u044c_v3.png",
-    "url": "styles/new/\u043f\u0435\u0434\u0430\u043b\u044c_v3.png"
+    "path": "styles/new/педаль_v3.png"
   },
   {
-    "word": "\u043f\u0435\u0440\u0435\u0446",
+    "word": "перец",
     "version": "latest",
-    "path": "styles/new/\u043f\u0435\u0440\u0435\u0446_latest.png",
-    "url": "styles/new/\u043f\u0435\u0440\u0435\u0446_latest.png"
+    "path": "styles/new/перец_latest.png"
   },
   {
-    "word": "\u043f\u0435\u0440\u0435\u0446",
+    "word": "перец",
     "version": "v1",
-    "path": "styles/new/\u043f\u0435\u0440\u0435\u0446_v1.png",
-    "url": "styles/new/\u043f\u0435\u0440\u0435\u0446_v1.png"
+    "path": "styles/new/перец_v1.png"
   },
   {
-    "word": "\u043f\u0435\u0440\u0435\u0446",
+    "word": "перец",
     "version": "v2",
-    "path": "styles/new/\u043f\u0435\u0440\u0435\u0446_v2.png",
-    "url": "styles/new/\u043f\u0435\u0440\u0435\u0446_v2.png"
+    "path": "styles/new/перец_v2.png"
   },
   {
-    "word": "\u043f\u0435\u0440\u043e",
+    "word": "перо",
     "version": "latest",
-    "path": "styles/new/\u043f\u0435\u0440\u043e_latest.png",
-    "url": "styles/new/\u043f\u0435\u0440\u043e_latest.png"
+    "path": "styles/new/перо_latest.png"
   },
   {
-    "word": "\u043f\u0435\u0440\u043e",
+    "word": "перо",
     "version": "v1",
-    "path": "styles/new/\u043f\u0435\u0440\u043e_v1.png",
-    "url": "styles/new/\u043f\u0435\u0440\u043e_v1.png"
+    "path": "styles/new/перо_v1.png"
   },
   {
-    "word": "\u043f\u0435\u0440\u043e",
+    "word": "перо",
     "version": "v2",
-    "path": "styles/new/\u043f\u0435\u0440\u043e_v2.png",
-    "url": "styles/new/\u043f\u0435\u0440\u043e_v2.png"
+    "path": "styles/new/перо_v2.png"
   },
   {
-    "word": "\u043f\u0435\u0440\u0441\u0438\u043a",
+    "word": "персик",
     "version": "latest",
-    "path": "styles/new/\u043f\u0435\u0440\u0441\u0438\u043a_latest.png",
-    "url": "styles/new/\u043f\u0435\u0440\u0441\u0438\u043a_latest.png"
+    "path": "styles/new/персик_latest.png"
   },
   {
-    "word": "\u043f\u0435\u0440\u0441\u0438\u043a",
+    "word": "персик",
     "version": "v1",
-    "path": "styles/new/\u043f\u0435\u0440\u0441\u0438\u043a_v1.png",
-    "url": "styles/new/\u043f\u0435\u0440\u0441\u0438\u043a_v1.png"
+    "path": "styles/new/персик_v1.png"
   },
   {
-    "word": "\u043f\u0435\u0440\u0441\u0438\u043a",
+    "word": "персик",
     "version": "v2",
-    "path": "styles/new/\u043f\u0435\u0440\u0441\u0438\u043a_v2.png",
-    "url": "styles/new/\u043f\u0435\u0440\u0441\u0438\u043a_v2.png"
+    "path": "styles/new/персик_v2.png"
   },
   {
-    "word": "\u043f\u0435\u0440\u0447\u0438\u043a",
+    "word": "перчик",
     "version": "latest",
-    "path": "styles/new/\u043f\u0435\u0440\u0447\u0438\u043a_latest.png",
-    "url": "styles/new/\u043f\u0435\u0440\u0447\u0438\u043a_latest.png"
+    "path": "styles/new/перчик_latest.png"
   },
   {
-    "word": "\u043f\u0435\u0440\u0447\u0438\u043a",
+    "word": "перчик",
     "version": "v1",
-    "path": "styles/new/\u043f\u0435\u0440\u0447\u0438\u043a_v1.png",
-    "url": "styles/new/\u043f\u0435\u0440\u0447\u0438\u043a_v1.png"
+    "path": "styles/new/перчик_v1.png"
   },
   {
-    "word": "\u043f\u0435\u0440\u0447\u0438\u043a",
+    "word": "перчик",
     "version": "v2",
-    "path": "styles/new/\u043f\u0435\u0440\u0447\u0438\u043a_v2.png",
-    "url": "styles/new/\u043f\u0435\u0440\u0447\u0438\u043a_v2.png"
+    "path": "styles/new/перчик_v2.png"
   },
   {
-    "word": "\u043f\u0435\u0447\u043a\u0430",
+    "word": "печка",
     "version": "latest",
-    "path": "styles/new/\u043f\u0435\u0447\u043a\u0430_latest.png",
-    "url": "styles/new/\u043f\u0435\u0447\u043a\u0430_latest.png"
+    "path": "styles/new/печка_latest.png"
   },
   {
-    "word": "\u043f\u0435\u0447\u043a\u0430",
+    "word": "печка",
     "version": "v1",
-    "path": "styles/new/\u043f\u0435\u0447\u043a\u0430_v1.png",
-    "url": "styles/new/\u043f\u0435\u0447\u043a\u0430_v1.png"
+    "path": "styles/new/печка_v1.png"
   },
   {
-    "word": "\u043f\u0435\u0447\u043a\u0430",
+    "word": "печка",
     "version": "v2",
-    "path": "styles/new/\u043f\u0435\u0447\u043a\u0430_v2.png",
-    "url": "styles/new/\u043f\u0435\u0447\u043a\u0430_v2.png"
+    "path": "styles/new/печка_v2.png"
   },
   {
-    "word": "\u043f\u0438\u0440\u0430\u0442",
+    "word": "пират",
     "version": "latest",
-    "path": "styles/new/\u043f\u0438\u0440\u0430\u0442_latest.png",
-    "url": "styles/new/\u043f\u0438\u0440\u0430\u0442_latest.png"
+    "path": "styles/new/пират_latest.png"
   },
   {
-    "word": "\u043f\u0438\u0440\u0430\u0442",
+    "word": "пират",
     "version": "v1",
-    "path": "styles/new/\u043f\u0438\u0440\u0430\u0442_v1.png",
-    "url": "styles/new/\u043f\u0438\u0440\u0430\u0442_v1.png"
+    "path": "styles/new/пират_v1.png"
   },
   {
-    "word": "\u043f\u0438\u0440\u0430\u0442",
+    "word": "пират",
     "version": "v2",
-    "path": "styles/new/\u043f\u0438\u0440\u0430\u0442_v2.png",
-    "url": "styles/new/\u043f\u0438\u0440\u0430\u0442_v2.png"
+    "path": "styles/new/пират_v2.png"
   },
   {
-    "word": "\u043f\u0438\u0440\u0430\u0442",
+    "word": "пират",
     "version": "v3",
-    "path": "styles/new/\u043f\u0438\u0440\u0430\u0442_v3.png",
-    "url": "styles/new/\u043f\u0438\u0440\u0430\u0442_v3.png"
+    "path": "styles/new/пират_v3.png"
   },
   {
-    "word": "\u043f\u0438\u0440\u043e\u0433",
+    "word": "пирог",
     "version": "latest",
-    "path": "styles/new/\u043f\u0438\u0440\u043e\u0433_latest.png",
-    "url": "styles/new/\u043f\u0438\u0440\u043e\u0433_latest.png"
+    "path": "styles/new/пирог_latest.png"
   },
   {
-    "word": "\u043f\u0438\u0440\u043e\u0433",
+    "word": "пирог",
     "version": "v1",
-    "path": "styles/new/\u043f\u0438\u0440\u043e\u0433_v1.png",
-    "url": "styles/new/\u043f\u0438\u0440\u043e\u0433_v1.png"
+    "path": "styles/new/пирог_v1.png"
   },
   {
-    "word": "\u043f\u0438\u0440\u043e\u0433",
+    "word": "пирог",
     "version": "v2",
-    "path": "styles/new/\u043f\u0438\u0440\u043e\u0433_v2.png",
-    "url": "styles/new/\u043f\u0438\u0440\u043e\u0433_v2.png"
+    "path": "styles/new/пирог_v2.png"
   },
   {
-    "word": "\u043f\u0438\u0440\u043e\u0436\u043d\u043e\u0435",
+    "word": "пирожное",
     "version": "latest",
-    "path": "styles/new/\u043f\u0438\u0440\u043e\u0436\u043d\u043e\u0435_latest.png",
-    "url": "styles/new/\u043f\u0438\u0440\u043e\u0436\u043d\u043e\u0435_latest.png"
+    "path": "styles/new/пирожное_latest.png"
   },
   {
-    "word": "\u043f\u0438\u0440\u043e\u0436\u043d\u043e\u0435",
+    "word": "пирожное",
     "version": "v1",
-    "path": "styles/new/\u043f\u0438\u0440\u043e\u0436\u043d\u043e\u0435_v1.png",
-    "url": "styles/new/\u043f\u0438\u0440\u043e\u0436\u043d\u043e\u0435_v1.png"
+    "path": "styles/new/пирожное_v1.png"
   },
   {
-    "word": "\u043f\u0438\u0440\u043e\u0436\u043d\u043e\u0435",
+    "word": "пирожное",
     "version": "v2",
-    "path": "styles/new/\u043f\u0438\u0440\u043e\u0436\u043d\u043e\u0435_v2.png",
-    "url": "styles/new/\u043f\u0438\u0440\u043e\u0436\u043d\u043e\u0435_v2.png"
+    "path": "styles/new/пирожное_v2.png"
   },
   {
-    "word": "\u043f\u0438\u0440\u043e\u0436\u043e\u043a",
+    "word": "пирожок",
     "version": "latest",
-    "path": "styles/new/\u043f\u0438\u0440\u043e\u0436\u043e\u043a_latest.png",
-    "url": "styles/new/\u043f\u0438\u0440\u043e\u0436\u043e\u043a_latest.png"
+    "path": "styles/new/пирожок_latest.png"
   },
   {
-    "word": "\u043f\u0438\u0440\u043e\u0436\u043e\u043a",
+    "word": "пирожок",
     "version": "v1",
-    "path": "styles/new/\u043f\u0438\u0440\u043e\u0436\u043e\u043a_v1.png",
-    "url": "styles/new/\u043f\u0438\u0440\u043e\u0436\u043e\u043a_v1.png"
+    "path": "styles/new/пирожок_v1.png"
   },
   {
-    "word": "\u043f\u0438\u0440\u043e\u0436\u043e\u043a",
+    "word": "пирожок",
     "version": "v2",
-    "path": "styles/new/\u043f\u0438\u0440\u043e\u0436\u043e\u043a_v2.png",
-    "url": "styles/new/\u043f\u0438\u0440\u043e\u0436\u043e\u043a_v2.png"
+    "path": "styles/new/пирожок_v2.png"
   },
   {
-    "word": "\u043f\u0438\u0440\u043e\u0436\u043e\u043a",
+    "word": "пирожок",
     "version": "v3",
-    "path": "styles/new/\u043f\u0438\u0440\u043e\u0436\u043e\u043a_v3.png",
-    "url": "styles/new/\u043f\u0438\u0440\u043e\u0436\u043e\u043a_v3.png"
+    "path": "styles/new/пирожок_v3.png"
   },
   {
-    "word": "\u043f\u0438\u0449\u0430",
+    "word": "пища",
     "version": "latest",
-    "path": "styles/new/\u043f\u0438\u0449\u0430_latest.png",
-    "url": "styles/new/\u043f\u0438\u0449\u0430_latest.png"
+    "path": "styles/new/пища_latest.png"
   },
   {
-    "word": "\u043f\u0438\u0449\u0430",
+    "word": "пища",
     "version": "v1",
-    "path": "styles/new/\u043f\u0438\u0449\u0430_v1.png",
-    "url": "styles/new/\u043f\u0438\u0449\u0430_v1.png"
+    "path": "styles/new/пища_v1.png"
   },
   {
-    "word": "\u043f\u0438\u0449\u0430",
+    "word": "пища",
     "version": "v2",
-    "path": "styles/new/\u043f\u0438\u0449\u0430_v2.png",
-    "url": "styles/new/\u043f\u0438\u0449\u0430_v2.png"
+    "path": "styles/new/пища_v2.png"
   },
   {
-    "word": "\u043f\u043b\u044e\u0448\u043a\u0430",
+    "word": "плюшка",
     "version": "latest",
-    "path": "styles/new/\u043f\u043b\u044e\u0448\u043a\u0430_latest.png",
-    "url": "styles/new/\u043f\u043b\u044e\u0448\u043a\u0430_latest.png"
+    "path": "styles/new/плюшка_latest.png"
   },
   {
-    "word": "\u043f\u043b\u044e\u0448\u043a\u0430",
+    "word": "плюшка",
     "version": "v1",
-    "path": "styles/new/\u043f\u043b\u044e\u0448\u043a\u0430_v1.png",
-    "url": "styles/new/\u043f\u043b\u044e\u0448\u043a\u0430_v1.png"
+    "path": "styles/new/плюшка_v1.png"
   },
   {
-    "word": "\u043f\u043b\u044e\u0448\u043a\u0430",
+    "word": "плюшка",
     "version": "v2",
-    "path": "styles/new/\u043f\u043b\u044e\u0448\u043a\u0430_v2.png",
-    "url": "styles/new/\u043f\u043b\u044e\u0448\u043a\u0430_v2.png"
+    "path": "styles/new/плюшка_v2.png"
   },
   {
-    "word": "\u043f\u043b\u044e\u0448\u043a\u0430",
+    "word": "плюшка",
     "version": "v3",
-    "path": "styles/new/\u043f\u043b\u044e\u0448\u043a\u0430_v3.png",
-    "url": "styles/new/\u043f\u043b\u044e\u0448\u043a\u0430_v3.png"
+    "path": "styles/new/плюшка_v3.png"
   },
   {
-    "word": "\u043f\u043e\u0432\u0430\u0440",
+    "word": "повар",
     "version": "latest",
-    "path": "styles/new/\u043f\u043e\u0432\u0430\u0440_latest.png",
-    "url": "styles/new/\u043f\u043e\u0432\u0430\u0440_latest.png"
+    "path": "styles/new/повар_latest.png"
   },
   {
-    "word": "\u043f\u043e\u0432\u0430\u0440",
+    "word": "повар",
     "version": "v1",
-    "path": "styles/new/\u043f\u043e\u0432\u0430\u0440_v1.png",
-    "url": "styles/new/\u043f\u043e\u0432\u0430\u0440_v1.png"
+    "path": "styles/new/повар_v1.png"
   },
   {
-    "word": "\u043f\u043e\u0432\u0430\u0440",
+    "word": "повар",
     "version": "v2",
-    "path": "styles/new/\u043f\u043e\u0432\u0430\u0440_v2.png",
-    "url": "styles/new/\u043f\u043e\u0432\u0430\u0440_v2.png"
+    "path": "styles/new/повар_v2.png"
   },
   {
-    "word": "\u043f\u043e\u043c\u0438\u0434\u043e\u0440",
+    "word": "помидор",
     "version": "latest",
-    "path": "styles/new/\u043f\u043e\u043c\u0438\u0434\u043e\u0440_latest.png",
-    "url": "styles/new/\u043f\u043e\u043c\u0438\u0434\u043e\u0440_latest.png"
+    "path": "styles/new/помидор_latest.png"
   },
   {
-    "word": "\u043f\u043e\u043c\u0438\u0434\u043e\u0440",
+    "word": "помидор",
     "version": "v1",
-    "path": "styles/new/\u043f\u043e\u043c\u0438\u0434\u043e\u0440_v1.png",
-    "url": "styles/new/\u043f\u043e\u043c\u0438\u0434\u043e\u0440_v1.png"
+    "path": "styles/new/помидор_v1.png"
   },
   {
-    "word": "\u043f\u043e\u043c\u0438\u0434\u043e\u0440",
+    "word": "помидор",
     "version": "v2",
-    "path": "styles/new/\u043f\u043e\u043c\u0438\u0434\u043e\u0440_v2.png",
-    "url": "styles/new/\u043f\u043e\u043c\u0438\u0434\u043e\u0440_v2.png"
+    "path": "styles/new/помидор_v2.png"
   },
   {
-    "word": "\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u043a",
+    "word": "помощник",
     "version": "latest",
-    "path": "styles/new/\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u043a_latest.png",
-    "url": "styles/new/\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u043a_latest.png"
+    "path": "styles/new/помощник_latest.png"
   },
   {
-    "word": "\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u043a",
+    "word": "помощник",
     "version": "v1",
-    "path": "styles/new/\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u043a_v1.png",
-    "url": "styles/new/\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u043a_v1.png"
+    "path": "styles/new/помощник_v1.png"
   },
   {
-    "word": "\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u043a",
+    "word": "помощник",
     "version": "v2",
-    "path": "styles/new/\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u043a_v2.png",
-    "url": "styles/new/\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u043a_v2.png"
+    "path": "styles/new/помощник_v2.png"
   },
   {
-    "word": "\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u0446\u0430",
+    "word": "помощница",
     "version": "latest",
-    "path": "styles/new/\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u0446\u0430_latest.png",
-    "url": "styles/new/\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u0446\u0430_latest.png"
+    "path": "styles/new/помощница_latest.png"
   },
   {
-    "word": "\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u0446\u0430",
+    "word": "помощница",
     "version": "v1",
-    "path": "styles/new/\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u0446\u0430_v1.png",
-    "url": "styles/new/\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u0446\u0430_v1.png"
+    "path": "styles/new/помощница_v1.png"
   },
   {
-    "word": "\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u0446\u0430",
+    "word": "помощница",
     "version": "v2",
-    "path": "styles/new/\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u0446\u0430_v2.png",
-    "url": "styles/new/\u043f\u043e\u043c\u043e\u0449\u043d\u0438\u0446\u0430_v2.png"
+    "path": "styles/new/помощница_v2.png"
   },
   {
-    "word": "\u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430",
+    "word": "прогулка",
     "version": "latest",
-    "path": "styles/new/\u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430_latest.png",
-    "url": "styles/new/\u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430_latest.png"
+    "path": "styles/new/прогулка_latest.png"
   },
   {
-    "word": "\u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430",
+    "word": "прогулка",
     "version": "v1",
-    "path": "styles/new/\u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430_v1.png",
-    "url": "styles/new/\u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430_v1.png"
+    "path": "styles/new/прогулка_v1.png"
   },
   {
-    "word": "\u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430",
+    "word": "прогулка",
     "version": "v2",
-    "path": "styles/new/\u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430_v2.png",
-    "url": "styles/new/\u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430_v2.png"
+    "path": "styles/new/прогулка_v2.png"
   },
   {
-    "word": "\u043f\u0440\u0443\u0434",
+    "word": "пруд",
     "version": "latest",
-    "path": "styles/new/\u043f\u0440\u0443\u0434_latest.png",
-    "url": "styles/new/\u043f\u0440\u0443\u0434_latest.png"
+    "path": "styles/new/пруд_latest.png"
   },
   {
-    "word": "\u043f\u0440\u0443\u0434",
+    "word": "пруд",
     "version": "v1",
-    "path": "styles/new/\u043f\u0440\u0443\u0434_v1.png",
-    "url": "styles/new/\u043f\u0440\u0443\u0434_v1.png"
+    "path": "styles/new/пруд_v1.png"
   },
   {
-    "word": "\u043f\u0440\u0443\u0434",
+    "word": "пруд",
     "version": "v2",
-    "path": "styles/new/\u043f\u0440\u0443\u0434_v2.png",
-    "url": "styles/new/\u043f\u0440\u0443\u0434_v2.png"
+    "path": "styles/new/пруд_v2.png"
   },
   {
-    "word": "\u043f\u0440\u0443\u0436\u0438\u043d\u0430",
+    "word": "пружина",
     "version": "latest",
-    "path": "styles/new/\u043f\u0440\u0443\u0436\u0438\u043d\u0430_latest.png",
-    "url": "styles/new/\u043f\u0440\u0443\u0436\u0438\u043d\u0430_latest.png"
+    "path": "styles/new/пружина_latest.png"
   },
   {
-    "word": "\u043f\u0440\u0443\u0436\u0438\u043d\u0430",
+    "word": "пружина",
     "version": "v1",
-    "path": "styles/new/\u043f\u0440\u0443\u0436\u0438\u043d\u0430_v1.png",
-    "url": "styles/new/\u043f\u0440\u0443\u0436\u0438\u043d\u0430_v1.png"
+    "path": "styles/new/пружина_v1.png"
   },
   {
-    "word": "\u043f\u0440\u0443\u0436\u0438\u043d\u0430",
+    "word": "пружина",
     "version": "v2",
-    "path": "styles/new/\u043f\u0440\u0443\u0436\u0438\u043d\u0430_v2.png",
-    "url": "styles/new/\u043f\u0440\u0443\u0436\u0438\u043d\u0430_v2.png"
+    "path": "styles/new/пружина_v2.png"
   },
   {
-    "word": "\u043f\u0440\u0443\u0436\u0438\u043d\u0430",
+    "word": "пружина",
     "version": "v3",
-    "path": "styles/new/\u043f\u0440\u0443\u0436\u0438\u043d\u0430_v3.png",
-    "url": "styles/new/\u043f\u0440\u0443\u0436\u0438\u043d\u0430_v3.png"
+    "path": "styles/new/пружина_v3.png"
   },
   {
-    "word": "\u043f\u0440\u0443\u0442",
+    "word": "прут",
     "version": "latest",
-    "path": "styles/new/\u043f\u0440\u0443\u0442_latest.png",
-    "url": "styles/new/\u043f\u0440\u0443\u0442_latest.png"
+    "path": "styles/new/прут_latest.png"
   },
   {
-    "word": "\u043f\u0440\u0443\u0442",
+    "word": "прут",
     "version": "v1",
-    "path": "styles/new/\u043f\u0440\u0443\u0442_v1.png",
-    "url": "styles/new/\u043f\u0440\u0443\u0442_v1.png"
+    "path": "styles/new/прут_v1.png"
   },
   {
-    "word": "\u043f\u0440\u0443\u0442",
+    "word": "прут",
     "version": "v2",
-    "path": "styles/new/\u043f\u0440\u0443\u0442_v2.png",
-    "url": "styles/new/\u043f\u0440\u0443\u0442_v2.png"
+    "path": "styles/new/прут_v2.png"
   },
   {
-    "word": "\u043f\u0442\u0438\u0446\u0430",
+    "word": "птица",
     "version": "latest",
-    "path": "styles/new/\u043f\u0442\u0438\u0446\u0430_latest.png",
-    "url": "styles/new/\u043f\u0442\u0438\u0446\u0430_latest.png"
+    "path": "styles/new/птица_latest.png"
   },
   {
-    "word": "\u043f\u0442\u0438\u0446\u0430",
+    "word": "птица",
     "version": "v1",
-    "path": "styles/new/\u043f\u0442\u0438\u0446\u0430_v1.png",
-    "url": "styles/new/\u043f\u0442\u0438\u0446\u0430_v1.png"
+    "path": "styles/new/птица_v1.png"
   },
   {
-    "word": "\u043f\u0442\u0438\u0446\u0430",
+    "word": "птица",
     "version": "v2",
-    "path": "styles/new/\u043f\u0442\u0438\u0446\u0430_v2.png",
-    "url": "styles/new/\u043f\u0442\u0438\u0446\u0430_v2.png"
+    "path": "styles/new/птица_v2.png"
   },
   {
-    "word": "\u043f\u0442\u0438\u0447\u043a\u0430",
+    "word": "птичка",
     "version": "latest",
-    "path": "styles/new/\u043f\u0442\u0438\u0447\u043a\u0430_latest.png",
-    "url": "styles/new/\u043f\u0442\u0438\u0447\u043a\u0430_latest.png"
+    "path": "styles/new/птичка_latest.png"
   },
   {
-    "word": "\u043f\u0442\u0438\u0447\u043a\u0430",
+    "word": "птичка",
     "version": "v1",
-    "path": "styles/new/\u043f\u0442\u0438\u0447\u043a\u0430_v1.png",
-    "url": "styles/new/\u043f\u0442\u0438\u0447\u043a\u0430_v1.png"
+    "path": "styles/new/птичка_v1.png"
   },
   {
-    "word": "\u043f\u0442\u0438\u0447\u043a\u0430",
+    "word": "птичка",
     "version": "v2",
-    "path": "styles/new/\u043f\u0442\u0438\u0447\u043a\u0430_v2.png",
-    "url": "styles/new/\u043f\u0442\u0438\u0447\u043a\u0430_v2.png"
+    "path": "styles/new/птичка_v2.png"
   },
   {
-    "word": "\u043f\u0443\u0433\u043e\u0432\u0438\u0446\u0430",
+    "word": "пуговица",
     "version": "latest",
-    "path": "styles/new/\u043f\u0443\u0433\u043e\u0432\u0438\u0446\u0430_latest.png",
-    "url": "styles/new/\u043f\u0443\u0433\u043e\u0432\u0438\u0446\u0430_latest.png"
+    "path": "styles/new/пуговица_latest.png"
   },
   {
-    "word": "\u043f\u0443\u0433\u043e\u0432\u0438\u0446\u0430",
+    "word": "пуговица",
     "version": "v1",
-    "path": "styles/new/\u043f\u0443\u0433\u043e\u0432\u0438\u0446\u0430_v1.png",
-    "url": "styles/new/\u043f\u0443\u0433\u043e\u0432\u0438\u0446\u0430_v1.png"
+    "path": "styles/new/пуговица_v1.png"
   },
   {
-    "word": "\u043f\u0443\u0433\u043e\u0432\u0438\u0446\u0430",
+    "word": "пуговица",
     "version": "v2",
-    "path": "styles/new/\u043f\u0443\u0433\u043e\u0432\u0438\u0446\u0430_v2.png",
-    "url": "styles/new/\u043f\u0443\u0433\u043e\u0432\u0438\u0446\u0430_v2.png"
+    "path": "styles/new/пуговица_v2.png"
   },
   {
-    "word": "\u043f\u0443\u0433\u043e\u0432\u0438\u0446\u0430",
+    "word": "пуговица",
     "version": "v3",
-    "path": "styles/new/\u043f\u0443\u0433\u043e\u0432\u0438\u0446\u0430_v3.png",
-    "url": "styles/new/\u043f\u0443\u0433\u043e\u0432\u0438\u0446\u0430_v3.png"
+    "path": "styles/new/пуговица_v3.png"
   },
   {
-    "word": "\u0440\u0430\u043a",
+    "word": "рак",
     "version": "latest",
-    "path": "styles/new/\u0440\u0430\u043a_latest.png",
-    "url": "styles/new/\u0440\u0430\u043a_latest.png"
+    "path": "styles/new/рак_latest.png"
   },
   {
-    "word": "\u0440\u0430\u043a",
+    "word": "рак",
     "version": "v1",
-    "path": "styles/new/\u0440\u0430\u043a_v1.png",
-    "url": "styles/new/\u0440\u0430\u043a_v1.png"
+    "path": "styles/new/рак_v1.png"
   },
   {
-    "word": "\u0440\u0430\u043a",
+    "word": "рак",
     "version": "v2",
-    "path": "styles/new/\u0440\u0430\u043a_v2.png",
-    "url": "styles/new/\u0440\u0430\u043a_v2.png"
+    "path": "styles/new/рак_v2.png"
   },
   {
-    "word": "\u0440\u0430\u043c\u0430",
+    "word": "рама",
     "version": "latest",
-    "path": "styles/new/\u0440\u0430\u043c\u0430_latest.png",
-    "url": "styles/new/\u0440\u0430\u043c\u0430_latest.png"
+    "path": "styles/new/рама_latest.png"
   },
   {
-    "word": "\u0440\u0430\u043c\u0430",
+    "word": "рама",
     "version": "v1",
-    "path": "styles/new/\u0440\u0430\u043c\u0430_v1.png",
-    "url": "styles/new/\u0440\u0430\u043c\u0430_v1.png"
+    "path": "styles/new/рама_v1.png"
   },
   {
-    "word": "\u0440\u0430\u043c\u0430",
+    "word": "рама",
     "version": "v2",
-    "path": "styles/new/\u0440\u0430\u043c\u0430_v2.png",
-    "url": "styles/new/\u0440\u0430\u043c\u0430_v2.png"
+    "path": "styles/new/рама_v2.png"
   },
   {
-    "word": "\u0440\u0435\u043a\u0430",
+    "word": "река",
     "version": "latest",
-    "path": "styles/new/\u0440\u0435\u043a\u0430_latest.png",
-    "url": "styles/new/\u0440\u0435\u043a\u0430_latest.png"
+    "path": "styles/new/река_latest.png"
   },
   {
-    "word": "\u0440\u0435\u043a\u0430",
+    "word": "река",
     "version": "v1",
-    "path": "styles/new/\u0440\u0435\u043a\u0430_v1.png",
-    "url": "styles/new/\u0440\u0435\u043a\u0430_v1.png"
+    "path": "styles/new/река_v1.png"
   },
   {
-    "word": "\u0440\u0435\u043a\u0430",
+    "word": "река",
     "version": "v2",
-    "path": "styles/new/\u0440\u0435\u043a\u0430_v2.png",
-    "url": "styles/new/\u0440\u0435\u043a\u0430_v2.png"
+    "path": "styles/new/река_v2.png"
   },
   {
-    "word": "\u0440\u0435\u043f\u0430",
+    "word": "репа",
     "version": "latest",
-    "path": "styles/new/\u0440\u0435\u043f\u0430_latest.png",
-    "url": "styles/new/\u0440\u0435\u043f\u0430_latest.png"
+    "path": "styles/new/репа_latest.png"
   },
   {
-    "word": "\u0440\u0435\u043f\u0430",
+    "word": "репа",
     "version": "v1",
-    "path": "styles/new/\u0440\u0435\u043f\u0430_v1.png",
-    "url": "styles/new/\u0440\u0435\u043f\u0430_v1.png"
+    "path": "styles/new/репа_v1.png"
   },
   {
-    "word": "\u0440\u0435\u043f\u0430",
+    "word": "репа",
     "version": "v2",
-    "path": "styles/new/\u0440\u0435\u043f\u0430_v2.png",
-    "url": "styles/new/\u0440\u0435\u043f\u0430_v2.png"
+    "path": "styles/new/репа_v2.png"
   },
   {
-    "word": "\u0440\u0435\u043f\u0430",
+    "word": "репа",
     "version": "v3",
-    "path": "styles/new/\u0440\u0435\u043f\u0430_v3.png",
-    "url": "styles/new/\u0440\u0435\u043f\u0430_v3.png"
+    "path": "styles/new/репа_v3.png"
   },
   {
-    "word": "\u0440\u0435\u0447\u043a\u0430",
+    "word": "речка",
     "version": "latest",
-    "path": "styles/new/\u0440\u0435\u0447\u043a\u0430_latest.png",
-    "url": "styles/new/\u0440\u0435\u0447\u043a\u0430_latest.png"
+    "path": "styles/new/речка_latest.png"
   },
   {
-    "word": "\u0440\u0435\u0447\u043a\u0430",
+    "word": "речка",
     "version": "v1",
-    "path": "styles/new/\u0440\u0435\u0447\u043a\u0430_v1.png",
-    "url": "styles/new/\u0440\u0435\u0447\u043a\u0430_v1.png"
+    "path": "styles/new/речка_v1.png"
   },
   {
-    "word": "\u0440\u0435\u0447\u043a\u0430",
+    "word": "речка",
     "version": "v2",
-    "path": "styles/new/\u0440\u0435\u0447\u043a\u0430_v2.png",
-    "url": "styles/new/\u0440\u0435\u0447\u043a\u0430_v2.png"
+    "path": "styles/new/речка_v2.png"
   },
   {
-    "word": "\u0440\u043e\u0433\u0430",
+    "word": "рога",
     "version": "latest",
-    "path": "styles/new/\u0440\u043e\u0433\u0430_latest.png",
-    "url": "styles/new/\u0440\u043e\u0433\u0430_latest.png"
+    "path": "styles/new/рога_latest.png"
   },
   {
-    "word": "\u0440\u043e\u0433\u0430",
+    "word": "рога",
     "version": "v1",
-    "path": "styles/new/\u0440\u043e\u0433\u0430_v1.png",
-    "url": "styles/new/\u0440\u043e\u0433\u0430_v1.png"
+    "path": "styles/new/рога_v1.png"
   },
   {
-    "word": "\u0440\u043e\u0433\u0430",
+    "word": "рога",
     "version": "v2",
-    "path": "styles/new/\u0440\u043e\u0433\u0430_v2.png",
-    "url": "styles/new/\u0440\u043e\u0433\u0430_v2.png"
+    "path": "styles/new/рога_v2.png"
   },
   {
-    "word": "\u0440\u043e\u0441\u0430",
+    "word": "роса",
     "version": "latest",
-    "path": "styles/new/\u0440\u043e\u0441\u0430_latest.png",
-    "url": "styles/new/\u0440\u043e\u0441\u0430_latest.png"
+    "path": "styles/new/роса_latest.png"
   },
   {
-    "word": "\u0440\u043e\u0441\u0430",
+    "word": "роса",
     "version": "v1",
-    "path": "styles/new/\u0440\u043e\u0441\u0430_v1.png",
-    "url": "styles/new/\u0440\u043e\u0441\u0430_v1.png"
+    "path": "styles/new/роса_v1.png"
   },
   {
-    "word": "\u0440\u043e\u0441\u0430",
+    "word": "роса",
     "version": "v2",
-    "path": "styles/new/\u0440\u043e\u0441\u0430_v2.png",
-    "url": "styles/new/\u0440\u043e\u0441\u0430_v2.png"
+    "path": "styles/new/роса_v2.png"
   },
   {
-    "word": "\u0440\u043e\u0442",
+    "word": "рот",
     "version": "latest",
-    "path": "styles/new/\u0440\u043e\u0442_latest.png",
-    "url": "styles/new/\u0440\u043e\u0442_latest.png"
+    "path": "styles/new/рот_latest.png"
   },
   {
-    "word": "\u0440\u043e\u0442",
+    "word": "рот",
     "version": "v1",
-    "path": "styles/new/\u0440\u043e\u0442_v1.png",
-    "url": "styles/new/\u0440\u043e\u0442_v1.png"
+    "path": "styles/new/рот_v1.png"
   },
   {
-    "word": "\u0440\u043e\u0442",
+    "word": "рот",
     "version": "v2",
-    "path": "styles/new/\u0440\u043e\u0442_v2.png",
-    "url": "styles/new/\u0440\u043e\u0442_v2.png"
+    "path": "styles/new/рот_v2.png"
   },
   {
-    "word": "\u0440\u0443\u043a\u0430",
+    "word": "рука",
     "version": "latest",
-    "path": "styles/new/\u0440\u0443\u043a\u0430_latest.png",
-    "url": "styles/new/\u0440\u0443\u043a\u0430_latest.png"
+    "path": "styles/new/рука_latest.png"
   },
   {
-    "word": "\u0440\u0443\u043a\u0430",
+    "word": "рука",
     "version": "v1",
-    "path": "styles/new/\u0440\u0443\u043a\u0430_v1.png",
-    "url": "styles/new/\u0440\u0443\u043a\u0430_v1.png"
+    "path": "styles/new/рука_v1.png"
   },
   {
-    "word": "\u0440\u0443\u043a\u0430",
+    "word": "рука",
     "version": "v2",
-    "path": "styles/new/\u0440\u0443\u043a\u0430_v2.png",
-    "url": "styles/new/\u0440\u0443\u043a\u0430_v2.png"
+    "path": "styles/new/рука_v2.png"
   },
   {
-    "word": "\u0440\u0443\u043b\u044c",
+    "word": "руль",
     "version": "latest",
-    "path": "styles/new/\u0440\u0443\u043b\u044c_latest.png",
-    "url": "styles/new/\u0440\u0443\u043b\u044c_latest.png"
+    "path": "styles/new/руль_latest.png"
   },
   {
-    "word": "\u0440\u0443\u043b\u044c",
+    "word": "руль",
     "version": "v1",
-    "path": "styles/new/\u0440\u0443\u043b\u044c_v1.png",
-    "url": "styles/new/\u0440\u0443\u043b\u044c_v1.png"
+    "path": "styles/new/руль_v1.png"
   },
   {
-    "word": "\u0440\u0443\u043b\u044c",
+    "word": "руль",
     "version": "v2",
-    "path": "styles/new/\u0440\u0443\u043b\u044c_v2.png",
-    "url": "styles/new/\u0440\u0443\u043b\u044c_v2.png"
+    "path": "styles/new/руль_v2.png"
   },
   {
-    "word": "\u0440\u0443\u043b\u044c",
+    "word": "руль",
     "version": "v3",
-    "path": "styles/new/\u0440\u0443\u043b\u044c_v3.png",
-    "url": "styles/new/\u0440\u0443\u043b\u044c_v3.png"
+    "path": "styles/new/руль_v3.png"
   },
   {
-    "word": "\u0440\u044b\u0431\u0430",
+    "word": "рыба",
     "version": "latest",
-    "path": "styles/new/\u0440\u044b\u0431\u0430_latest.png",
-    "url": "styles/new/\u0440\u044b\u0431\u0430_latest.png"
+    "path": "styles/new/рыба_latest.png"
   },
   {
-    "word": "\u0440\u044b\u0431\u0430",
+    "word": "рыба",
     "version": "v1",
-    "path": "styles/new/\u0440\u044b\u0431\u0430_v1.png",
-    "url": "styles/new/\u0440\u044b\u0431\u0430_v1.png"
+    "path": "styles/new/рыба_v1.png"
   },
   {
-    "word": "\u0440\u044b\u0431\u0430",
+    "word": "рыба",
     "version": "v2",
-    "path": "styles/new/\u0440\u044b\u0431\u0430_v2.png",
-    "url": "styles/new/\u0440\u044b\u0431\u0430_v2.png"
+    "path": "styles/new/рыба_v2.png"
   },
   {
-    "word": "\u0440\u044b\u0431\u0430",
+    "word": "рыба",
     "version": "v3",
-    "path": "styles/new/\u0440\u044b\u0431\u0430_v3.png",
-    "url": "styles/new/\u0440\u044b\u0431\u0430_v3.png"
+    "path": "styles/new/рыба_v3.png"
   },
   {
-    "word": "\u0441\u0430\u043b\u043e",
+    "word": "сало",
     "version": "latest",
-    "path": "styles/new/\u0441\u0430\u043b\u043e_latest.png",
-    "url": "styles/new/\u0441\u0430\u043b\u043e_latest.png"
+    "path": "styles/new/сало_latest.png"
   },
   {
-    "word": "\u0441\u0430\u043b\u043e",
+    "word": "сало",
     "version": "v1",
-    "path": "styles/new/\u0441\u0430\u043b\u043e_v1.png",
-    "url": "styles/new/\u0441\u0430\u043b\u043e_v1.png"
+    "path": "styles/new/сало_v1.png"
   },
   {
-    "word": "\u0441\u0430\u043b\u043e",
+    "word": "сало",
     "version": "v2",
-    "path": "styles/new/\u0441\u0430\u043b\u043e_v2.png",
-    "url": "styles/new/\u0441\u0430\u043b\u043e_v2.png"
+    "path": "styles/new/сало_v2.png"
   },
   {
-    "word": "\u0441\u0430\u043b\u043e",
+    "word": "сало",
     "version": "v3",
-    "path": "styles/new/\u0441\u0430\u043b\u043e_v3.png",
-    "url": "styles/new/\u0441\u0430\u043b\u043e_v3.png"
+    "path": "styles/new/сало_v3.png"
   },
   {
-    "word": "\u0441\u0430\u043d\u0438",
+    "word": "сани",
     "version": "latest",
-    "path": "styles/new/\u0441\u0430\u043d\u0438_latest.png",
-    "url": "styles/new/\u0441\u0430\u043d\u0438_latest.png"
+    "path": "styles/new/сани_latest.png"
   },
   {
-    "word": "\u0441\u0430\u043d\u0438",
+    "word": "сани",
     "version": "v1",
-    "path": "styles/new/\u0441\u0430\u043d\u0438_v1.png",
-    "url": "styles/new/\u0441\u0430\u043d\u0438_v1.png"
+    "path": "styles/new/сани_v1.png"
   },
   {
-    "word": "\u0441\u0430\u043d\u0438",
+    "word": "сани",
     "version": "v2",
-    "path": "styles/new/\u0441\u0430\u043d\u0438_v2.png",
-    "url": "styles/new/\u0441\u0430\u043d\u0438_v2.png"
+    "path": "styles/new/сани_v2.png"
   },
   {
-    "word": "\u0441\u0430\u043d\u0438",
+    "word": "сани",
     "version": "v3",
-    "path": "styles/new/\u0441\u0430\u043d\u0438_v3.png",
-    "url": "styles/new/\u0441\u0430\u043d\u0438_v3.png"
+    "path": "styles/new/сани_v3.png"
   },
   {
-    "word": "\u0441\u0430\u043f\u043e\u0433",
+    "word": "сапог",
     "version": "latest",
-    "path": "styles/new/\u0441\u0430\u043f\u043e\u0433_latest.png",
-    "url": "styles/new/\u0441\u0430\u043f\u043e\u0433_latest.png"
+    "path": "styles/new/сапог_latest.png"
   },
   {
-    "word": "\u0441\u0430\u043f\u043e\u0433",
+    "word": "сапог",
     "version": "v1",
-    "path": "styles/new/\u0441\u0430\u043f\u043e\u0433_v1.png",
-    "url": "styles/new/\u0441\u0430\u043f\u043e\u0433_v1.png"
+    "path": "styles/new/сапог_v1.png"
   },
   {
-    "word": "\u0441\u0430\u043f\u043e\u0433",
+    "word": "сапог",
     "version": "v2",
-    "path": "styles/new/\u0441\u0430\u043f\u043e\u0433_v2.png",
-    "url": "styles/new/\u0441\u0430\u043f\u043e\u0433_v2.png"
+    "path": "styles/new/сапог_v2.png"
   },
   {
-    "word": "\u0441\u0432\u0435\u0440\u043b\u043e",
+    "word": "сверло",
     "version": "latest",
-    "path": "styles/new/\u0441\u0432\u0435\u0440\u043b\u043e_latest.png",
-    "url": "styles/new/\u0441\u0432\u0435\u0440\u043b\u043e_latest.png"
+    "path": "styles/new/сверло_latest.png"
   },
   {
-    "word": "\u0441\u0432\u0435\u0440\u043b\u043e",
+    "word": "сверло",
     "version": "v1",
-    "path": "styles/new/\u0441\u0432\u0435\u0440\u043b\u043e_v1.png",
-    "url": "styles/new/\u0441\u0432\u0435\u0440\u043b\u043e_v1.png"
+    "path": "styles/new/сверло_v1.png"
   },
   {
-    "word": "\u0441\u0432\u0435\u0440\u043b\u043e",
+    "word": "сверло",
     "version": "v2",
-    "path": "styles/new/\u0441\u0432\u0435\u0440\u043b\u043e_v2.png",
-    "url": "styles/new/\u0441\u0432\u0435\u0440\u043b\u043e_v2.png"
+    "path": "styles/new/сверло_v2.png"
   },
   {
-    "word": "\u0441\u0432\u0435\u0440\u043b\u043e",
+    "word": "сверло",
     "version": "v3",
-    "path": "styles/new/\u0441\u0432\u0435\u0440\u043b\u043e_v3.png",
-    "url": "styles/new/\u0441\u0432\u0435\u0440\u043b\u043e_v3.png"
+    "path": "styles/new/сверло_v3.png"
   },
   {
-    "word": "\u0441\u0432\u0435\u0442\u0438\u043b\u044c\u043d\u0438\u043a",
+    "word": "светильник",
     "version": "latest",
-    "path": "styles/new/\u0441\u0432\u0435\u0442\u0438\u043b\u044c\u043d\u0438\u043a_latest.png",
-    "url": "styles/new/\u0441\u0432\u0435\u0442\u0438\u043b\u044c\u043d\u0438\u043a_latest.png"
+    "path": "styles/new/светильник_latest.png"
   },
   {
-    "word": "\u0441\u0432\u0435\u0442\u0438\u043b\u044c\u043d\u0438\u043a",
+    "word": "светильник",
     "version": "v1",
-    "path": "styles/new/\u0441\u0432\u0435\u0442\u0438\u043b\u044c\u043d\u0438\u043a_v1.png",
-    "url": "styles/new/\u0441\u0432\u0435\u0442\u0438\u043b\u044c\u043d\u0438\u043a_v1.png"
+    "path": "styles/new/светильник_v1.png"
   },
   {
-    "word": "\u0441\u0432\u0435\u0442\u0438\u043b\u044c\u043d\u0438\u043a",
+    "word": "светильник",
     "version": "v2",
-    "path": "styles/new/\u0441\u0432\u0435\u0442\u0438\u043b\u044c\u043d\u0438\u043a_v2.png",
-    "url": "styles/new/\u0441\u0432\u0435\u0442\u0438\u043b\u044c\u043d\u0438\u043a_v2.png"
+    "path": "styles/new/светильник_v2.png"
   },
   {
-    "word": "\u0441\u0432\u0435\u0442\u043b\u044f\u0447\u043e\u043a",
+    "word": "светлячок",
     "version": "latest",
-    "path": "styles/new/\u0441\u0432\u0435\u0442\u043b\u044f\u0447\u043e\u043a_latest.png",
-    "url": "styles/new/\u0441\u0432\u0435\u0442\u043b\u044f\u0447\u043e\u043a_latest.png"
+    "path": "styles/new/светлячок_latest.png"
   },
   {
-    "word": "\u0441\u0432\u0435\u0442\u043b\u044f\u0447\u043e\u043a",
+    "word": "светлячок",
     "version": "v1",
-    "path": "styles/new/\u0441\u0432\u0435\u0442\u043b\u044f\u0447\u043e\u043a_v1.png",
-    "url": "styles/new/\u0441\u0432\u0435\u0442\u043b\u044f\u0447\u043e\u043a_v1.png"
+    "path": "styles/new/светлячок_v1.png"
   },
   {
-    "word": "\u0441\u0432\u0435\u0442\u043b\u044f\u0447\u043e\u043a",
+    "word": "светлячок",
     "version": "v2",
-    "path": "styles/new/\u0441\u0432\u0435\u0442\u043b\u044f\u0447\u043e\u043a_v2.png",
-    "url": "styles/new/\u0441\u0432\u0435\u0442\u043b\u044f\u0447\u043e\u043a_v2.png"
+    "path": "styles/new/светлячок_v2.png"
   },
   {
-    "word": "\u0441\u0432\u0435\u0442\u043b\u044f\u0447\u043e\u043a",
+    "word": "светлячок",
     "version": "v3",
-    "path": "styles/new/\u0441\u0432\u0435\u0442\u043b\u044f\u0447\u043e\u043a_v3.png",
-    "url": "styles/new/\u0441\u0432\u0435\u0442\u043b\u044f\u0447\u043e\u043a_v3.png"
+    "path": "styles/new/светлячок_v3.png"
   },
   {
-    "word": "\u0441\u0432\u0435\u0442\u043e\u0444\u043e\u0440",
+    "word": "светофор",
     "version": "latest",
-    "path": "styles/new/\u0441\u0432\u0435\u0442\u043e\u0444\u043e\u0440_latest.png",
-    "url": "styles/new/\u0441\u0432\u0435\u0442\u043e\u0444\u043e\u0440_latest.png"
+    "path": "styles/new/светофор_latest.png"
   },
   {
-    "word": "\u0441\u0432\u0435\u0442\u043e\u0444\u043e\u0440",
+    "word": "светофор",
     "version": "v1",
-    "path": "styles/new/\u0441\u0432\u0435\u0442\u043e\u0444\u043e\u0440_v1.png",
-    "url": "styles/new/\u0441\u0432\u0435\u0442\u043e\u0444\u043e\u0440_v1.png"
+    "path": "styles/new/светофор_v1.png"
   },
   {
-    "word": "\u0441\u0432\u0435\u0442\u043e\u0444\u043e\u0440",
+    "word": "светофор",
     "version": "v2",
-    "path": "styles/new/\u0441\u0432\u0435\u0442\u043e\u0444\u043e\u0440_v2.png",
-    "url": "styles/new/\u0441\u0432\u0435\u0442\u043e\u0444\u043e\u0440_v2.png"
+    "path": "styles/new/светофор_v2.png"
   },
   {
-    "word": "\u0441\u0432\u0435\u0447\u0430",
+    "word": "свеча",
     "version": "latest",
-    "path": "styles/new/\u0441\u0432\u0435\u0447\u0430_latest.png",
-    "url": "styles/new/\u0441\u0432\u0435\u0447\u0430_latest.png"
+    "path": "styles/new/свеча_latest.png"
   },
   {
-    "word": "\u0441\u0432\u0435\u0447\u0430",
+    "word": "свеча",
     "version": "v1",
-    "path": "styles/new/\u0441\u0432\u0435\u0447\u0430_v1.png",
-    "url": "styles/new/\u0441\u0432\u0435\u0447\u0430_v1.png"
+    "path": "styles/new/свеча_v1.png"
   },
   {
-    "word": "\u0441\u0432\u0435\u0447\u0430",
+    "word": "свеча",
     "version": "v2",
-    "path": "styles/new/\u0441\u0432\u0435\u0447\u0430_v2.png",
-    "url": "styles/new/\u0441\u0432\u0435\u0447\u0430_v2.png"
+    "path": "styles/new/свеча_v2.png"
   },
   {
-    "word": "\u0441\u0432\u0435\u0447\u043a\u0430",
+    "word": "свечка",
     "version": "latest",
-    "path": "styles/new/\u0441\u0432\u0435\u0447\u043a\u0430_latest.png",
-    "url": "styles/new/\u0441\u0432\u0435\u0447\u043a\u0430_latest.png"
+    "path": "styles/new/свечка_latest.png"
   },
   {
-    "word": "\u0441\u0432\u0435\u0447\u043a\u0430",
+    "word": "свечка",
     "version": "v1",
-    "path": "styles/new/\u0441\u0432\u0435\u0447\u043a\u0430_v1.png",
-    "url": "styles/new/\u0441\u0432\u0435\u0447\u043a\u0430_v1.png"
+    "path": "styles/new/свечка_v1.png"
   },
   {
-    "word": "\u0441\u0432\u0435\u0447\u043a\u0430",
+    "word": "свечка",
     "version": "v2",
-    "path": "styles/new/\u0441\u0432\u0435\u0447\u043a\u0430_v2.png",
-    "url": "styles/new/\u0441\u0432\u0435\u0447\u043a\u0430_v2.png"
+    "path": "styles/new/свечка_v2.png"
   },
   {
-    "word": "\u0441\u0435\u0440\u0434\u0446\u0435",
+    "word": "сердце",
     "version": "latest",
-    "path": "styles/new/\u0441\u0435\u0440\u0434\u0446\u0435_latest.png",
-    "url": "styles/new/\u0441\u0435\u0440\u0434\u0446\u0435_latest.png"
+    "path": "styles/new/сердце_latest.png"
   },
   {
-    "word": "\u0441\u0435\u0440\u0434\u0446\u0435",
+    "word": "сердце",
     "version": "v1",
-    "path": "styles/new/\u0441\u0435\u0440\u0434\u0446\u0435_v1.png",
-    "url": "styles/new/\u0441\u0435\u0440\u0434\u0446\u0435_v1.png"
+    "path": "styles/new/сердце_v1.png"
   },
   {
-    "word": "\u0441\u0435\u0440\u0434\u0446\u0435",
+    "word": "сердце",
     "version": "v2",
-    "path": "styles/new/\u0441\u0435\u0440\u0434\u0446\u0435_v2.png",
-    "url": "styles/new/\u0441\u0435\u0440\u0434\u0446\u0435_v2.png"
+    "path": "styles/new/сердце_v2.png"
   },
   {
-    "word": "\u0441\u0435\u0441\u0442\u0440\u0430",
+    "word": "сестра",
     "version": "latest",
-    "path": "styles/new/\u0441\u0435\u0441\u0442\u0440\u0430_latest.png",
-    "url": "styles/new/\u0441\u0435\u0441\u0442\u0440\u0430_latest.png"
+    "path": "styles/new/сестра_latest.png"
   },
   {
-    "word": "\u0441\u0435\u0441\u0442\u0440\u0430",
+    "word": "сестра",
     "version": "v1",
-    "path": "styles/new/\u0441\u0435\u0441\u0442\u0440\u0430_v1.png",
-    "url": "styles/new/\u0441\u0435\u0441\u0442\u0440\u0430_v1.png"
+    "path": "styles/new/сестра_v1.png"
   },
   {
-    "word": "\u0441\u0435\u0441\u0442\u0440\u0430",
+    "word": "сестра",
     "version": "v2",
-    "path": "styles/new/\u0441\u0435\u0441\u0442\u0440\u0430_v2.png",
-    "url": "styles/new/\u0441\u0435\u0441\u0442\u0440\u0430_v2.png"
+    "path": "styles/new/сестра_v2.png"
   },
   {
-    "word": "\u0441\u0435\u0442\u043a\u0430",
+    "word": "сетка",
     "version": "latest",
-    "path": "styles/new/\u0441\u0435\u0442\u043a\u0430_latest.png",
-    "url": "styles/new/\u0441\u0435\u0442\u043a\u0430_latest.png"
+    "path": "styles/new/сетка_latest.png"
   },
   {
-    "word": "\u0441\u0435\u0442\u043a\u0430",
+    "word": "сетка",
     "version": "v1",
-    "path": "styles/new/\u0441\u0435\u0442\u043a\u0430_v1.png",
-    "url": "styles/new/\u0441\u0435\u0442\u043a\u0430_v1.png"
+    "path": "styles/new/сетка_v1.png"
   },
   {
-    "word": "\u0441\u0435\u0442\u043a\u0430",
+    "word": "сетка",
     "version": "v2",
-    "path": "styles/new/\u0441\u0435\u0442\u043a\u0430_v2.png",
-    "url": "styles/new/\u0441\u0435\u0442\u043a\u0430_v2.png"
+    "path": "styles/new/сетка_v2.png"
   },
   {
-    "word": "\u0441\u043a\u0430\u0437\u043a\u0430",
+    "word": "сказка",
     "version": "latest",
-    "path": "styles/new/\u0441\u043a\u0430\u0437\u043a\u0430_latest.png",
-    "url": "styles/new/\u0441\u043a\u0430\u0437\u043a\u0430_latest.png"
+    "path": "styles/new/сказка_latest.png"
   },
   {
-    "word": "\u0441\u043a\u0430\u0437\u043a\u0430",
+    "word": "сказка",
     "version": "v1",
-    "path": "styles/new/\u0441\u043a\u0430\u0437\u043a\u0430_v1.png",
-    "url": "styles/new/\u0441\u043a\u0430\u0437\u043a\u0430_v1.png"
+    "path": "styles/new/сказка_v1.png"
   },
   {
-    "word": "\u0441\u043a\u0430\u0437\u043a\u0430",
+    "word": "сказка",
     "version": "v2",
-    "path": "styles/new/\u0441\u043a\u0430\u0437\u043a\u0430_v2.png",
-    "url": "styles/new/\u0441\u043a\u0430\u0437\u043a\u0430_v2.png"
+    "path": "styles/new/сказка_v2.png"
   },
   {
-    "word": "\u0441\u043a\u0430\u043a\u0430\u043b\u043a\u0430",
+    "word": "скакалка",
     "version": "latest",
-    "path": "styles/new/\u0441\u043a\u0430\u043a\u0430\u043b\u043a\u0430_latest.png",
-    "url": "styles/new/\u0441\u043a\u0430\u043a\u0430\u043b\u043a\u0430_latest.png"
+    "path": "styles/new/скакалка_latest.png"
   },
   {
-    "word": "\u0441\u043a\u0430\u043a\u0430\u043b\u043a\u0430",
+    "word": "скакалка",
     "version": "v1",
-    "path": "styles/new/\u0441\u043a\u0430\u043a\u0430\u043b\u043a\u0430_v1.png",
-    "url": "styles/new/\u0441\u043a\u0430\u043a\u0430\u043b\u043a\u0430_v1.png"
+    "path": "styles/new/скакалка_v1.png"
   },
   {
-    "word": "\u0441\u043a\u0430\u043a\u0430\u043b\u043a\u0430",
+    "word": "скакалка",
     "version": "v2",
-    "path": "styles/new/\u0441\u043a\u0430\u043a\u0430\u043b\u043a\u0430_v2.png",
-    "url": "styles/new/\u0441\u043a\u0430\u043a\u0430\u043b\u043a\u0430_v2.png"
+    "path": "styles/new/скакалка_v2.png"
   },
   {
-    "word": "\u0441\u043a\u0430\u043b\u0430",
+    "word": "скала",
     "version": "latest",
-    "path": "styles/new/\u0441\u043a\u0430\u043b\u0430_latest.png",
-    "url": "styles/new/\u0441\u043a\u0430\u043b\u0430_latest.png"
+    "path": "styles/new/скала_latest.png"
   },
   {
-    "word": "\u0441\u043a\u0430\u043b\u0430",
+    "word": "скала",
     "version": "v1",
-    "path": "styles/new/\u0441\u043a\u0430\u043b\u0430_v1.png",
-    "url": "styles/new/\u0441\u043a\u0430\u043b\u0430_v1.png"
+    "path": "styles/new/скала_v1.png"
   },
   {
-    "word": "\u0441\u043a\u0430\u043b\u0430",
+    "word": "скала",
     "version": "v2",
-    "path": "styles/new/\u0441\u043a\u0430\u043b\u0430_v2.png",
-    "url": "styles/new/\u0441\u043a\u0430\u043b\u0430_v2.png"
+    "path": "styles/new/скала_v2.png"
   },
   {
-    "word": "\u0441\u043a\u0430\u043b\u043e\u043b\u0430\u0437",
+    "word": "скалолаз",
     "version": "latest",
-    "path": "styles/new/\u0441\u043a\u0430\u043b\u043e\u043b\u0430\u0437_latest.png",
-    "url": "styles/new/\u0441\u043a\u0430\u043b\u043e\u043b\u0430\u0437_latest.png"
+    "path": "styles/new/скалолаз_latest.png"
   },
   {
-    "word": "\u0441\u043a\u0430\u043b\u043e\u043b\u0430\u0437",
+    "word": "скалолаз",
     "version": "v1",
-    "path": "styles/new/\u0441\u043a\u0430\u043b\u043e\u043b\u0430\u0437_v1.png",
-    "url": "styles/new/\u0441\u043a\u0430\u043b\u043e\u043b\u0430\u0437_v1.png"
+    "path": "styles/new/скалолаз_v1.png"
   },
   {
-    "word": "\u0441\u043a\u0430\u043b\u043e\u043b\u0430\u0437",
+    "word": "скалолаз",
     "version": "v2",
-    "path": "styles/new/\u0441\u043a\u0430\u043b\u043e\u043b\u0430\u0437_v2.png",
-    "url": "styles/new/\u0441\u043a\u0430\u043b\u043e\u043b\u0430\u0437_v2.png"
+    "path": "styles/new/скалолаз_v2.png"
   },
   {
-    "word": "\u0441\u043a\u0430\u0447\u043a\u0430",
+    "word": "скачка",
     "version": "latest",
-    "path": "styles/new/\u0441\u043a\u0430\u0447\u043a\u0430_latest.png",
-    "url": "styles/new/\u0441\u043a\u0430\u0447\u043a\u0430_latest.png"
+    "path": "styles/new/скачка_latest.png"
   },
   {
-    "word": "\u0441\u043a\u0430\u0447\u043a\u0430",
+    "word": "скачка",
     "version": "v1",
-    "path": "styles/new/\u0441\u043a\u0430\u0447\u043a\u0430_v1.png",
-    "url": "styles/new/\u0441\u043a\u0430\u0447\u043a\u0430_v1.png"
+    "path": "styles/new/скачка_v1.png"
   },
   {
-    "word": "\u0441\u043a\u0430\u0447\u043a\u0430",
+    "word": "скачка",
     "version": "v2",
-    "path": "styles/new/\u0441\u043a\u0430\u0447\u043a\u0430_v2.png",
-    "url": "styles/new/\u0441\u043a\u0430\u0447\u043a\u0430_v2.png"
+    "path": "styles/new/скачка_v2.png"
   },
   {
-    "word": "\u0441\u043b\u043e\u043d",
+    "word": "слон",
     "version": "latest",
-    "path": "styles/new/\u0441\u043b\u043e\u043d_latest.png",
-    "url": "styles/new/\u0441\u043b\u043e\u043d_latest.png"
+    "path": "styles/new/слон_latest.png"
   },
   {
-    "word": "\u0441\u043b\u043e\u043d",
+    "word": "слон",
     "version": "v1",
-    "path": "styles/new/\u0441\u043b\u043e\u043d_v1.png",
-    "url": "styles/new/\u0441\u043b\u043e\u043d_v1.png"
+    "path": "styles/new/слон_v1.png"
   },
   {
-    "word": "\u0441\u043b\u043e\u043d",
+    "word": "слон",
     "version": "v2",
-    "path": "styles/new/\u0441\u043b\u043e\u043d_v2.png",
-    "url": "styles/new/\u0441\u043b\u043e\u043d_v2.png"
+    "path": "styles/new/слон_v2.png"
   },
   {
-    "word": "\u0441\u043b\u043e\u043d\u044b",
+    "word": "слоны",
     "version": "latest",
-    "path": "styles/new/\u0441\u043b\u043e\u043d\u044b_latest.png",
-    "url": "styles/new/\u0441\u043b\u043e\u043d\u044b_latest.png"
+    "path": "styles/new/слоны_latest.png"
   },
   {
-    "word": "\u0441\u043b\u043e\u043d\u044b",
+    "word": "слоны",
     "version": "v1",
-    "path": "styles/new/\u0441\u043b\u043e\u043d\u044b_v1.png",
-    "url": "styles/new/\u0441\u043b\u043e\u043d\u044b_v1.png"
+    "path": "styles/new/слоны_v1.png"
   },
   {
-    "word": "\u0441\u043b\u043e\u043d\u044b",
+    "word": "слоны",
     "version": "v2",
-    "path": "styles/new/\u0441\u043b\u043e\u043d\u044b_v2.png",
-    "url": "styles/new/\u0441\u043b\u043e\u043d\u044b_v2.png"
+    "path": "styles/new/слоны_v2.png"
   },
   {
-    "word": "\u0441\u043d\u0435\u0433",
+    "word": "снег",
     "version": "latest",
-    "path": "styles/new/\u0441\u043d\u0435\u0433_latest.png",
-    "url": "styles/new/\u0441\u043d\u0435\u0433_latest.png"
+    "path": "styles/new/снег_latest.png"
   },
   {
-    "word": "\u0441\u043d\u0435\u0433",
+    "word": "снег",
     "version": "v1",
-    "path": "styles/new/\u0441\u043d\u0435\u0433_v1.png",
-    "url": "styles/new/\u0441\u043d\u0435\u0433_v1.png"
+    "path": "styles/new/снег_v1.png"
   },
   {
-    "word": "\u0441\u043d\u0435\u0433",
+    "word": "снег",
     "version": "v2",
-    "path": "styles/new/\u0441\u043d\u0435\u0433_v2.png",
-    "url": "styles/new/\u0441\u043d\u0435\u0433_v2.png"
+    "path": "styles/new/снег_v2.png"
   },
   {
-    "word": "\u0441\u043d\u0435\u0433\u043e\u0432\u0438\u043a",
+    "word": "снеговик",
     "version": "latest",
-    "path": "styles/new/\u0441\u043d\u0435\u0433\u043e\u0432\u0438\u043a_latest.png",
-    "url": "styles/new/\u0441\u043d\u0435\u0433\u043e\u0432\u0438\u043a_latest.png"
+    "path": "styles/new/снеговик_latest.png"
   },
   {
-    "word": "\u0441\u043d\u0435\u0433\u043e\u0432\u0438\u043a",
+    "word": "снеговик",
     "version": "v1",
-    "path": "styles/new/\u0441\u043d\u0435\u0433\u043e\u0432\u0438\u043a_v1.png",
-    "url": "styles/new/\u0441\u043d\u0435\u0433\u043e\u0432\u0438\u043a_v1.png"
+    "path": "styles/new/снеговик_v1.png"
   },
   {
-    "word": "\u0441\u043d\u0435\u0433\u043e\u0432\u0438\u043a",
+    "word": "снеговик",
     "version": "v2",
-    "path": "styles/new/\u0441\u043d\u0435\u0433\u043e\u0432\u0438\u043a_v2.png",
-    "url": "styles/new/\u0441\u043d\u0435\u0433\u043e\u0432\u0438\u043a_v2.png"
+    "path": "styles/new/снеговик_v2.png"
   },
   {
-    "word": "\u0441\u043d\u0435\u0436\u0438\u043d\u043a\u0430",
+    "word": "снежинка",
     "version": "latest",
-    "path": "styles/new/\u0441\u043d\u0435\u0436\u0438\u043d\u043a\u0430_latest.png",
-    "url": "styles/new/\u0441\u043d\u0435\u0436\u0438\u043d\u043a\u0430_latest.png"
+    "path": "styles/new/снежинка_latest.png"
   },
   {
-    "word": "\u0441\u043d\u0435\u0436\u0438\u043d\u043a\u0430",
+    "word": "снежинка",
     "version": "v1",
-    "path": "styles/new/\u0441\u043d\u0435\u0436\u0438\u043d\u043a\u0430_v1.png",
-    "url": "styles/new/\u0441\u043d\u0435\u0436\u0438\u043d\u043a\u0430_v1.png"
+    "path": "styles/new/снежинка_v1.png"
   },
   {
-    "word": "\u0441\u043d\u0435\u0436\u0438\u043d\u043a\u0430",
+    "word": "снежинка",
     "version": "v2",
-    "path": "styles/new/\u0441\u043d\u0435\u0436\u0438\u043d\u043a\u0430_v2.png",
-    "url": "styles/new/\u0441\u043d\u0435\u0436\u0438\u043d\u043a\u0430_v2.png"
+    "path": "styles/new/снежинка_v2.png"
   },
   {
-    "word": "\u0441\u043d\u0435\u0436\u043e\u043a",
+    "word": "снежок",
     "version": "latest",
-    "path": "styles/new/\u0441\u043d\u0435\u0436\u043e\u043a_latest.png",
-    "url": "styles/new/\u0441\u043d\u0435\u0436\u043e\u043a_latest.png"
+    "path": "styles/new/снежок_latest.png"
   },
   {
-    "word": "\u0441\u043d\u0435\u0436\u043e\u043a",
+    "word": "снежок",
     "version": "v1",
-    "path": "styles/new/\u0441\u043d\u0435\u0436\u043e\u043a_v1.png",
-    "url": "styles/new/\u0441\u043d\u0435\u0436\u043e\u043a_v1.png"
+    "path": "styles/new/снежок_v1.png"
   },
   {
-    "word": "\u0441\u043d\u0435\u0436\u043e\u043a",
+    "word": "снежок",
     "version": "v2",
-    "path": "styles/new/\u0441\u043d\u0435\u0436\u043e\u043a_v2.png",
-    "url": "styles/new/\u0441\u043d\u0435\u0436\u043e\u043a_v2.png"
+    "path": "styles/new/снежок_v2.png"
   },
   {
-    "word": "\u0441\u043e\u0431\u0430\u043a\u0430",
+    "word": "собака",
     "version": "latest",
-    "path": "styles/new/\u0441\u043e\u0431\u0430\u043a\u0430_latest.png",
-    "url": "styles/new/\u0441\u043e\u0431\u0430\u043a\u0430_latest.png"
+    "path": "styles/new/собака_latest.png"
   },
   {
-    "word": "\u0441\u043e\u0431\u0430\u043a\u0430",
+    "word": "собака",
     "version": "v1",
-    "path": "styles/new/\u0441\u043e\u0431\u0430\u043a\u0430_v1.png",
-    "url": "styles/new/\u0441\u043e\u0431\u0430\u043a\u0430_v1.png"
+    "path": "styles/new/собака_v1.png"
   },
   {
-    "word": "\u0441\u043e\u0431\u0430\u043a\u0430",
+    "word": "собака",
     "version": "v2",
-    "path": "styles/new/\u0441\u043e\u0431\u0430\u043a\u0430_v2.png",
-    "url": "styles/new/\u0441\u043e\u0431\u0430\u043a\u0430_v2.png"
+    "path": "styles/new/собака_v2.png"
   },
   {
-    "word": "\u0441\u043e\u0432\u0430",
+    "word": "сова",
     "version": "latest",
-    "path": "styles/new/\u0441\u043e\u0432\u0430_latest.png",
-    "url": "styles/new/\u0441\u043e\u0432\u0430_latest.png"
+    "path": "styles/new/сова_latest.png"
   },
   {
-    "word": "\u0441\u043e\u0432\u0430",
+    "word": "сова",
     "version": "v1",
-    "path": "styles/new/\u0441\u043e\u0432\u0430_v1.png",
-    "url": "styles/new/\u0441\u043e\u0432\u0430_v1.png"
+    "path": "styles/new/сова_v1.png"
   },
   {
-    "word": "\u0441\u043e\u0432\u0430",
+    "word": "сова",
     "version": "v2",
-    "path": "styles/new/\u0441\u043e\u0432\u0430_v2.png",
-    "url": "styles/new/\u0441\u043e\u0432\u0430_v2.png"
+    "path": "styles/new/сова_v2.png"
   },
   {
-    "word": "\u0441\u043e\u0432\u0430",
+    "word": "сова",
     "version": "v3",
-    "path": "styles/new/\u0441\u043e\u0432\u0430_v3.png",
-    "url": "styles/new/\u0441\u043e\u0432\u0430_v3.png"
+    "path": "styles/new/сова_v3.png"
   },
   {
-    "word": "\u0441\u043e\u043a",
+    "word": "сок",
     "version": "latest",
-    "path": "styles/new/\u0441\u043e\u043a_latest.png",
-    "url": "styles/new/\u0441\u043e\u043a_latest.png"
+    "path": "styles/new/сок_latest.png"
   },
   {
-    "word": "\u0441\u043e\u043a",
+    "word": "сок",
     "version": "v1",
-    "path": "styles/new/\u0441\u043e\u043a_v1.png",
-    "url": "styles/new/\u0441\u043e\u043a_v1.png"
+    "path": "styles/new/сок_v1.png"
   },
   {
-    "word": "\u0441\u043e\u043a",
+    "word": "сок",
     "version": "v2",
-    "path": "styles/new/\u0441\u043e\u043a_v2.png",
-    "url": "styles/new/\u0441\u043e\u043a_v2.png"
+    "path": "styles/new/сок_v2.png"
   },
   {
-    "word": "\u0441\u043e\u043c",
+    "word": "сом",
     "version": "latest",
-    "path": "styles/new/\u0441\u043e\u043c_latest.png",
-    "url": "styles/new/\u0441\u043e\u043c_latest.png"
+    "path": "styles/new/сом_latest.png"
   },
   {
-    "word": "\u0441\u043e\u043c",
+    "word": "сом",
     "version": "v1",
-    "path": "styles/new/\u0441\u043e\u043c_v1.png",
-    "url": "styles/new/\u0441\u043e\u043c_v1.png"
+    "path": "styles/new/сом_v1.png"
   },
   {
-    "word": "\u0441\u043e\u043c",
+    "word": "сом",
     "version": "v2",
-    "path": "styles/new/\u0441\u043e\u043c_v2.png",
-    "url": "styles/new/\u0441\u043e\u043c_v2.png"
+    "path": "styles/new/сом_v2.png"
   },
   {
-    "word": "\u0441\u043e\u043c",
+    "word": "сом",
     "version": "v3",
-    "path": "styles/new/\u0441\u043e\u043c_v3.png",
-    "url": "styles/new/\u0441\u043e\u043c_v3.png"
+    "path": "styles/new/сом_v3.png"
   },
   {
-    "word": "\u0441\u043e\u0440\u043e\u043a\u0430",
+    "word": "сорока",
     "version": "latest",
-    "path": "styles/new/\u0441\u043e\u0440\u043e\u043a\u0430_latest.png",
-    "url": "styles/new/\u0441\u043e\u0440\u043e\u043a\u0430_latest.png"
+    "path": "styles/new/сорока_latest.png"
   },
   {
-    "word": "\u0441\u043e\u0440\u043e\u043a\u0430",
+    "word": "сорока",
     "version": "v1",
-    "path": "styles/new/\u0441\u043e\u0440\u043e\u043a\u0430_v1.png",
-    "url": "styles/new/\u0441\u043e\u0440\u043e\u043a\u0430_v1.png"
+    "path": "styles/new/сорока_v1.png"
   },
   {
-    "word": "\u0441\u043e\u0440\u043e\u043a\u0430",
+    "word": "сорока",
     "version": "v2",
-    "path": "styles/new/\u0441\u043e\u0440\u043e\u043a\u0430_v2.png",
-    "url": "styles/new/\u0441\u043e\u0440\u043e\u043a\u0430_v2.png"
+    "path": "styles/new/сорока_v2.png"
   },
   {
-    "word": "\u0441\u043e\u0441\u043d\u0430",
+    "word": "сосна",
     "version": "latest",
-    "path": "styles/new/\u0441\u043e\u0441\u043d\u0430_latest.png",
-    "url": "styles/new/\u0441\u043e\u0441\u043d\u0430_latest.png"
+    "path": "styles/new/сосна_latest.png"
   },
   {
-    "word": "\u0441\u043e\u0441\u043d\u0430",
+    "word": "сосна",
     "version": "v1",
-    "path": "styles/new/\u0441\u043e\u0441\u043d\u0430_v1.png",
-    "url": "styles/new/\u0441\u043e\u0441\u043d\u0430_v1.png"
+    "path": "styles/new/сосна_v1.png"
   },
   {
-    "word": "\u0441\u043e\u0441\u043d\u0430",
+    "word": "сосна",
     "version": "v2",
-    "path": "styles/new/\u0441\u043e\u0441\u043d\u0430_v2.png",
-    "url": "styles/new/\u0441\u043e\u0441\u043d\u0430_v2.png"
+    "path": "styles/new/сосна_v2.png"
   },
   {
-    "word": "\u0441\u043e\u0441\u043d\u0430",
+    "word": "сосна",
     "version": "v3",
-    "path": "styles/new/\u0441\u043e\u0441\u043d\u0430_v3.png",
-    "url": "styles/new/\u0441\u043e\u0441\u043d\u0430_v3.png"
+    "path": "styles/new/сосна_v3.png"
   },
   {
-    "word": "\u0441\u0442\u043e\u043b",
+    "word": "стол",
     "version": "latest",
-    "path": "styles/new/\u0441\u0442\u043e\u043b_latest.png",
-    "url": "styles/new/\u0441\u0442\u043e\u043b_latest.png"
+    "path": "styles/new/стол_latest.png"
   },
   {
-    "word": "\u0441\u0442\u043e\u043b",
+    "word": "стол",
     "version": "v1",
-    "path": "styles/new/\u0441\u0442\u043e\u043b_v1.png",
-    "url": "styles/new/\u0441\u0442\u043e\u043b_v1.png"
+    "path": "styles/new/стол_v1.png"
   },
   {
-    "word": "\u0441\u0442\u043e\u043b",
+    "word": "стол",
     "version": "v2",
-    "path": "styles/new/\u0441\u0442\u043e\u043b_v2.png",
-    "url": "styles/new/\u0441\u0442\u043e\u043b_v2.png"
+    "path": "styles/new/стол_v2.png"
   },
   {
-    "word": "\u0441\u0442\u0443\u043a",
+    "word": "стук",
     "version": "latest",
-    "path": "styles/new/\u0441\u0442\u0443\u043a_latest.png",
-    "url": "styles/new/\u0441\u0442\u0443\u043a_latest.png"
+    "path": "styles/new/стук_latest.png"
   },
   {
-    "word": "\u0441\u0442\u0443\u043a",
+    "word": "стук",
     "version": "v1",
-    "path": "styles/new/\u0441\u0442\u0443\u043a_v1.png",
-    "url": "styles/new/\u0441\u0442\u0443\u043a_v1.png"
+    "path": "styles/new/стук_v1.png"
   },
   {
-    "word": "\u0441\u0442\u0443\u043a",
+    "word": "стук",
     "version": "v2",
-    "path": "styles/new/\u0441\u0442\u0443\u043a_v2.png",
-    "url": "styles/new/\u0441\u0442\u0443\u043a_v2.png"
+    "path": "styles/new/стук_v2.png"
   },
   {
-    "word": "\u0441\u0442\u0443\u043a",
+    "word": "стук",
     "version": "v3",
-    "path": "styles/new/\u0441\u0442\u0443\u043a_v3.png",
-    "url": "styles/new/\u0441\u0442\u0443\u043a_v3.png"
+    "path": "styles/new/стук_v3.png"
   },
   {
-    "word": "\u0441\u0442\u0443\u043b",
+    "word": "стул",
     "version": "latest",
-    "path": "styles/new/\u0441\u0442\u0443\u043b_latest.png",
-    "url": "styles/new/\u0441\u0442\u0443\u043b_latest.png"
+    "path": "styles/new/стул_latest.png"
   },
   {
-    "word": "\u0441\u0442\u0443\u043b",
+    "word": "стул",
     "version": "v1",
-    "path": "styles/new/\u0441\u0442\u0443\u043b_v1.png",
-    "url": "styles/new/\u0441\u0442\u0443\u043b_v1.png"
+    "path": "styles/new/стул_v1.png"
   },
   {
-    "word": "\u0441\u0442\u0443\u043b",
+    "word": "стул",
     "version": "v2",
-    "path": "styles/new/\u0441\u0442\u0443\u043b_v2.png",
-    "url": "styles/new/\u0441\u0442\u0443\u043b_v2.png"
+    "path": "styles/new/стул_v2.png"
   },
   {
-    "word": "\u0441\u0443\u043a",
+    "word": "сук",
     "version": "latest",
-    "path": "styles/new/\u0441\u0443\u043a_latest.png",
-    "url": "styles/new/\u0441\u0443\u043a_latest.png"
+    "path": "styles/new/сук_latest.png"
   },
   {
-    "word": "\u0441\u0443\u043a",
+    "word": "сук",
     "version": "v1",
-    "path": "styles/new/\u0441\u0443\u043a_v1.png",
-    "url": "styles/new/\u0441\u0443\u043a_v1.png"
+    "path": "styles/new/сук_v1.png"
   },
   {
-    "word": "\u0441\u0443\u043a",
+    "word": "сук",
     "version": "v2",
-    "path": "styles/new/\u0441\u0443\u043a_v2.png",
-    "url": "styles/new/\u0441\u0443\u043a_v2.png"
+    "path": "styles/new/сук_v2.png"
   },
   {
-    "word": "\u0441\u0443\u043f",
+    "word": "суп",
     "version": "latest",
-    "path": "styles/new/\u0441\u0443\u043f_latest.png",
-    "url": "styles/new/\u0441\u0443\u043f_latest.png"
+    "path": "styles/new/суп_latest.png"
   },
   {
-    "word": "\u0441\u0443\u043f",
+    "word": "суп",
     "version": "v1",
-    "path": "styles/new/\u0441\u0443\u043f_v1.png",
-    "url": "styles/new/\u0441\u0443\u043f_v1.png"
+    "path": "styles/new/суп_v1.png"
   },
   {
-    "word": "\u0441\u0443\u043f",
+    "word": "суп",
     "version": "v2",
-    "path": "styles/new/\u0441\u0443\u043f_v2.png",
-    "url": "styles/new/\u0441\u0443\u043f_v2.png"
+    "path": "styles/new/суп_v2.png"
   },
   {
-    "word": "\u0441\u044b\u0440",
+    "word": "сыр",
     "version": "latest",
-    "path": "styles/new/\u0441\u044b\u0440_latest.png",
-    "url": "styles/new/\u0441\u044b\u0440_latest.png"
+    "path": "styles/new/сыр_latest.png"
   },
   {
-    "word": "\u0441\u044b\u0440",
+    "word": "сыр",
     "version": "v1",
-    "path": "styles/new/\u0441\u044b\u0440_v1.png",
-    "url": "styles/new/\u0441\u044b\u0440_v1.png"
+    "path": "styles/new/сыр_v1.png"
   },
   {
-    "word": "\u0441\u044b\u0440",
+    "word": "сыр",
     "version": "v2",
-    "path": "styles/new/\u0441\u044b\u0440_v2.png",
-    "url": "styles/new/\u0441\u044b\u0440_v2.png"
+    "path": "styles/new/сыр_v2.png"
   },
   {
-    "word": "\u0442\u0435\u043b\u0435\u0433\u0430",
+    "word": "телега",
     "version": "latest",
-    "path": "styles/new/\u0442\u0435\u043b\u0435\u0433\u0430_latest.png",
-    "url": "styles/new/\u0442\u0435\u043b\u0435\u0433\u0430_latest.png"
+    "path": "styles/new/телега_latest.png"
   },
   {
-    "word": "\u0442\u0435\u043b\u0435\u0433\u0430",
+    "word": "телега",
     "version": "v1",
-    "path": "styles/new/\u0442\u0435\u043b\u0435\u0433\u0430_v1.png",
-    "url": "styles/new/\u0442\u0435\u043b\u0435\u0433\u0430_v1.png"
+    "path": "styles/new/телега_v1.png"
   },
   {
-    "word": "\u0442\u0435\u043b\u0435\u0433\u0430",
+    "word": "телега",
     "version": "v2",
-    "path": "styles/new/\u0442\u0435\u043b\u0435\u0433\u0430_v2.png",
-    "url": "styles/new/\u0442\u0435\u043b\u0435\u0433\u0430_v2.png"
+    "path": "styles/new/телега_v2.png"
   },
   {
-    "word": "\u0442\u0435\u043b\u0435\u0433\u0430",
+    "word": "телега",
     "version": "v3",
-    "path": "styles/new/\u0442\u0435\u043b\u0435\u0433\u0430_v3.png",
-    "url": "styles/new/\u0442\u0435\u043b\u0435\u0433\u0430_v3.png"
+    "path": "styles/new/телега_v3.png"
   },
   {
-    "word": "\u0442\u0435\u043b\u0435\u0441\u043a\u043e\u043f",
+    "word": "телескоп",
     "version": "latest",
-    "path": "styles/new/\u0442\u0435\u043b\u0435\u0441\u043a\u043e\u043f_latest.png",
-    "url": "styles/new/\u0442\u0435\u043b\u0435\u0441\u043a\u043e\u043f_latest.png"
+    "path": "styles/new/телескоп_latest.png"
   },
   {
-    "word": "\u0442\u0435\u043b\u0435\u0441\u043a\u043e\u043f",
+    "word": "телескоп",
     "version": "v1",
-    "path": "styles/new/\u0442\u0435\u043b\u0435\u0441\u043a\u043e\u043f_v1.png",
-    "url": "styles/new/\u0442\u0435\u043b\u0435\u0441\u043a\u043e\u043f_v1.png"
+    "path": "styles/new/телескоп_v1.png"
   },
   {
-    "word": "\u0442\u0435\u043b\u0435\u0441\u043a\u043e\u043f",
+    "word": "телескоп",
     "version": "v2",
-    "path": "styles/new/\u0442\u0435\u043b\u0435\u0441\u043a\u043e\u043f_v2.png",
-    "url": "styles/new/\u0442\u0435\u043b\u0435\u0441\u043a\u043e\u043f_v2.png"
+    "path": "styles/new/телескоп_v2.png"
   },
   {
-    "word": "\u0442\u0435\u043b\u0435\u0444\u043e\u043d",
+    "word": "телефон",
     "version": "latest",
-    "path": "styles/new/\u0442\u0435\u043b\u0435\u0444\u043e\u043d_latest.png",
-    "url": "styles/new/\u0442\u0435\u043b\u0435\u0444\u043e\u043d_latest.png"
+    "path": "styles/new/телефон_latest.png"
   },
   {
-    "word": "\u0442\u0435\u043b\u0435\u0444\u043e\u043d",
+    "word": "телефон",
     "version": "v1",
-    "path": "styles/new/\u0442\u0435\u043b\u0435\u0444\u043e\u043d_v1.png",
-    "url": "styles/new/\u0442\u0435\u043b\u0435\u0444\u043e\u043d_v1.png"
+    "path": "styles/new/телефон_v1.png"
   },
   {
-    "word": "\u0442\u0435\u043b\u0435\u0444\u043e\u043d",
+    "word": "телефон",
     "version": "v2",
-    "path": "styles/new/\u0442\u0435\u043b\u0435\u0444\u043e\u043d_v2.png",
-    "url": "styles/new/\u0442\u0435\u043b\u0435\u0444\u043e\u043d_v2.png"
+    "path": "styles/new/телефон_v2.png"
   },
   {
-    "word": "\u0442\u0435\u043b\u0435\u0444\u043e\u043d",
+    "word": "телефон",
     "version": "v3",
-    "path": "styles/new/\u0442\u0435\u043b\u0435\u0444\u043e\u043d_v3.png",
-    "url": "styles/new/\u0442\u0435\u043b\u0435\u0444\u043e\u043d_v3.png"
+    "path": "styles/new/телефон_v3.png"
   },
   {
-    "word": "\u0442\u0435\u043b\u0451\u043d\u043e\u043a",
+    "word": "телёнок",
     "version": "latest",
-    "path": "styles/new/\u0442\u0435\u043b\u0451\u043d\u043e\u043a_latest.png",
-    "url": "styles/new/\u0442\u0435\u043b\u0451\u043d\u043e\u043a_latest.png"
+    "path": "styles/new/телёнок_latest.png"
   },
   {
-    "word": "\u0442\u0435\u043b\u0451\u043d\u043e\u043a",
+    "word": "телёнок",
     "version": "v1",
-    "path": "styles/new/\u0442\u0435\u043b\u0451\u043d\u043e\u043a_v1.png",
-    "url": "styles/new/\u0442\u0435\u043b\u0451\u043d\u043e\u043a_v1.png"
+    "path": "styles/new/телёнок_v1.png"
   },
   {
-    "word": "\u0442\u0435\u043b\u0451\u043d\u043e\u043a",
+    "word": "телёнок",
     "version": "v2",
-    "path": "styles/new/\u0442\u0435\u043b\u0451\u043d\u043e\u043a_v2.png",
-    "url": "styles/new/\u0442\u0435\u043b\u0451\u043d\u043e\u043a_v2.png"
+    "path": "styles/new/телёнок_v2.png"
   },
   {
-    "word": "\u0442\u043e\u0447\u043a\u0430",
+    "word": "точка",
     "version": "latest",
-    "path": "styles/new/\u0442\u043e\u0447\u043a\u0430_latest.png",
-    "url": "styles/new/\u0442\u043e\u0447\u043a\u0430_latest.png"
+    "path": "styles/new/точка_latest.png"
   },
   {
-    "word": "\u0442\u043e\u0447\u043a\u0430",
+    "word": "точка",
     "version": "v1",
-    "path": "styles/new/\u0442\u043e\u0447\u043a\u0430_v1.png",
-    "url": "styles/new/\u0442\u043e\u0447\u043a\u0430_v1.png"
+    "path": "styles/new/точка_v1.png"
   },
   {
-    "word": "\u0442\u043e\u0447\u043a\u0430",
+    "word": "точка",
     "version": "v2",
-    "path": "styles/new/\u0442\u043e\u0447\u043a\u0430_v2.png",
-    "url": "styles/new/\u0442\u043e\u0447\u043a\u0430_v2.png"
+    "path": "styles/new/точка_v2.png"
   },
   {
-    "word": "\u0442\u043e\u0447\u043a\u0430",
+    "word": "точка",
     "version": "v3",
-    "path": "styles/new/\u0442\u043e\u0447\u043a\u0430_v3.png",
-    "url": "styles/new/\u0442\u043e\u0447\u043a\u0430_v3.png"
+    "path": "styles/new/точка_v3.png"
   },
   {
-    "word": "\u0443\u043b\u0438\u0446\u0430",
+    "word": "улица",
     "version": "latest",
-    "path": "styles/new/\u0443\u043b\u0438\u0446\u0430_latest.png",
-    "url": "styles/new/\u0443\u043b\u0438\u0446\u0430_latest.png"
+    "path": "styles/new/улица_latest.png"
   },
   {
-    "word": "\u0443\u043b\u0438\u0446\u0430",
+    "word": "улица",
     "version": "v1",
-    "path": "styles/new/\u0443\u043b\u0438\u0446\u0430_v1.png",
-    "url": "styles/new/\u0443\u043b\u0438\u0446\u0430_v1.png"
+    "path": "styles/new/улица_v1.png"
   },
   {
-    "word": "\u0443\u043b\u0438\u0446\u0430",
+    "word": "улица",
     "version": "v2",
-    "path": "styles/new/\u0443\u043b\u0438\u0446\u0430_v2.png",
-    "url": "styles/new/\u0443\u043b\u0438\u0446\u0430_v2.png"
+    "path": "styles/new/улица_v2.png"
   },
   {
-    "word": "\u0444\u043e\u0442\u043e",
+    "word": "фото",
     "version": "latest",
-    "path": "styles/new/\u0444\u043e\u0442\u043e_latest.png",
-    "url": "styles/new/\u0444\u043e\u0442\u043e_latest.png"
+    "path": "styles/new/фото_latest.png"
   },
   {
-    "word": "\u0444\u043e\u0442\u043e",
+    "word": "фото",
     "version": "v1",
-    "path": "styles/new/\u0444\u043e\u0442\u043e_v1.png",
-    "url": "styles/new/\u0444\u043e\u0442\u043e_v1.png"
+    "path": "styles/new/фото_v1.png"
   },
   {
-    "word": "\u0444\u043e\u0442\u043e",
+    "word": "фото",
     "version": "v2",
-    "path": "styles/new/\u0444\u043e\u0442\u043e_v2.png",
-    "url": "styles/new/\u0444\u043e\u0442\u043e_v2.png"
+    "path": "styles/new/фото_v2.png"
   },
   {
-    "word": "\u0445\u043b\u0435\u0431",
+    "word": "хлеб",
     "version": "latest",
-    "path": "styles/new/\u0445\u043b\u0435\u0431_latest.png",
-    "url": "styles/new/\u0445\u043b\u0435\u0431_latest.png"
+    "path": "styles/new/хлеб_latest.png"
   },
   {
-    "word": "\u0445\u043b\u0435\u0431",
+    "word": "хлеб",
     "version": "v1",
-    "path": "styles/new/\u0445\u043b\u0435\u0431_v1.png",
-    "url": "styles/new/\u0445\u043b\u0435\u0431_v1.png"
+    "path": "styles/new/хлеб_v1.png"
   },
   {
-    "word": "\u0445\u043b\u0435\u0431",
+    "word": "хлеб",
     "version": "v2",
-    "path": "styles/new/\u0445\u043b\u0435\u0431_v2.png",
-    "url": "styles/new/\u0445\u043b\u0435\u0431_v2.png"
+    "path": "styles/new/хлеб_v2.png"
   },
   {
-    "word": "\u0447\u0435\u0440\u0435\u043f",
+    "word": "череп",
     "version": "latest",
-    "path": "styles/new/\u0447\u0435\u0440\u0435\u043f_latest.png",
-    "url": "styles/new/\u0447\u0435\u0440\u0435\u043f_latest.png"
+    "path": "styles/new/череп_latest.png"
   },
   {
-    "word": "\u0447\u0435\u0440\u0435\u043f",
+    "word": "череп",
     "version": "v1",
-    "path": "styles/new/\u0447\u0435\u0440\u0435\u043f_v1.png",
-    "url": "styles/new/\u0447\u0435\u0440\u0435\u043f_v1.png"
+    "path": "styles/new/череп_v1.png"
   },
   {
-    "word": "\u0447\u0435\u0440\u0435\u043f",
+    "word": "череп",
     "version": "v2",
-    "path": "styles/new/\u0447\u0435\u0440\u0435\u043f_v2.png",
-    "url": "styles/new/\u0447\u0435\u0440\u0435\u043f_v2.png"
+    "path": "styles/new/череп_v2.png"
   },
   {
-    "word": "\u0447\u0435\u0440\u0435\u043f\u0430\u0445\u0430",
+    "word": "черепаха",
     "version": "latest",
-    "path": "styles/new/\u0447\u0435\u0440\u0435\u043f\u0430\u0445\u0430_latest.png",
-    "url": "styles/new/\u0447\u0435\u0440\u0435\u043f\u0430\u0445\u0430_latest.png"
+    "path": "styles/new/черепаха_latest.png"
   },
   {
-    "word": "\u0447\u0435\u0440\u0435\u043f\u0430\u0445\u0430",
+    "word": "черепаха",
     "version": "v1",
-    "path": "styles/new/\u0447\u0435\u0440\u0435\u043f\u0430\u0445\u0430_v1.png",
-    "url": "styles/new/\u0447\u0435\u0440\u0435\u043f\u0430\u0445\u0430_v1.png"
+    "path": "styles/new/черепаха_v1.png"
   },
   {
-    "word": "\u0447\u0435\u0440\u0435\u043f\u0430\u0448\u043a\u0430",
+    "word": "черепашка",
     "version": "latest",
-    "path": "styles/new/\u0447\u0435\u0440\u0435\u043f\u0430\u0448\u043a\u0430_latest.png",
-    "url": "styles/new/\u0447\u0435\u0440\u0435\u043f\u0430\u0448\u043a\u0430_latest.png"
+    "path": "styles/new/черепашка_latest.png"
   },
   {
-    "word": "\u0447\u0435\u0440\u0435\u043f\u0430\u0448\u043a\u0430",
+    "word": "черепашка",
     "version": "v1",
-    "path": "styles/new/\u0447\u0435\u0440\u0435\u043f\u0430\u0448\u043a\u0430_v1.png",
-    "url": "styles/new/\u0447\u0435\u0440\u0435\u043f\u0430\u0448\u043a\u0430_v1.png"
+    "path": "styles/new/черепашка_v1.png"
   },
   {
-    "word": "\u0447\u0435\u0440\u043d\u0438\u043a\u0430",
+    "word": "черника",
     "version": "latest",
-    "path": "styles/new/\u0447\u0435\u0440\u043d\u0438\u043a\u0430_latest.png",
-    "url": "styles/new/\u0447\u0435\u0440\u043d\u0438\u043a\u0430_latest.png"
+    "path": "styles/new/черника_latest.png"
   },
   {
-    "word": "\u0447\u0435\u0440\u043d\u0438\u043a\u0430",
+    "word": "черника",
     "version": "v1",
-    "path": "styles/new/\u0447\u0435\u0440\u043d\u0438\u043a\u0430_v1.png",
-    "url": "styles/new/\u0447\u0435\u0440\u043d\u0438\u043a\u0430_v1.png"
+    "path": "styles/new/черника_v1.png"
   },
   {
-    "word": "\u0447\u0435\u0440\u043d\u0438\u043a\u0430",
+    "word": "черника",
     "version": "v2",
-    "path": "styles/new/\u0447\u0435\u0440\u043d\u0438\u043a\u0430_v2.png",
-    "url": "styles/new/\u0447\u0435\u0440\u043d\u0438\u043a\u0430_v2.png"
+    "path": "styles/new/черника_v2.png"
   },
   {
-    "word": "\u0447\u0435\u0440\u043d\u0438\u043b\u0430",
+    "word": "чернила",
     "version": "latest",
-    "path": "styles/new/\u0447\u0435\u0440\u043d\u0438\u043b\u0430_latest.png",
-    "url": "styles/new/\u0447\u0435\u0440\u043d\u0438\u043b\u0430_latest.png"
+    "path": "styles/new/чернила_latest.png"
   },
   {
-    "word": "\u0447\u0435\u0440\u043d\u0438\u043b\u0430",
+    "word": "чернила",
     "version": "v1",
-    "path": "styles/new/\u0447\u0435\u0440\u043d\u0438\u043b\u0430_v1.png",
-    "url": "styles/new/\u0447\u0435\u0440\u043d\u0438\u043b\u0430_v1.png"
+    "path": "styles/new/чернила_v1.png"
   },
   {
-    "word": "\u0447\u0435\u0440\u043d\u0438\u043b\u0430",
+    "word": "чернила",
     "version": "v2",
-    "path": "styles/new/\u0447\u0435\u0440\u043d\u0438\u043b\u0430_v2.png",
-    "url": "styles/new/\u0447\u0435\u0440\u043d\u0438\u043b\u0430_v2.png"
+    "path": "styles/new/чернила_v2.png"
   },
   {
-    "word": "\u044d\u043a\u0440\u0430\u043d",
+    "word": "экран",
     "version": "latest",
-    "path": "styles/new/\u044d\u043a\u0440\u0430\u043d_latest.png",
-    "url": "styles/new/\u044d\u043a\u0440\u0430\u043d_latest.png"
+    "path": "styles/new/экран_latest.png"
   },
   {
-    "word": "\u044d\u043a\u0440\u0430\u043d",
+    "word": "экран",
     "version": "v1",
-    "path": "styles/new/\u044d\u043a\u0440\u0430\u043d_v1.png",
-    "url": "styles/new/\u044d\u043a\u0440\u0430\u043d_v1.png"
+    "path": "styles/new/экран_v1.png"
   },
   {
-    "word": "\u044d\u043a\u0440\u0430\u043d",
+    "word": "экран",
     "version": "v2",
-    "path": "styles/new/\u044d\u043a\u0440\u0430\u043d_v2.png",
-    "url": "styles/new/\u044d\u043a\u0440\u0430\u043d_v2.png"
+    "path": "styles/new/экран_v2.png"
   },
   {
-    "word": "\u044d\u043a\u0441\u043a\u0430\u0432\u0430\u0442\u043e\u0440",
+    "word": "экскаватор",
     "version": "latest",
-    "path": "styles/new/\u044d\u043a\u0441\u043a\u0430\u0432\u0430\u0442\u043e\u0440_latest.png",
-    "url": "styles/new/\u044d\u043a\u0441\u043a\u0430\u0432\u0430\u0442\u043e\u0440_latest.png"
+    "path": "styles/new/экскаватор_latest.png"
   },
   {
-    "word": "\u044d\u043a\u0441\u043a\u0430\u0432\u0430\u0442\u043e\u0440",
+    "word": "экскаватор",
     "version": "v1",
-    "path": "styles/new/\u044d\u043a\u0441\u043a\u0430\u0432\u0430\u0442\u043e\u0440_v1.png",
-    "url": "styles/new/\u044d\u043a\u0441\u043a\u0430\u0432\u0430\u0442\u043e\u0440_v1.png"
+    "path": "styles/new/экскаватор_v1.png"
   },
   {
-    "word": "\u044d\u043a\u0441\u043a\u0430\u0432\u0430\u0442\u043e\u0440",
+    "word": "экскаватор",
     "version": "v2",
-    "path": "styles/new/\u044d\u043a\u0441\u043a\u0430\u0432\u0430\u0442\u043e\u0440_v2.png",
-    "url": "styles/new/\u044d\u043a\u0441\u043a\u0430\u0432\u0430\u0442\u043e\u0440_v2.png"
+    "path": "styles/new/экскаватор_v2.png"
   },
   {
-    "word": "\u044d\u0441\u043a\u0430\u043b\u0430\u0442\u043e\u0440",
+    "word": "эскалатор",
     "version": "latest",
-    "path": "styles/new/\u044d\u0441\u043a\u0430\u043b\u0430\u0442\u043e\u0440_latest.png",
-    "url": "styles/new/\u044d\u0441\u043a\u0430\u043b\u0430\u0442\u043e\u0440_latest.png"
+    "path": "styles/new/эскалатор_latest.png"
   },
   {
-    "word": "\u044d\u0441\u043a\u0430\u043b\u0430\u0442\u043e\u0440",
+    "word": "эскалатор",
     "version": "v1",
-    "path": "styles/new/\u044d\u0441\u043a\u0430\u043b\u0430\u0442\u043e\u0440_v1.png",
-    "url": "styles/new/\u044d\u0441\u043a\u0430\u043b\u0430\u0442\u043e\u0440_v1.png"
+    "path": "styles/new/эскалатор_v1.png"
   },
   {
-    "word": "\u044d\u0441\u043a\u0430\u043b\u0430\u0442\u043e\u0440",
+    "word": "эскалатор",
     "version": "v2",
-    "path": "styles/new/\u044d\u0441\u043a\u0430\u043b\u0430\u0442\u043e\u0440_v2.png",
-    "url": "styles/new/\u044d\u0441\u043a\u0430\u043b\u0430\u0442\u043e\u0440_v2.png"
+    "path": "styles/new/эскалатор_v2.png"
   },
   {
-    "word": "\u044d\u0441\u043a\u0438\u043c\u043e",
+    "word": "эскимо",
     "version": "latest",
-    "path": "styles/new/\u044d\u0441\u043a\u0438\u043c\u043e_latest.png",
-    "url": "styles/new/\u044d\u0441\u043a\u0438\u043c\u043e_latest.png"
+    "path": "styles/new/эскимо_latest.png"
   },
   {
-    "word": "\u044d\u0441\u043a\u0438\u043c\u043e",
+    "word": "эскимо",
     "version": "v1",
-    "path": "styles/new/\u044d\u0441\u043a\u0438\u043c\u043e_v1.png",
-    "url": "styles/new/\u044d\u0441\u043a\u0438\u043c\u043e_v1.png"
+    "path": "styles/new/эскимо_v1.png"
   },
   {
-    "word": "\u044d\u0441\u043a\u0438\u043c\u043e",
+    "word": "эскимо",
     "version": "v2",
-    "path": "styles/new/\u044d\u0441\u043a\u0438\u043c\u043e_v2.png",
-    "url": "styles/new/\u044d\u0441\u043a\u0438\u043c\u043e_v2.png"
+    "path": "styles/new/эскимо_v2.png"
   },
   {
-    "word": "\u044d\u0441\u043a\u0438\u043c\u043e",
+    "word": "эскимо",
     "version": "v3",
-    "path": "styles/new/\u044d\u0441\u043a\u0438\u043c\u043e_v3.png",
-    "url": "styles/new/\u044d\u0441\u043a\u0438\u043c\u043e_v3.png"
+    "path": "styles/new/эскимо_v3.png"
   }
 ]
