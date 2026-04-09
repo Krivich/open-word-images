@@ -203,7 +203,7 @@ clean lines, children's illustration style`;
         const isLatest = latestImg && img.path === latestImg.path;
         return `
         <div class="version-item ${isLatest ? 'latest' : ''}" onclick="downloadVersion('${img.path}', '${word}_${img.version}.png')">
-          <img src="${img.url}" loading="lazy">
+          <img src="${img.path}" loading="lazy">
           <div class="version-label">${img.version} ${isLatest ? '✨' : ''}</div>
         </div>
       `}).join('');

@@ -125,11 +125,11 @@ for root, dirs, files in os.walk('styles'):
         if m:
             word, ver = m.group(1), int(m.group(2))
             p = os.path.join(root, f).replace('\\', '/')
-            manifest.append({'word': word, 'version': 'v' + str(ver), 'path': p, 'url': p})
+            manifest.append({'word': word, 'version': 'v' + str(ver), 'path': p})
         elif bn.endswith('_latest'):
             word = bn[:-7]
             p = os.path.join(root, f).replace('\\', '/')
-            manifest.append({'word': word, 'version': 'latest', 'path': p, 'url': p})
+            manifest.append({'word': word, 'version': 'latest', 'path': p})
 
 manifest.sort(key=lambda x: (x['word'], 0 if x['version'] == 'latest' else int(x['version'][1:])))
 
