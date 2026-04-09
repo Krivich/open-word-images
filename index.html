@@ -177,8 +177,6 @@ clean lines, children's illustration style`;
     function clearSelection() {
       selectedWords.clear();
       document.querySelectorAll('.card.selected').forEach(c => c.classList.remove('selected'));
-      // Reset gallery filter
-      renderGallery();
       updateSelectionBar();
     }
 
