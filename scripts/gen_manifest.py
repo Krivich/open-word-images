@@ -134,6 +134,6 @@ for root, dirs, files in os.walk('styles'):
 manifest.sort(key=lambda x: (x['word'], 0 if x['version'] == 'latest' else int(x['version'][1:])))
 
 print(f"\nManifest entries: {len(manifest)}")
-with open('manifest.json', 'w') as out:
-    json.dump(manifest, out, indent=2)
+with open('manifest.json', 'w', encoding='utf-8') as out:
+    json.dump(manifest, out, indent=2, ensure_ascii=False)
 print('Done!')
