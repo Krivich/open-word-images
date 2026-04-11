@@ -38,3 +38,10 @@ _fix_images.py
 # Local agent context
 .qwen/
 QWEN.md
+
+# Local tools and temporary data
+tools/
+dictionary_tagged.json
+
+# Kaggle related
+*kaggle*
