@@ -104,6 +104,13 @@
     let lastImageUrl = '';
     let selectedWords = new Set();
 
+    // Auto-detect repo base path for GitHub Pages
+    const REPO_BASE = (() => {
+      const path = window.location.pathname;
+      const parts = path.split('/').filter(p => p);
+      return parts.length > 0 ? `/${parts[0]}/` : '';
+    })();
+
     // Hardcoded style prompt (no regex parsing)
     const STYLE_PROMPT = `[OBJECT] icon for learning apps,
 flat vector style, thick black outline (3px),
@@ -201,9 +208,10 @@ clean lines, children's illustration style`;
       
       document.getElementById('modal-body').innerHTML = sorted.map(img => {
         const isLatest = latestImg && img.path === latestImg.path;
+        const fullPath = REPO_BASE + img.path;
         return `
-        <div class="version-item ${isLatest ? 'latest' : ''}" onclick="downloadVersion('${img.path}', '${word}_${img.version}.png')">
-          <img src="${img.path}" loading="lazy">
+        <div class="version-item ${isLatest ? 'latest' : ''}" onclick="downloadVersion('${fullPath}', '${word}_${img.version}.png')">
+          <img src="${fullPath}" loading="lazy">
           <div class="version-label">${img.version} ${isLatest ? '✨' : ''}</div>
         </div>
       `}).join('');
@@ -231,7 +239,7 @@ clean lines, children's illustration style`;
       try {
         // Load dictionary
         try {
-          dictionary = await fetch('dictionary.json?t=' + Date.now()).then(r => r.json());
+          dictionary = await fetch(REPO_BASE + 'dictionary.json?t=' + Date.now()).then(r => r.json());
         } catch(e) {
           console.warn('Dictionary unavailable');
           dictionary = [];
@@ -239,9 +247,11 @@ clean lines, children's illustration style`;
 
         // Load manifest (NO GitHub API!)
         try {
-          existingImages = await fetch('manifest.json?t=' + Date.now()).then(r => r.json());
+          const resp = await fetch(REPO_BASE + 'manifest.json?t=' + Date.now());
+          existingImages = await resp.json();
+          console.log('Manifest entries:', existingImages.length, 'Sample:', existingImages[0]);
         } catch(e) {
-          console.warn('Manifest unavailable');
+          console.warn('Manifest unavailable', e);
           existingImages = [];
         }
 
@@ -260,13 +270,15 @@ clean lines, children's illustration style`;
         grouped[img.word].push(img);
       });
       Object.entries(grouped).forEach(([word, imgs]) => {
+        if(!imgs || imgs.length === 0) return;
         const latest = imgs.find(i=>i.version==='latest') || imgs[imgs.length-1];
+        if(!latest || !latest.path) return;
         const count = imgs.filter(i => i.version !== 'latest').length;
-        
-        // Generate srcset URLs
-        const base = latest.url.replace('.png', '');
-        const src128 = base + '_128.png';
+
+        // Build URLs with repo base path
+        const base = REPO_BASE + latest.path.replace('.png', '');
         const src256 = base + '_256.png';
+        const src128 = base + '_128.png';
         const src512 = base + '_512.png';
 
         gallery.innerHTML += `
