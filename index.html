@@ -270,12 +270,15 @@ clean lines, children's illustration style`;
 
     function renderGallery(images = existingImages) {
       const gallery = document.getElementById('gallery');
-      gallery.innerHTML = '';
       const grouped = {};
       images.forEach(img => {
+        if(!img || !img.word) return;
         if(!grouped[img.word]) grouped[img.word] = [];
         grouped[img.word].push(img);
       });
+
+      // Build all HTML at once (no repeated innerHTML +=)
+      let html = '';
       Object.entries(grouped).forEach(([word, imgs]) => {
         if(!imgs || imgs.length === 0) return;
         const latest = imgs.find(i=>i.version==='latest') || imgs[imgs.length-1];
@@ -288,14 +291,16 @@ clean lines, children's illustration style`;
         const src128 = base + '_128.png';
         const src512 = base + '_512.png';
 
-        gallery.innerHTML += `
+        html += `
           <div class="card" onclick="selectCard(event, '${word}')" data-word="${word}">
-            <img src="${src256}" srcset="${src128} 128w, ${src256} 256w, ${src512} 512w" sizes="100px" loading="lazy" 
+            <img src="${src256}" srcset="${src128} 128w, ${src256} 256w, ${src512} 512w" sizes="100px" loading="lazy"
                  onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖼️</text></svg>'">
             <div class="word">${word}</div>
             <div class="meta">${count} version${count>1?'s':''}</div>
           </div>`;
       });
+
+      gallery.innerHTML = html;
     }
 
     const searchInput = document.getElementById('search');
