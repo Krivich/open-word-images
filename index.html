@@ -236,10 +236,13 @@ clean lines, children's illustration style`;
     }
 
     async function init() {
+      const t0 = performance.now();
       try {
         // Load dictionary
         try {
+          const tDict = performance.now();
           dictionary = await fetch(REPO_BASE + 'dictionary.json?t=' + Date.now()).then(r => r.json());
+          console.log(`✅ Dictionary loaded: ${((performance.now()-tDict)/1000).toFixed(2)}s (${dictionary.length} words)`);
         } catch(e) {
           console.warn('Dictionary unavailable');
           dictionary = [];
@@ -247,15 +250,19 @@ clean lines, children's illustration style`;
 
         // Load manifest (NO GitHub API!)
         try {
+          const tMan = performance.now();
           const resp = await fetch(REPO_BASE + 'manifest.json?t=' + Date.now());
           existingImages = await resp.json();
-          console.log('Manifest entries:', existingImages.length, 'Sample:', existingImages[0]);
+          console.log(`✅ Manifest loaded: ${((performance.now()-tMan)/1000).toFixed(2)}s (${existingImages.length} entries)`);
         } catch(e) {
           console.warn('Manifest unavailable', e);
           existingImages = [];
         }
 
+        const tRender = performance.now();
         renderGallery();
+        console.log(`✅ Gallery rendered: ${((performance.now()-tRender)/1000).toFixed(2)}s`);
+        console.log(` Total init: ${((performance.now()-t0)/1000).toFixed(2)}s`);
       } catch(e) {
         console.warn('Failed to load data', e);
       }
