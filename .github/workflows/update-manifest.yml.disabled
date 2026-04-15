@@ -1,0 +1,30 @@
+name: Update Manifest
+
+on:
+  push:
+    paths:
+      - 'styles/**/*.png'
+      - '.github/workflows/*.yml'
+      - 'scripts/*.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cleanup garbage thumbnails
+        run: |
+          find styles -type f -name "*_latest_128_*" -delete
+          find styles -type f -name "*_latest_256_*" -delete
+          find styles -type f -name "*_latest_512_*" -delete
+      - run: |
+          pip install Pillow
+          python3 scripts/gen_manifest.py
+          python3 scripts/generate_thumbnails.py
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update manifest and thumbnails [skip ci]"
