@@ -2,8 +2,10 @@ name: Update Manifest & Thumbnails
 on:
   push:
     paths:
-      - 'styles/**/*.png'
-      - 'scripts/process_images.py'
+      - 'styles/default/**/*.png'       # Только новые картинки
+      - 'styles/default/words.py'       # Промпты для default
+      - 'scripts/process_images.py'     # Сам скрипт
+      - '.github/workflows/update-manifest-v2.yml'  # Конфиг экшна
   workflow_dispatch:
 
 permissions:
