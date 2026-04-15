@@ -1,6082 +1,1412 @@
-[
-  {
-    "word": "active",
-    "version": "latest",
-    "path": "styles/eng/active_latest.png"
-  },
-  {
-    "word": "active",
-    "version": "v1",
-    "path": "styles/eng/active_v1.png"
-  },
-  {
-    "word": "afraid",
-    "version": "latest",
-    "path": "styles/eng/afraid_latest.png"
-  },
-  {
-    "word": "afraid",
-    "version": "v1",
-    "path": "styles/eng/afraid_v1.png"
-  },
-  {
-    "word": "agree",
-    "version": "latest",
-    "path": "styles/eng/agree_latest.png"
-  },
-  {
-    "word": "agree",
-    "version": "v1",
-    "path": "styles/eng/agree_v1.png"
-  },
-  {
-    "word": "air",
-    "version": "latest",
-    "path": "styles/eng/air_latest.png"
-  },
-  {
-    "word": "air",
-    "version": "v1",
-    "path": "styles/eng/air_v1.png"
-  },
-  {
-    "word": "aircraft",
-    "version": "latest",
-    "path": "styles/eng/aircraft_latest.png"
-  },
-  {
-    "word": "aircraft",
-    "version": "v1",
-    "path": "styles/eng/aircraft_v1.png"
-  },
-  {
-    "word": "airport",
-    "version": "latest",
-    "path": "styles/eng/airport_latest.png"
-  },
-  {
-    "word": "airport",
-    "version": "v1",
-    "path": "styles/eng/airport_v1.png"
-  },
-  {
-    "word": "album",
-    "version": "latest",
-    "path": "styles/eng/album_latest.png"
-  },
-  {
-    "word": "album",
-    "version": "v1",
-    "path": "styles/eng/album_v1.png"
-  },
-  {
-    "word": "alive",
-    "version": "latest",
-    "path": "styles/eng/alive_latest.png"
-  },
-  {
-    "word": "alive",
-    "version": "v1",
-    "path": "styles/eng/alive_v1.png"
-  },
-  {
-    "word": "animal",
-    "version": "latest",
-    "path": "styles/eng/animal_latest.png"
-  },
-  {
-    "word": "animal",
-    "version": "v1",
-    "path": "styles/eng/animal_v1.png"
-  },
-  {
-    "word": "answer",
-    "version": "latest",
-    "path": "styles/eng/answer_latest.png"
-  },
-  {
-    "word": "answer",
-    "version": "v1",
-    "path": "styles/eng/answer_v1.png"
-  },
-  {
-    "word": "appear",
-    "version": "latest",
-    "path": "styles/eng/appear_latest.png"
-  },
-  {
-    "word": "appear",
-    "version": "v1",
-    "path": "styles/eng/appear_v1.png"
-  },
-  {
-    "word": "arm",
-    "version": "latest",
-    "path": "styles/eng/arm_latest.png"
-  },
-  {
-    "word": "arm",
-    "version": "v1",
-    "path": "styles/eng/arm_v1.png"
-  },
-  {
-    "word": "art",
-    "version": "latest",
-    "path": "styles/eng/art_latest.png"
-  },
-  {
-    "word": "art",
-    "version": "v1",
-    "path": "styles/eng/art_v1.png"
-  },
-  {
-    "word": "ask",
-    "version": "latest",
-    "path": "styles/eng/ask_latest.png"
-  },
-  {
-    "word": "ask",
-    "version": "v1",
-    "path": "styles/eng/ask_v1.png"
-  },
-  {
-    "word": "awesome",
-    "version": "latest",
-    "path": "styles/eng/awesome_latest.png"
-  },
-  {
-    "word": "awesome",
-    "version": "v1",
-    "path": "styles/eng/awesome_v1.png"
-  },
-  {
-    "word": "bad",
-    "version": "latest",
-    "path": "styles/eng/bad_latest.png"
-  },
-  {
-    "word": "bad",
-    "version": "v1",
-    "path": "styles/eng/bad_v1.png"
-  },
-  {
-    "word": "bag",
-    "version": "latest",
-    "path": "styles/eng/bag_latest.png"
-  },
-  {
-    "word": "bag",
-    "version": "v1",
-    "path": "styles/eng/bag_v1.png"
-  },
-  {
-    "word": "band",
-    "version": "latest",
-    "path": "styles/eng/band_latest.png"
-  },
-  {
-    "word": "band",
-    "version": "v1",
-    "path": "styles/eng/band_v1.png"
-  },
-  {
-    "word": "basic",
-    "version": "latest",
-    "path": "styles/eng/basic_latest.png"
-  },
-  {
-    "word": "basic",
-    "version": "v1",
-    "path": "styles/eng/basic_v1.png"
-  },
-  {
-    "word": "beach",
-    "version": "latest",
-    "path": "styles/eng/beach_latest.png"
-  },
-  {
-    "word": "beach",
-    "version": "v1",
-    "path": "styles/eng/beach_v1.png"
-  },
-  {
-    "word": "bear",
-    "version": "latest",
-    "path": "styles/eng/bear_latest.png"
-  },
-  {
-    "word": "bear",
-    "version": "v1",
-    "path": "styles/eng/bear_v1.png"
-  },
-  {
-    "word": "beautiful",
-    "version": "latest",
-    "path": "styles/eng/beautiful_latest.png"
-  },
-  {
-    "word": "beautiful",
-    "version": "v1",
-    "path": "styles/eng/beautiful_v1.png"
-  },
-  {
-    "word": "bed",
-    "version": "latest",
-    "path": "styles/eng/bed_latest.png"
-  },
-  {
-    "word": "bed",
-    "version": "v1",
-    "path": "styles/eng/bed_v1.png"
-  },
-  {
-    "word": "big",
-    "version": "latest",
-    "path": "styles/eng/big_latest.png"
-  },
-  {
-    "word": "big",
-    "version": "v1",
-    "path": "styles/eng/big_v1.png"
-  },
-  {
-    "word": "bike",
-    "version": "latest",
-    "path": "styles/eng/bike_latest.png"
-  },
-  {
-    "word": "bike",
-    "version": "v1",
-    "path": "styles/eng/bike_v1.png"
-  },
-  {
-    "word": "bird",
-    "version": "latest",
-    "path": "styles/eng/bird_latest.png"
-  },
-  {
-    "word": "bird",
-    "version": "v1",
-    "path": "styles/eng/bird_v1.png"
-  },
-  {
-    "word": "birth",
-    "version": "latest",
-    "path": "styles/eng/birth_latest.png"
-  },
-  {
-    "word": "birth",
-    "version": "v1",
-    "path": "styles/eng/birth_v1.png"
-  },
-  {
-    "word": "black",
-    "version": "latest",
-    "path": "styles/eng/black_latest.png"
-  },
-  {
-    "word": "black",
-    "version": "v1",
-    "path": "styles/eng/black_v1.png"
-  },
-  {
-    "word": "block",
-    "version": "latest",
-    "path": "styles/eng/block_latest.png"
-  },
-  {
-    "word": "block",
-    "version": "v1",
-    "path": "styles/eng/block_v1.png"
-  },
-  {
-    "word": "blue",
-    "version": "latest",
-    "path": "styles/eng/blue_latest.png"
-  },
-  {
-    "word": "blue",
-    "version": "v1",
-    "path": "styles/eng/blue_v1.png"
-  },
-  {
-    "word": "boat",
-    "version": "latest",
-    "path": "styles/eng/boat_latest.png"
-  },
-  {
-    "word": "boat",
-    "version": "v1",
-    "path": "styles/eng/boat_v1.png"
-  },
-  {
-    "word": "book",
-    "version": "latest",
-    "path": "styles/eng/book_latest.png"
-  },
-  {
-    "word": "book",
-    "version": "v1",
-    "path": "styles/eng/book_v1.png"
-  },
-  {
-    "word": "box",
-    "version": "latest",
-    "path": "styles/eng/box_latest.png"
-  },
-  {
-    "word": "box",
-    "version": "v1",
-    "path": "styles/eng/box_v1.png"
-  },
-  {
-    "word": "brain",
-    "version": "latest",
-    "path": "styles/eng/brain_latest.png"
-  },
-  {
-    "word": "brain",
-    "version": "v1",
-    "path": "styles/eng/brain_v1.png"
-  },
-  {
-    "word": "bridge",
-    "version": "latest",
-    "path": "styles/eng/bridge_latest.png"
-  },
-  {
-    "word": "bridge",
-    "version": "v1",
-    "path": "styles/eng/bridge_v1.png"
-  },
-  {
-    "word": "bring",
-    "version": "latest",
-    "path": "styles/eng/bring_latest.png"
-  },
-  {
-    "word": "bring",
-    "version": "v1",
-    "path": "styles/eng/bring_v1.png"
-  },
-  {
-    "word": "broken",
-    "version": "latest",
-    "path": "styles/eng/broken_latest.png"
-  },
-  {
-    "word": "broken",
-    "version": "v1",
-    "path": "styles/eng/broken_v1.png"
-  },
-  {
-    "word": "build",
-    "version": "latest",
-    "path": "styles/eng/build_latest.png"
-  },
-  {
-    "word": "build",
-    "version": "v1",
-    "path": "styles/eng/build_v1.png"
-  },
-  {
-    "word": "building",
-    "version": "latest",
-    "path": "styles/eng/building_latest.png"
-  },
-  {
-    "word": "building",
-    "version": "v1",
-    "path": "styles/eng/building_v1.png"
-  },
-  {
-    "word": "bus",
-    "version": "latest",
-    "path": "styles/eng/bus_latest.png"
-  },
-  {
-    "word": "bus",
-    "version": "v1",
-    "path": "styles/eng/bus_v1.png"
-  },
-  {
-    "word": "camera",
-    "version": "latest",
-    "path": "styles/eng/camera_latest.png"
-  },
-  {
-    "word": "camera",
-    "version": "v1",
-    "path": "styles/eng/camera_v1.png"
-  },
-  {
-    "word": "camp",
-    "version": "latest",
-    "path": "styles/eng/camp_latest.png"
-  },
-  {
-    "word": "camp",
-    "version": "v1",
-    "path": "styles/eng/camp_v1.png"
-  },
-  {
-    "word": "car",
-    "version": "latest",
-    "path": "styles/eng/car_latest.png"
-  },
-  {
-    "word": "car",
-    "version": "v1",
-    "path": "styles/eng/car_v1.png"
-  },
-  {
-    "word": "card",
-    "version": "latest",
-    "path": "styles/eng/card_latest.png"
-  },
-  {
-    "word": "card",
-    "version": "v1",
-    "path": "styles/eng/card_v1.png"
-  },
-  {
-    "word": "carry",
-    "version": "latest",
-    "path": "styles/eng/carry_latest.png"
-  },
-  {
-    "word": "carry",
-    "version": "v1",
-    "path": "styles/eng/carry_v1.png"
-  },
-  {
-    "word": "cash",
-    "version": "latest",
-    "path": "styles/eng/cash_latest.png"
-  },
-  {
-    "word": "cash",
-    "version": "v1",
-    "path": "styles/eng/cash_v1.png"
-  },
-  {
-    "word": "cat",
-    "version": "latest",
-    "path": "styles/eng/cat_latest.png"
-  },
-  {
-    "word": "cat",
-    "version": "v1",
-    "path": "styles/eng/cat_v1.png"
-  },
-  {
-    "word": "catch",
-    "version": "latest",
-    "path": "styles/eng/catch_latest.png"
-  },
-  {
-    "word": "catch",
-    "version": "v1",
-    "path": "styles/eng/catch_v1.png"
-  },
-  {
-    "word": "chair",
-    "version": "latest",
-    "path": "styles/eng/chair_latest.png"
-  },
-  {
-    "word": "chair",
-    "version": "v1",
-    "path": "styles/eng/chair_v1.png"
-  },
-  {
-    "word": "check",
-    "version": "latest",
-    "path": "styles/eng/check_latest.png"
-  },
-  {
-    "word": "check",
-    "version": "v1",
-    "path": "styles/eng/check_v1.png"
-  },
-  {
-    "word": "choice",
-    "version": "latest",
-    "path": "styles/eng/choice_latest.png"
-  },
-  {
-    "word": "choice",
-    "version": "v1",
-    "path": "styles/eng/choice_v1.png"
-  },
-  {
-    "word": "choose",
-    "version": "latest",
-    "path": "styles/eng/choose_latest.png"
-  },
-  {
-    "word": "choose",
-    "version": "v1",
-    "path": "styles/eng/choose_v1.png"
-  },
-  {
-    "word": "christmas",
-    "version": "latest",
-    "path": "styles/eng/christmas_latest.png"
-  },
-  {
-    "word": "christmas",
-    "version": "v1",
-    "path": "styles/eng/christmas_v1.png"
-  },
-  {
-    "word": "class",
-    "version": "latest",
-    "path": "styles/eng/class_latest.png"
-  },
-  {
-    "word": "class",
-    "version": "v1",
-    "path": "styles/eng/class_v1.png"
-  },
-  {
-    "word": "clean",
-    "version": "latest",
-    "path": "styles/eng/clean_latest.png"
-  },
-  {
-    "word": "clean",
-    "version": "v1",
-    "path": "styles/eng/clean_v1.png"
-  },
-  {
-    "word": "clear",
-    "version": "latest",
-    "path": "styles/eng/clear_latest.png"
-  },
-  {
-    "word": "clear",
-    "version": "v1",
-    "path": "styles/eng/clear_v1.png"
-  },
-  {
-    "word": "closed",
-    "version": "latest",
-    "path": "styles/eng/closed_latest.png"
-  },
-  {
-    "word": "closed",
-    "version": "v1",
-    "path": "styles/eng/closed_v1.png"
-  },
-  {
-    "word": "clothes",
-    "version": "latest",
-    "path": "styles/eng/clothes_latest.png"
-  },
-  {
-    "word": "clothes",
-    "version": "v1",
-    "path": "styles/eng/clothes_v1.png"
-  },
-  {
-    "word": "cloud",
-    "version": "latest",
-    "path": "styles/eng/cloud_latest.png"
-  },
-  {
-    "word": "cloud",
-    "version": "v1",
-    "path": "styles/eng/cloud_v1.png"
-  },
-  {
-    "word": "club",
-    "version": "latest",
-    "path": "styles/eng/club_latest.png"
-  },
-  {
-    "word": "club",
-    "version": "v1",
-    "path": "styles/eng/club_v1.png"
-  },
-  {
-    "word": "coast",
-    "version": "latest",
-    "path": "styles/eng/coast_latest.png"
-  },
-  {
-    "word": "coast",
-    "version": "v1",
-    "path": "styles/eng/coast_v1.png"
-  },
-  {
-    "word": "cold",
-    "version": "latest",
-    "path": "styles/eng/cold_latest.png"
-  },
-  {
-    "word": "cold",
-    "version": "v1",
-    "path": "styles/eng/cold_v1.png"
-  },
-  {
-    "word": "color",
-    "version": "latest",
-    "path": "styles/eng/color_latest.png"
-  },
-  {
-    "word": "color",
-    "version": "v1",
-    "path": "styles/eng/color_v1.png"
-  },
-  {
-    "word": "come",
-    "version": "latest",
-    "path": "styles/eng/come_latest.png"
-  },
-  {
-    "word": "come",
-    "version": "v1",
-    "path": "styles/eng/come_v1.png"
-  },
-  {
-    "word": "complete",
-    "version": "latest",
-    "path": "styles/eng/complete_latest.png"
-  },
-  {
-    "word": "complete",
-    "version": "v1",
-    "path": "styles/eng/complete_v1.png"
-  },
-  {
-    "word": "computer",
-    "version": "latest",
-    "path": "styles/eng/computer_latest.png"
-  },
-  {
-    "word": "computer",
-    "version": "v1",
-    "path": "styles/eng/computer_v1.png"
-  },
-  {
-    "word": "cool",
-    "version": "latest",
-    "path": "styles/eng/cool_latest.png"
-  },
-  {
-    "word": "cool",
-    "version": "v1",
-    "path": "styles/eng/cool_v1.png"
-  },
-  {
-    "word": "corner",
-    "version": "latest",
-    "path": "styles/eng/corner_latest.png"
-  },
-  {
-    "word": "corner",
-    "version": "v1",
-    "path": "styles/eng/corner_v1.png"
-  },
-  {
-    "word": "correct",
-    "version": "latest",
-    "path": "styles/eng/correct_latest.png"
-  },
-  {
-    "word": "correct",
-    "version": "v1",
-    "path": "styles/eng/correct_v1.png"
-  },
-  {
-    "word": "count",
-    "version": "latest",
-    "path": "styles/eng/count_latest.png"
-  },
-  {
-    "word": "count",
-    "version": "v1",
-    "path": "styles/eng/count_v1.png"
-  },
-  {
-    "word": "cover",
-    "version": "latest",
-    "path": "styles/eng/cover_latest.png"
-  },
-  {
-    "word": "cover",
-    "version": "v1",
-    "path": "styles/eng/cover_v1.png"
-  },
-  {
-    "word": "cross",
-    "version": "latest",
-    "path": "styles/eng/cross_latest.png"
-  },
-  {
-    "word": "cross",
-    "version": "v1",
-    "path": "styles/eng/cross_v1.png"
-  },
-  {
-    "word": "cup",
-    "version": "latest",
-    "path": "styles/eng/cup_latest.png"
-  },
-  {
-    "word": "cup",
-    "version": "v1",
-    "path": "styles/eng/cup_v1.png"
-  },
-  {
-    "word": "cut",
-    "version": "latest",
-    "path": "styles/eng/cut_latest.png"
-  },
-  {
-    "word": "cut",
-    "version": "v1",
-    "path": "styles/eng/cut_v1.png"
-  },
-  {
-    "word": "dance",
-    "version": "latest",
-    "path": "styles/eng/dance_latest.png"
-  },
-  {
-    "word": "dance",
-    "version": "v1",
-    "path": "styles/eng/dance_v1.png"
-  },
-  {
-    "word": "dark",
-    "version": "latest",
-    "path": "styles/eng/dark_latest.png"
-  },
-  {
-    "word": "dark",
-    "version": "v1",
-    "path": "styles/eng/dark_v1.png"
-  },
-  {
-    "word": "day",
-    "version": "latest",
-    "path": "styles/eng/day_latest.png"
-  },
-  {
-    "word": "day",
-    "version": "v1",
-    "path": "styles/eng/day_v1.png"
-  },
-  {
-    "word": "different",
-    "version": "latest",
-    "path": "styles/eng/different_latest.png"
-  },
-  {
-    "word": "different",
-    "version": "v1",
-    "path": "styles/eng/different_v1.png"
-  },
-  {
-    "word": "dinner",
-    "version": "latest",
-    "path": "styles/eng/dinner_latest.png"
-  },
-  {
-    "word": "dinner",
-    "version": "v1",
-    "path": "styles/eng/dinner_v1.png"
-  },
-  {
-    "word": "do",
-    "version": "latest",
-    "path": "styles/eng/do_latest.png"
-  },
-  {
-    "word": "do",
-    "version": "v1",
-    "path": "styles/eng/do_v1.png"
-  },
-  {
-    "word": "dog",
-    "version": "latest",
-    "path": "styles/eng/dog_latest.png"
-  },
-  {
-    "word": "dog",
-    "version": "v1",
-    "path": "styles/eng/dog_v1.png"
-  },
-  {
-    "word": "door",
-    "version": "latest",
-    "path": "styles/eng/door_latest.png"
-  },
-  {
-    "word": "door",
-    "version": "v1",
-    "path": "styles/eng/door_v1.png"
-  },
-  {
-    "word": "draw",
-    "version": "latest",
-    "path": "styles/eng/draw_latest.png"
-  },
-  {
-    "word": "draw",
-    "version": "v1",
-    "path": "styles/eng/draw_v1.png"
-  },
-  {
-    "word": "drink",
-    "version": "latest",
-    "path": "styles/eng/drink_latest.png"
-  },
-  {
-    "word": "drink",
-    "version": "v1",
-    "path": "styles/eng/drink_v1.png"
-  },
-  {
-    "word": "dry",
-    "version": "latest",
-    "path": "styles/eng/dry_latest.png"
-  },
-  {
-    "word": "dry",
-    "version": "v1",
-    "path": "styles/eng/dry_v1.png"
-  },
-  {
-    "word": "earth",
-    "version": "latest",
-    "path": "styles/eng/earth_latest.png"
-  },
-  {
-    "word": "earth",
-    "version": "v1",
-    "path": "styles/eng/earth_v1.png"
-  },
-  {
-    "word": "easy",
-    "version": "latest",
-    "path": "styles/eng/easy_latest.png"
-  },
-  {
-    "word": "easy",
-    "version": "v1",
-    "path": "styles/eng/easy_v1.png"
-  },
-  {
-    "word": "eat",
-    "version": "latest",
-    "path": "styles/eng/eat_latest.png"
-  },
-  {
-    "word": "eat",
-    "version": "v1",
-    "path": "styles/eng/eat_v1.png"
-  },
-  {
-    "word": "enter",
-    "version": "latest",
-    "path": "styles/eng/enter_latest.png"
-  },
-  {
-    "word": "enter",
-    "version": "v1",
-    "path": "styles/eng/enter_v1.png"
-  },
-  {
-    "word": "excellent",
-    "version": "latest",
-    "path": "styles/eng/excellent_latest.png"
-  },
-  {
-    "word": "excellent",
-    "version": "v1",
-    "path": "styles/eng/excellent_v1.png"
-  },
-  {
-    "word": "eye",
-    "version": "latest",
-    "path": "styles/eng/eye_latest.png"
-  },
-  {
-    "word": "eye",
-    "version": "v1",
-    "path": "styles/eng/eye_v1.png"
-  },
-  {
-    "word": "eyes",
-    "version": "latest",
-    "path": "styles/eng/eyes_latest.png"
-  },
-  {
-    "word": "eyes",
-    "version": "v1",
-    "path": "styles/eng/eyes_v1.png"
-  },
-  {
-    "word": "fall",
-    "version": "latest",
-    "path": "styles/eng/fall_latest.png"
-  },
-  {
-    "word": "fall",
-    "version": "v1",
-    "path": "styles/eng/fall_v1.png"
-  },
-  {
-    "word": "farm",
-    "version": "latest",
-    "path": "styles/eng/farm_latest.png"
-  },
-  {
-    "word": "farm",
-    "version": "v1",
-    "path": "styles/eng/farm_v1.png"
-  },
-  {
-    "word": "favorite",
-    "version": "latest",
-    "path": "styles/eng/favorite_latest.png"
-  },
-  {
-    "word": "favorite",
-    "version": "v1",
-    "path": "styles/eng/favorite_v1.png"
-  },
-  {
-    "word": "field",
-    "version": "latest",
-    "path": "styles/eng/field_latest.png"
-  },
-  {
-    "word": "field",
-    "version": "v1",
-    "path": "styles/eng/field_v1.png"
-  },
-  {
-    "word": "film",
-    "version": "latest",
-    "path": "styles/eng/film_latest.png"
-  },
-  {
-    "word": "film",
-    "version": "v1",
-    "path": "styles/eng/film_v1.png"
-  },
-  {
-    "word": "find",
-    "version": "latest",
-    "path": "styles/eng/find_latest.png"
-  },
-  {
-    "word": "find",
-    "version": "v1",
-    "path": "styles/eng/find_v1.png"
-  },
-  {
-    "word": "fine",
-    "version": "latest",
-    "path": "styles/eng/fine_latest.png"
-  },
-  {
-    "word": "fine",
-    "version": "v1",
-    "path": "styles/eng/fine_v1.png"
-  },
-  {
-    "word": "finish",
-    "version": "latest",
-    "path": "styles/eng/finish_latest.png"
-  },
-  {
-    "word": "finish",
-    "version": "v1",
-    "path": "styles/eng/finish_v1.png"
-  },
-  {
-    "word": "fire",
-    "version": "latest",
-    "path": "styles/eng/fire_latest.png"
-  },
-  {
-    "word": "fire",
-    "version": "v1",
-    "path": "styles/eng/fire_v1.png"
-  },
-  {
-    "word": "fish",
-    "version": "latest",
-    "path": "styles/eng/fish_latest.png"
-  },
-  {
-    "word": "fish",
-    "version": "v1",
-    "path": "styles/eng/fish_v1.png"
-  },
-  {
-    "word": "fit",
-    "version": "latest",
-    "path": "styles/eng/fit_latest.png"
-  },
-  {
-    "word": "fit",
-    "version": "v1",
-    "path": "styles/eng/fit_v1.png"
-  },
-  {
-    "word": "floor",
-    "version": "latest",
-    "path": "styles/eng/floor_latest.png"
-  },
-  {
-    "word": "floor",
-    "version": "v1",
-    "path": "styles/eng/floor_v1.png"
-  },
-  {
-    "word": "flower",
-    "version": "latest",
-    "path": "styles/eng/flower_latest.png"
-  },
-  {
-    "word": "flower",
-    "version": "v1",
-    "path": "styles/eng/flower_v1.png"
-  },
-  {
-    "word": "fly",
-    "version": "latest",
-    "path": "styles/eng/fly_latest.png"
-  },
-  {
-    "word": "fly",
-    "version": "v1",
-    "path": "styles/eng/fly_v1.png"
-  },
-  {
-    "word": "follow",
-    "version": "latest",
-    "path": "styles/eng/follow_latest.png"
-  },
-  {
-    "word": "follow",
-    "version": "v1",
-    "path": "styles/eng/follow_v1.png"
-  },
-  {
-    "word": "food",
-    "version": "latest",
-    "path": "styles/eng/food_latest.png"
-  },
-  {
-    "word": "food",
-    "version": "v1",
-    "path": "styles/eng/food_v1.png"
-  },
-  {
-    "word": "foot",
-    "version": "latest",
-    "path": "styles/eng/foot_latest.png"
-  },
-  {
-    "word": "foot",
-    "version": "v1",
-    "path": "styles/eng/foot_v1.png"
-  },
-  {
-    "word": "football",
-    "version": "latest",
-    "path": "styles/eng/football_latest.png"
-  },
-  {
-    "word": "football",
-    "version": "v1",
-    "path": "styles/eng/football_v1.png"
-  },
-  {
-    "word": "fresh",
-    "version": "latest",
-    "path": "styles/eng/fresh_latest.png"
-  },
-  {
-    "word": "fresh",
-    "version": "v1",
-    "path": "styles/eng/fresh_v1.png"
-  },
-  {
-    "word": "full",
-    "version": "latest",
-    "path": "styles/eng/full_latest.png"
-  },
-  {
-    "word": "full",
-    "version": "v1",
-    "path": "styles/eng/full_v1.png"
-  },
-  {
-    "word": "fun",
-    "version": "latest",
-    "path": "styles/eng/fun_latest.png"
-  },
-  {
-    "word": "fun",
-    "version": "v1",
-    "path": "styles/eng/fun_v1.png"
-  },
-  {
-    "word": "funny",
-    "version": "latest",
-    "path": "styles/eng/funny_latest.png"
-  },
-  {
-    "word": "funny",
-    "version": "v1",
-    "path": "styles/eng/funny_v1.png"
-  },
-  {
-    "word": "game",
-    "version": "latest",
-    "path": "styles/eng/game_latest.png"
-  },
-  {
-    "word": "game",
-    "version": "v1",
-    "path": "styles/eng/game_v1.png"
-  },
-  {
-    "word": "garden",
-    "version": "latest",
-    "path": "styles/eng/garden_latest.png"
-  },
-  {
-    "word": "garden",
-    "version": "v1",
-    "path": "styles/eng/garden_v1.png"
-  },
-  {
-    "word": "gift",
-    "version": "latest",
-    "path": "styles/eng/gift_latest.png"
-  },
-  {
-    "word": "gift",
-    "version": "v1",
-    "path": "styles/eng/gift_v1.png"
-  },
-  {
-    "word": "give",
-    "version": "latest",
-    "path": "styles/eng/give_latest.png"
-  },
-  {
-    "word": "give",
-    "version": "v1",
-    "path": "styles/eng/give_v1.png"
-  },
-  {
-    "word": "glad",
-    "version": "latest",
-    "path": "styles/eng/glad_latest.png"
-  },
-  {
-    "word": "glad",
-    "version": "v1",
-    "path": "styles/eng/glad_v1.png"
-  },
-  {
-    "word": "glass",
-    "version": "latest",
-    "path": "styles/eng/glass_latest.png"
-  },
-  {
-    "word": "glass",
-    "version": "v1",
-    "path": "styles/eng/glass_v1.png"
-  },
-  {
-    "word": "go",
-    "version": "latest",
-    "path": "styles/eng/go_latest.png"
-  },
-  {
-    "word": "go",
-    "version": "v1",
-    "path": "styles/eng/go_v1.png"
-  },
-  {
-    "word": "goal",
-    "version": "latest",
-    "path": "styles/eng/goal_latest.png"
-  },
-  {
-    "word": "goal",
-    "version": "v1",
-    "path": "styles/eng/goal_v1.png"
-  },
-  {
-    "word": "gold",
-    "version": "latest",
-    "path": "styles/eng/gold_latest.png"
-  },
-  {
-    "word": "gold",
-    "version": "v1",
-    "path": "styles/eng/gold_v1.png"
-  },
-  {
-    "word": "good",
-    "version": "latest",
-    "path": "styles/eng/good_latest.png"
-  },
-  {
-    "word": "good",
-    "version": "v1",
-    "path": "styles/eng/good_v1.png"
-  },
-  {
-    "word": "grass",
-    "version": "latest",
-    "path": "styles/eng/grass_latest.png"
-  },
-  {
-    "word": "grass",
-    "version": "v1",
-    "path": "styles/eng/grass_v1.png"
-  },
-  {
-    "word": "green",
-    "version": "latest",
-    "path": "styles/eng/green_latest.png"
-  },
-  {
-    "word": "green",
-    "version": "v1",
-    "path": "styles/eng/green_v1.png"
-  },
-  {
-    "word": "ground",
-    "version": "latest",
-    "path": "styles/eng/ground_latest.png"
-  },
-  {
-    "word": "ground",
-    "version": "v1",
-    "path": "styles/eng/ground_v1.png"
-  },
-  {
-    "word": "grow",
-    "version": "latest",
-    "path": "styles/eng/grow_latest.png"
-  },
-  {
-    "word": "grow",
-    "version": "v1",
-    "path": "styles/eng/grow_v1.png"
-  },
-  {
-    "word": "hair",
-    "version": "latest",
-    "path": "styles/eng/hair_latest.png"
-  },
-  {
-    "word": "hair",
-    "version": "v1",
-    "path": "styles/eng/hair_v1.png"
-  },
-  {
-    "word": "happy",
-    "version": "latest",
-    "path": "styles/eng/happy_latest.png"
-  },
-  {
-    "word": "happy",
-    "version": "v1",
-    "path": "styles/eng/happy_v1.png"
-  },
-  {
-    "word": "healthy",
-    "version": "latest",
-    "path": "styles/eng/healthy_latest.png"
-  },
-  {
-    "word": "healthy",
-    "version": "v1",
-    "path": "styles/eng/healthy_v1.png"
-  },
-  {
-    "word": "hear",
-    "version": "latest",
-    "path": "styles/eng/hear_latest.png"
-  },
-  {
-    "word": "hear",
-    "version": "v1",
-    "path": "styles/eng/hear_v1.png"
-  },
-  {
-    "word": "heart",
-    "version": "latest",
-    "path": "styles/eng/heart_latest.png"
-  },
-  {
-    "word": "heart",
-    "version": "v1",
-    "path": "styles/eng/heart_v1.png"
-  },
-  {
-    "word": "heavy",
-    "version": "latest",
-    "path": "styles/eng/heavy_latest.png"
-  },
-  {
-    "word": "heavy",
-    "version": "v1",
-    "path": "styles/eng/heavy_v1.png"
-  },
-  {
-    "word": "help",
-    "version": "latest",
-    "path": "styles/eng/help_latest.png"
-  },
-  {
-    "word": "help",
-    "version": "v1",
-    "path": "styles/eng/help_v1.png"
-  },
-  {
-    "word": "high",
-    "version": "latest",
-    "path": "styles/eng/high_latest.png"
-  },
-  {
-    "word": "high",
-    "version": "v1",
-    "path": "styles/eng/high_v1.png"
-  },
-  {
-    "word": "hill",
-    "version": "latest",
-    "path": "styles/eng/hill_latest.png"
-  },
-  {
-    "word": "hill",
-    "version": "v1",
-    "path": "styles/eng/hill_v1.png"
-  },
-  {
-    "word": "hold",
-    "version": "latest",
-    "path": "styles/eng/hold_latest.png"
-  },
-  {
-    "word": "hold",
-    "version": "v1",
-    "path": "styles/eng/hold_v1.png"
-  },
-  {
-    "word": "horse",
-    "version": "latest",
-    "path": "styles/eng/horse_latest.png"
-  },
-  {
-    "word": "horse",
-    "version": "v1",
-    "path": "styles/eng/horse_v1.png"
-  },
-  {
-    "word": "hot",
-    "version": "latest",
-    "path": "styles/eng/hot_latest.png"
-  },
-  {
-    "word": "hot",
-    "version": "v1",
-    "path": "styles/eng/hot_v1.png"
-  },
-  {
-    "word": "hotel",
-    "version": "latest",
-    "path": "styles/eng/hotel_latest.png"
-  },
-  {
-    "word": "hotel",
-    "version": "v1",
-    "path": "styles/eng/hotel_v1.png"
-  },
-  {
-    "word": "huge",
-    "version": "latest",
-    "path": "styles/eng/huge_latest.png"
-  },
-  {
-    "word": "huge",
-    "version": "v1",
-    "path": "styles/eng/huge_v1.png"
-  },
-  {
-    "word": "ice",
-    "version": "latest",
-    "path": "styles/eng/ice_latest.png"
-  },
-  {
-    "word": "ice",
-    "version": "v1",
-    "path": "styles/eng/ice_v1.png"
-  },
-  {
-    "word": "image",
-    "version": "latest",
-    "path": "styles/eng/image_latest.png"
-  },
-  {
-    "word": "image",
-    "version": "v1",
-    "path": "styles/eng/image_v1.png"
-  },
-  {
-    "word": "iron",
-    "version": "latest",
-    "path": "styles/eng/iron_latest.png"
-  },
-  {
-    "word": "iron",
-    "version": "v1",
-    "path": "styles/eng/iron_v1.png"
-  },
-  {
-    "word": "island",
-    "version": "latest",
-    "path": "styles/eng/island_latest.png"
-  },
-  {
-    "word": "island",
-    "version": "v1",
-    "path": "styles/eng/island_v1.png"
-  },
-  {
-    "word": "join",
-    "version": "latest",
-    "path": "styles/eng/join_latest.png"
-  },
-  {
-    "word": "join",
-    "version": "v1",
-    "path": "styles/eng/join_v1.png"
-  },
-  {
-    "word": "lake",
-    "version": "latest",
-    "path": "styles/eng/lake_latest.png"
-  },
-  {
-    "word": "lake",
-    "version": "v1",
-    "path": "styles/eng/lake_v1.png"
-  },
-  {
-    "word": "land",
-    "version": "latest",
-    "path": "styles/eng/land_latest.png"
-  },
-  {
-    "word": "land",
-    "version": "v1",
-    "path": "styles/eng/land_v1.png"
-  },
-  {
-    "word": "large",
-    "version": "latest",
-    "path": "styles/eng/large_latest.png"
-  },
-  {
-    "word": "large",
-    "version": "v1",
-    "path": "styles/eng/large_v1.png"
-  },
-  {
-    "word": "learn",
-    "version": "latest",
-    "path": "styles/eng/learn_latest.png"
-  },
-  {
-    "word": "learn",
-    "version": "v1",
-    "path": "styles/eng/learn_v1.png"
-  },
-  {
-    "word": "leave",
-    "version": "latest",
-    "path": "styles/eng/leave_latest.png"
-  },
-  {
-    "word": "leave",
-    "version": "v1",
-    "path": "styles/eng/leave_v1.png"
-  },
-  {
-    "word": "letter",
-    "version": "latest",
-    "path": "styles/eng/letter_latest.png"
-  },
-  {
-    "word": "letter",
-    "version": "v1",
-    "path": "styles/eng/letter_v1.png"
-  },
-  {
-    "word": "light",
-    "version": "latest",
-    "path": "styles/eng/light_latest.png"
-  },
-  {
-    "word": "light",
-    "version": "v1",
-    "path": "styles/eng/light_v1.png"
-  },
-  {
-    "word": "listen",
-    "version": "latest",
-    "path": "styles/eng/listen_latest.png"
-  },
-  {
-    "word": "listen",
-    "version": "v1",
-    "path": "styles/eng/listen_v1.png"
-  },
-  {
-    "word": "look",
-    "version": "latest",
-    "path": "styles/eng/look_latest.png"
-  },
-  {
-    "word": "look",
-    "version": "v1",
-    "path": "styles/eng/look_v1.png"
-  },
-  {
-    "word": "love",
-    "version": "latest",
-    "path": "styles/eng/love_latest.png"
-  },
-  {
-    "word": "love",
-    "version": "v1",
-    "path": "styles/eng/love_v1.png"
-  },
-  {
-    "word": "low",
-    "version": "latest",
-    "path": "styles/eng/low_latest.png"
-  },
-  {
-    "word": "low",
-    "version": "v1",
-    "path": "styles/eng/low_v1.png"
-  },
-  {
-    "word": "lucky",
-    "version": "latest",
-    "path": "styles/eng/lucky_latest.png"
-  },
-  {
-    "word": "lucky",
-    "version": "v1",
-    "path": "styles/eng/lucky_v1.png"
-  },
-  {
-    "word": "machine",
-    "version": "latest",
-    "path": "styles/eng/machine_latest.png"
-  },
-  {
-    "word": "machine",
-    "version": "v1",
-    "path": "styles/eng/machine_v1.png"
-  },
-  {
-    "word": "magic",
-    "version": "latest",
-    "path": "styles/eng/magic_latest.png"
-  },
-  {
-    "word": "magic",
-    "version": "v1",
-    "path": "styles/eng/magic_v1.png"
-  },
-  {
-    "word": "map",
-    "version": "latest",
-    "path": "styles/eng/map_latest.png"
-  },
-  {
-    "word": "map",
-    "version": "v1",
-    "path": "styles/eng/map_v1.png"
-  },
-  {
-    "word": "match",
-    "version": "latest",
-    "path": "styles/eng/match_latest.png"
-  },
-  {
-    "word": "match",
-    "version": "v1",
-    "path": "styles/eng/match_v1.png"
-  },
-  {
-    "word": "meet",
-    "version": "latest",
-    "path": "styles/eng/meet_latest.png"
-  },
-  {
-    "word": "meet",
-    "version": "v1",
-    "path": "styles/eng/meet_v1.png"
-  },
-  {
-    "word": "money",
-    "version": "latest",
-    "path": "styles/eng/money_latest.png"
-  },
-  {
-    "word": "money",
-    "version": "v1",
-    "path": "styles/eng/money_v1.png"
-  },
-  {
-    "word": "moon",
-    "version": "latest",
-    "path": "styles/eng/moon_latest.png"
-  },
-  {
-    "word": "moon",
-    "version": "v1",
-    "path": "styles/eng/moon_v1.png"
-  },
-  {
-    "word": "morning",
-    "version": "latest",
-    "path": "styles/eng/morning_latest.png"
-  },
-  {
-    "word": "morning",
-    "version": "v1",
-    "path": "styles/eng/morning_v1.png"
-  },
-  {
-    "word": "mountain",
-    "version": "latest",
-    "path": "styles/eng/mountain_latest.png"
-  },
-  {
-    "word": "mountain",
-    "version": "v1",
-    "path": "styles/eng/mountain_v1.png"
-  },
-  {
-    "word": "mouth",
-    "version": "latest",
-    "path": "styles/eng/mouth_latest.png"
-  },
-  {
-    "word": "mouth",
-    "version": "v1",
-    "path": "styles/eng/mouth_v1.png"
-  },
-  {
-    "word": "move",
-    "version": "latest",
-    "path": "styles/eng/move_latest.png"
-  },
-  {
-    "word": "move",
-    "version": "v1",
-    "path": "styles/eng/move_v1.png"
-  },
-  {
-    "word": "movie",
-    "version": "latest",
-    "path": "styles/eng/movie_latest.png"
-  },
-  {
-    "word": "movie",
-    "version": "v1",
-    "path": "styles/eng/movie_v1.png"
-  },
-  {
-    "word": "music",
-    "version": "latest",
-    "path": "styles/eng/music_latest.png"
-  },
-  {
-    "word": "music",
-    "version": "v1",
-    "path": "styles/eng/music_v1.png"
-  },
-  {
-    "word": "natural",
-    "version": "latest",
-    "path": "styles/eng/natural_latest.png"
-  },
-  {
-    "word": "natural",
-    "version": "v1",
-    "path": "styles/eng/natural_v1.png"
-  },
-  {
-    "word": "net",
-    "version": "latest",
-    "path": "styles/eng/net_latest.png"
-  },
-  {
-    "word": "net",
-    "version": "v1",
-    "path": "styles/eng/net_v1.png"
-  },
-  {
-    "word": "new",
-    "version": "latest",
-    "path": "styles/eng/new_latest.png"
-  },
-  {
-    "word": "new",
-    "version": "v1",
-    "path": "styles/eng/new_v1.png"
-  },
-  {
-    "word": "nice",
-    "version": "latest",
-    "path": "styles/eng/nice_latest.png"
-  },
-  {
-    "word": "nice",
-    "version": "v1",
-    "path": "styles/eng/nice_v1.png"
-  },
-  {
-    "word": "night",
-    "version": "latest",
-    "path": "styles/eng/night_latest.png"
-  },
-  {
-    "word": "night",
-    "version": "v1",
-    "path": "styles/eng/night_v1.png"
-  },
-  {
-    "word": "normal",
-    "version": "latest",
-    "path": "styles/eng/normal_latest.png"
-  },
-  {
-    "word": "normal",
-    "version": "v1",
-    "path": "styles/eng/normal_v1.png"
-  },
-  {
-    "word": "old",
-    "version": "latest",
-    "path": "styles/eng/old_latest.png"
-  },
-  {
-    "word": "old",
-    "version": "v1",
-    "path": "styles/eng/old_v1.png"
-  },
-  {
-    "word": "open",
-    "version": "latest",
-    "path": "styles/eng/open_latest.png"
-  },
-  {
-    "word": "open",
-    "version": "v1",
-    "path": "styles/eng/open_v1.png"
-  },
-  {
-    "word": "page",
-    "version": "latest",
-    "path": "styles/eng/page_latest.png"
-  },
-  {
-    "word": "page",
-    "version": "v1",
-    "path": "styles/eng/page_v1.png"
-  },
-  {
-    "word": "paper",
-    "version": "latest",
-    "path": "styles/eng/paper_latest.png"
-  },
-  {
-    "word": "paper",
-    "version": "v1",
-    "path": "styles/eng/paper_v1.png"
-  },
-  {
-    "word": "park",
-    "version": "latest",
-    "path": "styles/eng/park_latest.png"
-  },
-  {
-    "word": "park",
-    "version": "v1",
-    "path": "styles/eng/park_v1.png"
-  },
-  {
-    "word": "party",
-    "version": "latest",
-    "path": "styles/eng/party_latest.png"
-  },
-  {
-    "word": "party",
-    "version": "v1",
-    "path": "styles/eng/party_v1.png"
-  },
-  {
-    "word": "path",
-    "version": "latest",
-    "path": "styles/eng/path_latest.png"
-  },
-  {
-    "word": "path",
-    "version": "v1",
-    "path": "styles/eng/path_v1.png"
-  },
-  {
-    "word": "phone",
-    "version": "latest",
-    "path": "styles/eng/phone_latest.png"
-  },
-  {
-    "word": "phone",
-    "version": "v1",
-    "path": "styles/eng/phone_v1.png"
-  },
-  {
-    "word": "photo",
-    "version": "latest",
-    "path": "styles/eng/photo_latest.png"
-  },
-  {
-    "word": "photo",
-    "version": "v1",
-    "path": "styles/eng/photo_v1.png"
-  },
-  {
-    "word": "physical",
-    "version": "latest",
-    "path": "styles/eng/physical_latest.png"
-  },
-  {
-    "word": "physical",
-    "version": "v1",
-    "path": "styles/eng/physical_v1.png"
-  },
-  {
-    "word": "pick",
-    "version": "latest",
-    "path": "styles/eng/pick_latest.png"
-  },
-  {
-    "word": "pick",
-    "version": "v1",
-    "path": "styles/eng/pick_v1.png"
-  },
-  {
-    "word": "picture",
-    "version": "latest",
-    "path": "styles/eng/picture_latest.png"
-  },
-  {
-    "word": "picture",
-    "version": "v1",
-    "path": "styles/eng/picture_v1.png"
-  },
-  {
-    "word": "piece",
-    "version": "latest",
-    "path": "styles/eng/piece_latest.png"
-  },
-  {
-    "word": "piece",
-    "version": "v1",
-    "path": "styles/eng/piece_v1.png"
-  },
-  {
-    "word": "plane",
-    "version": "latest",
-    "path": "styles/eng/plane_latest.png"
-  },
-  {
-    "word": "plane",
-    "version": "v1",
-    "path": "styles/eng/plane_v1.png"
-  },
-  {
-    "word": "plant",
-    "version": "latest",
-    "path": "styles/eng/plant_latest.png"
-  },
-  {
-    "word": "plant",
-    "version": "v1",
-    "path": "styles/eng/plant_v1.png"
-  },
-  {
-    "word": "play",
-    "version": "latest",
-    "path": "styles/eng/play_latest.png"
-  },
-  {
-    "word": "play",
-    "version": "v1",
-    "path": "styles/eng/play_v1.png"
-  },
-  {
-    "word": "playing",
-    "version": "latest",
-    "path": "styles/eng/playing_latest.png"
-  },
-  {
-    "word": "playing",
-    "version": "v1",
-    "path": "styles/eng/playing_v1.png"
-  },
-  {
-    "word": "positive",
-    "version": "latest",
-    "path": "styles/eng/positive_latest.png"
-  },
-  {
-    "word": "positive",
-    "version": "v1",
-    "path": "styles/eng/positive_v1.png"
-  },
-  {
-    "word": "prepared",
-    "version": "latest",
-    "path": "styles/eng/prepared_latest.png"
-  },
-  {
-    "word": "prepared",
-    "version": "v1",
-    "path": "styles/eng/prepared_v1.png"
-  },
-  {
-    "word": "protect",
-    "version": "latest",
-    "path": "styles/eng/protect_latest.png"
-  },
-  {
-    "word": "protect",
-    "version": "v1",
-    "path": "styles/eng/protect_v1.png"
-  },
-  {
-    "word": "pull",
-    "version": "latest",
-    "path": "styles/eng/pull_latest.png"
-  },
-  {
-    "word": "pull",
-    "version": "v1",
-    "path": "styles/eng/pull_v1.png"
-  },
-  {
-    "word": "push",
-    "version": "latest",
-    "path": "styles/eng/push_latest.png"
-  },
-  {
-    "word": "push",
-    "version": "v1",
-    "path": "styles/eng/push_v1.png"
-  },
-  {
-    "word": "put",
-    "version": "latest",
-    "path": "styles/eng/put_latest.png"
-  },
-  {
-    "word": "put",
-    "version": "v1",
-    "path": "styles/eng/put_v1.png"
-  },
-  {
-    "word": "quick",
-    "version": "latest",
-    "path": "styles/eng/quick_latest.png"
-  },
-  {
-    "word": "quick",
-    "version": "v1",
-    "path": "styles/eng/quick_v1.png"
-  },
-  {
-    "word": "radio",
-    "version": "latest",
-    "path": "styles/eng/radio_latest.png"
-  },
-  {
-    "word": "radio",
-    "version": "v1",
-    "path": "styles/eng/radio_v1.png"
-  },
-  {
-    "word": "rain",
-    "version": "latest",
-    "path": "styles/eng/rain_latest.png"
-  },
-  {
-    "word": "rain",
-    "version": "v1",
-    "path": "styles/eng/rain_v1.png"
-  },
-  {
-    "word": "raise",
-    "version": "latest",
-    "path": "styles/eng/raise_latest.png"
-  },
-  {
-    "word": "raise",
-    "version": "v1",
-    "path": "styles/eng/raise_v1.png"
-  },
-  {
-    "word": "reach",
-    "version": "latest",
-    "path": "styles/eng/reach_latest.png"
-  },
-  {
-    "word": "reach",
-    "version": "v1",
-    "path": "styles/eng/reach_v1.png"
-  },
-  {
-    "word": "read",
-    "version": "latest",
-    "path": "styles/eng/read_latest.png"
-  },
-  {
-    "word": "read",
-    "version": "v1",
-    "path": "styles/eng/read_v1.png"
-  },
-  {
-    "word": "ready",
-    "version": "latest",
-    "path": "styles/eng/ready_latest.png"
-  },
-  {
-    "word": "ready",
-    "version": "v1",
-    "path": "styles/eng/ready_v1.png"
-  },
-  {
-    "word": "receive",
-    "version": "latest",
-    "path": "styles/eng/receive_latest.png"
-  },
-  {
-    "word": "receive",
-    "version": "v1",
-    "path": "styles/eng/receive_v1.png"
-  },
-  {
-    "word": "red",
-    "version": "latest",
-    "path": "styles/eng/red_latest.png"
-  },
-  {
-    "word": "red",
-    "version": "v1",
-    "path": "styles/eng/red_v1.png"
-  },
-  {
-    "word": "regular",
-    "version": "latest",
-    "path": "styles/eng/regular_latest.png"
-  },
-  {
-    "word": "regular",
-    "version": "v1",
-    "path": "styles/eng/regular_v1.png"
-  },
-  {
-    "word": "release",
-    "version": "latest",
-    "path": "styles/eng/release_latest.png"
-  },
-  {
-    "word": "release",
-    "version": "v1",
-    "path": "styles/eng/release_v1.png"
-  },
-  {
-    "word": "rest",
-    "version": "latest",
-    "path": "styles/eng/rest_latest.png"
-  },
-  {
-    "word": "rest",
-    "version": "v1",
-    "path": "styles/eng/rest_v1.png"
-  },
-  {
-    "word": "return",
-    "version": "latest",
-    "path": "styles/eng/return_latest.png"
-  },
-  {
-    "word": "return",
-    "version": "v1",
-    "path": "styles/eng/return_v1.png"
-  },
-  {
-    "word": "ride",
-    "version": "latest",
-    "path": "styles/eng/ride_latest.png"
-  },
-  {
-    "word": "ride",
-    "version": "v1",
-    "path": "styles/eng/ride_v1.png"
-  },
-  {
-    "word": "ring",
-    "version": "latest",
-    "path": "styles/eng/ring_latest.png"
-  },
-  {
-    "word": "ring",
-    "version": "v1",
-    "path": "styles/eng/ring_v1.png"
-  },
-  {
-    "word": "rise",
-    "version": "latest",
-    "path": "styles/eng/rise_latest.png"
-  },
-  {
-    "word": "rise",
-    "version": "v1",
-    "path": "styles/eng/rise_v1.png"
-  },
-  {
-    "word": "river",
-    "version": "latest",
-    "path": "styles/eng/river_latest.png"
-  },
-  {
-    "word": "river",
-    "version": "v1",
-    "path": "styles/eng/river_v1.png"
-  },
-  {
-    "word": "road",
-    "version": "latest",
-    "path": "styles/eng/road_latest.png"
-  },
-  {
-    "word": "road",
-    "version": "v1",
-    "path": "styles/eng/road_v1.png"
-  },
-  {
-    "word": "rock",
-    "version": "latest",
-    "path": "styles/eng/rock_latest.png"
-  },
-  {
-    "word": "rock",
-    "version": "v1",
-    "path": "styles/eng/rock_v1.png"
-  },
-  {
-    "word": "room",
-    "version": "latest",
-    "path": "styles/eng/room_latest.png"
-  },
-  {
-    "word": "room",
-    "version": "v1",
-    "path": "styles/eng/room_v1.png"
-  },
-  {
-    "word": "round",
-    "version": "latest",
-    "path": "styles/eng/round_latest.png"
-  },
-  {
-    "word": "round",
-    "version": "v1",
-    "path": "styles/eng/round_v1.png"
-  },
-  {
-    "word": "run",
-    "version": "latest",
-    "path": "styles/eng/run_latest.png"
-  },
-  {
-    "word": "run",
-    "version": "v1",
-    "path": "styles/eng/run_v1.png"
-  },
-  {
-    "word": "sad",
-    "version": "latest",
-    "path": "styles/eng/sad_latest.png"
-  },
-  {
-    "word": "sad",
-    "version": "v1",
-    "path": "styles/eng/sad_v1.png"
-  },
-  {
-    "word": "safe",
-    "version": "latest",
-    "path": "styles/eng/safe_latest.png"
-  },
-  {
-    "word": "safe",
-    "version": "v1",
-    "path": "styles/eng/safe_v1.png"
-  },
-  {
-    "word": "sand",
-    "version": "latest",
-    "path": "styles/eng/sand_latest.png"
-  },
-  {
-    "word": "sand",
-    "version": "v1",
-    "path": "styles/eng/sand_v1.png"
-  },
-  {
-    "word": "save",
-    "version": "latest",
-    "path": "styles/eng/save_latest.png"
-  },
-  {
-    "word": "save",
-    "version": "v1",
-    "path": "styles/eng/save_v1.png"
-  },
-  {
-    "word": "say",
-    "version": "latest",
-    "path": "styles/eng/say_latest.png"
-  },
-  {
-    "word": "say",
-    "version": "v1",
-    "path": "styles/eng/say_v1.png"
-  },
-  {
-    "word": "school",
-    "version": "latest",
-    "path": "styles/eng/school_latest.png"
-  },
-  {
-    "word": "school",
-    "version": "v1",
-    "path": "styles/eng/school_v1.png"
-  },
-  {
-    "word": "sea",
-    "version": "latest",
-    "path": "styles/eng/sea_latest.png"
-  },
-  {
-    "word": "sea",
-    "version": "v1",
-    "path": "styles/eng/sea_v1.png"
-  },
-  {
-    "word": "season",
-    "version": "latest",
-    "path": "styles/eng/season_latest.png"
-  },
-  {
-    "word": "season",
-    "version": "v1",
-    "path": "styles/eng/season_v1.png"
-  },
-  {
-    "word": "seat",
-    "version": "latest",
-    "path": "styles/eng/seat_latest.png"
-  },
-  {
-    "word": "seat",
-    "version": "v1",
-    "path": "styles/eng/seat_v1.png"
-  },
-  {
-    "word": "see",
-    "version": "latest",
-    "path": "styles/eng/see_latest.png"
-  },
-  {
-    "word": "see",
-    "version": "v1",
-    "path": "styles/eng/see_v1.png"
-  },
-  {
-    "word": "serve",
-    "version": "latest",
-    "path": "styles/eng/serve_latest.png"
-  },
-  {
-    "word": "serve",
-    "version": "v1",
-    "path": "styles/eng/serve_v1.png"
-  },
-  {
-    "word": "share",
-    "version": "latest",
-    "path": "styles/eng/share_latest.png"
-  },
-  {
-    "word": "share",
-    "version": "v1",
-    "path": "styles/eng/share_v1.png"
-  },
-  {
-    "word": "ship",
-    "version": "latest",
-    "path": "styles/eng/ship_latest.png"
-  },
-  {
-    "word": "ship",
-    "version": "v1",
-    "path": "styles/eng/ship_v1.png"
-  },
-  {
-    "word": "shop",
-    "version": "latest",
-    "path": "styles/eng/shop_latest.png"
-  },
-  {
-    "word": "shop",
-    "version": "v1",
-    "path": "styles/eng/shop_v1.png"
-  },
-  {
-    "word": "short",
-    "version": "latest",
-    "path": "styles/eng/short_latest.png"
-  },
-  {
-    "word": "short",
-    "version": "v1",
-    "path": "styles/eng/short_v1.png"
-  },
-  {
-    "word": "show",
-    "version": "latest",
-    "path": "styles/eng/show_latest.png"
-  },
-  {
-    "word": "show",
-    "version": "v1",
-    "path": "styles/eng/show_v1.png"
-  },
-  {
-    "word": "shut",
-    "version": "latest",
-    "path": "styles/eng/shut_latest.png"
-  },
-  {
-    "word": "shut",
-    "version": "v1",
-    "path": "styles/eng/shut_v1.png"
-  },
-  {
-    "word": "sick",
-    "version": "latest",
-    "path": "styles/eng/sick_latest.png"
-  },
-  {
-    "word": "sick",
-    "version": "v1",
-    "path": "styles/eng/sick_v1.png"
-  },
-  {
-    "word": "sign",
-    "version": "latest",
-    "path": "styles/eng/sign_latest.png"
-  },
-  {
-    "word": "sign",
-    "version": "v1",
-    "path": "styles/eng/sign_v1.png"
-  },
-  {
-    "word": "silver",
-    "version": "latest",
-    "path": "styles/eng/silver_latest.png"
-  },
-  {
-    "word": "silver",
-    "version": "v1",
-    "path": "styles/eng/silver_v1.png"
-  },
-  {
-    "word": "simple",
-    "version": "latest",
-    "path": "styles/eng/simple_latest.png"
-  },
-  {
-    "word": "simple",
-    "version": "v1",
-    "path": "styles/eng/simple_v1.png"
-  },
-  {
-    "word": "sit",
-    "version": "latest",
-    "path": "styles/eng/sit_latest.png"
-  },
-  {
-    "word": "sit",
-    "version": "v1",
-    "path": "styles/eng/sit_v1.png"
-  },
-  {
-    "word": "skin",
-    "version": "latest",
-    "path": "styles/eng/skin_latest.png"
-  },
-  {
-    "word": "skin",
-    "version": "v1",
-    "path": "styles/eng/skin_v1.png"
-  },
-  {
-    "word": "sky",
-    "version": "latest",
-    "path": "styles/eng/sky_latest.png"
-  },
-  {
-    "word": "sky",
-    "version": "v1",
-    "path": "styles/eng/sky_v1.png"
-  },
-  {
-    "word": "sleep",
-    "version": "latest",
-    "path": "styles/eng/sleep_latest.png"
-  },
-  {
-    "word": "sleep",
-    "version": "v1",
-    "path": "styles/eng/sleep_v1.png"
-  },
-  {
-    "word": "slow",
-    "version": "latest",
-    "path": "styles/eng/slow_latest.png"
-  },
-  {
-    "word": "slow",
-    "version": "v1",
-    "path": "styles/eng/slow_v1.png"
-  },
-  {
-    "word": "small",
-    "version": "latest",
-    "path": "styles/eng/small_latest.png"
-  },
-  {
-    "word": "small",
-    "version": "v1",
-    "path": "styles/eng/small_v1.png"
-  },
-  {
-    "word": "snow",
-    "version": "latest",
-    "path": "styles/eng/snow_latest.png"
-  },
-  {
-    "word": "snow",
-    "version": "v1",
-    "path": "styles/eng/snow_v1.png"
-  },
-  {
-    "word": "song",
-    "version": "latest",
-    "path": "styles/eng/song_latest.png"
-  },
-  {
-    "word": "song",
-    "version": "v1",
-    "path": "styles/eng/song_v1.png"
-  },
-  {
-    "word": "sound",
-    "version": "latest",
-    "path": "styles/eng/sound_latest.png"
-  },
-  {
-    "word": "sound",
-    "version": "v1",
-    "path": "styles/eng/sound_v1.png"
-  },
-  {
-    "word": "speak",
-    "version": "latest",
-    "path": "styles/eng/speak_latest.png"
-  },
-  {
-    "word": "speak",
-    "version": "v1",
-    "path": "styles/eng/speak_v1.png"
-  },
-  {
-    "word": "sport",
-    "version": "latest",
-    "path": "styles/eng/sport_latest.png"
-  },
-  {
-    "word": "sport",
-    "version": "v1",
-    "path": "styles/eng/sport_v1.png"
-  },
-  {
-    "word": "spread",
-    "version": "latest",
-    "path": "styles/eng/spread_latest.png"
-  },
-  {
-    "word": "spread",
-    "version": "v1",
-    "path": "styles/eng/spread_v1.png"
-  },
-  {
-    "word": "spring",
-    "version": "latest",
-    "path": "styles/eng/spring_latest.png"
-  },
-  {
-    "word": "spring",
-    "version": "v1",
-    "path": "styles/eng/spring_v1.png"
-  },
-  {
-    "word": "square",
-    "version": "latest",
-    "path": "styles/eng/square_latest.png"
-  },
-  {
-    "word": "square",
-    "version": "v1",
-    "path": "styles/eng/square_v1.png"
-  },
-  {
-    "word": "stand",
-    "version": "latest",
-    "path": "styles/eng/stand_latest.png"
-  },
-  {
-    "word": "stand",
-    "version": "v1",
-    "path": "styles/eng/stand_v1.png"
-  },
-  {
-    "word": "star",
-    "version": "latest",
-    "path": "styles/eng/star_latest.png"
-  },
-  {
-    "word": "star",
-    "version": "v1",
-    "path": "styles/eng/star_v1.png"
-  },
-  {
-    "word": "start",
-    "version": "latest",
-    "path": "styles/eng/start_latest.png"
-  },
-  {
-    "word": "start",
-    "version": "v1",
-    "path": "styles/eng/start_v1.png"
-  },
-  {
-    "word": "station",
-    "version": "latest",
-    "path": "styles/eng/station_latest.png"
-  },
-  {
-    "word": "station",
-    "version": "v1",
-    "path": "styles/eng/station_v1.png"
-  },
-  {
-    "word": "stay",
-    "version": "latest",
-    "path": "styles/eng/stay_latest.png"
-  },
-  {
-    "word": "stay",
-    "version": "v1",
-    "path": "styles/eng/stay_v1.png"
-  },
-  {
-    "word": "stone",
-    "version": "latest",
-    "path": "styles/eng/stone_latest.png"
-  },
-  {
-    "word": "stone",
-    "version": "v1",
-    "path": "styles/eng/stone_v1.png"
-  },
-  {
-    "word": "stop",
-    "version": "latest",
-    "path": "styles/eng/stop_latest.png"
-  },
-  {
-    "word": "stop",
-    "version": "v1",
-    "path": "styles/eng/stop_v1.png"
-  },
-  {
-    "word": "store",
-    "version": "latest",
-    "path": "styles/eng/store_latest.png"
-  },
-  {
-    "word": "store",
-    "version": "v1",
-    "path": "styles/eng/store_v1.png"
-  },
-  {
-    "word": "story",
-    "version": "latest",
-    "path": "styles/eng/story_latest.png"
-  },
-  {
-    "word": "story",
-    "version": "v1",
-    "path": "styles/eng/story_v1.png"
-  },
-  {
-    "word": "street",
-    "version": "latest",
-    "path": "styles/eng/street_latest.png"
-  },
-  {
-    "word": "street",
-    "version": "v1",
-    "path": "styles/eng/street_v1.png"
-  },
-  {
-    "word": "strong",
-    "version": "latest",
-    "path": "styles/eng/strong_latest.png"
-  },
-  {
-    "word": "strong",
-    "version": "v1",
-    "path": "styles/eng/strong_v1.png"
-  },
-  {
-    "word": "summer",
-    "version": "latest",
-    "path": "styles/eng/summer_latest.png"
-  },
-  {
-    "word": "summer",
-    "version": "v1",
-    "path": "styles/eng/summer_v1.png"
-  },
-  {
-    "word": "sun",
-    "version": "latest",
-    "path": "styles/eng/sun_latest.png"
-  },
-  {
-    "word": "sun",
-    "version": "v1",
-    "path": "styles/eng/sun_v1.png"
-  },
-  {
-    "word": "sweet",
-    "version": "latest",
-    "path": "styles/eng/sweet_latest.png"
-  },
-  {
-    "word": "sweet",
-    "version": "v1",
-    "path": "styles/eng/sweet_v1.png"
-  },
-  {
-    "word": "table",
-    "version": "latest",
-    "path": "styles/eng/table_latest.png"
-  },
-  {
-    "word": "table",
-    "version": "v1",
-    "path": "styles/eng/table_v1.png"
-  },
-  {
-    "word": "take",
-    "version": "latest",
-    "path": "styles/eng/take_latest.png"
-  },
-  {
-    "word": "take",
-    "version": "v1",
-    "path": "styles/eng/take_v1.png"
-  },
-  {
-    "word": "talk",
-    "version": "latest",
-    "path": "styles/eng/talk_latest.png"
-  },
-  {
-    "word": "talk",
-    "version": "v1",
-    "path": "styles/eng/talk_v1.png"
-  },
-  {
-    "word": "tea",
-    "version": "latest",
-    "path": "styles/eng/tea_latest.png"
-  },
-  {
-    "word": "tea",
-    "version": "v1",
-    "path": "styles/eng/tea_v1.png"
-  },
-  {
-    "word": "television",
-    "version": "latest",
-    "path": "styles/eng/television_latest.png"
-  },
-  {
-    "word": "television",
-    "version": "v1",
-    "path": "styles/eng/television_v1.png"
-  },
-  {
-    "word": "test",
-    "version": "latest",
-    "path": "styles/eng/test_latest.png"
-  },
-  {
-    "word": "test",
-    "version": "v1",
-    "path": "styles/eng/test_v1.png"
-  },
-  {
-    "word": "thank",
-    "version": "latest",
-    "path": "styles/eng/thank_latest.png"
-  },
-  {
-    "word": "thank",
-    "version": "v1",
-    "path": "styles/eng/thank_v1.png"
-  },
-  {
-    "word": "throw",
-    "version": "latest",
-    "path": "styles/eng/throw_latest.png"
-  },
-  {
-    "word": "throw",
-    "version": "v1",
-    "path": "styles/eng/throw_v1.png"
-  },
-  {
-    "word": "time",
-    "version": "latest",
-    "path": "styles/eng/time_latest.png"
-  },
-  {
-    "word": "time",
-    "version": "v1",
-    "path": "styles/eng/time_v1.png"
-  },
-  {
-    "word": "touch",
-    "version": "latest",
-    "path": "styles/eng/touch_latest.png"
-  },
-  {
-    "word": "touch",
-    "version": "v1",
-    "path": "styles/eng/touch_v1.png"
-  },
-  {
-    "word": "town",
-    "version": "latest",
-    "path": "styles/eng/town_latest.png"
-  },
-  {
-    "word": "town",
-    "version": "v1",
-    "path": "styles/eng/town_v1.png"
-  },
-  {
-    "word": "train",
-    "version": "latest",
-    "path": "styles/eng/train_latest.png"
-  },
-  {
-    "word": "train",
-    "version": "v1",
-    "path": "styles/eng/train_v1.png"
-  },
-  {
-    "word": "travel",
-    "version": "latest",
-    "path": "styles/eng/travel_latest.png"
-  },
-  {
-    "word": "travel",
-    "version": "v1",
-    "path": "styles/eng/travel_v1.png"
-  },
-  {
-    "word": "tree",
-    "version": "latest",
-    "path": "styles/eng/tree_latest.png"
-  },
-  {
-    "word": "tree",
-    "version": "v1",
-    "path": "styles/eng/tree_v1.png"
-  },
-  {
-    "word": "turn",
-    "version": "latest",
-    "path": "styles/eng/turn_latest.png"
-  },
-  {
-    "word": "turn",
-    "version": "v1",
-    "path": "styles/eng/turn_v1.png"
-  },
-  {
-    "word": "tv",
-    "version": "latest",
-    "path": "styles/eng/tv_latest.png"
-  },
-  {
-    "word": "tv",
-    "version": "v1",
-    "path": "styles/eng/tv_v1.png"
-  },
-  {
-    "word": "useful",
-    "version": "latest",
-    "path": "styles/eng/useful_latest.png"
-  },
-  {
-    "word": "useful",
-    "version": "v1",
-    "path": "styles/eng/useful_v1.png"
-  },
-  {
-    "word": "van",
-    "version": "latest",
-    "path": "styles/eng/van_latest.png"
-  },
-  {
-    "word": "van",
-    "version": "v1",
-    "path": "styles/eng/van_v1.png"
-  },
-  {
-    "word": "victory",
-    "version": "latest",
-    "path": "styles/eng/victory_latest.png"
-  },
-  {
-    "word": "victory",
-    "version": "v1",
-    "path": "styles/eng/victory_v1.png"
-  },
-  {
-    "word": "video",
-    "version": "latest",
-    "path": "styles/eng/video_latest.png"
-  },
-  {
-    "word": "video",
-    "version": "v1",
-    "path": "styles/eng/video_v1.png"
-  },
-  {
-    "word": "village",
-    "version": "latest",
-    "path": "styles/eng/village_latest.png"
-  },
-  {
-    "word": "village",
-    "version": "v1",
-    "path": "styles/eng/village_v1.png"
-  },
-  {
-    "word": "voice",
-    "version": "latest",
-    "path": "styles/eng/voice_latest.png"
-  },
-  {
-    "word": "voice",
-    "version": "v1",
-    "path": "styles/eng/voice_v1.png"
-  },
-  {
-    "word": "wait",
-    "version": "latest",
-    "path": "styles/eng/wait_latest.png"
-  },
-  {
-    "word": "wait",
-    "version": "v1",
-    "path": "styles/eng/wait_v1.png"
-  },
-  {
-    "word": "wake",
-    "version": "latest",
-    "path": "styles/eng/wake_latest.png"
-  },
-  {
-    "word": "wake",
-    "version": "v1",
-    "path": "styles/eng/wake_v1.png"
-  },
-  {
-    "word": "walk",
-    "version": "latest",
-    "path": "styles/eng/walk_latest.png"
-  },
-  {
-    "word": "walk",
-    "version": "v1",
-    "path": "styles/eng/walk_v1.png"
-  },
-  {
-    "word": "wall",
-    "version": "latest",
-    "path": "styles/eng/wall_latest.png"
-  },
-  {
-    "word": "wall",
-    "version": "v1",
-    "path": "styles/eng/wall_v1.png"
-  },
-  {
-    "word": "water",
-    "version": "latest",
-    "path": "styles/eng/water_latest.png"
-  },
-  {
-    "word": "water",
-    "version": "v1",
-    "path": "styles/eng/water_v1.png"
-  },
-  {
-    "word": "wear",
-    "version": "latest",
-    "path": "styles/eng/wear_latest.png"
-  },
-  {
-    "word": "wear",
-    "version": "v1",
-    "path": "styles/eng/wear_v1.png"
-  },
-  {
-    "word": "weather",
-    "version": "latest",
-    "path": "styles/eng/weather_latest.png"
-  },
-  {
-    "word": "weather",
-    "version": "v1",
-    "path": "styles/eng/weather_v1.png"
-  },
-  {
-    "word": "weekend",
-    "version": "latest",
-    "path": "styles/eng/weekend_latest.png"
-  },
-  {
-    "word": "weekend",
-    "version": "v1",
-    "path": "styles/eng/weekend_v1.png"
-  },
-  {
-    "word": "welcome",
-    "version": "latest",
-    "path": "styles/eng/welcome_latest.png"
-  },
-  {
-    "word": "welcome",
-    "version": "v1",
-    "path": "styles/eng/welcome_v1.png"
-  },
-  {
-    "word": "white",
-    "version": "latest",
-    "path": "styles/eng/white_latest.png"
-  },
-  {
-    "word": "white",
-    "version": "v1",
-    "path": "styles/eng/white_v1.png"
-  },
-  {
-    "word": "wide",
-    "version": "latest",
-    "path": "styles/eng/wide_latest.png"
-  },
-  {
-    "word": "wide",
-    "version": "v1",
-    "path": "styles/eng/wide_v1.png"
-  },
-  {
-    "word": "wild",
-    "version": "latest",
-    "path": "styles/eng/wild_latest.png"
-  },
-  {
-    "word": "wild",
-    "version": "v1",
-    "path": "styles/eng/wild_v1.png"
-  },
-  {
-    "word": "win",
-    "version": "latest",
-    "path": "styles/eng/win_latest.png"
-  },
-  {
-    "word": "win",
-    "version": "v1",
-    "path": "styles/eng/win_v1.png"
-  },
-  {
-    "word": "wind",
-    "version": "latest",
-    "path": "styles/eng/wind_latest.png"
-  },
-  {
-    "word": "wind",
-    "version": "v1",
-    "path": "styles/eng/wind_v1.png"
-  },
-  {
-    "word": "window",
-    "version": "latest",
-    "path": "styles/eng/window_latest.png"
-  },
-  {
-    "word": "window",
-    "version": "v1",
-    "path": "styles/eng/window_v1.png"
-  },
-  {
-    "word": "winter",
-    "version": "latest",
-    "path": "styles/eng/winter_latest.png"
-  },
-  {
-    "word": "winter",
-    "version": "v1",
-    "path": "styles/eng/winter_v1.png"
-  },
-  {
-    "word": "wonderful",
-    "version": "latest",
-    "path": "styles/eng/wonderful_latest.png"
-  },
-  {
-    "word": "wonderful",
-    "version": "v1",
-    "path": "styles/eng/wonderful_v1.png"
-  },
-  {
-    "word": "wood",
-    "version": "latest",
-    "path": "styles/eng/wood_latest.png"
-  },
-  {
-    "word": "wood",
-    "version": "v1",
-    "path": "styles/eng/wood_v1.png"
-  },
-  {
-    "word": "write",
-    "version": "latest",
-    "path": "styles/eng/write_latest.png"
-  },
-  {
-    "word": "write",
-    "version": "v1",
-    "path": "styles/eng/write_v1.png"
-  },
-  {
-    "word": "wrong",
-    "version": "latest",
-    "path": "styles/eng/wrong_latest.png"
-  },
-  {
-    "word": "wrong",
-    "version": "v1",
-    "path": "styles/eng/wrong_v1.png"
-  },
-  {
-    "word": "year",
-    "version": "latest",
-    "path": "styles/eng/year_latest.png"
-  },
-  {
-    "word": "year",
-    "version": "v1",
-    "path": "styles/eng/year_v1.png"
-  },
-  {
-    "word": "young",
-    "version": "latest",
-    "path": "styles/eng/young_latest.png"
-  },
-  {
-    "word": "young",
-    "version": "v1",
-    "path": "styles/eng/young_v1.png"
-  },
-  {
-    "word": "абрикос",
-    "version": "latest",
-    "path": "styles/new/абрикос_latest.png"
-  },
-  {
-    "word": "абрикос",
-    "version": "v1",
-    "path": "styles/new/абрикос_v1.png"
-  },
-  {
-    "word": "абрикос",
-    "version": "v2",
-    "path": "styles/new/абрикос_v2.png"
-  },
-  {
-    "word": "абрикос",
-    "version": "v3",
-    "path": "styles/new/абрикос_v3.png"
-  },
-  {
-    "word": "авоська",
-    "version": "latest",
-    "path": "styles/new/авоська_latest.png"
-  },
-  {
-    "word": "авоська",
-    "version": "v1",
-    "path": "styles/new/авоська_v1.png"
-  },
-  {
-    "word": "авоська",
-    "version": "v2",
-    "path": "styles/new/авоська_v2.png"
-  },
-  {
-    "word": "автобус",
-    "version": "latest",
-    "path": "styles/new/автобус_latest.png"
-  },
-  {
-    "word": "автобус",
-    "version": "v1",
-    "path": "styles/new/автобус_v1.png"
-  },
-  {
-    "word": "автобус",
-    "version": "v2",
-    "path": "styles/new/автобус_v2.png"
-  },
-  {
-    "word": "автомат",
-    "version": "latest",
-    "path": "styles/new/автомат_latest.png"
-  },
-  {
-    "word": "автомат",
-    "version": "v1",
-    "path": "styles/new/автомат_v1.png"
-  },
-  {
-    "word": "автомат",
-    "version": "v2",
-    "path": "styles/new/автомат_v2.png"
-  },
-  {
-    "word": "автопилот",
-    "version": "latest",
-    "path": "styles/new/автопилот_latest.png"
-  },
-  {
-    "word": "автопилот",
-    "version": "v1",
-    "path": "styles/new/автопилот_v1.png"
-  },
-  {
-    "word": "автопилот",
-    "version": "v2",
-    "path": "styles/new/автопилот_v2.png"
-  },
-  {
-    "word": "ананас",
-    "version": "latest",
-    "path": "styles/new/ананас_latest.png"
-  },
-  {
-    "word": "ананас",
-    "version": "v1",
-    "path": "styles/new/ананас_v1.png"
-  },
-  {
-    "word": "ананас",
-    "version": "v2",
-    "path": "styles/new/ананас_v2.png"
-  },
-  {
-    "word": "апельсин",
-    "version": "latest",
-    "path": "styles/new/апельсин_latest.png"
-  },
-  {
-    "word": "апельсин",
-    "version": "v1",
-    "path": "styles/new/апельсин_v1.png"
-  },
-  {
-    "word": "апельсин",
-    "version": "v2",
-    "path": "styles/new/апельсин_v2.png"
-  },
-  {
-    "word": "бабочка",
-    "version": "latest",
-    "path": "styles/new/бабочка_latest.png"
-  },
-  {
-    "word": "бабочка",
-    "version": "v1",
-    "path": "styles/new/бабочка_v1.png"
-  },
-  {
-    "word": "бабочка",
-    "version": "v2",
-    "path": "styles/new/бабочка_v2.png"
-  },
-  {
-    "word": "бабочка",
-    "version": "v3",
-    "path": "styles/new/бабочка_v3.png"
-  },
-  {
-    "word": "бак",
-    "version": "latest",
-    "path": "styles/new/бак_latest.png"
-  },
-  {
-    "word": "бак",
-    "version": "v1",
-    "path": "styles/new/бак_v1.png"
-  },
-  {
-    "word": "бак",
-    "version": "v2",
-    "path": "styles/new/бак_v2.png"
-  },
-  {
-    "word": "банки",
-    "version": "latest",
-    "path": "styles/new/банки_latest.png"
-  },
-  {
-    "word": "банки",
-    "version": "v1",
-    "path": "styles/new/банки_v1.png"
-  },
-  {
-    "word": "банки",
-    "version": "v2",
-    "path": "styles/new/банки_v2.png"
-  },
-  {
-    "word": "баночка",
-    "version": "latest",
-    "path": "styles/new/баночка_latest.png"
-  },
-  {
-    "word": "баночка",
-    "version": "v1",
-    "path": "styles/new/баночка_v1.png"
-  },
-  {
-    "word": "баночка",
-    "version": "v2",
-    "path": "styles/new/баночка_v2.png"
-  },
-  {
-    "word": "баранка",
-    "version": "latest",
-    "path": "styles/new/баранка_latest.png"
-  },
-  {
-    "word": "баранка",
-    "version": "v1",
-    "path": "styles/new/баранка_v1.png"
-  },
-  {
-    "word": "баранка",
-    "version": "v2",
-    "path": "styles/new/баранка_v2.png"
-  },
-  {
-    "word": "башмак",
-    "version": "latest",
-    "path": "styles/new/башмак_latest.png"
-  },
-  {
-    "word": "башмак",
-    "version": "v1",
-    "path": "styles/new/башмак_v1.png"
-  },
-  {
-    "word": "башмак",
-    "version": "v2",
-    "path": "styles/new/башмак_v2.png"
-  },
-  {
-    "word": "бык",
-    "version": "latest",
-    "path": "styles/new/бык_latest.png"
-  },
-  {
-    "word": "бык",
-    "version": "v1",
-    "path": "styles/new/бык_v1.png"
-  },
-  {
-    "word": "бык",
-    "version": "v2",
-    "path": "styles/new/бык_v2.png"
-  },
-  {
-    "word": "веер",
-    "version": "latest",
-    "path": "styles/new/веер_latest.png"
-  },
-  {
-    "word": "веер",
-    "version": "v1",
-    "path": "styles/new/веер_v1.png"
-  },
-  {
-    "word": "веер",
-    "version": "v2",
-    "path": "styles/new/веер_v2.png"
-  },
-  {
-    "word": "велосипед",
-    "version": "latest",
-    "path": "styles/new/велосипед_latest.png"
-  },
-  {
-    "word": "велосипед",
-    "version": "v1",
-    "path": "styles/new/велосипед_v1.png"
-  },
-  {
-    "word": "велосипед",
-    "version": "v2",
-    "path": "styles/new/велосипед_v2.png"
-  },
-  {
-    "word": "велюр",
-    "version": "latest",
-    "path": "styles/new/велюр_latest.png"
-  },
-  {
-    "word": "велюр",
-    "version": "v1",
-    "path": "styles/new/велюр_v1.png"
-  },
-  {
-    "word": "велюр",
-    "version": "v2",
-    "path": "styles/new/велюр_v2.png"
-  },
-  {
-    "word": "веник",
-    "version": "latest",
-    "path": "styles/new/веник_latest.png"
-  },
-  {
-    "word": "веник",
-    "version": "v1",
-    "path": "styles/new/веник_v1.png"
-  },
-  {
-    "word": "веник",
-    "version": "v2",
-    "path": "styles/new/веник_v2.png"
-  },
-  {
-    "word": "веник",
-    "version": "v3",
-    "path": "styles/new/веник_v3.png"
-  },
-  {
-    "word": "весна",
-    "version": "latest",
-    "path": "styles/new/весна_latest.png"
-  },
-  {
-    "word": "весна",
-    "version": "v1",
-    "path": "styles/new/весна_v1.png"
-  },
-  {
-    "word": "весна",
-    "version": "v2",
-    "path": "styles/new/весна_v2.png"
-  },
-  {
-    "word": "ветер",
-    "version": "latest",
-    "path": "styles/new/ветер_latest.png"
-  },
-  {
-    "word": "ветер",
-    "version": "v1",
-    "path": "styles/new/ветер_v1.png"
-  },
-  {
-    "word": "ветер",
-    "version": "v2",
-    "path": "styles/new/ветер_v2.png"
-  },
-  {
-    "word": "ветер",
-    "version": "v3",
-    "path": "styles/new/ветер_v3.png"
-  },
-  {
-    "word": "вечер",
-    "version": "latest",
-    "path": "styles/new/вечер_latest.png"
-  },
-  {
-    "word": "вечер",
-    "version": "v1",
-    "path": "styles/new/вечер_v1.png"
-  },
-  {
-    "word": "вечер",
-    "version": "v2",
-    "path": "styles/new/вечер_v2.png"
-  },
-  {
-    "word": "вещь",
-    "version": "latest",
-    "path": "styles/new/вещь_latest.png"
-  },
-  {
-    "word": "вещь",
-    "version": "v1",
-    "path": "styles/new/вещь_v1.png"
-  },
-  {
-    "word": "вещь",
-    "version": "v2",
-    "path": "styles/new/вещь_v2.png"
-  },
-  {
-    "word": "вещь",
-    "version": "v3",
-    "path": "styles/new/вещь_v3.png"
-  },
-  {
-    "word": "вилка",
-    "version": "latest",
-    "path": "styles/new/вилка_latest.png"
-  },
-  {
-    "word": "вилка",
-    "version": "v1",
-    "path": "styles/new/вилка_v1.png"
-  },
-  {
-    "word": "вилка",
-    "version": "v2",
-    "path": "styles/new/вилка_v2.png"
-  },
-  {
-    "word": "вишня",
-    "version": "latest",
-    "path": "styles/new/вишня_latest.png"
-  },
-  {
-    "word": "вишня",
-    "version": "v1",
-    "path": "styles/new/вишня_v1.png"
-  },
-  {
-    "word": "вишня",
-    "version": "v2",
-    "path": "styles/new/вишня_v2.png"
-  },
-  {
-    "word": "волан",
-    "version": "latest",
-    "path": "styles/new/волан_latest.png"
-  },
-  {
-    "word": "волан",
-    "version": "v1",
-    "path": "styles/new/волан_v1.png"
-  },
-  {
-    "word": "волан",
-    "version": "v2",
-    "path": "styles/new/волан_v2.png"
-  },
-  {
-    "word": "год",
-    "version": "latest",
-    "path": "styles/new/год_latest.png"
-  },
-  {
-    "word": "год",
-    "version": "v1",
-    "path": "styles/new/год_v1.png"
-  },
-  {
-    "word": "год",
-    "version": "v2",
-    "path": "styles/new/год_v2.png"
-  },
-  {
-    "word": "год",
-    "version": "v3",
-    "path": "styles/new/год_v3.png"
-  },
-  {
-    "word": "грач",
-    "version": "latest",
-    "path": "styles/new/грач_latest.png"
-  },
-  {
-    "word": "грач",
-    "version": "v1",
-    "path": "styles/new/грач_v1.png"
-  },
-  {
-    "word": "грач",
-    "version": "v2",
-    "path": "styles/new/грач_v2.png"
-  },
-  {
-    "word": "гриб",
-    "version": "latest",
-    "path": "styles/new/гриб_latest.png"
-  },
-  {
-    "word": "гриб",
-    "version": "v1",
-    "path": "styles/new/гриб_v1.png"
-  },
-  {
-    "word": "гриб",
-    "version": "v2",
-    "path": "styles/new/гриб_v2.png"
-  },
-  {
-    "word": "дно",
-    "version": "latest",
-    "path": "styles/new/дно_latest.png"
-  },
-  {
-    "word": "дно",
-    "version": "v1",
-    "path": "styles/new/дно_v1.png"
-  },
-  {
-    "word": "дно",
-    "version": "v2",
-    "path": "styles/new/дно_v2.png"
-  },
-  {
-    "word": "дно",
-    "version": "v3",
-    "path": "styles/new/дно_v3.png"
-  },
-  {
-    "word": "дождь",
-    "version": "latest",
-    "path": "styles/new/дождь_latest.png"
-  },
-  {
-    "word": "дождь",
-    "version": "v1",
-    "path": "styles/new/дождь_v1.png"
-  },
-  {
-    "word": "дождь",
-    "version": "v2",
-    "path": "styles/new/дождь_v2.png"
-  },
-  {
-    "word": "дом",
-    "version": "latest",
-    "path": "styles/new/дом_latest.png"
-  },
-  {
-    "word": "дом",
-    "version": "v1",
-    "path": "styles/new/дом_v1.png"
-  },
-  {
-    "word": "дом",
-    "version": "v2",
-    "path": "styles/new/дом_v2.png"
-  },
-  {
-    "word": "доска",
-    "version": "latest",
-    "path": "styles/new/доска_latest.png"
-  },
-  {
-    "word": "доска",
-    "version": "v1",
-    "path": "styles/new/доска_v1.png"
-  },
-  {
-    "word": "доска",
-    "version": "v2",
-    "path": "styles/new/доска_v2.png"
-  },
-  {
-    "word": "доска",
-    "version": "v3",
-    "path": "styles/new/доска_v3.png"
-  },
-  {
-    "word": "доски",
-    "version": "latest",
-    "path": "styles/new/доски_latest.png"
-  },
-  {
-    "word": "доски",
-    "version": "v1",
-    "path": "styles/new/доски_v1.png"
-  },
-  {
-    "word": "доски",
-    "version": "v2",
-    "path": "styles/new/доски_v2.png"
-  },
-  {
-    "word": "доспехи",
-    "version": "latest",
-    "path": "styles/new/доспехи_latest.png"
-  },
-  {
-    "word": "доспехи",
-    "version": "v1",
-    "path": "styles/new/доспехи_v1.png"
-  },
-  {
-    "word": "доспехи",
-    "version": "v2",
-    "path": "styles/new/доспехи_v2.png"
-  },
-  {
-    "word": "дочь",
-    "version": "latest",
-    "path": "styles/new/дочь_latest.png"
-  },
-  {
-    "word": "дочь",
-    "version": "v1",
-    "path": "styles/new/дочь_v1.png"
-  },
-  {
-    "word": "дочь",
-    "version": "v2",
-    "path": "styles/new/дочь_v2.png"
-  },
-  {
-    "word": "дым",
-    "version": "latest",
-    "path": "styles/new/дым_latest.png"
-  },
-  {
-    "word": "дым",
-    "version": "v1",
-    "path": "styles/new/дым_v1.png"
-  },
-  {
-    "word": "дым",
-    "version": "v2",
-    "path": "styles/new/дым_v2.png"
-  },
-  {
-    "word": "жук",
-    "version": "latest",
-    "path": "styles/new/жук_latest.png"
-  },
-  {
-    "word": "жук",
-    "version": "v1",
-    "path": "styles/new/жук_v1.png"
-  },
-  {
-    "word": "жук",
-    "version": "v2",
-    "path": "styles/new/жук_v2.png"
-  },
-  {
-    "word": "зенит",
-    "version": "latest",
-    "path": "styles/new/зенит_latest.png"
-  },
-  {
-    "word": "зенит",
-    "version": "v1",
-    "path": "styles/new/зенит_v1.png"
-  },
-  {
-    "word": "зенит",
-    "version": "v2",
-    "path": "styles/new/зенит_v2.png"
-  },
-  {
-    "word": "змея",
-    "version": "latest",
-    "path": "styles/new/змея_latest.png"
-  },
-  {
-    "word": "змея",
-    "version": "v1",
-    "path": "styles/new/змея_v1.png"
-  },
-  {
-    "word": "змея",
-    "version": "v2",
-    "path": "styles/new/змея_v2.png"
-  },
-  {
-    "word": "зонтик",
-    "version": "latest",
-    "path": "styles/new/зонтик_latest.png"
-  },
-  {
-    "word": "зонтик",
-    "version": "v1",
-    "path": "styles/new/зонтик_v1.png"
-  },
-  {
-    "word": "зонтик",
-    "version": "v2",
-    "path": "styles/new/зонтик_v2.png"
-  },
-  {
-    "word": "зуб",
-    "version": "latest",
-    "path": "styles/new/зуб_latest.png"
-  },
-  {
-    "word": "зуб",
-    "version": "v1",
-    "path": "styles/new/зуб_v1.png"
-  },
-  {
-    "word": "зуб",
-    "version": "v2",
-    "path": "styles/new/зуб_v2.png"
-  },
-  {
-    "word": "карандаш",
-    "version": "latest",
-    "path": "styles/new/карандаш_latest.png"
-  },
-  {
-    "word": "карандаш",
-    "version": "v1",
-    "path": "styles/new/карандаш_v1.png"
-  },
-  {
-    "word": "карандаш",
-    "version": "v2",
-    "path": "styles/new/карандаш_v2.png"
-  },
-  {
-    "word": "карман",
-    "version": "latest",
-    "path": "styles/new/карман_latest.png"
-  },
-  {
-    "word": "карман",
-    "version": "v1",
-    "path": "styles/new/карман_v1.png"
-  },
-  {
-    "word": "карман",
-    "version": "v2",
-    "path": "styles/new/карман_v2.png"
-  },
-  {
-    "word": "карман",
-    "version": "v3",
-    "path": "styles/new/карман_v3.png"
-  },
-  {
-    "word": "картошка",
-    "version": "latest",
-    "path": "styles/new/картошка_latest.png"
-  },
-  {
-    "word": "картошка",
-    "version": "v1",
-    "path": "styles/new/картошка_v1.png"
-  },
-  {
-    "word": "картошка",
-    "version": "v2",
-    "path": "styles/new/картошка_v2.png"
-  },
-  {
-    "word": "картошка",
-    "version": "v3",
-    "path": "styles/new/картошка_v3.png"
-  },
-  {
-    "word": "карусель",
-    "version": "latest",
-    "path": "styles/new/карусель_latest.png"
-  },
-  {
-    "word": "карусель",
-    "version": "v1",
-    "path": "styles/new/карусель_v1.png"
-  },
-  {
-    "word": "карусель",
-    "version": "v2",
-    "path": "styles/new/карусель_v2.png"
-  },
-  {
-    "word": "кит",
-    "version": "latest",
-    "path": "styles/new/кит_latest.png"
-  },
-  {
-    "word": "кит",
-    "version": "v1",
-    "path": "styles/new/кит_v1.png"
-  },
-  {
-    "word": "кит",
-    "version": "v2",
-    "path": "styles/new/кит_v2.png"
-  },
-  {
-    "word": "клип",
-    "version": "latest",
-    "path": "styles/new/клип_latest.png"
-  },
-  {
-    "word": "клип",
-    "version": "v1",
-    "path": "styles/new/клип_v1.png"
-  },
-  {
-    "word": "клип",
-    "version": "v2",
-    "path": "styles/new/клип_v2.png"
-  },
-  {
-    "word": "клип",
-    "version": "v3",
-    "path": "styles/new/клип_v3.png"
-  },
-  {
-    "word": "ключ",
-    "version": "latest",
-    "path": "styles/new/ключ_latest.png"
-  },
-  {
-    "word": "ключ",
-    "version": "v1",
-    "path": "styles/new/ключ_v1.png"
-  },
-  {
-    "word": "ключ",
-    "version": "v2",
-    "path": "styles/new/ключ_v2.png"
-  },
-  {
-    "word": "книга",
-    "version": "latest",
-    "path": "styles/new/книга_latest.png"
-  },
-  {
-    "word": "книга",
-    "version": "v1",
-    "path": "styles/new/книга_v1.png"
-  },
-  {
-    "word": "книга",
-    "version": "v2",
-    "path": "styles/new/книга_v2.png"
-  },
-  {
-    "word": "книга",
-    "version": "v3",
-    "path": "styles/new/книга_v3.png"
-  },
-  {
-    "word": "книжка",
-    "version": "latest",
-    "path": "styles/new/книжка_latest.png"
-  },
-  {
-    "word": "книжка",
-    "version": "v1",
-    "path": "styles/new/книжка_v1.png"
-  },
-  {
-    "word": "книжка",
-    "version": "v2",
-    "path": "styles/new/книжка_v2.png"
-  },
-  {
-    "word": "книжка",
-    "version": "v3",
-    "path": "styles/new/книжка_v3.png"
-  },
-  {
-    "word": "ком",
-    "version": "latest",
-    "path": "styles/new/ком_latest.png"
-  },
-  {
-    "word": "ком",
-    "version": "v1",
-    "path": "styles/new/ком_v1.png"
-  },
-  {
-    "word": "ком",
-    "version": "v2",
-    "path": "styles/new/ком_v2.png"
-  },
-  {
-    "word": "ком",
-    "version": "v3",
-    "path": "styles/new/ком_v3.png"
-  },
-  {
-    "word": "кони",
-    "version": "latest",
-    "path": "styles/new/кони_latest.png"
-  },
-  {
-    "word": "кони",
-    "version": "v1",
-    "path": "styles/new/кони_v1.png"
-  },
-  {
-    "word": "кони",
-    "version": "v2",
-    "path": "styles/new/кони_v2.png"
-  },
-  {
-    "word": "конфеты",
-    "version": "latest",
-    "path": "styles/new/конфеты_latest.png"
-  },
-  {
-    "word": "конфеты",
-    "version": "v1",
-    "path": "styles/new/конфеты_v1.png"
-  },
-  {
-    "word": "конфеты",
-    "version": "v2",
-    "path": "styles/new/конфеты_v2.png"
-  },
-  {
-    "word": "коньки",
-    "version": "latest",
-    "path": "styles/new/коньки_latest.png"
-  },
-  {
-    "word": "коньки",
-    "version": "v1",
-    "path": "styles/new/коньки_v1.png"
-  },
-  {
-    "word": "коньки",
-    "version": "v2",
-    "path": "styles/new/коньки_v2.png"
-  },
-  {
-    "word": "коробка",
-    "version": "latest",
-    "path": "styles/new/коробка_latest.png"
-  },
-  {
-    "word": "коробка",
-    "version": "v1",
-    "path": "styles/new/коробка_v1.png"
-  },
-  {
-    "word": "коробка",
-    "version": "v2",
-    "path": "styles/new/коробка_v2.png"
-  },
-  {
-    "word": "коробок",
-    "version": "latest",
-    "path": "styles/new/коробок_latest.png"
-  },
-  {
-    "word": "коробок",
-    "version": "v1",
-    "path": "styles/new/коробок_v1.png"
-  },
-  {
-    "word": "коробок",
-    "version": "v2",
-    "path": "styles/new/коробок_v2.png"
-  },
-  {
-    "word": "коробок",
-    "version": "v3",
-    "path": "styles/new/коробок_v3.png"
-  },
-  {
-    "word": "корочка",
-    "version": "latest",
-    "path": "styles/new/корочка_latest.png"
-  },
-  {
-    "word": "корочка",
-    "version": "v1",
-    "path": "styles/new/корочка_v1.png"
-  },
-  {
-    "word": "корочка",
-    "version": "v2",
-    "path": "styles/new/корочка_v2.png"
-  },
-  {
-    "word": "коса",
-    "version": "latest",
-    "path": "styles/new/коса_latest.png"
-  },
-  {
-    "word": "коса",
-    "version": "v1",
-    "path": "styles/new/коса_v1.png"
-  },
-  {
-    "word": "коса",
-    "version": "v2",
-    "path": "styles/new/коса_v2.png"
-  },
-  {
-    "word": "кот",
-    "version": "latest",
-    "path": "styles/new/кот_latest.png"
-  },
-  {
-    "word": "кот",
-    "version": "v1",
-    "path": "styles/new/кот_v1.png"
-  },
-  {
-    "word": "кот",
-    "version": "v2",
-    "path": "styles/new/кот_v2.png"
-  },
-  {
-    "word": "кошка",
-    "version": "latest",
-    "path": "styles/new/кошка_latest.png"
-  },
-  {
-    "word": "кошка",
-    "version": "v1",
-    "path": "styles/new/кошка_v1.png"
-  },
-  {
-    "word": "кошка",
-    "version": "v2",
-    "path": "styles/new/кошка_v2.png"
-  },
-  {
-    "word": "краб",
-    "version": "latest",
-    "path": "styles/new/краб_latest.png"
-  },
-  {
-    "word": "краб",
-    "version": "v1",
-    "path": "styles/new/краб_v1.png"
-  },
-  {
-    "word": "краб",
-    "version": "v2",
-    "path": "styles/new/краб_v2.png"
-  },
-  {
-    "word": "крошка",
-    "version": "latest",
-    "path": "styles/new/крошка_latest.png"
-  },
-  {
-    "word": "крошка",
-    "version": "v1",
-    "path": "styles/new/крошка_v1.png"
-  },
-  {
-    "word": "крошка",
-    "version": "v2",
-    "path": "styles/new/крошка_v2.png"
-  },
-  {
-    "word": "крупа",
-    "version": "latest",
-    "path": "styles/new/крупа_latest.png"
-  },
-  {
-    "word": "крупа",
-    "version": "v1",
-    "path": "styles/new/крупа_v1.png"
-  },
-  {
-    "word": "крупа",
-    "version": "v2",
-    "path": "styles/new/крупа_v2.png"
-  },
-  {
-    "word": "лак",
-    "version": "latest",
-    "path": "styles/new/лак_latest.png"
-  },
-  {
-    "word": "лак",
-    "version": "v1",
-    "path": "styles/new/лак_v1.png"
-  },
-  {
-    "word": "лак",
-    "version": "v2",
-    "path": "styles/new/лак_v2.png"
-  },
-  {
-    "word": "лама",
-    "version": "latest",
-    "path": "styles/new/лама_latest.png"
-  },
-  {
-    "word": "лама",
-    "version": "v1",
-    "path": "styles/new/лама_v1.png"
-  },
-  {
-    "word": "лама",
-    "version": "v2",
-    "path": "styles/new/лама_v2.png"
-  },
-  {
-    "word": "лампа",
-    "version": "latest",
-    "path": "styles/new/лампа_latest.png"
-  },
-  {
-    "word": "лампа",
-    "version": "v1",
-    "path": "styles/new/лампа_v1.png"
-  },
-  {
-    "word": "лампа",
-    "version": "v2",
-    "path": "styles/new/лампа_v2.png"
-  },
-  {
-    "word": "лапа",
-    "version": "latest",
-    "path": "styles/new/лапа_latest.png"
-  },
-  {
-    "word": "лапа",
-    "version": "v1",
-    "path": "styles/new/лапа_v1.png"
-  },
-  {
-    "word": "лапа",
-    "version": "v2",
-    "path": "styles/new/лапа_v2.png"
-  },
-  {
-    "word": "лев",
-    "version": "latest",
-    "path": "styles/new/лев_latest.png"
-  },
-  {
-    "word": "лев",
-    "version": "v1",
-    "path": "styles/new/лев_v1.png"
-  },
-  {
-    "word": "лев",
-    "version": "v2",
-    "path": "styles/new/лев_v2.png"
-  },
-  {
-    "word": "лес",
-    "version": "latest",
-    "path": "styles/new/лес_latest.png"
-  },
-  {
-    "word": "лес",
-    "version": "v1",
-    "path": "styles/new/лес_v1.png"
-  },
-  {
-    "word": "лес",
-    "version": "v2",
-    "path": "styles/new/лес_v2.png"
-  },
-  {
-    "word": "лето",
-    "version": "latest",
-    "path": "styles/new/лето_latest.png"
-  },
-  {
-    "word": "лето",
-    "version": "v1",
-    "path": "styles/new/лето_v1.png"
-  },
-  {
-    "word": "лето",
-    "version": "v2",
-    "path": "styles/new/лето_v2.png"
-  },
-  {
-    "word": "лис",
-    "version": "latest",
-    "path": "styles/new/лис_latest.png"
-  },
-  {
-    "word": "лис",
-    "version": "v1",
-    "path": "styles/new/лис_v1.png"
-  },
-  {
-    "word": "лис",
-    "version": "v2",
-    "path": "styles/new/лис_v2.png"
-  },
-  {
-    "word": "лодка",
-    "version": "latest",
-    "path": "styles/new/лодка_latest.png"
-  },
-  {
-    "word": "лодка",
-    "version": "v1",
-    "path": "styles/new/лодка_v1.png"
-  },
-  {
-    "word": "лодка",
-    "version": "v2",
-    "path": "styles/new/лодка_v2.png"
-  },
-  {
-    "word": "ложка",
-    "version": "latest",
-    "path": "styles/new/ложка_latest.png"
-  },
-  {
-    "word": "ложка",
-    "version": "v1",
-    "path": "styles/new/ложка_v1.png"
-  },
-  {
-    "word": "ложка",
-    "version": "v2",
-    "path": "styles/new/ложка_v2.png"
-  },
-  {
-    "word": "лото",
-    "version": "latest",
-    "path": "styles/new/лото_latest.png"
-  },
-  {
-    "word": "лото",
-    "version": "v1",
-    "path": "styles/new/лото_v1.png"
-  },
-  {
-    "word": "лото",
-    "version": "v2",
-    "path": "styles/new/лото_v2.png"
-  },
-  {
-    "word": "лото",
-    "version": "v3",
-    "path": "styles/new/лото_v3.png"
-  },
-  {
-    "word": "лужа",
-    "version": "latest",
-    "path": "styles/new/лужа_latest.png"
-  },
-  {
-    "word": "лужа",
-    "version": "v1",
-    "path": "styles/new/лужа_v1.png"
-  },
-  {
-    "word": "лужа",
-    "version": "v2",
-    "path": "styles/new/лужа_v2.png"
-  },
-  {
-    "word": "лужа",
-    "version": "v3",
-    "path": "styles/new/лужа_v3.png"
-  },
-  {
-    "word": "лук",
-    "version": "latest",
-    "path": "styles/new/лук_latest.png"
-  },
-  {
-    "word": "лук",
-    "version": "v1",
-    "path": "styles/new/лук_v1.png"
-  },
-  {
-    "word": "лук",
-    "version": "v2",
-    "path": "styles/new/лук_v2.png"
-  },
-  {
-    "word": "лук",
-    "version": "v3",
-    "path": "styles/new/лук_v3.png"
-  },
-  {
-    "word": "луковица",
-    "version": "latest",
-    "path": "styles/new/луковица_latest.png"
-  },
-  {
-    "word": "луковица",
-    "version": "v1",
-    "path": "styles/new/луковица_v1.png"
-  },
-  {
-    "word": "луковица",
-    "version": "v2",
-    "path": "styles/new/луковица_v2.png"
-  },
-  {
-    "word": "луковица",
-    "version": "v3",
-    "path": "styles/new/луковица_v3.png"
-  },
-  {
-    "word": "люлька",
-    "version": "latest",
-    "path": "styles/new/люлька_latest.png"
-  },
-  {
-    "word": "люлька",
-    "version": "v1",
-    "path": "styles/new/люлька_v1.png"
-  },
-  {
-    "word": "люлька",
-    "version": "v2",
-    "path": "styles/new/люлька_v2.png"
-  },
-  {
-    "word": "мак",
-    "version": "latest",
-    "path": "styles/new/мак_latest.png"
-  },
-  {
-    "word": "мак",
-    "version": "v1",
-    "path": "styles/new/мак_v1.png"
-  },
-  {
-    "word": "мак",
-    "version": "v2",
-    "path": "styles/new/мак_v2.png"
-  },
-  {
-    "word": "малина",
-    "version": "latest",
-    "path": "styles/new/малина_latest.png"
-  },
-  {
-    "word": "малина",
-    "version": "v1",
-    "path": "styles/new/малина_v1.png"
-  },
-  {
-    "word": "малина",
-    "version": "v2",
-    "path": "styles/new/малина_v2.png"
-  },
-  {
-    "word": "мама",
-    "version": "latest",
-    "path": "styles/new/мама_latest.png"
-  },
-  {
-    "word": "мама",
-    "version": "v1",
-    "path": "styles/new/мама_v1.png"
-  },
-  {
-    "word": "мама",
-    "version": "v2",
-    "path": "styles/new/мама_v2.png"
-  },
-  {
-    "word": "мандарин",
-    "version": "latest",
-    "path": "styles/new/мандарин_latest.png"
-  },
-  {
-    "word": "мандарин",
-    "version": "v1",
-    "path": "styles/new/мандарин_v1.png"
-  },
-  {
-    "word": "мандарин",
-    "version": "v2",
-    "path": "styles/new/мандарин_v2.png"
-  },
-  {
-    "word": "мантия",
-    "version": "latest",
-    "path": "styles/new/мантия_latest.png"
-  },
-  {
-    "word": "мантия",
-    "version": "v1",
-    "path": "styles/new/мантия_v1.png"
-  },
-  {
-    "word": "мантия",
-    "version": "v2",
-    "path": "styles/new/мантия_v2.png"
-  },
-  {
-    "word": "маска",
-    "version": "latest",
-    "path": "styles/new/маска_latest.png"
-  },
-  {
-    "word": "маска",
-    "version": "v1",
-    "path": "styles/new/маска_v1.png"
-  },
-  {
-    "word": "маска",
-    "version": "v2",
-    "path": "styles/new/маска_v2.png"
-  },
-  {
-    "word": "машина",
-    "version": "latest",
-    "path": "styles/new/машина_latest.png"
-  },
-  {
-    "word": "машина",
-    "version": "v1",
-    "path": "styles/new/машина_v1.png"
-  },
-  {
-    "word": "машина",
-    "version": "v2",
-    "path": "styles/new/машина_v2.png"
-  },
-  {
-    "word": "меч",
-    "version": "latest",
-    "path": "styles/new/меч_latest.png"
-  },
-  {
-    "word": "меч",
-    "version": "v1",
-    "path": "styles/new/меч_v1.png"
-  },
-  {
-    "word": "меч",
-    "version": "v2",
-    "path": "styles/new/меч_v2.png"
-  },
-  {
-    "word": "меч",
-    "version": "v3",
-    "path": "styles/new/меч_v3.png"
-  },
-  {
-    "word": "миска",
-    "version": "latest",
-    "path": "styles/new/миска_latest.png"
-  },
-  {
-    "word": "миска",
-    "version": "v1",
-    "path": "styles/new/миска_v1.png"
-  },
-  {
-    "word": "миска",
-    "version": "v2",
-    "path": "styles/new/миска_v2.png"
-  },
-  {
-    "word": "мишка",
-    "version": "latest",
-    "path": "styles/new/мишка_latest.png"
-  },
-  {
-    "word": "мишка",
-    "version": "v1",
-    "path": "styles/new/мишка_v1.png"
-  },
-  {
-    "word": "мишка",
-    "version": "v2",
-    "path": "styles/new/мишка_v2.png"
-  },
-  {
-    "word": "мошка",
-    "version": "latest",
-    "path": "styles/new/мошка_latest.png"
-  },
-  {
-    "word": "мошка",
-    "version": "v1",
-    "path": "styles/new/мошка_v1.png"
-  },
-  {
-    "word": "мошка",
-    "version": "v2",
-    "path": "styles/new/мошка_v2.png"
-  },
-  {
-    "word": "мушка",
-    "version": "latest",
-    "path": "styles/new/мушка_latest.png"
-  },
-  {
-    "word": "мушка",
-    "version": "v1",
-    "path": "styles/new/мушка_v1.png"
-  },
-  {
-    "word": "мушка",
-    "version": "v2",
-    "path": "styles/new/мушка_v2.png"
-  },
-  {
-    "word": "мышка",
-    "version": "latest",
-    "path": "styles/new/мышка_latest.png"
-  },
-  {
-    "word": "мышка",
-    "version": "v1",
-    "path": "styles/new/мышка_v1.png"
-  },
-  {
-    "word": "мышка",
-    "version": "v2",
-    "path": "styles/new/мышка_v2.png"
-  },
-  {
-    "word": "мышка",
-    "version": "v3",
-    "path": "styles/new/мышка_v3.png"
-  },
-  {
-    "word": "мясо",
-    "version": "latest",
-    "path": "styles/new/мясо_latest.png"
-  },
-  {
-    "word": "мясо",
-    "version": "v1",
-    "path": "styles/new/мясо_v1.png"
-  },
-  {
-    "word": "мясо",
-    "version": "v2",
-    "path": "styles/new/мясо_v2.png"
-  },
-  {
-    "word": "мяч",
-    "version": "latest",
-    "path": "styles/new/мяч_latest.png"
-  },
-  {
-    "word": "мяч",
-    "version": "v1",
-    "path": "styles/new/мяч_v1.png"
-  },
-  {
-    "word": "мяч",
-    "version": "v2",
-    "path": "styles/new/мяч_v2.png"
-  },
-  {
-    "word": "нос",
-    "version": "latest",
-    "path": "styles/new/нос_latest.png"
-  },
-  {
-    "word": "нос",
-    "version": "v1",
-    "path": "styles/new/нос_v1.png"
-  },
-  {
-    "word": "нос",
-    "version": "v2",
-    "path": "styles/new/нос_v2.png"
-  },
-  {
-    "word": "нос",
-    "version": "v3",
-    "path": "styles/new/нос_v3.png"
-  },
-  {
-    "word": "папа",
-    "version": "latest",
-    "path": "styles/new/папа_latest.png"
-  },
-  {
-    "word": "папа",
-    "version": "v1",
-    "path": "styles/new/папа_v1.png"
-  },
-  {
-    "word": "папа",
-    "version": "v2",
-    "path": "styles/new/папа_v2.png"
-  },
-  {
-    "word": "педаль",
-    "version": "latest",
-    "path": "styles/new/педаль_latest.png"
-  },
-  {
-    "word": "педаль",
-    "version": "v1",
-    "path": "styles/new/педаль_v1.png"
-  },
-  {
-    "word": "педаль",
-    "version": "v2",
-    "path": "styles/new/педаль_v2.png"
-  },
-  {
-    "word": "педаль",
-    "version": "v3",
-    "path": "styles/new/педаль_v3.png"
-  },
-  {
-    "word": "перец",
-    "version": "latest",
-    "path": "styles/new/перец_latest.png"
-  },
-  {
-    "word": "перец",
-    "version": "v1",
-    "path": "styles/new/перец_v1.png"
-  },
-  {
-    "word": "перец",
-    "version": "v2",
-    "path": "styles/new/перец_v2.png"
-  },
-  {
-    "word": "перо",
-    "version": "latest",
-    "path": "styles/new/перо_latest.png"
-  },
-  {
-    "word": "перо",
-    "version": "v1",
-    "path": "styles/new/перо_v1.png"
-  },
-  {
-    "word": "перо",
-    "version": "v2",
-    "path": "styles/new/перо_v2.png"
-  },
-  {
-    "word": "персик",
-    "version": "latest",
-    "path": "styles/new/персик_latest.png"
-  },
-  {
-    "word": "персик",
-    "version": "v1",
-    "path": "styles/new/персик_v1.png"
-  },
-  {
-    "word": "персик",
-    "version": "v2",
-    "path": "styles/new/персик_v2.png"
-  },
-  {
-    "word": "перчик",
-    "version": "latest",
-    "path": "styles/new/перчик_latest.png"
-  },
-  {
-    "word": "перчик",
-    "version": "v1",
-    "path": "styles/new/перчик_v1.png"
-  },
-  {
-    "word": "перчик",
-    "version": "v2",
-    "path": "styles/new/перчик_v2.png"
-  },
-  {
-    "word": "печка",
-    "version": "latest",
-    "path": "styles/new/печка_latest.png"
-  },
-  {
-    "word": "печка",
-    "version": "v1",
-    "path": "styles/new/печка_v1.png"
-  },
-  {
-    "word": "печка",
-    "version": "v2",
-    "path": "styles/new/печка_v2.png"
-  },
-  {
-    "word": "пират",
-    "version": "latest",
-    "path": "styles/new/пират_latest.png"
-  },
-  {
-    "word": "пират",
-    "version": "v1",
-    "path": "styles/new/пират_v1.png"
-  },
-  {
-    "word": "пират",
-    "version": "v2",
-    "path": "styles/new/пират_v2.png"
-  },
-  {
-    "word": "пират",
-    "version": "v3",
-    "path": "styles/new/пират_v3.png"
-  },
-  {
-    "word": "пирог",
-    "version": "latest",
-    "path": "styles/new/пирог_latest.png"
-  },
-  {
-    "word": "пирог",
-    "version": "v1",
-    "path": "styles/new/пирог_v1.png"
-  },
-  {
-    "word": "пирог",
-    "version": "v2",
-    "path": "styles/new/пирог_v2.png"
-  },
-  {
-    "word": "пирожное",
-    "version": "latest",
-    "path": "styles/new/пирожное_latest.png"
-  },
-  {
-    "word": "пирожное",
-    "version": "v1",
-    "path": "styles/new/пирожное_v1.png"
-  },
-  {
-    "word": "пирожное",
-    "version": "v2",
-    "path": "styles/new/пирожное_v2.png"
-  },
-  {
-    "word": "пирожок",
-    "version": "latest",
-    "path": "styles/new/пирожок_latest.png"
-  },
-  {
-    "word": "пирожок",
-    "version": "v1",
-    "path": "styles/new/пирожок_v1.png"
-  },
-  {
-    "word": "пирожок",
-    "version": "v2",
-    "path": "styles/new/пирожок_v2.png"
-  },
-  {
-    "word": "пирожок",
-    "version": "v3",
-    "path": "styles/new/пирожок_v3.png"
-  },
-  {
-    "word": "пища",
-    "version": "latest",
-    "path": "styles/new/пища_latest.png"
-  },
-  {
-    "word": "пища",
-    "version": "v1",
-    "path": "styles/new/пища_v1.png"
-  },
-  {
-    "word": "пища",
-    "version": "v2",
-    "path": "styles/new/пища_v2.png"
-  },
-  {
-    "word": "плюшка",
-    "version": "latest",
-    "path": "styles/new/плюшка_latest.png"
-  },
-  {
-    "word": "плюшка",
-    "version": "v1",
-    "path": "styles/new/плюшка_v1.png"
-  },
-  {
-    "word": "плюшка",
-    "version": "v2",
-    "path": "styles/new/плюшка_v2.png"
-  },
-  {
-    "word": "плюшка",
-    "version": "v3",
-    "path": "styles/new/плюшка_v3.png"
-  },
-  {
-    "word": "повар",
-    "version": "latest",
-    "path": "styles/new/повар_latest.png"
-  },
-  {
-    "word": "повар",
-    "version": "v1",
-    "path": "styles/new/повар_v1.png"
-  },
-  {
-    "word": "повар",
-    "version": "v2",
-    "path": "styles/new/повар_v2.png"
-  },
-  {
-    "word": "помидор",
-    "version": "latest",
-    "path": "styles/new/помидор_latest.png"
-  },
-  {
-    "word": "помидор",
-    "version": "v1",
-    "path": "styles/new/помидор_v1.png"
-  },
-  {
-    "word": "помидор",
-    "version": "v2",
-    "path": "styles/new/помидор_v2.png"
-  },
-  {
-    "word": "помощник",
-    "version": "latest",
-    "path": "styles/new/помощник_latest.png"
-  },
-  {
-    "word": "помощник",
-    "version": "v1",
-    "path": "styles/new/помощник_v1.png"
-  },
-  {
-    "word": "помощник",
-    "version": "v2",
-    "path": "styles/new/помощник_v2.png"
-  },
-  {
-    "word": "помощница",
-    "version": "latest",
-    "path": "styles/new/помощница_latest.png"
-  },
-  {
-    "word": "помощница",
-    "version": "v1",
-    "path": "styles/new/помощница_v1.png"
-  },
-  {
-    "word": "помощница",
-    "version": "v2",
-    "path": "styles/new/помощница_v2.png"
-  },
-  {
-    "word": "прогулка",
-    "version": "latest",
-    "path": "styles/new/прогулка_latest.png"
-  },
-  {
-    "word": "прогулка",
-    "version": "v1",
-    "path": "styles/new/прогулка_v1.png"
-  },
-  {
-    "word": "прогулка",
-    "version": "v2",
-    "path": "styles/new/прогулка_v2.png"
-  },
-  {
-    "word": "пруд",
-    "version": "latest",
-    "path": "styles/new/пруд_latest.png"
-  },
-  {
-    "word": "пруд",
-    "version": "v1",
-    "path": "styles/new/пруд_v1.png"
-  },
-  {
-    "word": "пруд",
-    "version": "v2",
-    "path": "styles/new/пруд_v2.png"
-  },
-  {
-    "word": "пружина",
-    "version": "latest",
-    "path": "styles/new/пружина_latest.png"
-  },
-  {
-    "word": "пружина",
-    "version": "v1",
-    "path": "styles/new/пружина_v1.png"
-  },
-  {
-    "word": "пружина",
-    "version": "v2",
-    "path": "styles/new/пружина_v2.png"
-  },
-  {
-    "word": "пружина",
-    "version": "v3",
-    "path": "styles/new/пружина_v3.png"
-  },
-  {
-    "word": "прут",
-    "version": "latest",
-    "path": "styles/new/прут_latest.png"
-  },
-  {
-    "word": "прут",
-    "version": "v1",
-    "path": "styles/new/прут_v1.png"
-  },
-  {
-    "word": "прут",
-    "version": "v2",
-    "path": "styles/new/прут_v2.png"
-  },
-  {
-    "word": "птица",
-    "version": "latest",
-    "path": "styles/new/птица_latest.png"
-  },
-  {
-    "word": "птица",
-    "version": "v1",
-    "path": "styles/new/птица_v1.png"
-  },
-  {
-    "word": "птица",
-    "version": "v2",
-    "path": "styles/new/птица_v2.png"
-  },
-  {
-    "word": "птичка",
-    "version": "latest",
-    "path": "styles/new/птичка_latest.png"
-  },
-  {
-    "word": "птичка",
-    "version": "v1",
-    "path": "styles/new/птичка_v1.png"
-  },
-  {
-    "word": "птичка",
-    "version": "v2",
-    "path": "styles/new/птичка_v2.png"
-  },
-  {
-    "word": "пуговица",
-    "version": "latest",
-    "path": "styles/new/пуговица_latest.png"
-  },
-  {
-    "word": "пуговица",
-    "version": "v1",
-    "path": "styles/new/пуговица_v1.png"
-  },
-  {
-    "word": "пуговица",
-    "version": "v2",
-    "path": "styles/new/пуговица_v2.png"
-  },
-  {
-    "word": "пуговица",
-    "version": "v3",
-    "path": "styles/new/пуговица_v3.png"
-  },
-  {
-    "word": "рак",
-    "version": "latest",
-    "path": "styles/new/рак_latest.png"
-  },
-  {
-    "word": "рак",
-    "version": "v1",
-    "path": "styles/new/рак_v1.png"
-  },
-  {
-    "word": "рак",
-    "version": "v2",
-    "path": "styles/new/рак_v2.png"
-  },
-  {
-    "word": "рама",
-    "version": "latest",
-    "path": "styles/new/рама_latest.png"
-  },
-  {
-    "word": "рама",
-    "version": "v1",
-    "path": "styles/new/рама_v1.png"
-  },
-  {
-    "word": "рама",
-    "version": "v2",
-    "path": "styles/new/рама_v2.png"
-  },
-  {
-    "word": "река",
-    "version": "latest",
-    "path": "styles/new/река_latest.png"
-  },
-  {
-    "word": "река",
-    "version": "v1",
-    "path": "styles/new/река_v1.png"
-  },
-  {
-    "word": "река",
-    "version": "v2",
-    "path": "styles/new/река_v2.png"
-  },
-  {
-    "word": "репа",
-    "version": "latest",
-    "path": "styles/new/репа_latest.png"
-  },
-  {
-    "word": "репа",
-    "version": "v1",
-    "path": "styles/new/репа_v1.png"
-  },
-  {
-    "word": "репа",
-    "version": "v2",
-    "path": "styles/new/репа_v2.png"
-  },
-  {
-    "word": "репа",
-    "version": "v3",
-    "path": "styles/new/репа_v3.png"
-  },
-  {
-    "word": "речка",
-    "version": "latest",
-    "path": "styles/new/речка_latest.png"
-  },
-  {
-    "word": "речка",
-    "version": "v1",
-    "path": "styles/new/речка_v1.png"
-  },
-  {
-    "word": "речка",
-    "version": "v2",
-    "path": "styles/new/речка_v2.png"
-  },
-  {
-    "word": "рога",
-    "version": "latest",
-    "path": "styles/new/рога_latest.png"
-  },
-  {
-    "word": "рога",
-    "version": "v1",
-    "path": "styles/new/рога_v1.png"
-  },
-  {
-    "word": "рога",
-    "version": "v2",
-    "path": "styles/new/рога_v2.png"
-  },
-  {
-    "word": "роса",
-    "version": "latest",
-    "path": "styles/new/роса_latest.png"
-  },
-  {
-    "word": "роса",
-    "version": "v1",
-    "path": "styles/new/роса_v1.png"
-  },
-  {
-    "word": "роса",
-    "version": "v2",
-    "path": "styles/new/роса_v2.png"
-  },
-  {
-    "word": "рот",
-    "version": "latest",
-    "path": "styles/new/рот_latest.png"
-  },
-  {
-    "word": "рот",
-    "version": "v1",
-    "path": "styles/new/рот_v1.png"
-  },
-  {
-    "word": "рот",
-    "version": "v2",
-    "path": "styles/new/рот_v2.png"
-  },
-  {
-    "word": "рука",
-    "version": "latest",
-    "path": "styles/new/рука_latest.png"
-  },
-  {
-    "word": "рука",
-    "version": "v1",
-    "path": "styles/new/рука_v1.png"
-  },
-  {
-    "word": "рука",
-    "version": "v2",
-    "path": "styles/new/рука_v2.png"
-  },
-  {
-    "word": "руль",
-    "version": "latest",
-    "path": "styles/new/руль_latest.png"
-  },
-  {
-    "word": "руль",
-    "version": "v1",
-    "path": "styles/new/руль_v1.png"
-  },
-  {
-    "word": "руль",
-    "version": "v2",
-    "path": "styles/new/руль_v2.png"
-  },
-  {
-    "word": "руль",
-    "version": "v3",
-    "path": "styles/new/руль_v3.png"
-  },
-  {
-    "word": "рыба",
-    "version": "latest",
-    "path": "styles/new/рыба_latest.png"
-  },
-  {
-    "word": "рыба",
-    "version": "v1",
-    "path": "styles/new/рыба_v1.png"
-  },
-  {
-    "word": "рыба",
-    "version": "v2",
-    "path": "styles/new/рыба_v2.png"
-  },
-  {
-    "word": "рыба",
-    "version": "v3",
-    "path": "styles/new/рыба_v3.png"
-  },
-  {
-    "word": "сало",
-    "version": "latest",
-    "path": "styles/new/сало_latest.png"
-  },
-  {
-    "word": "сало",
-    "version": "v1",
-    "path": "styles/new/сало_v1.png"
-  },
-  {
-    "word": "сало",
-    "version": "v2",
-    "path": "styles/new/сало_v2.png"
-  },
-  {
-    "word": "сало",
-    "version": "v3",
-    "path": "styles/new/сало_v3.png"
-  },
-  {
-    "word": "сани",
-    "version": "latest",
-    "path": "styles/new/сани_latest.png"
-  },
-  {
-    "word": "сани",
-    "version": "v1",
-    "path": "styles/new/сани_v1.png"
-  },
-  {
-    "word": "сани",
-    "version": "v2",
-    "path": "styles/new/сани_v2.png"
-  },
-  {
-    "word": "сани",
-    "version": "v3",
-    "path": "styles/new/сани_v3.png"
-  },
-  {
-    "word": "сапог",
-    "version": "latest",
-    "path": "styles/new/сапог_latest.png"
-  },
-  {
-    "word": "сапог",
-    "version": "v1",
-    "path": "styles/new/сапог_v1.png"
-  },
-  {
-    "word": "сапог",
-    "version": "v2",
-    "path": "styles/new/сапог_v2.png"
-  },
-  {
-    "word": "сверло",
-    "version": "latest",
-    "path": "styles/new/сверло_latest.png"
-  },
-  {
-    "word": "сверло",
-    "version": "v1",
-    "path": "styles/new/сверло_v1.png"
-  },
-  {
-    "word": "сверло",
-    "version": "v2",
-    "path": "styles/new/сверло_v2.png"
-  },
-  {
-    "word": "сверло",
-    "version": "v3",
-    "path": "styles/new/сверло_v3.png"
-  },
-  {
-    "word": "светильник",
-    "version": "latest",
-    "path": "styles/new/светильник_latest.png"
-  },
-  {
-    "word": "светильник",
-    "version": "v1",
-    "path": "styles/new/светильник_v1.png"
-  },
-  {
-    "word": "светильник",
-    "version": "v2",
-    "path": "styles/new/светильник_v2.png"
-  },
-  {
-    "word": "светлячок",
-    "version": "latest",
-    "path": "styles/new/светлячок_latest.png"
-  },
-  {
-    "word": "светлячок",
-    "version": "v1",
-    "path": "styles/new/светлячок_v1.png"
-  },
-  {
-    "word": "светлячок",
-    "version": "v2",
-    "path": "styles/new/светлячок_v2.png"
-  },
-  {
-    "word": "светлячок",
-    "version": "v3",
-    "path": "styles/new/светлячок_v3.png"
-  },
-  {
-    "word": "светофор",
-    "version": "latest",
-    "path": "styles/new/светофор_latest.png"
-  },
-  {
-    "word": "светофор",
-    "version": "v1",
-    "path": "styles/new/светофор_v1.png"
-  },
-  {
-    "word": "светофор",
-    "version": "v2",
-    "path": "styles/new/светофор_v2.png"
-  },
-  {
-    "word": "свеча",
-    "version": "latest",
-    "path": "styles/new/свеча_latest.png"
-  },
-  {
-    "word": "свеча",
-    "version": "v1",
-    "path": "styles/new/свеча_v1.png"
-  },
-  {
-    "word": "свеча",
-    "version": "v2",
-    "path": "styles/new/свеча_v2.png"
-  },
-  {
-    "word": "свечка",
-    "version": "latest",
-    "path": "styles/new/свечка_latest.png"
-  },
-  {
-    "word": "свечка",
-    "version": "v1",
-    "path": "styles/new/свечка_v1.png"
-  },
-  {
-    "word": "свечка",
-    "version": "v2",
-    "path": "styles/new/свечка_v2.png"
-  },
-  {
-    "word": "сердце",
-    "version": "latest",
-    "path": "styles/new/сердце_latest.png"
-  },
-  {
-    "word": "сердце",
-    "version": "v1",
-    "path": "styles/new/сердце_v1.png"
-  },
-  {
-    "word": "сердце",
-    "version": "v2",
-    "path": "styles/new/сердце_v2.png"
-  },
-  {
-    "word": "сестра",
-    "version": "latest",
-    "path": "styles/new/сестра_latest.png"
-  },
-  {
-    "word": "сестра",
-    "version": "v1",
-    "path": "styles/new/сестра_v1.png"
-  },
-  {
-    "word": "сестра",
-    "version": "v2",
-    "path": "styles/new/сестра_v2.png"
-  },
-  {
-    "word": "сетка",
-    "version": "latest",
-    "path": "styles/new/сетка_latest.png"
-  },
-  {
-    "word": "сетка",
-    "version": "v1",
-    "path": "styles/new/сетка_v1.png"
-  },
-  {
-    "word": "сетка",
-    "version": "v2",
-    "path": "styles/new/сетка_v2.png"
-  },
-  {
-    "word": "сказка",
-    "version": "latest",
-    "path": "styles/new/сказка_latest.png"
-  },
-  {
-    "word": "сказка",
-    "version": "v1",
-    "path": "styles/new/сказка_v1.png"
-  },
-  {
-    "word": "сказка",
-    "version": "v2",
-    "path": "styles/new/сказка_v2.png"
-  },
-  {
-    "word": "скакалка",
-    "version": "latest",
-    "path": "styles/new/скакалка_latest.png"
-  },
-  {
-    "word": "скакалка",
-    "version": "v1",
-    "path": "styles/new/скакалка_v1.png"
-  },
-  {
-    "word": "скакалка",
-    "version": "v2",
-    "path": "styles/new/скакалка_v2.png"
-  },
-  {
-    "word": "скала",
-    "version": "latest",
-    "path": "styles/new/скала_latest.png"
-  },
-  {
-    "word": "скала",
-    "version": "v1",
-    "path": "styles/new/скала_v1.png"
-  },
-  {
-    "word": "скала",
-    "version": "v2",
-    "path": "styles/new/скала_v2.png"
-  },
-  {
-    "word": "скалолаз",
-    "version": "latest",
-    "path": "styles/new/скалолаз_latest.png"
-  },
-  {
-    "word": "скалолаз",
-    "version": "v1",
-    "path": "styles/new/скалолаз_v1.png"
-  },
-  {
-    "word": "скалолаз",
-    "version": "v2",
-    "path": "styles/new/скалолаз_v2.png"
-  },
-  {
-    "word": "скачка",
-    "version": "latest",
-    "path": "styles/new/скачка_latest.png"
-  },
-  {
-    "word": "скачка",
-    "version": "v1",
-    "path": "styles/new/скачка_v1.png"
-  },
-  {
-    "word": "скачка",
-    "version": "v2",
-    "path": "styles/new/скачка_v2.png"
-  },
-  {
-    "word": "слон",
-    "version": "latest",
-    "path": "styles/new/слон_latest.png"
-  },
-  {
-    "word": "слон",
-    "version": "v1",
-    "path": "styles/new/слон_v1.png"
-  },
-  {
-    "word": "слон",
-    "version": "v2",
-    "path": "styles/new/слон_v2.png"
-  },
-  {
-    "word": "слоны",
-    "version": "latest",
-    "path": "styles/new/слоны_latest.png"
-  },
-  {
-    "word": "слоны",
-    "version": "v1",
-    "path": "styles/new/слоны_v1.png"
-  },
-  {
-    "word": "слоны",
-    "version": "v2",
-    "path": "styles/new/слоны_v2.png"
-  },
-  {
-    "word": "снег",
-    "version": "latest",
-    "path": "styles/new/снег_latest.png"
-  },
-  {
-    "word": "снег",
-    "version": "v1",
-    "path": "styles/new/снег_v1.png"
-  },
-  {
-    "word": "снег",
-    "version": "v2",
-    "path": "styles/new/снег_v2.png"
-  },
-  {
-    "word": "снеговик",
-    "version": "latest",
-    "path": "styles/new/снеговик_latest.png"
-  },
-  {
-    "word": "снеговик",
-    "version": "v1",
-    "path": "styles/new/снеговик_v1.png"
-  },
-  {
-    "word": "снеговик",
-    "version": "v2",
-    "path": "styles/new/снеговик_v2.png"
-  },
-  {
-    "word": "снежинка",
-    "version": "latest",
-    "path": "styles/new/снежинка_latest.png"
-  },
-  {
-    "word": "снежинка",
-    "version": "v1",
-    "path": "styles/new/снежинка_v1.png"
-  },
-  {
-    "word": "снежинка",
-    "version": "v2",
-    "path": "styles/new/снежинка_v2.png"
-  },
-  {
-    "word": "снежок",
-    "version": "latest",
-    "path": "styles/new/снежок_latest.png"
-  },
-  {
-    "word": "снежок",
-    "version": "v1",
-    "path": "styles/new/снежок_v1.png"
-  },
-  {
-    "word": "снежок",
-    "version": "v2",
-    "path": "styles/new/снежок_v2.png"
-  },
-  {
-    "word": "собака",
-    "version": "latest",
-    "path": "styles/new/собака_latest.png"
-  },
-  {
-    "word": "собака",
-    "version": "v1",
-    "path": "styles/new/собака_v1.png"
-  },
-  {
-    "word": "собака",
-    "version": "v2",
-    "path": "styles/new/собака_v2.png"
-  },
-  {
-    "word": "сова",
-    "version": "latest",
-    "path": "styles/new/сова_latest.png"
-  },
-  {
-    "word": "сова",
-    "version": "v1",
-    "path": "styles/new/сова_v1.png"
-  },
-  {
-    "word": "сова",
-    "version": "v2",
-    "path": "styles/new/сова_v2.png"
-  },
-  {
-    "word": "сова",
-    "version": "v3",
-    "path": "styles/new/сова_v3.png"
-  },
-  {
-    "word": "сок",
-    "version": "latest",
-    "path": "styles/new/сок_latest.png"
-  },
-  {
-    "word": "сок",
-    "version": "v1",
-    "path": "styles/new/сок_v1.png"
-  },
-  {
-    "word": "сок",
-    "version": "v2",
-    "path": "styles/new/сок_v2.png"
-  },
-  {
-    "word": "сом",
-    "version": "latest",
-    "path": "styles/new/сом_latest.png"
-  },
-  {
-    "word": "сом",
-    "version": "v1",
-    "path": "styles/new/сом_v1.png"
-  },
-  {
-    "word": "сом",
-    "version": "v2",
-    "path": "styles/new/сом_v2.png"
-  },
-  {
-    "word": "сом",
-    "version": "v3",
-    "path": "styles/new/сом_v3.png"
-  },
-  {
-    "word": "сорока",
-    "version": "latest",
-    "path": "styles/new/сорока_latest.png"
-  },
-  {
-    "word": "сорока",
-    "version": "v1",
-    "path": "styles/new/сорока_v1.png"
-  },
-  {
-    "word": "сорока",
-    "version": "v2",
-    "path": "styles/new/сорока_v2.png"
-  },
-  {
-    "word": "сосна",
-    "version": "latest",
-    "path": "styles/new/сосна_latest.png"
-  },
-  {
-    "word": "сосна",
-    "version": "v1",
-    "path": "styles/new/сосна_v1.png"
-  },
-  {
-    "word": "сосна",
-    "version": "v2",
-    "path": "styles/new/сосна_v2.png"
-  },
-  {
-    "word": "сосна",
-    "version": "v3",
-    "path": "styles/new/сосна_v3.png"
-  },
-  {
-    "word": "стол",
-    "version": "latest",
-    "path": "styles/new/стол_latest.png"
-  },
-  {
-    "word": "стол",
-    "version": "v1",
-    "path": "styles/new/стол_v1.png"
-  },
-  {
-    "word": "стол",
-    "version": "v2",
-    "path": "styles/new/стол_v2.png"
-  },
-  {
-    "word": "стук",
-    "version": "latest",
-    "path": "styles/new/стук_latest.png"
-  },
-  {
-    "word": "стук",
-    "version": "v1",
-    "path": "styles/new/стук_v1.png"
-  },
-  {
-    "word": "стук",
-    "version": "v2",
-    "path": "styles/new/стук_v2.png"
-  },
-  {
-    "word": "стук",
-    "version": "v3",
-    "path": "styles/new/стук_v3.png"
-  },
-  {
-    "word": "стул",
-    "version": "latest",
-    "path": "styles/new/стул_latest.png"
-  },
-  {
-    "word": "стул",
-    "version": "v1",
-    "path": "styles/new/стул_v1.png"
-  },
-  {
-    "word": "стул",
-    "version": "v2",
-    "path": "styles/new/стул_v2.png"
-  },
-  {
-    "word": "сук",
-    "version": "latest",
-    "path": "styles/new/сук_latest.png"
-  },
-  {
-    "word": "сук",
-    "version": "v1",
-    "path": "styles/new/сук_v1.png"
-  },
-  {
-    "word": "сук",
-    "version": "v2",
-    "path": "styles/new/сук_v2.png"
-  },
-  {
-    "word": "суп",
-    "version": "latest",
-    "path": "styles/new/суп_latest.png"
-  },
-  {
-    "word": "суп",
-    "version": "v1",
-    "path": "styles/new/суп_v1.png"
-  },
-  {
-    "word": "суп",
-    "version": "v2",
-    "path": "styles/new/суп_v2.png"
-  },
-  {
-    "word": "сыр",
-    "version": "latest",
-    "path": "styles/new/сыр_latest.png"
-  },
-  {
-    "word": "сыр",
-    "version": "v1",
-    "path": "styles/new/сыр_v1.png"
-  },
-  {
-    "word": "сыр",
-    "version": "v2",
-    "path": "styles/new/сыр_v2.png"
-  },
-  {
-    "word": "телега",
-    "version": "latest",
-    "path": "styles/new/телега_latest.png"
-  },
-  {
-    "word": "телега",
-    "version": "v1",
-    "path": "styles/new/телега_v1.png"
-  },
-  {
-    "word": "телега",
-    "version": "v2",
-    "path": "styles/new/телега_v2.png"
-  },
-  {
-    "word": "телега",
-    "version": "v3",
-    "path": "styles/new/телега_v3.png"
-  },
-  {
-    "word": "телескоп",
-    "version": "latest",
-    "path": "styles/new/телескоп_latest.png"
-  },
-  {
-    "word": "телескоп",
-    "version": "v1",
-    "path": "styles/new/телескоп_v1.png"
-  },
-  {
-    "word": "телескоп",
-    "version": "v2",
-    "path": "styles/new/телескоп_v2.png"
-  },
-  {
-    "word": "телефон",
-    "version": "latest",
-    "path": "styles/new/телефон_latest.png"
-  },
-  {
-    "word": "телефон",
-    "version": "v1",
-    "path": "styles/new/телефон_v1.png"
-  },
-  {
-    "word": "телефон",
-    "version": "v2",
-    "path": "styles/new/телефон_v2.png"
-  },
-  {
-    "word": "телефон",
-    "version": "v3",
-    "path": "styles/new/телефон_v3.png"
-  },
-  {
-    "word": "телёнок",
-    "version": "latest",
-    "path": "styles/new/телёнок_latest.png"
-  },
-  {
-    "word": "телёнок",
-    "version": "v1",
-    "path": "styles/new/телёнок_v1.png"
-  },
-  {
-    "word": "телёнок",
-    "version": "v2",
-    "path": "styles/new/телёнок_v2.png"
-  },
-  {
-    "word": "точка",
-    "version": "latest",
-    "path": "styles/new/точка_latest.png"
-  },
-  {
-    "word": "точка",
-    "version": "v1",
-    "path": "styles/new/точка_v1.png"
-  },
-  {
-    "word": "точка",
-    "version": "v2",
-    "path": "styles/new/точка_v2.png"
-  },
-  {
-    "word": "точка",
-    "version": "v3",
-    "path": "styles/new/точка_v3.png"
-  },
-  {
-    "word": "улица",
-    "version": "latest",
-    "path": "styles/new/улица_latest.png"
-  },
-  {
-    "word": "улица",
-    "version": "v1",
-    "path": "styles/new/улица_v1.png"
-  },
-  {
-    "word": "улица",
-    "version": "v2",
-    "path": "styles/new/улица_v2.png"
-  },
-  {
-    "word": "фото",
-    "version": "latest",
-    "path": "styles/new/фото_latest.png"
-  },
-  {
-    "word": "фото",
-    "version": "v1",
-    "path": "styles/new/фото_v1.png"
-  },
-  {
-    "word": "фото",
-    "version": "v2",
-    "path": "styles/new/фото_v2.png"
-  },
-  {
-    "word": "хлеб",
-    "version": "latest",
-    "path": "styles/new/хлеб_latest.png"
-  },
-  {
-    "word": "хлеб",
-    "version": "v1",
-    "path": "styles/new/хлеб_v1.png"
-  },
-  {
-    "word": "хлеб",
-    "version": "v2",
-    "path": "styles/new/хлеб_v2.png"
-  },
-  {
-    "word": "череп",
-    "version": "latest",
-    "path": "styles/new/череп_latest.png"
-  },
-  {
-    "word": "череп",
-    "version": "v1",
-    "path": "styles/new/череп_v1.png"
-  },
-  {
-    "word": "череп",
-    "version": "v2",
-    "path": "styles/new/череп_v2.png"
-  },
-  {
-    "word": "черепаха",
-    "version": "latest",
-    "path": "styles/new/черепаха_latest.png"
-  },
-  {
-    "word": "черепаха",
-    "version": "v1",
-    "path": "styles/new/черепаха_v1.png"
-  },
-  {
-    "word": "черепашка",
-    "version": "latest",
-    "path": "styles/new/черепашка_latest.png"
-  },
-  {
-    "word": "черепашка",
-    "version": "v1",
-    "path": "styles/new/черепашка_v1.png"
-  },
-  {
-    "word": "черника",
-    "version": "latest",
-    "path": "styles/new/черника_latest.png"
-  },
-  {
-    "word": "черника",
-    "version": "v1",
-    "path": "styles/new/черника_v1.png"
-  },
-  {
-    "word": "черника",
-    "version": "v2",
-    "path": "styles/new/черника_v2.png"
-  },
-  {
-    "word": "чернила",
-    "version": "latest",
-    "path": "styles/new/чернила_latest.png"
-  },
-  {
-    "word": "чернила",
-    "version": "v1",
-    "path": "styles/new/чернила_v1.png"
-  },
-  {
-    "word": "чернила",
-    "version": "v2",
-    "path": "styles/new/чернила_v2.png"
-  },
-  {
-    "word": "экран",
-    "version": "latest",
-    "path": "styles/new/экран_latest.png"
-  },
-  {
-    "word": "экран",
-    "version": "v1",
-    "path": "styles/new/экран_v1.png"
-  },
-  {
-    "word": "экран",
-    "version": "v2",
-    "path": "styles/new/экран_v2.png"
-  },
-  {
-    "word": "экскаватор",
-    "version": "latest",
-    "path": "styles/new/экскаватор_latest.png"
-  },
-  {
-    "word": "экскаватор",
-    "version": "v1",
-    "path": "styles/new/экскаватор_v1.png"
-  },
-  {
-    "word": "экскаватор",
-    "version": "v2",
-    "path": "styles/new/экскаватор_v2.png"
-  },
-  {
-    "word": "эскалатор",
-    "version": "latest",
-    "path": "styles/new/эскалатор_latest.png"
-  },
-  {
-    "word": "эскалатор",
-    "version": "v1",
-    "path": "styles/new/эскалатор_v1.png"
-  },
-  {
-    "word": "эскалатор",
-    "version": "v2",
-    "path": "styles/new/эскалатор_v2.png"
-  },
-  {
-    "word": "эскимо",
-    "version": "latest",
-    "path": "styles/new/эскимо_latest.png"
-  },
-  {
-    "word": "эскимо",
-    "version": "v1",
-    "path": "styles/new/эскимо_v1.png"
-  },
-  {
-    "word": "эскимо",
-    "version": "v2",
-    "path": "styles/new/эскимо_v2.png"
-  },
-  {
-    "word": "эскимо",
-    "version": "v3",
-    "path": "styles/new/эскимо_v3.png"
+{
+  "version": "2.0",
+  "updated": "2026-04-15T18:32:01.598743+00:00",
+  "concepts": {
+    "карусель": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "карусель_v1.png",
+              "path": "default/карусель_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.225751+00:00",
+              "previews": {
+                "128": "default/thumbs/128/карусель_v1.png",
+                "256": "default/thumbs/256/карусель_v1.png",
+                "512": "default/thumbs/512/карусель_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "авоська": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "авоська_v1.png",
+              "path": "default/авоська_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.203033+00:00",
+              "previews": {
+                "128": "default/thumbs/128/авоська_v1.png",
+                "256": "default/thumbs/256/авоська_v1.png",
+                "512": "default/thumbs/512/авоська_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "вилка": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "вилка_v1.png",
+              "path": "default/вилка_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.214751+00:00",
+              "previews": {
+                "128": "default/thumbs/128/вилка_v1.png",
+                "256": "default/thumbs/256/вилка_v1.png",
+                "512": "default/thumbs/512/вилка_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "автобус": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "автобус_v1.png",
+              "path": "default/автобус_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.203750+00:00",
+              "previews": {
+                "128": "default/thumbs/128/автобус_v1.png",
+                "256": "default/thumbs/256/автобус_v1.png",
+                "512": "default/thumbs/512/автобус_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "дым": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "дым_v1.png",
+              "path": "default/дым_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.220751+00:00",
+              "previews": {
+                "128": "default/thumbs/128/дым_v1.png",
+                "256": "default/thumbs/256/дым_v1.png",
+                "512": "default/thumbs/512/дым_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "бык": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "бык_v1.png",
+              "path": "default/бык_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.210750+00:00",
+              "previews": {
+                "128": "default/thumbs/128/бык_v1.png",
+                "256": "default/thumbs/256/бык_v1.png",
+                "512": "default/thumbs/512/бык_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "ветер": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "ветер_v1.png",
+              "path": "default/ветер_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.213750+00:00",
+              "previews": {
+                "128": "default/thumbs/128/ветер_v1.png",
+                "256": "default/thumbs/256/ветер_v1.png",
+                "512": "default/thumbs/512/ветер_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "вещь": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "вещь_v1.png",
+              "path": "default/вещь_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.214751+00:00",
+              "previews": {
+                "128": "default/thumbs/128/вещь_v1.png",
+                "256": "default/thumbs/256/вещь_v1.png",
+                "512": "default/thumbs/512/вещь_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "автомат": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "автомат_v1.png",
+              "path": "default/автомат_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.203750+00:00",
+              "previews": {
+                "128": "default/thumbs/128/автомат_v1.png",
+                "256": "default/thumbs/256/автомат_v1.png",
+                "512": "default/thumbs/512/автомат_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "книжка": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "книжка_v1.png",
+              "path": "default/книжка_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.227751+00:00",
+              "previews": {
+                "128": "default/thumbs/128/книжка_v1.png",
+                "256": "default/thumbs/256/книжка_v1.png",
+                "512": "default/thumbs/512/книжка_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "веник": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "веник_v1.png",
+              "path": "default/веник_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.212750+00:00",
+              "previews": {
+                "128": "default/thumbs/128/веник_v1.png",
+                "256": "default/thumbs/256/веник_v1.png",
+                "512": "default/thumbs/512/веник_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "веер": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "веер_v1.png",
+              "path": "default/веер_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.210750+00:00",
+              "previews": {
+                "128": "default/thumbs/128/веер_v1.png",
+                "256": "default/thumbs/256/веер_v1.png",
+                "512": "default/thumbs/512/веер_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "жук": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "жук_v1.png",
+              "path": "default/жук_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.221750+00:00",
+              "previews": {
+                "128": "default/thumbs/128/жук_v1.png",
+                "256": "default/thumbs/256/жук_v1.png",
+                "512": "default/thumbs/512/жук_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "велюр": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "велюр_v1.png",
+              "path": "default/велюр_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.211751+00:00",
+              "previews": {
+                "128": "default/thumbs/128/велюр_v1.png",
+                "256": "default/thumbs/256/велюр_v1.png",
+                "512": "default/thumbs/512/велюр_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "автопилот": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "автопилот_v1.png",
+              "path": "default/автопилот_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.204750+00:00",
+              "previews": {
+                "128": "default/thumbs/128/автопилот_v1.png",
+                "256": "default/thumbs/256/автопилот_v1.png",
+                "512": "default/thumbs/512/автопилот_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "дом": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "дом_v1.png",
+              "path": "default/дом_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.217751+00:00",
+              "previews": {
+                "128": "default/thumbs/128/дом_v1.png",
+                "256": "default/thumbs/256/дом_v1.png",
+                "512": "default/thumbs/512/дом_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "книга": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "книга_v1.png",
+              "path": "default/книга_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.227751+00:00",
+              "previews": {
+                "128": "default/thumbs/128/книга_v1.png",
+                "256": "default/thumbs/256/книга_v1.png",
+                "512": "default/thumbs/512/книга_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "зуб": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "зуб_v1.png",
+              "path": "default/зуб_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.223751+00:00",
+              "previews": {
+                "128": "default/thumbs/128/зуб_v1.png",
+                "256": "default/thumbs/256/зуб_v1.png",
+                "512": "default/thumbs/512/зуб_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "клип": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "клип_v1.png",
+              "path": "default/клип_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.226751+00:00",
+              "previews": {
+                "128": "default/thumbs/128/клип_v1.png",
+                "256": "default/thumbs/256/клип_v1.png",
+                "512": "default/thumbs/512/клип_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "зонтик": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "зонтик_v1.png",
+              "path": "default/зонтик_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.223751+00:00",
+              "previews": {
+                "128": "default/thumbs/128/зонтик_v1.png",
+                "256": "default/thumbs/256/зонтик_v1.png",
+                "512": "default/thumbs/512/зонтик_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "грач": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "грач_v1.png",
+              "path": "default/грач_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.215750+00:00",
+              "previews": {
+                "128": "default/thumbs/128/грач_v1.png",
+                "256": "default/thumbs/256/грач_v1.png",
+                "512": "default/thumbs/512/грач_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "велосипед": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "велосипед_v1.png",
+              "path": "default/велосипед_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.211751+00:00",
+              "previews": {
+                "128": "default/thumbs/128/велосипед_v1.png",
+                "256": "default/thumbs/256/велосипед_v1.png",
+                "512": "default/thumbs/512/велосипед_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "картошка": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "картошка_v1.png",
+              "path": "default/картошка_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.225751+00:00",
+              "previews": {
+                "128": "default/thumbs/128/картошка_v1.png",
+                "256": "default/thumbs/256/картошка_v1.png",
+                "512": "default/thumbs/512/картошка_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "гриб": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "гриб_v1.png",
+              "path": "default/гриб_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.216750+00:00",
+              "previews": {
+                "128": "default/thumbs/128/гриб_v1.png",
+                "256": "default/thumbs/256/гриб_v1.png",
+                "512": "default/thumbs/512/гриб_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "зенит": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "зенит_v1.png",
+              "path": "default/зенит_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.221750+00:00",
+              "previews": {
+                "128": "default/thumbs/128/зенит_v1.png",
+                "256": "default/thumbs/256/зенит_v1.png",
+                "512": "default/thumbs/512/зенит_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "вишня": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "вишня_v1.png",
+              "path": "default/вишня_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.214751+00:00",
+              "previews": {
+                "128": "default/thumbs/128/вишня_v1.png",
+                "256": "default/thumbs/256/вишня_v1.png",
+                "512": "default/thumbs/512/вишня_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "дочь": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "дочь_v1.png",
+              "path": "default/дочь_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.220751+00:00",
+              "previews": {
+                "128": "default/thumbs/128/дочь_v1.png",
+                "256": "default/thumbs/256/дочь_v1.png",
+                "512": "default/thumbs/512/дочь_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "волан": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "волан_v1.png",
+              "path": "default/волан_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.215750+00:00",
+              "previews": {
+                "128": "default/thumbs/128/волан_v1.png",
+                "256": "default/thumbs/256/волан_v1.png",
+                "512": "default/thumbs/512/волан_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "ключ": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "ключ_v1.png",
+              "path": "default/ключ_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.226751+00:00",
+              "previews": {
+                "128": "default/thumbs/128/ключ_v1.png",
+                "256": "default/thumbs/256/ключ_v1.png",
+                "512": "default/thumbs/512/ключ_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "башмак": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "башмак_v1.png",
+              "path": "default/башмак_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.209750+00:00",
+              "previews": {
+                "128": "default/thumbs/128/башмак_v1.png",
+                "256": "default/thumbs/256/башмак_v1.png",
+                "512": "default/thumbs/512/башмак_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "бабочка": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "бабочка_v1.png",
+              "path": "default/бабочка_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.206750+00:00",
+              "previews": {
+                "128": "default/thumbs/128/бабочка_v1.png",
+                "256": "default/thumbs/256/бабочка_v1.png",
+                "512": "default/thumbs/512/бабочка_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "бак": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "бак_v1.png",
+              "path": "default/бак_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.206750+00:00",
+              "previews": {
+                "128": "default/thumbs/128/бак_v1.png",
+                "256": "default/thumbs/256/бак_v1.png",
+                "512": "default/thumbs/512/бак_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "дождь": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "дождь_v1.png",
+              "path": "default/дождь_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.217751+00:00",
+              "previews": {
+                "128": "default/thumbs/128/дождь_v1.png",
+                "256": "default/thumbs/256/дождь_v1.png",
+                "512": "default/thumbs/512/дождь_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "змея": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "змея_v1.png",
+              "path": "default/змея_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.222751+00:00",
+              "previews": {
+                "128": "default/thumbs/128/змея_v1.png",
+                "256": "default/thumbs/256/змея_v1.png",
+                "512": "default/thumbs/512/змея_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "доска": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "доска_v1.png",
+              "path": "default/доска_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.218750+00:00",
+              "previews": {
+                "128": "default/thumbs/128/доска_v1.png",
+                "256": "default/thumbs/256/доска_v1.png",
+                "512": "default/thumbs/512/доска_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "карандаш": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "карандаш_v1.png",
+              "path": "default/карандаш_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.224751+00:00",
+              "previews": {
+                "128": "default/thumbs/128/карандаш_v1.png",
+                "256": "default/thumbs/256/карандаш_v1.png",
+                "512": "default/thumbs/512/карандаш_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "доспехи": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "доспехи_v1.png",
+              "path": "default/доспехи_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.219751+00:00",
+              "previews": {
+                "128": "default/thumbs/128/доспехи_v1.png",
+                "256": "default/thumbs/256/доспехи_v1.png",
+                "512": "default/thumbs/512/доспехи_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "год": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "год_v1.png",
+              "path": "default/год_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.215750+00:00",
+              "previews": {
+                "128": "default/thumbs/128/год_v1.png",
+                "256": "default/thumbs/256/год_v1.png",
+                "512": "default/thumbs/512/год_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "апельсин": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "апельсин_v1.png",
+              "path": "default/апельсин_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.205750+00:00",
+              "previews": {
+                "128": "default/thumbs/128/апельсин_v1.png",
+                "256": "default/thumbs/256/апельсин_v1.png",
+                "512": "default/thumbs/512/апельсин_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "баранка": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "баранка_v1.png",
+              "path": "default/баранка_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.208750+00:00",
+              "previews": {
+                "128": "default/thumbs/128/баранка_v1.png",
+                "256": "default/thumbs/256/баранка_v1.png",
+                "512": "default/thumbs/512/баранка_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "ананас": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "ананас_v1.png",
+              "path": "default/ананас_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.205750+00:00",
+              "previews": {
+                "128": "default/thumbs/128/ананас_v1.png",
+                "256": "default/thumbs/256/ананас_v1.png",
+                "512": "default/thumbs/512/ананас_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "вечер": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "вечер_v1.png",
+              "path": "default/вечер_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.213750+00:00",
+              "previews": {
+                "128": "default/thumbs/128/вечер_v1.png",
+                "256": "default/thumbs/256/вечер_v1.png",
+                "512": "default/thumbs/512/вечер_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "дно": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "дно_v1.png",
+              "path": "default/дно_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.216750+00:00",
+              "previews": {
+                "128": "default/thumbs/128/дно_v1.png",
+                "256": "default/thumbs/256/дно_v1.png",
+                "512": "default/thumbs/512/дно_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "весна": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "весна_v1.png",
+              "path": "default/весна_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.212750+00:00",
+              "previews": {
+                "128": "default/thumbs/128/весна_v1.png",
+                "256": "default/thumbs/256/весна_v1.png",
+                "512": "default/thumbs/512/весна_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "абрикос": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "абрикос_v1.png",
+              "path": "default/абрикос_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.203033+00:00",
+              "previews": {
+                "128": "default/thumbs/128/абрикос_v1.png",
+                "256": "default/thumbs/256/абрикос_v1.png",
+                "512": "default/thumbs/512/абрикос_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "банки": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "банки_v1.png",
+              "path": "default/банки_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.207750+00:00",
+              "previews": {
+                "128": "default/thumbs/128/банки_v1.png",
+                "256": "default/thumbs/256/банки_v1.png",
+                "512": "default/thumbs/512/банки_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "доски": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "доски_v1.png",
+              "path": "default/доски_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.218750+00:00",
+              "previews": {
+                "128": "default/thumbs/128/доски_v1.png",
+                "256": "default/thumbs/256/доски_v1.png",
+                "512": "default/thumbs/512/доски_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "карман": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "карман_v1.png",
+              "path": "default/карман_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.224751+00:00",
+              "previews": {
+                "128": "default/thumbs/128/карман_v1.png",
+                "256": "default/thumbs/256/карман_v1.png",
+                "512": "default/thumbs/512/карман_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "кит": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "кит_v1.png",
+              "path": "default/кит_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.226751+00:00",
+              "previews": {
+                "128": "default/thumbs/128/кит_v1.png",
+                "256": "default/thumbs/256/кит_v1.png",
+                "512": "default/thumbs/512/кит_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "баночка": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "баночка_v1.png",
+              "path": "default/баночка_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T18:31:24.208750+00:00",
+              "previews": {
+                "128": "default/thumbs/128/баночка_v1.png",
+                "256": "default/thumbs/256/баночка_v1.png",
+                "512": "default/thumbs/512/баночка_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "words": {
+    "карусель": {
+      "concept": "карусель",
+      "language": "default",
+      "pos": null
+    },
+    "авоська": {
+      "concept": "авоська",
+      "language": "default",
+      "pos": null
+    },
+    "вилка": {
+      "concept": "вилка",
+      "language": "default",
+      "pos": null
+    },
+    "автобус": {
+      "concept": "автобус",
+      "language": "default",
+      "pos": null
+    },
+    "дым": {
+      "concept": "дым",
+      "language": "default",
+      "pos": null
+    },
+    "бык": {
+      "concept": "бык",
+      "language": "default",
+      "pos": null
+    },
+    "ветер": {
+      "concept": "ветер",
+      "language": "default",
+      "pos": null
+    },
+    "вещь": {
+      "concept": "вещь",
+      "language": "default",
+      "pos": null
+    },
+    "автомат": {
+      "concept": "автомат",
+      "language": "default",
+      "pos": null
+    },
+    "книжка": {
+      "concept": "книжка",
+      "language": "default",
+      "pos": null
+    },
+    "веник": {
+      "concept": "веник",
+      "language": "default",
+      "pos": null
+    },
+    "веер": {
+      "concept": "веер",
+      "language": "default",
+      "pos": null
+    },
+    "жук": {
+      "concept": "жук",
+      "language": "default",
+      "pos": null
+    },
+    "велюр": {
+      "concept": "велюр",
+      "language": "default",
+      "pos": null
+    },
+    "автопилот": {
+      "concept": "автопилот",
+      "language": "default",
+      "pos": null
+    },
+    "дом": {
+      "concept": "дом",
+      "language": "default",
+      "pos": null
+    },
+    "книга": {
+      "concept": "книга",
+      "language": "default",
+      "pos": null
+    },
+    "зуб": {
+      "concept": "зуб",
+      "language": "default",
+      "pos": null
+    },
+    "клип": {
+      "concept": "клип",
+      "language": "default",
+      "pos": null
+    },
+    "зонтик": {
+      "concept": "зонтик",
+      "language": "default",
+      "pos": null
+    },
+    "грач": {
+      "concept": "грач",
+      "language": "default",
+      "pos": null
+    },
+    "велосипед": {
+      "concept": "велосипед",
+      "language": "default",
+      "pos": null
+    },
+    "картошка": {
+      "concept": "картошка",
+      "language": "default",
+      "pos": null
+    },
+    "гриб": {
+      "concept": "гриб",
+      "language": "default",
+      "pos": null
+    },
+    "зенит": {
+      "concept": "зенит",
+      "language": "default",
+      "pos": null
+    },
+    "вишня": {
+      "concept": "вишня",
+      "language": "default",
+      "pos": null
+    },
+    "дочь": {
+      "concept": "дочь",
+      "language": "default",
+      "pos": null
+    },
+    "волан": {
+      "concept": "волан",
+      "language": "default",
+      "pos": null
+    },
+    "ключ": {
+      "concept": "ключ",
+      "language": "default",
+      "pos": null
+    },
+    "башмак": {
+      "concept": "башмак",
+      "language": "default",
+      "pos": null
+    },
+    "бабочка": {
+      "concept": "бабочка",
+      "language": "default",
+      "pos": null
+    },
+    "бак": {
+      "concept": "бак",
+      "language": "default",
+      "pos": null
+    },
+    "дождь": {
+      "concept": "дождь",
+      "language": "default",
+      "pos": null
+    },
+    "змея": {
+      "concept": "змея",
+      "language": "default",
+      "pos": null
+    },
+    "доска": {
+      "concept": "доска",
+      "language": "default",
+      "pos": null
+    },
+    "карандаш": {
+      "concept": "карандаш",
+      "language": "default",
+      "pos": null
+    },
+    "доспехи": {
+      "concept": "доспехи",
+      "language": "default",
+      "pos": null
+    },
+    "год": {
+      "concept": "год",
+      "language": "default",
+      "pos": null
+    },
+    "апельсин": {
+      "concept": "апельсин",
+      "language": "default",
+      "pos": null
+    },
+    "баранка": {
+      "concept": "баранка",
+      "language": "default",
+      "pos": null
+    },
+    "ананас": {
+      "concept": "ананас",
+      "language": "default",
+      "pos": null
+    },
+    "вечер": {
+      "concept": "вечер",
+      "language": "default",
+      "pos": null
+    },
+    "дно": {
+      "concept": "дно",
+      "language": "default",
+      "pos": null
+    },
+    "весна": {
+      "concept": "весна",
+      "language": "default",
+      "pos": null
+    },
+    "абрикос": {
+      "concept": "абрикос",
+      "language": "default",
+      "pos": null
+    },
+    "банки": {
+      "concept": "банки",
+      "language": "default",
+      "pos": null
+    },
+    "доски": {
+      "concept": "доски",
+      "language": "default",
+      "pos": null
+    },
+    "карман": {
+      "concept": "карман",
+      "language": "default",
+      "pos": null
+    },
+    "кит": {
+      "concept": "кит",
+      "language": "default",
+      "pos": null
+    },
+    "баночка": {
+      "concept": "баночка",
+      "language": "default",
+      "pos": null
+    }
+  },
+  "metadata": {
+    "total_concepts": 50,
+    "total_versions": 50
   }
-]
+}
