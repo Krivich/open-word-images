@@ -1,0 +1,242 @@
+{
+  "version": "2.0",
+  "updated": "2026-04-15T10:30:00Z",
+
+  "concepts": {
+    "cat": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 3,
+          "best": 2,
+          "status": "ready",
+          "versions": [
+            {
+              "n": 1,
+              "filename": "кошка_v1.png",
+              "lang": "rus",
+              "path": "default/кошка_v1.png",
+              "prompt": "cat, sitting with pointed ears and whiskers",
+              "created": "2026-03-10T09:15:00Z",
+              "previews": {
+                "128": "default/thumbs/128/кошка_v1.png",
+                "256": "default/thumbs/256/кошка_v1.png",
+                "512": "default/thumbs/512/кошка_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "cat_v2.png",
+              "lang": "eng",
+              "path": "default/cat_v2.png",
+              "prompt": "one cat, flat vector, natural colors, accents from coral red, sandy yellow, mint green, teal blue, thick outline, centered, simple, flashcard, white background, isolated, no frame",
+              "created": "2026-03-18T14:40:00Z",
+              "previews": {
+                "128": "default/thumbs/128/cat_v2.png",
+                "256": "default/thumbs/256/cat_v2.png",
+                "512": "default/thumbs/512/cat_v2.png"
+              }
+            },
+            {
+              "n": 3,
+              "filename": "кошка_v3.png",
+              "lang": "rus",
+              "path": "default/кошка_v3.png",
+              "prompt": "one cat, flat vector style, pointed ears, long whiskers, soft pastel shading, white background",
+              "created": "2026-04-02T11:20:00Z",
+              "previews": {
+                "128": "default/thumbs/128/кошка_v3.png",
+                "256": "default/thumbs/256/кошка_v3.png",
+                "512": "default/thumbs/512/кошка_v3.png"
+              }
+            }
+          ]
+        },
+        "anime": {
+          "latest": 2,
+          "best": 2,
+          "status": "ready",
+          "versions": [
+            {
+              "n": 1,
+              "filename": "cat_v1.png",
+              "lang": "eng",
+              "path": "anime/cat_v1.png",
+              "prompt": "cat, anime style, kawaii, big eyes, chibi, pastel colors",
+              "created": "2026-04-05T16:00:00Z",
+              "previews": {
+                "128": "anime/thumbs/128/cat_v1.png",
+                "256": "anime/thumbs/256/cat_v1.png",
+                "512": "anime/thumbs/512/cat_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "猫_v2.png",
+              "lang": "jpn",
+              "path": "anime/猫_v2.png",
+              "prompt": "cat, anime style, kawaii, big eyes, chibi, pastel colors, soft shading, cute expression",
+              "created": "2026-04-10T18:30:00Z",
+              "previews": {
+                "128": "anime/thumbs/128/猫_v2.png",
+                "256": "anime/thumbs/256/猫_v2.png",
+                "512": "anime/thumbs/512/猫_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+
+    "mom": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "status": "ready",
+          "versions": [
+            {
+              "n": 1,
+              "filename": "mom_v1.png",
+              "lang": "eng",
+              "path": "default/mom_v1.png",
+              "prompt": "one mom, flat vector, adult female wearing simple apron outline, gentle pose",
+              "created": "2026-03-12T10:00:00Z",
+              "previews": {
+                "128": "default/thumbs/128/mom_v1.png",
+                "256": "default/thumbs/256/mom_v1.png",
+                "512": "default/thumbs/512/mom_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "мама_v2.png",
+              "lang": "rus",
+              "path": "default/мама_v2.png",
+              "prompt": "one mom, flat vector, adult female with gentle open arms, warm expression",
+              "created": "2026-03-25T15:10:00Z",
+              "previews": {
+                "128": "default/thumbs/128/мама_v2.png",
+                "256": "default/thumbs/256/мама_v2.png",
+                "512": "default/thumbs/512/мама_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+
+    "run": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "status": "ready",
+          "versions": [
+            {
+              "n": 1,
+              "filename": "run_v1.png",
+              "lang": "eng",
+              "path": "default/run_v1.png",
+              "prompt": "one run, flat vector, figure in dynamic sprint pose, motion lines",
+              "created": "2026-04-01T12:00:00Z",
+              "previews": {
+                "128": "default/thumbs/128/run_v1.png",
+                "256": "default/thumbs/256/run_v1.png",
+                "512": "default/thumbs/512/run_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+
+    "авоська": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 1,
+          "best": 1,
+          "status": "ready",
+          "versions": [
+            {
+              "n": 1,
+              "filename": "авоська_v1.png",
+              "lang": "rus",
+              "path": "default/авоська_v1.png",
+              "prompt": "one авоська, flat vector, red mesh shopping bag, soviet style string bag, isolated on white background",
+              "created": "2026-04-08T09:30:00Z",
+              "previews": {
+                "128": "default/thumbs/128/авоська_v1.png",
+                "256": "default/thumbs/256/авоська_v1.png",
+                "512": "default/thumbs/512/авоська_v1.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+
+    "unicorn": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": null,
+          "best": null,
+          "status": "pending",
+          "planned_prompt": "one unicorn, flat vector, magical white horse with spiral horn, rainbow mane, fantasy illustration",
+          "versions": []
+        }
+      }
+    }
+  },
+
+  "words": {
+    "cat":     { "concept": "cat",    "language": "eng", "pos": "NOUN",   "frequency": 9500, "cefr_level": "A1" },
+    "кошка":   { "concept": "cat",    "language": "rus", "pos": "NOUN",   "frequency": 8200, "cefr_level": "A1" },
+    "gato":    { "concept": "cat",    "language": "spa", "pos": "NOUN",   "frequency": 7800, "cefr_level": "A1" },
+    "猫":      { "concept": "cat",    "language": "jpn", "pos": "NOUN",   "frequency": 9100, "cefr_level": "N5" },
+    "kitty":   { "concept": "cat",    "language": "eng", "pos": "NOUN",   "alias_of": "cat", "note": "Informal/diminutive form" },
+
+    "mom":     { "concept": "mom",    "language": "eng", "pos": "NOUN",   "frequency": 8900, "cefr_level": "A1" },
+    "мама":    { "concept": "mom",    "language": "rus", "pos": "NOUN",   "frequency": 9200, "cefr_level": "A1" },
+    "mother":  { "concept": "mom",    "language": "eng", "pos": "NOUN",   "alias_of": "mom", "note": "Formal variant" },
+    "maman":   { "concept": "mom",    "language": "fra", "pos": "NOUN",   "frequency": 7500, "cefr_level": "A1" },
+
+    "run":     { "concept": "run",    "language": "eng", "pos": ["VERB", "NOUN"], "frequency": 9800, "cefr_level": "A1" },
+    "бежать":  { "concept": "run",    "language": "rus", "pos": "VERB",   "frequency": 7600, "cefr_level": "A2" },
+    "бег":     { "concept": "run",    "language": "rus", "pos": "NOUN",   "frequency": 5400, "cefr_level": "B1" },
+
+    "авоська": { "concept": "авоська","language": "rus", "pos": "NOUN",   "frequency": 450,  "cefr_level": "C1", "note": "Russian-specific cultural term" },
+    "string_bag": { "concept": "авоська", "language": "eng", "pos": "NOUN", "alias_of": "авоська", "note": "Descriptive translation" },
+
+    "unicorn": { "concept": "unicorn","language": "eng", "pos": "NOUN",   "frequency": 1200, "cefr_level": "B2" },
+    "единорог":{ "concept": "unicorn","language": "rus", "pos": "NOUN",   "frequency": 980,  "cefr_level": "B2" }
+  },
+
+  "styles": {
+    "default": {
+      "name": "Default Flashcard",
+      "description": "Clean flat vector style for educational materials",
+      "characteristics": ["thick outlines", "white background", "natural palette accents"]
+    },
+    "anime": {
+      "name": "Anime / Kawaii",
+      "description": "Japanese animation aesthetic with soft shading",
+      "characteristics": ["big eyes", "chibi proportions", "pastel gradients"]
+    }
+  },
+
+  "metadata": {
+    "total_concepts": 6,
+    "total_words": 18,
+    "total_versions": 10,
+    "languages": ["eng", "rus", "spa", "jpn", "fra"],
+    "styles_used": ["default", "anime"],
+    "pending_concepts": ["unicorn"],
+    "last_build": "2026-04-15T10:30:00Z",
+    "build_engine": "process_images.py v2.0"
+  }
+}

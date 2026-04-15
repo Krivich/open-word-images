@@ -1,0 +1,39 @@
+name: Update Manifest & Thumbnails
+on:
+  push:
+    paths:
+      - 'styles/**/*.png'
+      - 'scripts/process_images.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+
+      - name: Install Pillow
+        run: pip install Pillow
+
+      - name: Run Processor
+        run: python3 scripts/process_images.py
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add styles/ manifest.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: auto-version & update manifest v2 [skip ci]"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
