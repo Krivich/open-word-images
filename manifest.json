@@ -1,24 +1,71 @@
 {
   "version": "2.0",
-  "updated": "2026-04-15T18:32:01.598743+00:00",
+  "updated": "2026-04-15T19:47:48.277384+00:00",
   "concepts": {
+    "дождь": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "дождь_v1.png",
+              "path": "default/дождь_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.319274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/дождь_v1.png",
+                "256": "default/thumbs/256/дождь_v1.png",
+                "512": "default/thumbs/512/дождь_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "дождь_v2.png",
+              "path": "default/дождь_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.319274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/дождь_v2.png",
+                "256": "default/thumbs/256/дождь_v2.png",
+                "512": "default/thumbs/512/дождь_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
     "карусель": {
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "карусель_v1.png",
               "path": "default/карусель_v1.png",
               "prompt": "",
-              "created": "2026-04-15T18:31:24.225751+00:00",
+              "created": "2026-04-15T19:47:08.335274+00:00",
               "previews": {
                 "128": "default/thumbs/128/карусель_v1.png",
                 "256": "default/thumbs/256/карусель_v1.png",
                 "512": "default/thumbs/512/карусель_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "карусель_v2.png",
+              "path": "default/карусель_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.335274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/карусель_v2.png",
+                "256": "default/thumbs/256/карусель_v2.png",
+                "512": "default/thumbs/512/карусель_v2.png"
               }
             }
           ]
@@ -29,19 +76,31 @@
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "авоська_v1.png",
               "path": "default/авоська_v1.png",
               "prompt": "",
-              "created": "2026-04-15T18:31:24.203033+00:00",
+              "created": "2026-04-15T19:47:08.292274+00:00",
               "previews": {
                 "128": "default/thumbs/128/авоська_v1.png",
                 "256": "default/thumbs/256/авоська_v1.png",
                 "512": "default/thumbs/512/авоська_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "авоська_v2.png",
+              "path": "default/авоська_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.291274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/авоська_v2.png",
+                "256": "default/thumbs/256/авоська_v2.png",
+                "512": "default/thumbs/512/авоська_v2.png"
               }
             }
           ]
@@ -52,801 +111,31 @@
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "вилка_v1.png",
               "path": "default/вилка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T18:31:24.214751+00:00",
+              "created": "2026-04-15T19:47:08.314274+00:00",
               "previews": {
                 "128": "default/thumbs/128/вилка_v1.png",
                 "256": "default/thumbs/256/вилка_v1.png",
                 "512": "default/thumbs/512/вилка_v1.png"
               }
-            }
-          ]
-        }
-      }
-    },
-    "автобус": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
+            },
             {
-              "n": 1,
-              "filename": "автобус_v1.png",
-              "path": "default/автобус_v1.png",
+              "n": 2,
+              "filename": "вилка_v2.png",
+              "path": "default/вилка_v2.png",
               "prompt": "",
-              "created": "2026-04-15T18:31:24.203750+00:00",
+              "created": "2026-04-15T19:47:08.313274+00:00",
               "previews": {
-                "128": "default/thumbs/128/автобус_v1.png",
-                "256": "default/thumbs/256/автобус_v1.png",
-                "512": "default/thumbs/512/автобус_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "дым": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "дым_v1.png",
-              "path": "default/дым_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.220751+00:00",
-              "previews": {
-                "128": "default/thumbs/128/дым_v1.png",
-                "256": "default/thumbs/256/дым_v1.png",
-                "512": "default/thumbs/512/дым_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "бык": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "бык_v1.png",
-              "path": "default/бык_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.210750+00:00",
-              "previews": {
-                "128": "default/thumbs/128/бык_v1.png",
-                "256": "default/thumbs/256/бык_v1.png",
-                "512": "default/thumbs/512/бык_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "ветер": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "ветер_v1.png",
-              "path": "default/ветер_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.213750+00:00",
-              "previews": {
-                "128": "default/thumbs/128/ветер_v1.png",
-                "256": "default/thumbs/256/ветер_v1.png",
-                "512": "default/thumbs/512/ветер_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "вещь": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "вещь_v1.png",
-              "path": "default/вещь_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.214751+00:00",
-              "previews": {
-                "128": "default/thumbs/128/вещь_v1.png",
-                "256": "default/thumbs/256/вещь_v1.png",
-                "512": "default/thumbs/512/вещь_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "автомат": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "автомат_v1.png",
-              "path": "default/автомат_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.203750+00:00",
-              "previews": {
-                "128": "default/thumbs/128/автомат_v1.png",
-                "256": "default/thumbs/256/автомат_v1.png",
-                "512": "default/thumbs/512/автомат_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "книжка": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "книжка_v1.png",
-              "path": "default/книжка_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.227751+00:00",
-              "previews": {
-                "128": "default/thumbs/128/книжка_v1.png",
-                "256": "default/thumbs/256/книжка_v1.png",
-                "512": "default/thumbs/512/книжка_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "веник": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "веник_v1.png",
-              "path": "default/веник_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.212750+00:00",
-              "previews": {
-                "128": "default/thumbs/128/веник_v1.png",
-                "256": "default/thumbs/256/веник_v1.png",
-                "512": "default/thumbs/512/веник_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "веер": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "веер_v1.png",
-              "path": "default/веер_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.210750+00:00",
-              "previews": {
-                "128": "default/thumbs/128/веер_v1.png",
-                "256": "default/thumbs/256/веер_v1.png",
-                "512": "default/thumbs/512/веер_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "жук": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "жук_v1.png",
-              "path": "default/жук_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.221750+00:00",
-              "previews": {
-                "128": "default/thumbs/128/жук_v1.png",
-                "256": "default/thumbs/256/жук_v1.png",
-                "512": "default/thumbs/512/жук_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "велюр": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "велюр_v1.png",
-              "path": "default/велюр_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.211751+00:00",
-              "previews": {
-                "128": "default/thumbs/128/велюр_v1.png",
-                "256": "default/thumbs/256/велюр_v1.png",
-                "512": "default/thumbs/512/велюр_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "автопилот": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "автопилот_v1.png",
-              "path": "default/автопилот_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.204750+00:00",
-              "previews": {
-                "128": "default/thumbs/128/автопилот_v1.png",
-                "256": "default/thumbs/256/автопилот_v1.png",
-                "512": "default/thumbs/512/автопилот_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "дом": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "дом_v1.png",
-              "path": "default/дом_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.217751+00:00",
-              "previews": {
-                "128": "default/thumbs/128/дом_v1.png",
-                "256": "default/thumbs/256/дом_v1.png",
-                "512": "default/thumbs/512/дом_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "книга": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "книга_v1.png",
-              "path": "default/книга_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.227751+00:00",
-              "previews": {
-                "128": "default/thumbs/128/книга_v1.png",
-                "256": "default/thumbs/256/книга_v1.png",
-                "512": "default/thumbs/512/книга_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "зуб": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "зуб_v1.png",
-              "path": "default/зуб_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.223751+00:00",
-              "previews": {
-                "128": "default/thumbs/128/зуб_v1.png",
-                "256": "default/thumbs/256/зуб_v1.png",
-                "512": "default/thumbs/512/зуб_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "клип": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "клип_v1.png",
-              "path": "default/клип_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.226751+00:00",
-              "previews": {
-                "128": "default/thumbs/128/клип_v1.png",
-                "256": "default/thumbs/256/клип_v1.png",
-                "512": "default/thumbs/512/клип_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "зонтик": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "зонтик_v1.png",
-              "path": "default/зонтик_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.223751+00:00",
-              "previews": {
-                "128": "default/thumbs/128/зонтик_v1.png",
-                "256": "default/thumbs/256/зонтик_v1.png",
-                "512": "default/thumbs/512/зонтик_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "грач": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "грач_v1.png",
-              "path": "default/грач_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.215750+00:00",
-              "previews": {
-                "128": "default/thumbs/128/грач_v1.png",
-                "256": "default/thumbs/256/грач_v1.png",
-                "512": "default/thumbs/512/грач_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "велосипед": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "велосипед_v1.png",
-              "path": "default/велосипед_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.211751+00:00",
-              "previews": {
-                "128": "default/thumbs/128/велосипед_v1.png",
-                "256": "default/thumbs/256/велосипед_v1.png",
-                "512": "default/thumbs/512/велосипед_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "картошка": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "картошка_v1.png",
-              "path": "default/картошка_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.225751+00:00",
-              "previews": {
-                "128": "default/thumbs/128/картошка_v1.png",
-                "256": "default/thumbs/256/картошка_v1.png",
-                "512": "default/thumbs/512/картошка_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "гриб": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "гриб_v1.png",
-              "path": "default/гриб_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.216750+00:00",
-              "previews": {
-                "128": "default/thumbs/128/гриб_v1.png",
-                "256": "default/thumbs/256/гриб_v1.png",
-                "512": "default/thumbs/512/гриб_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "зенит": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "зенит_v1.png",
-              "path": "default/зенит_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.221750+00:00",
-              "previews": {
-                "128": "default/thumbs/128/зенит_v1.png",
-                "256": "default/thumbs/256/зенит_v1.png",
-                "512": "default/thumbs/512/зенит_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "вишня": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "вишня_v1.png",
-              "path": "default/вишня_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.214751+00:00",
-              "previews": {
-                "128": "default/thumbs/128/вишня_v1.png",
-                "256": "default/thumbs/256/вишня_v1.png",
-                "512": "default/thumbs/512/вишня_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "дочь": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "дочь_v1.png",
-              "path": "default/дочь_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.220751+00:00",
-              "previews": {
-                "128": "default/thumbs/128/дочь_v1.png",
-                "256": "default/thumbs/256/дочь_v1.png",
-                "512": "default/thumbs/512/дочь_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "волан": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "волан_v1.png",
-              "path": "default/волан_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.215750+00:00",
-              "previews": {
-                "128": "default/thumbs/128/волан_v1.png",
-                "256": "default/thumbs/256/волан_v1.png",
-                "512": "default/thumbs/512/волан_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "ключ": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "ключ_v1.png",
-              "path": "default/ключ_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.226751+00:00",
-              "previews": {
-                "128": "default/thumbs/128/ключ_v1.png",
-                "256": "default/thumbs/256/ключ_v1.png",
-                "512": "default/thumbs/512/ключ_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "башмак": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "башмак_v1.png",
-              "path": "default/башмак_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.209750+00:00",
-              "previews": {
-                "128": "default/thumbs/128/башмак_v1.png",
-                "256": "default/thumbs/256/башмак_v1.png",
-                "512": "default/thumbs/512/башмак_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "бабочка": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "бабочка_v1.png",
-              "path": "default/бабочка_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.206750+00:00",
-              "previews": {
-                "128": "default/thumbs/128/бабочка_v1.png",
-                "256": "default/thumbs/256/бабочка_v1.png",
-                "512": "default/thumbs/512/бабочка_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "бак": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "бак_v1.png",
-              "path": "default/бак_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.206750+00:00",
-              "previews": {
-                "128": "default/thumbs/128/бак_v1.png",
-                "256": "default/thumbs/256/бак_v1.png",
-                "512": "default/thumbs/512/бак_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "дождь": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "дождь_v1.png",
-              "path": "default/дождь_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.217751+00:00",
-              "previews": {
-                "128": "default/thumbs/128/дождь_v1.png",
-                "256": "default/thumbs/256/дождь_v1.png",
-                "512": "default/thumbs/512/дождь_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "змея": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "змея_v1.png",
-              "path": "default/змея_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.222751+00:00",
-              "previews": {
-                "128": "default/thumbs/128/змея_v1.png",
-                "256": "default/thumbs/256/змея_v1.png",
-                "512": "default/thumbs/512/змея_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "доска": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "доска_v1.png",
-              "path": "default/доска_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.218750+00:00",
-              "previews": {
-                "128": "default/thumbs/128/доска_v1.png",
-                "256": "default/thumbs/256/доска_v1.png",
-                "512": "default/thumbs/512/доска_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "карандаш": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "карандаш_v1.png",
-              "path": "default/карандаш_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.224751+00:00",
-              "previews": {
-                "128": "default/thumbs/128/карандаш_v1.png",
-                "256": "default/thumbs/256/карандаш_v1.png",
-                "512": "default/thumbs/512/карандаш_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "доспехи": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "доспехи_v1.png",
-              "path": "default/доспехи_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T18:31:24.219751+00:00",
-              "previews": {
-                "128": "default/thumbs/128/доспехи_v1.png",
-                "256": "default/thumbs/256/доспехи_v1.png",
-                "512": "default/thumbs/512/доспехи_v1.png"
+                "128": "default/thumbs/128/вилка_v2.png",
+                "256": "default/thumbs/256/вилка_v2.png",
+                "512": "default/thumbs/512/вилка_v2.png"
               }
             }
           ]
@@ -857,134 +146,556 @@
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "год_v1.png",
               "path": "default/год_v1.png",
               "prompt": "",
-              "created": "2026-04-15T18:31:24.215750+00:00",
+              "created": "2026-04-15T19:47:08.316274+00:00",
               "previews": {
                 "128": "default/thumbs/128/год_v1.png",
                 "256": "default/thumbs/256/год_v1.png",
                 "512": "default/thumbs/512/год_v1.png"
               }
-            }
-          ]
-        }
-      }
-    },
-    "апельсин": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
+            },
             {
-              "n": 1,
-              "filename": "апельсин_v1.png",
-              "path": "default/апельсин_v1.png",
+              "n": 2,
+              "filename": "год_v2.png",
+              "path": "default/год_v2.png",
               "prompt": "",
-              "created": "2026-04-15T18:31:24.205750+00:00",
+              "created": "2026-04-15T19:47:08.315274+00:00",
               "previews": {
-                "128": "default/thumbs/128/апельсин_v1.png",
-                "256": "default/thumbs/256/апельсин_v1.png",
-                "512": "default/thumbs/512/апельсин_v1.png"
+                "128": "default/thumbs/128/год_v2.png",
+                "256": "default/thumbs/256/год_v2.png",
+                "512": "default/thumbs/512/год_v2.png"
               }
             }
           ]
         }
       }
     },
-    "баранка": {
+    "вишня": {
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
-              "filename": "баранка_v1.png",
-              "path": "default/баранка_v1.png",
+              "filename": "вишня_v1.png",
+              "path": "default/вишня_v1.png",
               "prompt": "",
-              "created": "2026-04-15T18:31:24.208750+00:00",
+              "created": "2026-04-15T19:47:08.314274+00:00",
               "previews": {
-                "128": "default/thumbs/128/баранка_v1.png",
-                "256": "default/thumbs/256/баранка_v1.png",
-                "512": "default/thumbs/512/баранка_v1.png"
+                "128": "default/thumbs/128/вишня_v1.png",
+                "256": "default/thumbs/256/вишня_v1.png",
+                "512": "default/thumbs/512/вишня_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "вишня_v2.png",
+              "path": "default/вишня_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.314274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/вишня_v2.png",
+                "256": "default/thumbs/256/вишня_v2.png",
+                "512": "default/thumbs/512/вишня_v2.png"
               }
             }
           ]
         }
       }
     },
-    "ананас": {
+    "автобус": {
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
-              "filename": "ананас_v1.png",
-              "path": "default/ананас_v1.png",
+              "filename": "автобус_v1.png",
+              "path": "default/автобус_v1.png",
               "prompt": "",
-              "created": "2026-04-15T18:31:24.205750+00:00",
+              "created": "2026-04-15T19:47:08.293274+00:00",
               "previews": {
-                "128": "default/thumbs/128/ананас_v1.png",
-                "256": "default/thumbs/256/ананас_v1.png",
-                "512": "default/thumbs/512/ананас_v1.png"
+                "128": "default/thumbs/128/автобус_v1.png",
+                "256": "default/thumbs/256/автобус_v1.png",
+                "512": "default/thumbs/512/автобус_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "автобус_v2.png",
+              "path": "default/автобус_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.292274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/автобус_v2.png",
+                "256": "default/thumbs/256/автобус_v2.png",
+                "512": "default/thumbs/512/автобус_v2.png"
               }
             }
           ]
         }
       }
     },
-    "вечер": {
+    "дым": {
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
-              "filename": "вечер_v1.png",
-              "path": "default/вечер_v1.png",
+              "filename": "дым_v1.png",
+              "path": "default/дым_v1.png",
               "prompt": "",
-              "created": "2026-04-15T18:31:24.213750+00:00",
+              "created": "2026-04-15T19:47:08.326274+00:00",
               "previews": {
-                "128": "default/thumbs/128/вечер_v1.png",
-                "256": "default/thumbs/256/вечер_v1.png",
-                "512": "default/thumbs/512/вечер_v1.png"
+                "128": "default/thumbs/128/дым_v1.png",
+                "256": "default/thumbs/256/дым_v1.png",
+                "512": "default/thumbs/512/дым_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "дым_v2.png",
+              "path": "default/дым_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.325274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/дым_v2.png",
+                "256": "default/thumbs/256/дым_v2.png",
+                "512": "default/thumbs/512/дым_v2.png"
               }
             }
           ]
         }
       }
     },
-    "дно": {
+    "бык": {
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
-              "filename": "дно_v1.png",
-              "path": "default/дно_v1.png",
+              "filename": "бык_v1.png",
+              "path": "default/бык_v1.png",
               "prompt": "",
-              "created": "2026-04-15T18:31:24.216750+00:00",
+              "created": "2026-04-15T19:47:08.305274+00:00",
               "previews": {
-                "128": "default/thumbs/128/дно_v1.png",
-                "256": "default/thumbs/256/дно_v1.png",
-                "512": "default/thumbs/512/дно_v1.png"
+                "128": "default/thumbs/128/бык_v1.png",
+                "256": "default/thumbs/256/бык_v1.png",
+                "512": "default/thumbs/512/бык_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "бык_v2.png",
+              "path": "default/бык_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.304274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/бык_v2.png",
+                "256": "default/thumbs/256/бык_v2.png",
+                "512": "default/thumbs/512/бык_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "дом": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "дом_v1.png",
+              "path": "default/дом_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.320274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/дом_v1.png",
+                "256": "default/thumbs/256/дом_v1.png",
+                "512": "default/thumbs/512/дом_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "дом_v2.png",
+              "path": "default/дом_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.320274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/дом_v2.png",
+                "256": "default/thumbs/256/дом_v2.png",
+                "512": "default/thumbs/512/дом_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "ключ": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "ключ_v1.png",
+              "path": "default/ключ_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.338274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/ключ_v1.png",
+                "256": "default/thumbs/256/ключ_v1.png",
+                "512": "default/thumbs/512/ключ_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "ключ_v2.png",
+              "path": "default/ключ_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.337274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/ключ_v2.png",
+                "256": "default/thumbs/256/ключ_v2.png",
+                "512": "default/thumbs/512/ключ_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "ветер": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "ветер_v1.png",
+              "path": "default/ветер_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.311274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/ветер_v1.png",
+                "256": "default/thumbs/256/ветер_v1.png",
+                "512": "default/thumbs/512/ветер_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "ветер_v2.png",
+              "path": "default/ветер_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.311274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/ветер_v2.png",
+                "256": "default/thumbs/256/ветер_v2.png",
+                "512": "default/thumbs/512/ветер_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "вещь": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "вещь_v1.png",
+              "path": "default/вещь_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.313274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/вещь_v1.png",
+                "256": "default/thumbs/256/вещь_v1.png",
+                "512": "default/thumbs/512/вещь_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "вещь_v2.png",
+              "path": "default/вещь_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.313274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/вещь_v2.png",
+                "256": "default/thumbs/256/вещь_v2.png",
+                "512": "default/thumbs/512/вещь_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "автомат": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "автомат_v1.png",
+              "path": "default/автомат_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.293274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/автомат_v1.png",
+                "256": "default/thumbs/256/автомат_v1.png",
+                "512": "default/thumbs/512/автомат_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "автомат_v2.png",
+              "path": "default/автомат_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.293274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/автомат_v2.png",
+                "256": "default/thumbs/256/автомат_v2.png",
+                "512": "default/thumbs/512/автомат_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "жук": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "жук_v1.png",
+              "path": "default/жук_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.327274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/жук_v1.png",
+                "256": "default/thumbs/256/жук_v1.png",
+                "512": "default/thumbs/512/жук_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "жук_v2.png",
+              "path": "default/жук_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.326274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/жук_v2.png",
+                "256": "default/thumbs/256/жук_v2.png",
+                "512": "default/thumbs/512/жук_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "книжка": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "книжка_v1.png",
+              "path": "default/книжка_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.339274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/книжка_v1.png",
+                "256": "default/thumbs/256/книжка_v1.png",
+                "512": "default/thumbs/512/книжка_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "книжка_v2.png",
+              "path": "default/книжка_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.339274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/книжка_v2.png",
+                "256": "default/thumbs/256/книжка_v2.png",
+                "512": "default/thumbs/512/книжка_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "веник": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "веник_v1.png",
+              "path": "default/веник_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.309274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/веник_v1.png",
+                "256": "default/thumbs/256/веник_v1.png",
+                "512": "default/thumbs/512/веник_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "веник_v2.png",
+              "path": "default/веник_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.308274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/веник_v2.png",
+                "256": "default/thumbs/256/веник_v2.png",
+                "512": "default/thumbs/512/веник_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "веер": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "веер_v1.png",
+              "path": "default/веер_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.306274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/веер_v1.png",
+                "256": "default/thumbs/256/веер_v1.png",
+                "512": "default/thumbs/512/веер_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "веер_v2.png",
+              "path": "default/веер_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.306274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/веер_v2.png",
+                "256": "default/thumbs/256/веер_v2.png",
+                "512": "default/thumbs/512/веер_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "зонтик": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "зонтик_v1.png",
+              "path": "default/зонтик_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.331274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/зонтик_v1.png",
+                "256": "default/thumbs/256/зонтик_v1.png",
+                "512": "default/thumbs/512/зонтик_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "зонтик_v2.png",
+              "path": "default/зонтик_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.330274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/зонтик_v2.png",
+                "256": "default/thumbs/256/зонтик_v2.png",
+                "512": "default/thumbs/512/зонтик_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "автопилот": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "автопилот_v1.png",
+              "path": "default/автопилот_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.295274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/автопилот_v1.png",
+                "256": "default/thumbs/256/автопилот_v1.png",
+                "512": "default/thumbs/512/автопилот_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "автопилот_v2.png",
+              "path": "default/автопилот_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.294274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/автопилот_v2.png",
+                "256": "default/thumbs/256/автопилот_v2.png",
+                "512": "default/thumbs/512/автопилот_v2.png"
               }
             }
           ]
@@ -995,65 +706,241 @@
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "весна_v1.png",
               "path": "default/весна_v1.png",
               "prompt": "",
-              "created": "2026-04-15T18:31:24.212750+00:00",
+              "created": "2026-04-15T19:47:08.310274+00:00",
               "previews": {
                 "128": "default/thumbs/128/весна_v1.png",
                 "256": "default/thumbs/256/весна_v1.png",
                 "512": "default/thumbs/512/весна_v1.png"
               }
-            }
-          ]
-        }
-      }
-    },
-    "абрикос": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
+            },
             {
-              "n": 1,
-              "filename": "абрикос_v1.png",
-              "path": "default/абрикос_v1.png",
+              "n": 2,
+              "filename": "весна_v2.png",
+              "path": "default/весна_v2.png",
               "prompt": "",
-              "created": "2026-04-15T18:31:24.203033+00:00",
+              "created": "2026-04-15T19:47:08.310274+00:00",
               "previews": {
-                "128": "default/thumbs/128/абрикос_v1.png",
-                "256": "default/thumbs/256/абрикос_v1.png",
-                "512": "default/thumbs/512/абрикос_v1.png"
+                "128": "default/thumbs/128/весна_v2.png",
+                "256": "default/thumbs/256/весна_v2.png",
+                "512": "default/thumbs/512/весна_v2.png"
               }
             }
           ]
         }
       }
     },
-    "банки": {
+    "велюр": {
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
-              "filename": "банки_v1.png",
-              "path": "default/банки_v1.png",
+              "filename": "велюр_v1.png",
+              "path": "default/велюр_v1.png",
               "prompt": "",
-              "created": "2026-04-15T18:31:24.207750+00:00",
+              "created": "2026-04-15T19:47:08.308274+00:00",
               "previews": {
-                "128": "default/thumbs/128/банки_v1.png",
-                "256": "default/thumbs/256/банки_v1.png",
-                "512": "default/thumbs/512/банки_v1.png"
+                "128": "default/thumbs/128/велюр_v1.png",
+                "256": "default/thumbs/256/велюр_v1.png",
+                "512": "default/thumbs/512/велюр_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "велюр_v2.png",
+              "path": "default/велюр_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.308274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/велюр_v2.png",
+                "256": "default/thumbs/256/велюр_v2.png",
+                "512": "default/thumbs/512/велюр_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "картошка": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "картошка_v1.png",
+              "path": "default/картошка_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.334274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/картошка_v1.png",
+                "256": "default/thumbs/256/картошка_v1.png",
+                "512": "default/thumbs/512/картошка_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "картошка_v2.png",
+              "path": "default/картошка_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.334274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/картошка_v2.png",
+                "256": "default/thumbs/256/картошка_v2.png",
+                "512": "default/thumbs/512/картошка_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "дочь": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "дочь_v1.png",
+              "path": "default/дочь_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.325274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/дочь_v1.png",
+                "256": "default/thumbs/256/дочь_v1.png",
+                "512": "default/thumbs/512/дочь_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "дочь_v2.png",
+              "path": "default/дочь_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.324274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/дочь_v2.png",
+                "256": "default/thumbs/256/дочь_v2.png",
+                "512": "default/thumbs/512/дочь_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "книга": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "книга_v1.png",
+              "path": "default/книга_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.339274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/книга_v1.png",
+                "256": "default/thumbs/256/книга_v1.png",
+                "512": "default/thumbs/512/книга_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "книга_v2.png",
+              "path": "default/книга_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.338274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/книга_v2.png",
+                "256": "default/thumbs/256/книга_v2.png",
+                "512": "default/thumbs/512/книга_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "зуб": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "зуб_v1.png",
+              "path": "default/зуб_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.331274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/зуб_v1.png",
+                "256": "default/thumbs/256/зуб_v1.png",
+                "512": "default/thumbs/512/зуб_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "зуб_v2.png",
+              "path": "default/зуб_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.331274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/зуб_v2.png",
+                "256": "default/thumbs/256/зуб_v2.png",
+                "512": "default/thumbs/512/зуб_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "клип": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "клип_v1.png",
+              "path": "default/клип_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.337274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/клип_v1.png",
+                "256": "default/thumbs/256/клип_v1.png",
+                "512": "default/thumbs/512/клип_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "клип_v2.png",
+              "path": "default/клип_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.337274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/клип_v2.png",
+                "256": "default/thumbs/256/клип_v2.png",
+                "512": "default/thumbs/512/клип_v2.png"
               }
             }
           ]
@@ -1064,42 +951,451 @@
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "доски_v1.png",
               "path": "default/доски_v1.png",
               "prompt": "",
-              "created": "2026-04-15T18:31:24.218750+00:00",
+              "created": "2026-04-15T19:47:08.322274+00:00",
               "previews": {
                 "128": "default/thumbs/128/доски_v1.png",
                 "256": "default/thumbs/256/доски_v1.png",
                 "512": "default/thumbs/512/доски_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "доски_v2.png",
+              "path": "default/доски_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.322274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/доски_v2.png",
+                "256": "default/thumbs/256/доски_v2.png",
+                "512": "default/thumbs/512/доски_v2.png"
               }
             }
           ]
         }
       }
     },
-    "карман": {
+    "грач": {
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
-              "filename": "карман_v1.png",
-              "path": "default/карман_v1.png",
+              "filename": "грач_v1.png",
+              "path": "default/грач_v1.png",
               "prompt": "",
-              "created": "2026-04-15T18:31:24.224751+00:00",
+              "created": "2026-04-15T19:47:08.317274+00:00",
               "previews": {
-                "128": "default/thumbs/128/карман_v1.png",
-                "256": "default/thumbs/256/карман_v1.png",
-                "512": "default/thumbs/512/карман_v1.png"
+                "128": "default/thumbs/128/грач_v1.png",
+                "256": "default/thumbs/256/грач_v1.png",
+                "512": "default/thumbs/512/грач_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "грач_v2.png",
+              "path": "default/грач_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.316274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/грач_v2.png",
+                "256": "default/thumbs/256/грач_v2.png",
+                "512": "default/thumbs/512/грач_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "велосипед": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "велосипед_v1.png",
+              "path": "default/велосипед_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.307274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/велосипед_v1.png",
+                "256": "default/thumbs/256/велосипед_v1.png",
+                "512": "default/thumbs/512/велосипед_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "велосипед_v2.png",
+              "path": "default/велосипед_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.307274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/велосипед_v2.png",
+                "256": "default/thumbs/256/велосипед_v2.png",
+                "512": "default/thumbs/512/велосипед_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "банки": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "банки_v1.png",
+              "path": "default/банки_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.301274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/банки_v1.png",
+                "256": "default/thumbs/256/банки_v1.png",
+                "512": "default/thumbs/512/банки_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "банки_v2.png",
+              "path": "default/банки_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.300274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/банки_v2.png",
+                "256": "default/thumbs/256/банки_v2.png",
+                "512": "default/thumbs/512/банки_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "волан": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "волан_v1.png",
+              "path": "default/волан_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.315274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/волан_v1.png",
+                "256": "default/thumbs/256/волан_v1.png",
+                "512": "default/thumbs/512/волан_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "волан_v2.png",
+              "path": "default/волан_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.315274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/волан_v2.png",
+                "256": "default/thumbs/256/волан_v2.png",
+                "512": "default/thumbs/512/волан_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "змея": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "змея_v1.png",
+              "path": "default/змея_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.330274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/змея_v1.png",
+                "256": "default/thumbs/256/змея_v1.png",
+                "512": "default/thumbs/512/змея_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "змея_v2.png",
+              "path": "default/змея_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.329274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/змея_v2.png",
+                "256": "default/thumbs/256/змея_v2.png",
+                "512": "default/thumbs/512/змея_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "гриб": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "гриб_v1.png",
+              "path": "default/гриб_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.318274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/гриб_v1.png",
+                "256": "default/thumbs/256/гриб_v1.png",
+                "512": "default/thumbs/512/гриб_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "гриб_v2.png",
+              "path": "default/гриб_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.317274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/гриб_v2.png",
+                "256": "default/thumbs/256/гриб_v2.png",
+                "512": "default/thumbs/512/гриб_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "зенит": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "зенит_v1.png",
+              "path": "default/зенит_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.328274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/зенит_v1.png",
+                "256": "default/thumbs/256/зенит_v1.png",
+                "512": "default/thumbs/512/зенит_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "зенит_v2.png",
+              "path": "default/зенит_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.327274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/зенит_v2.png",
+                "256": "default/thumbs/256/зенит_v2.png",
+                "512": "default/thumbs/512/зенит_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "бак": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "бак_v1.png",
+              "path": "default/бак_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.299274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/бак_v1.png",
+                "256": "default/thumbs/256/бак_v1.png",
+                "512": "default/thumbs/512/бак_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "бак_v2.png",
+              "path": "default/бак_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.299274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/бак_v2.png",
+                "256": "default/thumbs/256/бак_v2.png",
+                "512": "default/thumbs/512/бак_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "баранка": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "баранка_v1.png",
+              "path": "default/баранка_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.303274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/баранка_v1.png",
+                "256": "default/thumbs/256/баранка_v1.png",
+                "512": "default/thumbs/512/баранка_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "баранка_v2.png",
+              "path": "default/баранка_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.302274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/баранка_v2.png",
+                "256": "default/thumbs/256/баранка_v2.png",
+                "512": "default/thumbs/512/баранка_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "башмак": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "башмак_v1.png",
+              "path": "default/башмак_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.304274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/башмак_v1.png",
+                "256": "default/thumbs/256/башмак_v1.png",
+                "512": "default/thumbs/512/башмак_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "башмак_v2.png",
+              "path": "default/башмак_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.303274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/башмак_v2.png",
+                "256": "default/thumbs/256/башмак_v2.png",
+                "512": "default/thumbs/512/башмак_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "дно": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "дно_v1.png",
+              "path": "default/дно_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.318274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/дно_v1.png",
+                "256": "default/thumbs/256/дно_v1.png",
+                "512": "default/thumbs/512/дно_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "дно_v2.png",
+              "path": "default/дно_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.318274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/дно_v2.png",
+                "256": "default/thumbs/256/дно_v2.png",
+                "512": "default/thumbs/512/дно_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "бабочка": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "бабочка_v1.png",
+              "path": "default/бабочка_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.299274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/бабочка_v1.png",
+                "256": "default/thumbs/256/бабочка_v1.png",
+                "512": "default/thumbs/512/бабочка_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "бабочка_v2.png",
+              "path": "default/бабочка_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.298274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/бабочка_v2.png",
+                "256": "default/thumbs/256/бабочка_v2.png",
+                "512": "default/thumbs/512/бабочка_v2.png"
               }
             }
           ]
@@ -1110,19 +1406,311 @@
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "кит_v1.png",
               "path": "default/кит_v1.png",
               "prompt": "",
-              "created": "2026-04-15T18:31:24.226751+00:00",
+              "created": "2026-04-15T19:47:08.336274+00:00",
               "previews": {
                 "128": "default/thumbs/128/кит_v1.png",
                 "256": "default/thumbs/256/кит_v1.png",
                 "512": "default/thumbs/512/кит_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "кит_v2.png",
+              "path": "default/кит_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.336274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/кит_v2.png",
+                "256": "default/thumbs/256/кит_v2.png",
+                "512": "default/thumbs/512/кит_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "доспехи": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "доспехи_v1.png",
+              "path": "default/доспехи_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.323274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/доспехи_v1.png",
+                "256": "default/thumbs/256/доспехи_v1.png",
+                "512": "default/thumbs/512/доспехи_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "доспехи_v2.png",
+              "path": "default/доспехи_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.323274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/доспехи_v2.png",
+                "256": "default/thumbs/256/доспехи_v2.png",
+                "512": "default/thumbs/512/доспехи_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "доска": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "доска_v1.png",
+              "path": "default/доска_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.321274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/доска_v1.png",
+                "256": "default/thumbs/256/доска_v1.png",
+                "512": "default/thumbs/512/доска_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "доска_v2.png",
+              "path": "default/доска_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.321274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/доска_v2.png",
+                "256": "default/thumbs/256/доска_v2.png",
+                "512": "default/thumbs/512/доска_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "карман": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "карман_v1.png",
+              "path": "default/карман_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.333274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/карман_v1.png",
+                "256": "default/thumbs/256/карман_v1.png",
+                "512": "default/thumbs/512/карман_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "карман_v2.png",
+              "path": "default/карман_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.333274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/карман_v2.png",
+                "256": "default/thumbs/256/карман_v2.png",
+                "512": "default/thumbs/512/карман_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "карандаш": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "карандаш_v1.png",
+              "path": "default/карандаш_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.332274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/карандаш_v1.png",
+                "256": "default/thumbs/256/карандаш_v1.png",
+                "512": "default/thumbs/512/карандаш_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "карандаш_v2.png",
+              "path": "default/карандаш_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.332274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/карандаш_v2.png",
+                "256": "default/thumbs/256/карандаш_v2.png",
+                "512": "default/thumbs/512/карандаш_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "апельсин": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "апельсин_v1.png",
+              "path": "default/апельсин_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.297274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/апельсин_v1.png",
+                "256": "default/thumbs/256/апельсин_v1.png",
+                "512": "default/thumbs/512/апельсин_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "апельсин_v2.png",
+              "path": "default/апельсин_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.297274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/апельсин_v2.png",
+                "256": "default/thumbs/256/апельсин_v2.png",
+                "512": "default/thumbs/512/апельсин_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "абрикос": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "абрикос_v1.png",
+              "path": "default/абрикос_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.291274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/абрикос_v1.png",
+                "256": "default/thumbs/256/абрикос_v1.png",
+                "512": "default/thumbs/512/абрикос_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "абрикос_v2.png",
+              "path": "default/абрикос_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.290274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/абрикос_v2.png",
+                "256": "default/thumbs/256/абрикос_v2.png",
+                "512": "default/thumbs/512/абрикос_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "ананас": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "ананас_v1.png",
+              "path": "default/ананас_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.296274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/ананас_v1.png",
+                "256": "default/thumbs/256/ананас_v1.png",
+                "512": "default/thumbs/512/ананас_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "ананас_v2.png",
+              "path": "default/ананас_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.296274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/ананас_v2.png",
+                "256": "default/thumbs/256/ананас_v2.png",
+                "512": "default/thumbs/512/ананас_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "вечер": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "вечер_v1.png",
+              "path": "default/вечер_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.312274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/вечер_v1.png",
+                "256": "default/thumbs/256/вечер_v1.png",
+                "512": "default/thumbs/512/вечер_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "вечер_v2.png",
+              "path": "default/вечер_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.312274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/вечер_v2.png",
+                "256": "default/thumbs/256/вечер_v2.png",
+                "512": "default/thumbs/512/вечер_v2.png"
               }
             }
           ]
@@ -1133,19 +1721,31 @@
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "баночка_v1.png",
               "path": "default/баночка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T18:31:24.208750+00:00",
+              "created": "2026-04-15T19:47:08.302274+00:00",
               "previews": {
                 "128": "default/thumbs/128/баночка_v1.png",
                 "256": "default/thumbs/256/баночка_v1.png",
                 "512": "default/thumbs/512/баночка_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "баночка_v2.png",
+              "path": "default/баночка_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T19:47:08.301274+00:00",
+              "previews": {
+                "128": "default/thumbs/128/баночка_v2.png",
+                "256": "default/thumbs/256/баночка_v2.png",
+                "512": "default/thumbs/512/баночка_v2.png"
               }
             }
           ]
@@ -1154,6 +1754,11 @@
     }
   },
   "words": {
+    "дождь": {
+      "concept": "дождь",
+      "language": "default",
+      "pos": null
+    },
     "карусель": {
       "concept": "карусель",
       "language": "default",
@@ -1166,6 +1771,16 @@
     },
     "вилка": {
       "concept": "вилка",
+      "language": "default",
+      "pos": null
+    },
+    "год": {
+      "concept": "год",
+      "language": "default",
+      "pos": null
+    },
+    "вишня": {
+      "concept": "вишня",
       "language": "default",
       "pos": null
     },
@@ -1184,6 +1799,16 @@
       "language": "default",
       "pos": null
     },
+    "дом": {
+      "concept": "дом",
+      "language": "default",
+      "pos": null
+    },
+    "ключ": {
+      "concept": "ключ",
+      "language": "default",
+      "pos": null
+    },
     "ветер": {
       "concept": "ветер",
       "language": "default",
@@ -1196,6 +1821,11 @@
     },
     "автомат": {
       "concept": "автомат",
+      "language": "default",
+      "pos": null
+    },
+    "жук": {
+      "concept": "жук",
       "language": "default",
       "pos": null
     },
@@ -1214,13 +1844,8 @@
       "language": "default",
       "pos": null
     },
-    "жук": {
-      "concept": "жук",
-      "language": "default",
-      "pos": null
-    },
-    "велюр": {
-      "concept": "велюр",
+    "зонтик": {
+      "concept": "зонтик",
       "language": "default",
       "pos": null
     },
@@ -1229,8 +1854,23 @@
       "language": "default",
       "pos": null
     },
-    "дом": {
-      "concept": "дом",
+    "весна": {
+      "concept": "весна",
+      "language": "default",
+      "pos": null
+    },
+    "велюр": {
+      "concept": "велюр",
+      "language": "default",
+      "pos": null
+    },
+    "картошка": {
+      "concept": "картошка",
+      "language": "default",
+      "pos": null
+    },
+    "дочь": {
+      "concept": "дочь",
       "language": "default",
       "pos": null
     },
@@ -1249,8 +1889,8 @@
       "language": "default",
       "pos": null
     },
-    "зонтик": {
-      "concept": "зонтик",
+    "доски": {
+      "concept": "доски",
       "language": "default",
       "pos": null
     },
@@ -1264,8 +1904,18 @@
       "language": "default",
       "pos": null
     },
-    "картошка": {
-      "concept": "картошка",
+    "банки": {
+      "concept": "банки",
+      "language": "default",
+      "pos": null
+    },
+    "волан": {
+      "concept": "волан",
+      "language": "default",
+      "pos": null
+    },
+    "змея": {
+      "concept": "змея",
       "language": "default",
       "pos": null
     },
@@ -1279,23 +1929,13 @@
       "language": "default",
       "pos": null
     },
-    "вишня": {
-      "concept": "вишня",
+    "бак": {
+      "concept": "бак",
       "language": "default",
       "pos": null
     },
-    "дочь": {
-      "concept": "дочь",
-      "language": "default",
-      "pos": null
-    },
-    "волан": {
-      "concept": "волан",
-      "language": "default",
-      "pos": null
-    },
-    "ключ": {
-      "concept": "ключ",
+    "баранка": {
+      "concept": "баранка",
       "language": "default",
       "pos": null
     },
@@ -1304,33 +1944,18 @@
       "language": "default",
       "pos": null
     },
+    "дно": {
+      "concept": "дно",
+      "language": "default",
+      "pos": null
+    },
     "бабочка": {
       "concept": "бабочка",
       "language": "default",
       "pos": null
     },
-    "бак": {
-      "concept": "бак",
-      "language": "default",
-      "pos": null
-    },
-    "дождь": {
-      "concept": "дождь",
-      "language": "default",
-      "pos": null
-    },
-    "змея": {
-      "concept": "змея",
-      "language": "default",
-      "pos": null
-    },
-    "доска": {
-      "concept": "доска",
-      "language": "default",
-      "pos": null
-    },
-    "карандаш": {
-      "concept": "карандаш",
+    "кит": {
+      "concept": "кит",
       "language": "default",
       "pos": null
     },
@@ -1339,8 +1964,18 @@
       "language": "default",
       "pos": null
     },
-    "год": {
-      "concept": "год",
+    "доска": {
+      "concept": "доска",
+      "language": "default",
+      "pos": null
+    },
+    "карман": {
+      "concept": "карман",
+      "language": "default",
+      "pos": null
+    },
+    "карандаш": {
+      "concept": "карандаш",
       "language": "default",
       "pos": null
     },
@@ -1349,8 +1984,8 @@
       "language": "default",
       "pos": null
     },
-    "баранка": {
-      "concept": "баранка",
+    "абрикос": {
+      "concept": "абрикос",
       "language": "default",
       "pos": null
     },
@@ -1364,41 +1999,6 @@
       "language": "default",
       "pos": null
     },
-    "дно": {
-      "concept": "дно",
-      "language": "default",
-      "pos": null
-    },
-    "весна": {
-      "concept": "весна",
-      "language": "default",
-      "pos": null
-    },
-    "абрикос": {
-      "concept": "абрикос",
-      "language": "default",
-      "pos": null
-    },
-    "банки": {
-      "concept": "банки",
-      "language": "default",
-      "pos": null
-    },
-    "доски": {
-      "concept": "доски",
-      "language": "default",
-      "pos": null
-    },
-    "карман": {
-      "concept": "карман",
-      "language": "default",
-      "pos": null
-    },
-    "кит": {
-      "concept": "кит",
-      "language": "default",
-      "pos": null
-    },
     "баночка": {
       "concept": "баночка",
       "language": "default",
@@ -1407,6 +2007,6 @@
   },
   "metadata": {
     "total_concepts": 50,
-    "total_versions": 50
+    "total_versions": 100
   }
 }
