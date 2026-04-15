@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated": "2026-04-15T19:59:35.545044+00:00",
+  "updated": "2026-04-15T20:02:14.403684+00:00",
   "concepts": {
     "дождь": {
       "default_style": "default",
@@ -14,7 +14,7 @@
               "filename": "дождь_v1.png",
               "path": "default/дождь_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.492342+00:00",
+              "created": "2026-04-15T20:01:48.084568+00:00",
               "previews": {
                 "128": "default/thumbs/128/дождь_v1.png",
                 "256": "default/thumbs/256/дождь_v1.png",
@@ -26,7 +26,7 @@
               "filename": "дождь_v2.png",
               "path": "default/дождь_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.492342+00:00",
+              "created": "2026-04-15T20:01:48.084568+00:00",
               "previews": {
                 "128": "default/thumbs/128/дождь_v2.png",
                 "256": "default/thumbs/256/дождь_v2.png",
@@ -38,7 +38,7 @@
               "filename": "дождь_v3.png",
               "path": "default/дождь_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.493342+00:00",
+              "created": "2026-04-15T20:01:48.085568+00:00",
               "previews": {
                 "128": "default/thumbs/128/дождь_v3.png",
                 "256": "default/thumbs/256/дождь_v3.png",
@@ -61,7 +61,7 @@
               "filename": "пуговица_v1.png",
               "path": "default/пуговица_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.609341+00:00",
+              "created": "2026-04-15T20:01:48.198568+00:00",
               "previews": {
                 "128": "default/thumbs/128/пуговица_v1.png",
                 "256": "default/thumbs/256/пуговица_v1.png",
@@ -73,11 +73,46 @@
               "filename": "пуговица_v2.png",
               "path": "default/пуговица_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.608341+00:00",
+              "created": "2026-04-15T20:01:48.198568+00:00",
               "previews": {
                 "128": "default/thumbs/128/пуговица_v2.png",
                 "256": "default/thumbs/256/пуговица_v2.png",
                 "512": "default/thumbs/512/пуговица_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "телескоп": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "телескоп_v1.png",
+              "path": "default/телескоп_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.255568+00:00",
+              "previews": {
+                "128": "default/thumbs/128/телескоп_v1.png",
+                "256": "default/thumbs/256/телескоп_v1.png",
+                "512": "default/thumbs/512/телескоп_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "телескоп_v2.png",
+              "path": "default/телескоп_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.255568+00:00",
+              "previews": {
+                "128": "default/thumbs/128/телескоп_v2.png",
+                "256": "default/thumbs/256/телескоп_v2.png",
+                "512": "default/thumbs/512/телескоп_v2.png"
               }
             }
           ]
@@ -96,7 +131,7 @@
               "filename": "печка_v1.png",
               "path": "default/печка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.586342+00:00",
+              "created": "2026-04-15T20:01:48.176568+00:00",
               "previews": {
                 "128": "default/thumbs/128/печка_v1.png",
                 "256": "default/thumbs/256/печка_v1.png",
@@ -108,7 +143,7 @@
               "filename": "печка_v2.png",
               "path": "default/печка_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.586342+00:00",
+              "created": "2026-04-15T20:01:48.177568+00:00",
               "previews": {
                 "128": "default/thumbs/128/печка_v2.png",
                 "256": "default/thumbs/256/печка_v2.png",
@@ -131,7 +166,7 @@
               "filename": "помощник_v1.png",
               "path": "default/помощник_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.599341+00:00",
+              "created": "2026-04-15T20:01:48.188568+00:00",
               "previews": {
                 "128": "default/thumbs/128/помощник_v1.png",
                 "256": "default/thumbs/256/помощник_v1.png",
@@ -143,7 +178,7 @@
               "filename": "помощник_v2.png",
               "path": "default/помощник_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.598341+00:00",
+              "created": "2026-04-15T20:01:48.189568+00:00",
               "previews": {
                 "128": "default/thumbs/128/помощник_v2.png",
                 "256": "default/thumbs/256/помощник_v2.png",
@@ -166,7 +201,7 @@
               "filename": "карусель_v1.png",
               "path": "default/карусель_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.518342+00:00",
+              "created": "2026-04-15T20:01:48.109568+00:00",
               "previews": {
                 "128": "default/thumbs/128/карусель_v1.png",
                 "256": "default/thumbs/256/карусель_v1.png",
@@ -178,7 +213,7 @@
               "filename": "карусель_v2.png",
               "path": "default/карусель_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.518342+00:00",
+              "created": "2026-04-15T20:01:48.110568+00:00",
               "previews": {
                 "128": "default/thumbs/128/карусель_v2.png",
                 "256": "default/thumbs/256/карусель_v2.png",
@@ -190,7 +225,7 @@
               "filename": "карусель_v3.png",
               "path": "default/карусель_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.519342+00:00",
+              "created": "2026-04-15T20:01:48.111568+00:00",
               "previews": {
                 "128": "default/thumbs/128/карусель_v3.png",
                 "256": "default/thumbs/256/карусель_v3.png",
@@ -213,7 +248,7 @@
               "filename": "карандаш_v1.png",
               "path": "default/карандаш_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.513342+00:00",
+              "created": "2026-04-15T20:01:48.104568+00:00",
               "previews": {
                 "128": "default/thumbs/128/карандаш_v1.png",
                 "256": "default/thumbs/256/карандаш_v1.png",
@@ -225,7 +260,7 @@
               "filename": "карандаш_v2.png",
               "path": "default/карандаш_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.513342+00:00",
+              "created": "2026-04-15T20:01:48.105568+00:00",
               "previews": {
                 "128": "default/thumbs/128/карандаш_v2.png",
                 "256": "default/thumbs/256/карандаш_v2.png",
@@ -237,7 +272,7 @@
               "filename": "карандаш_v3.png",
               "path": "default/карандаш_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.513342+00:00",
+              "created": "2026-04-15T20:01:48.105568+00:00",
               "previews": {
                 "128": "default/thumbs/128/карандаш_v3.png",
                 "256": "default/thumbs/256/карандаш_v3.png",
@@ -260,7 +295,7 @@
               "filename": "рак_v1.png",
               "path": "default/рак_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.610342+00:00",
+              "created": "2026-04-15T20:01:48.199568+00:00",
               "previews": {
                 "128": "default/thumbs/128/рак_v1.png",
                 "256": "default/thumbs/256/рак_v1.png",
@@ -272,7 +307,7 @@
               "filename": "рак_v2.png",
               "path": "default/рак_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.609341+00:00",
+              "created": "2026-04-15T20:01:48.200568+00:00",
               "previews": {
                 "128": "default/thumbs/128/рак_v2.png",
                 "256": "default/thumbs/256/рак_v2.png",
@@ -295,7 +330,7 @@
               "filename": "лето_v1.png",
               "path": "default/лето_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.549342+00:00",
+              "created": "2026-04-15T20:01:48.140568+00:00",
               "previews": {
                 "128": "default/thumbs/128/лето_v1.png",
                 "256": "default/thumbs/256/лето_v1.png",
@@ -307,7 +342,7 @@
               "filename": "лето_v2.png",
               "path": "default/лето_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.550342+00:00",
+              "created": "2026-04-15T20:01:48.141568+00:00",
               "previews": {
                 "128": "default/thumbs/128/лето_v2.png",
                 "256": "default/thumbs/256/лето_v2.png",
@@ -330,7 +365,7 @@
               "filename": "скалолаз_v1.png",
               "path": "default/скалолаз_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.641341+00:00",
+              "created": "2026-04-15T20:01:48.230568+00:00",
               "previews": {
                 "128": "default/thumbs/128/скалолаз_v1.png",
                 "256": "default/thumbs/256/скалолаз_v1.png",
@@ -342,7 +377,7 @@
               "filename": "скалолаз_v2.png",
               "path": "default/скалолаз_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.641341+00:00",
+              "created": "2026-04-15T20:01:48.231568+00:00",
               "previews": {
                 "128": "default/thumbs/128/скалолаз_v2.png",
                 "256": "default/thumbs/256/скалолаз_v2.png",
@@ -365,7 +400,7 @@
               "filename": "сказка_v1.png",
               "path": "default/сказка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.638341+00:00",
+              "created": "2026-04-15T20:01:48.226568+00:00",
               "previews": {
                 "128": "default/thumbs/128/сказка_v1.png",
                 "256": "default/thumbs/256/сказка_v1.png",
@@ -377,7 +412,7 @@
               "filename": "сказка_v2.png",
               "path": "default/сказка_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.637341+00:00",
+              "created": "2026-04-15T20:01:48.227568+00:00",
               "previews": {
                 "128": "default/thumbs/128/сказка_v2.png",
                 "256": "default/thumbs/256/сказка_v2.png",
@@ -400,7 +435,7 @@
               "filename": "авоська_v1.png",
               "path": "default/авоська_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.444342+00:00",
+              "created": "2026-04-15T20:01:48.036568+00:00",
               "previews": {
                 "128": "default/thumbs/128/авоська_v1.png",
                 "256": "default/thumbs/256/авоська_v1.png",
@@ -412,7 +447,7 @@
               "filename": "авоська_v2.png",
               "path": "default/авоська_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.444342+00:00",
+              "created": "2026-04-15T20:01:48.037568+00:00",
               "previews": {
                 "128": "default/thumbs/128/авоська_v2.png",
                 "256": "default/thumbs/256/авоська_v2.png",
@@ -424,7 +459,7 @@
               "filename": "авоська_v3.png",
               "path": "default/авоська_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.445342+00:00",
+              "created": "2026-04-15T20:01:48.037568+00:00",
               "previews": {
                 "128": "default/thumbs/128/авоська_v3.png",
                 "256": "default/thumbs/256/авоська_v3.png",
@@ -447,7 +482,7 @@
               "filename": "скала_v1.png",
               "path": "default/скала_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.640341+00:00",
+              "created": "2026-04-15T20:01:48.228568+00:00",
               "previews": {
                 "128": "default/thumbs/128/скала_v1.png",
                 "256": "default/thumbs/256/скала_v1.png",
@@ -459,7 +494,7 @@
               "filename": "скала_v2.png",
               "path": "default/скала_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.639341+00:00",
+              "created": "2026-04-15T20:01:48.229568+00:00",
               "previews": {
                 "128": "default/thumbs/128/скала_v2.png",
                 "256": "default/thumbs/256/скала_v2.png",
@@ -482,7 +517,7 @@
               "filename": "краб_v1.png",
               "path": "default/краб_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.539342+00:00",
+              "created": "2026-04-15T20:01:48.130568+00:00",
               "previews": {
                 "128": "default/thumbs/128/краб_v1.png",
                 "256": "default/thumbs/256/краб_v1.png",
@@ -494,7 +529,7 @@
               "filename": "краб_v2.png",
               "path": "default/краб_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.539342+00:00",
+              "created": "2026-04-15T20:01:48.130568+00:00",
               "previews": {
                 "128": "default/thumbs/128/краб_v2.png",
                 "256": "default/thumbs/256/краб_v2.png",
@@ -517,7 +552,7 @@
               "filename": "миска_v1.png",
               "path": "default/миска_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.569342+00:00",
+              "created": "2026-04-15T20:01:48.160568+00:00",
               "previews": {
                 "128": "default/thumbs/128/миска_v1.png",
                 "256": "default/thumbs/256/миска_v1.png",
@@ -529,7 +564,7 @@
               "filename": "миска_v2.png",
               "path": "default/миска_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.570342+00:00",
+              "created": "2026-04-15T20:01:48.161568+00:00",
               "previews": {
                 "128": "default/thumbs/128/миска_v2.png",
                 "256": "default/thumbs/256/миска_v2.png",
@@ -552,7 +587,7 @@
               "filename": "снег_v1.png",
               "path": "default/снег_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.646341+00:00",
+              "created": "2026-04-15T20:01:48.235568+00:00",
               "previews": {
                 "128": "default/thumbs/128/снег_v1.png",
                 "256": "default/thumbs/256/снег_v1.png",
@@ -564,7 +599,7 @@
               "filename": "снег_v2.png",
               "path": "default/снег_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.646341+00:00",
+              "created": "2026-04-15T20:01:48.236567+00:00",
               "previews": {
                 "128": "default/thumbs/128/снег_v2.png",
                 "256": "default/thumbs/256/снег_v2.png",
@@ -579,19 +614,31 @@
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "сосна_v1.png",
               "path": "default/сосна_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.652341+00:00",
+              "created": "2026-04-15T20:01:48.246567+00:00",
               "previews": {
                 "128": "default/thumbs/128/сосна_v1.png",
                 "256": "default/thumbs/256/сосна_v1.png",
                 "512": "default/thumbs/512/сосна_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "сосна_v2.png",
+              "path": "default/сосна_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.246567+00:00",
+              "previews": {
+                "128": "default/thumbs/128/сосна_v2.png",
+                "256": "default/thumbs/256/сосна_v2.png",
+                "512": "default/thumbs/512/сосна_v2.png"
               }
             }
           ]
@@ -610,7 +657,7 @@
               "filename": "руль_v1.png",
               "path": "default/руль_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.622341+00:00",
+              "created": "2026-04-15T20:01:48.210568+00:00",
               "previews": {
                 "128": "default/thumbs/128/руль_v1.png",
                 "256": "default/thumbs/256/руль_v1.png",
@@ -622,7 +669,7 @@
               "filename": "руль_v2.png",
               "path": "default/руль_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.621341+00:00",
+              "created": "2026-04-15T20:01:48.211568+00:00",
               "previews": {
                 "128": "default/thumbs/128/руль_v2.png",
                 "256": "default/thumbs/256/руль_v2.png",
@@ -645,7 +692,7 @@
               "filename": "вилка_v1.png",
               "path": "default/вилка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.482342+00:00",
+              "created": "2026-04-15T20:01:48.074568+00:00",
               "previews": {
                 "128": "default/thumbs/128/вилка_v1.png",
                 "256": "default/thumbs/256/вилка_v1.png",
@@ -657,7 +704,7 @@
               "filename": "вилка_v2.png",
               "path": "default/вилка_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.482342+00:00",
+              "created": "2026-04-15T20:01:48.074568+00:00",
               "previews": {
                 "128": "default/thumbs/128/вилка_v2.png",
                 "256": "default/thumbs/256/вилка_v2.png",
@@ -669,7 +716,7 @@
               "filename": "вилка_v3.png",
               "path": "default/вилка_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.483342+00:00",
+              "created": "2026-04-15T20:01:48.075568+00:00",
               "previews": {
                 "128": "default/thumbs/128/вилка_v3.png",
                 "256": "default/thumbs/256/вилка_v3.png",
@@ -692,7 +739,7 @@
               "filename": "рыба_v1.png",
               "path": "default/рыба_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.623341+00:00",
+              "created": "2026-04-15T20:01:48.212568+00:00",
               "previews": {
                 "128": "default/thumbs/128/рыба_v1.png",
                 "256": "default/thumbs/256/рыба_v1.png",
@@ -704,7 +751,7 @@
               "filename": "рыба_v2.png",
               "path": "default/рыба_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.622341+00:00",
+              "created": "2026-04-15T20:01:48.212568+00:00",
               "previews": {
                 "128": "default/thumbs/128/рыба_v2.png",
                 "256": "default/thumbs/256/рыба_v2.png",
@@ -727,7 +774,7 @@
               "filename": "маска_v1.png",
               "path": "default/маска_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.566342+00:00",
+              "created": "2026-04-15T20:01:48.157568+00:00",
               "previews": {
                 "128": "default/thumbs/128/маска_v1.png",
                 "256": "default/thumbs/256/маска_v1.png",
@@ -739,7 +786,7 @@
               "filename": "маска_v2.png",
               "path": "default/маска_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.566342+00:00",
+              "created": "2026-04-15T20:01:48.157568+00:00",
               "previews": {
                 "128": "default/thumbs/128/маска_v2.png",
                 "256": "default/thumbs/256/маска_v2.png",
@@ -762,7 +809,7 @@
               "filename": "сестра_v1.png",
               "path": "default/сестра_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.634341+00:00",
+              "created": "2026-04-15T20:01:48.223568+00:00",
               "previews": {
                 "128": "default/thumbs/128/сестра_v1.png",
                 "256": "default/thumbs/256/сестра_v1.png",
@@ -774,7 +821,7 @@
               "filename": "сестра_v2.png",
               "path": "default/сестра_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.633341+00:00",
+              "created": "2026-04-15T20:01:48.224568+00:00",
               "previews": {
                 "128": "default/thumbs/128/сестра_v2.png",
                 "256": "default/thumbs/256/сестра_v2.png",
@@ -797,7 +844,7 @@
               "filename": "пират_v1.png",
               "path": "default/пират_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.588341+00:00",
+              "created": "2026-04-15T20:01:48.178568+00:00",
               "previews": {
                 "128": "default/thumbs/128/пират_v1.png",
                 "256": "default/thumbs/256/пират_v1.png",
@@ -809,7 +856,7 @@
               "filename": "пират_v2.png",
               "path": "default/пират_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.588341+00:00",
+              "created": "2026-04-15T20:01:48.179568+00:00",
               "previews": {
                 "128": "default/thumbs/128/пират_v2.png",
                 "256": "default/thumbs/256/пират_v2.png",
@@ -832,7 +879,7 @@
               "filename": "книга_v1.png",
               "path": "default/книга_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.525342+00:00",
+              "created": "2026-04-15T20:01:48.116568+00:00",
               "previews": {
                 "128": "default/thumbs/128/книга_v1.png",
                 "256": "default/thumbs/256/книга_v1.png",
@@ -844,7 +891,7 @@
               "filename": "книга_v2.png",
               "path": "default/книга_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.525342+00:00",
+              "created": "2026-04-15T20:01:48.116568+00:00",
               "previews": {
                 "128": "default/thumbs/128/книга_v2.png",
                 "256": "default/thumbs/256/книга_v2.png",
@@ -856,7 +903,7 @@
               "filename": "книга_v3.png",
               "path": "default/книга_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.525342+00:00",
+              "created": "2026-04-15T20:01:48.117568+00:00",
               "previews": {
                 "128": "default/thumbs/128/книга_v3.png",
                 "256": "default/thumbs/256/книга_v3.png",
@@ -871,19 +918,31 @@
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "чернила_v1.png",
               "path": "default/чернила_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.663341+00:00",
+              "created": "2026-04-15T20:01:48.267567+00:00",
               "previews": {
                 "128": "default/thumbs/128/чернила_v1.png",
                 "256": "default/thumbs/256/чернила_v1.png",
                 "512": "default/thumbs/512/чернила_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "чернила_v2.png",
+              "path": "default/чернила_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.267567+00:00",
+              "previews": {
+                "128": "default/thumbs/128/чернила_v2.png",
+                "256": "default/thumbs/256/чернила_v2.png",
+                "512": "default/thumbs/512/чернила_v2.png"
               }
             }
           ]
@@ -902,7 +961,7 @@
               "filename": "скачка_v1.png",
               "path": "default/скачка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.643341+00:00",
+              "created": "2026-04-15T20:01:48.231568+00:00",
               "previews": {
                 "128": "default/thumbs/128/скачка_v1.png",
                 "256": "default/thumbs/256/скачка_v1.png",
@@ -914,7 +973,7 @@
               "filename": "скачка_v2.png",
               "path": "default/скачка_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.642341+00:00",
+              "created": "2026-04-15T20:01:48.232568+00:00",
               "previews": {
                 "128": "default/thumbs/128/скачка_v2.png",
                 "256": "default/thumbs/256/скачка_v2.png",
@@ -937,7 +996,7 @@
               "filename": "год_v1.png",
               "path": "default/год_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.486342+00:00",
+              "created": "2026-04-15T20:01:48.078568+00:00",
               "previews": {
                 "128": "default/thumbs/128/год_v1.png",
                 "256": "default/thumbs/256/год_v1.png",
@@ -949,7 +1008,7 @@
               "filename": "год_v2.png",
               "path": "default/год_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.486342+00:00",
+              "created": "2026-04-15T20:01:48.078568+00:00",
               "previews": {
                 "128": "default/thumbs/128/год_v2.png",
                 "256": "default/thumbs/256/год_v2.png",
@@ -961,7 +1020,7 @@
               "filename": "год_v3.png",
               "path": "default/год_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.487342+00:00",
+              "created": "2026-04-15T20:01:48.079568+00:00",
               "previews": {
                 "128": "default/thumbs/128/год_v3.png",
                 "256": "default/thumbs/256/год_v3.png",
@@ -984,7 +1043,7 @@
               "filename": "мак_v1.png",
               "path": "default/мак_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.559342+00:00",
+              "created": "2026-04-15T20:01:48.150568+00:00",
               "previews": {
                 "128": "default/thumbs/128/мак_v1.png",
                 "256": "default/thumbs/256/мак_v1.png",
@@ -996,7 +1055,7 @@
               "filename": "мак_v2.png",
               "path": "default/мак_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.560342+00:00",
+              "created": "2026-04-15T20:01:48.151568+00:00",
               "previews": {
                 "128": "default/thumbs/128/мак_v2.png",
                 "256": "default/thumbs/256/мак_v2.png",
@@ -1019,7 +1078,7 @@
               "filename": "сани_v1.png",
               "path": "default/сани_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.625341+00:00",
+              "created": "2026-04-15T20:01:48.214568+00:00",
               "previews": {
                 "128": "default/thumbs/128/сани_v1.png",
                 "256": "default/thumbs/256/сани_v1.png",
@@ -1031,7 +1090,7 @@
               "filename": "сани_v2.png",
               "path": "default/сани_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.624341+00:00",
+              "created": "2026-04-15T20:01:48.214568+00:00",
               "previews": {
                 "128": "default/thumbs/128/сани_v2.png",
                 "256": "default/thumbs/256/сани_v2.png",
@@ -1054,7 +1113,7 @@
               "filename": "вишня_v1.png",
               "path": "default/вишня_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.483342+00:00",
+              "created": "2026-04-15T20:01:48.075568+00:00",
               "previews": {
                 "128": "default/thumbs/128/вишня_v1.png",
                 "256": "default/thumbs/256/вишня_v1.png",
@@ -1066,7 +1125,7 @@
               "filename": "вишня_v2.png",
               "path": "default/вишня_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.484342+00:00",
+              "created": "2026-04-15T20:01:48.075568+00:00",
               "previews": {
                 "128": "default/thumbs/128/вишня_v2.png",
                 "256": "default/thumbs/256/вишня_v2.png",
@@ -1078,7 +1137,7 @@
               "filename": "вишня_v3.png",
               "path": "default/вишня_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.484342+00:00",
+              "created": "2026-04-15T20:01:48.076568+00:00",
               "previews": {
                 "128": "default/thumbs/128/вишня_v3.png",
                 "256": "default/thumbs/256/вишня_v3.png",
@@ -1101,7 +1160,7 @@
               "filename": "автобус_v1.png",
               "path": "default/автобус_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.445342+00:00",
+              "created": "2026-04-15T20:01:48.038568+00:00",
               "previews": {
                 "128": "default/thumbs/128/автобус_v1.png",
                 "256": "default/thumbs/256/автобус_v1.png",
@@ -1113,7 +1172,7 @@
               "filename": "автобус_v2.png",
               "path": "default/автобус_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.446342+00:00",
+              "created": "2026-04-15T20:01:48.038568+00:00",
               "previews": {
                 "128": "default/thumbs/128/автобус_v2.png",
                 "256": "default/thumbs/256/автобус_v2.png",
@@ -1125,7 +1184,7 @@
               "filename": "автобус_v3.png",
               "path": "default/автобус_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.446342+00:00",
+              "created": "2026-04-15T20:01:48.039568+00:00",
               "previews": {
                 "128": "default/thumbs/128/автобус_v3.png",
                 "256": "default/thumbs/256/автобус_v3.png",
@@ -1148,7 +1207,7 @@
               "filename": "дым_v1.png",
               "path": "default/дым_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.503342+00:00",
+              "created": "2026-04-15T20:01:48.095568+00:00",
               "previews": {
                 "128": "default/thumbs/128/дым_v1.png",
                 "256": "default/thumbs/256/дым_v1.png",
@@ -1160,7 +1219,7 @@
               "filename": "дым_v2.png",
               "path": "default/дым_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.504342+00:00",
+              "created": "2026-04-15T20:01:48.095568+00:00",
               "previews": {
                 "128": "default/thumbs/128/дым_v2.png",
                 "256": "default/thumbs/256/дым_v2.png",
@@ -1172,7 +1231,7 @@
               "filename": "дым_v3.png",
               "path": "default/дым_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.504342+00:00",
+              "created": "2026-04-15T20:01:48.096568+00:00",
               "previews": {
                 "128": "default/thumbs/128/дым_v3.png",
                 "256": "default/thumbs/256/дым_v3.png",
@@ -1195,7 +1254,7 @@
               "filename": "бык_v1.png",
               "path": "default/бык_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.466342+00:00",
+              "created": "2026-04-15T20:01:48.058568+00:00",
               "previews": {
                 "128": "default/thumbs/128/бык_v1.png",
                 "256": "default/thumbs/256/бык_v1.png",
@@ -1207,7 +1266,7 @@
               "filename": "бык_v2.png",
               "path": "default/бык_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.467342+00:00",
+              "created": "2026-04-15T20:01:48.059568+00:00",
               "previews": {
                 "128": "default/thumbs/128/бык_v2.png",
                 "256": "default/thumbs/256/бык_v2.png",
@@ -1219,7 +1278,7 @@
               "filename": "бык_v3.png",
               "path": "default/бык_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.467342+00:00",
+              "created": "2026-04-15T20:01:48.059568+00:00",
               "previews": {
                 "128": "default/thumbs/128/бык_v3.png",
                 "256": "default/thumbs/256/бык_v3.png",
@@ -1234,19 +1293,31 @@
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "черника_v1.png",
               "path": "default/черника_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.662341+00:00",
+              "created": "2026-04-15T20:01:48.266567+00:00",
               "previews": {
                 "128": "default/thumbs/128/черника_v1.png",
                 "256": "default/thumbs/256/черника_v1.png",
                 "512": "default/thumbs/512/черника_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "черника_v2.png",
+              "path": "default/черника_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.266567+00:00",
+              "previews": {
+                "128": "default/thumbs/128/черника_v2.png",
+                "256": "default/thumbs/256/черника_v2.png",
+                "512": "default/thumbs/512/черника_v2.png"
               }
             }
           ]
@@ -1265,7 +1336,7 @@
               "filename": "дом_v1.png",
               "path": "default/дом_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.493342+00:00",
+              "created": "2026-04-15T20:01:48.085568+00:00",
               "previews": {
                 "128": "default/thumbs/128/дом_v1.png",
                 "256": "default/thumbs/256/дом_v1.png",
@@ -1277,7 +1348,7 @@
               "filename": "дом_v2.png",
               "path": "default/дом_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.494342+00:00",
+              "created": "2026-04-15T20:01:48.086568+00:00",
               "previews": {
                 "128": "default/thumbs/128/дом_v2.png",
                 "256": "default/thumbs/256/дом_v2.png",
@@ -1289,7 +1360,7 @@
               "filename": "дом_v3.png",
               "path": "default/дом_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.495342+00:00",
+              "created": "2026-04-15T20:01:48.087568+00:00",
               "previews": {
                 "128": "default/thumbs/128/дом_v3.png",
                 "256": "default/thumbs/256/дом_v3.png",
@@ -1312,7 +1383,7 @@
               "filename": "репа_v1.png",
               "path": "default/репа_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.614341+00:00",
+              "created": "2026-04-15T20:01:48.203568+00:00",
               "previews": {
                 "128": "default/thumbs/128/репа_v1.png",
                 "256": "default/thumbs/256/репа_v1.png",
@@ -1324,7 +1395,7 @@
               "filename": "репа_v2.png",
               "path": "default/репа_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.613341+00:00",
+              "created": "2026-04-15T20:01:48.204568+00:00",
               "previews": {
                 "128": "default/thumbs/128/репа_v2.png",
                 "256": "default/thumbs/256/репа_v2.png",
@@ -1347,7 +1418,7 @@
               "filename": "ключ_v1.png",
               "path": "default/ключ_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.523342+00:00",
+              "created": "2026-04-15T20:01:48.114568+00:00",
               "previews": {
                 "128": "default/thumbs/128/ключ_v1.png",
                 "256": "default/thumbs/256/ключ_v1.png",
@@ -1359,7 +1430,7 @@
               "filename": "ключ_v2.png",
               "path": "default/ключ_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.523342+00:00",
+              "created": "2026-04-15T20:01:48.115568+00:00",
               "previews": {
                 "128": "default/thumbs/128/ключ_v2.png",
                 "256": "default/thumbs/256/ключ_v2.png",
@@ -1371,7 +1442,7 @@
               "filename": "ключ_v3.png",
               "path": "default/ключ_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.524342+00:00",
+              "created": "2026-04-15T20:01:48.116568+00:00",
               "previews": {
                 "128": "default/thumbs/128/ключ_v3.png",
                 "256": "default/thumbs/256/ключ_v3.png",
@@ -1394,7 +1465,7 @@
               "filename": "крошка_v1.png",
               "path": "default/крошка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.540342+00:00",
+              "created": "2026-04-15T20:01:48.131568+00:00",
               "previews": {
                 "128": "default/thumbs/128/крошка_v1.png",
                 "256": "default/thumbs/256/крошка_v1.png",
@@ -1406,7 +1477,7 @@
               "filename": "крошка_v2.png",
               "path": "default/крошка_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.540342+00:00",
+              "created": "2026-04-15T20:01:48.132568+00:00",
               "previews": {
                 "128": "default/thumbs/128/крошка_v2.png",
                 "256": "default/thumbs/256/крошка_v2.png",
@@ -1429,7 +1500,7 @@
               "filename": "ветер_v1.png",
               "path": "default/ветер_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.478342+00:00",
+              "created": "2026-04-15T20:01:48.070568+00:00",
               "previews": {
                 "128": "default/thumbs/128/ветер_v1.png",
                 "256": "default/thumbs/256/ветер_v1.png",
@@ -1441,7 +1512,7 @@
               "filename": "ветер_v2.png",
               "path": "default/ветер_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.479342+00:00",
+              "created": "2026-04-15T20:01:48.071568+00:00",
               "previews": {
                 "128": "default/thumbs/128/ветер_v2.png",
                 "256": "default/thumbs/256/ветер_v2.png",
@@ -1453,7 +1524,7 @@
               "filename": "ветер_v3.png",
               "path": "default/ветер_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.479342+00:00",
+              "created": "2026-04-15T20:01:48.071568+00:00",
               "previews": {
                 "128": "default/thumbs/128/ветер_v3.png",
                 "256": "default/thumbs/256/ветер_v3.png",
@@ -1476,7 +1547,7 @@
               "filename": "коса_v1.png",
               "path": "default/коса_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.535342+00:00",
+              "created": "2026-04-15T20:01:48.126568+00:00",
               "previews": {
                 "128": "default/thumbs/128/коса_v1.png",
                 "256": "default/thumbs/256/коса_v1.png",
@@ -1488,7 +1559,7 @@
               "filename": "коса_v2.png",
               "path": "default/коса_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.536342+00:00",
+              "created": "2026-04-15T20:01:48.127568+00:00",
               "previews": {
                 "128": "default/thumbs/128/коса_v2.png",
                 "256": "default/thumbs/256/коса_v2.png",
@@ -1511,7 +1582,7 @@
               "filename": "вещь_v1.png",
               "path": "default/вещь_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.481342+00:00",
+              "created": "2026-04-15T20:01:48.073568+00:00",
               "previews": {
                 "128": "default/thumbs/128/вещь_v1.png",
                 "256": "default/thumbs/256/вещь_v1.png",
@@ -1523,7 +1594,7 @@
               "filename": "вещь_v2.png",
               "path": "default/вещь_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.482342+00:00",
+              "created": "2026-04-15T20:01:48.074568+00:00",
               "previews": {
                 "128": "default/thumbs/128/вещь_v2.png",
                 "256": "default/thumbs/256/вещь_v2.png",
@@ -1535,7 +1606,7 @@
               "filename": "вещь_v3.png",
               "path": "default/вещь_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.482342+00:00",
+              "created": "2026-04-15T20:01:48.074568+00:00",
               "previews": {
                 "128": "default/thumbs/128/вещь_v3.png",
                 "256": "default/thumbs/256/вещь_v3.png",
@@ -1558,7 +1629,7 @@
               "filename": "волан_v1.png",
               "path": "default/волан_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.485342+00:00",
+              "created": "2026-04-15T20:01:48.077568+00:00",
               "previews": {
                 "128": "default/thumbs/128/волан_v1.png",
                 "256": "default/thumbs/256/волан_v1.png",
@@ -1570,7 +1641,7 @@
               "filename": "волан_v2.png",
               "path": "default/волан_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.485342+00:00",
+              "created": "2026-04-15T20:01:48.077568+00:00",
               "previews": {
                 "128": "default/thumbs/128/волан_v2.png",
                 "256": "default/thumbs/256/волан_v2.png",
@@ -1582,7 +1653,7 @@
               "filename": "волан_v3.png",
               "path": "default/волан_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.486342+00:00",
+              "created": "2026-04-15T20:01:48.078568+00:00",
               "previews": {
                 "128": "default/thumbs/128/волан_v3.png",
                 "256": "default/thumbs/256/волан_v3.png",
@@ -1605,7 +1676,7 @@
               "filename": "автомат_v1.png",
               "path": "default/автомат_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.446342+00:00",
+              "created": "2026-04-15T20:01:48.039568+00:00",
               "previews": {
                 "128": "default/thumbs/128/автомат_v1.png",
                 "256": "default/thumbs/256/автомат_v1.png",
@@ -1617,7 +1688,7 @@
               "filename": "автомат_v2.png",
               "path": "default/автомат_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.447342+00:00",
+              "created": "2026-04-15T20:01:48.040568+00:00",
               "previews": {
                 "128": "default/thumbs/128/автомат_v2.png",
                 "256": "default/thumbs/256/автомат_v2.png",
@@ -1629,7 +1700,7 @@
               "filename": "автомат_v3.png",
               "path": "default/автомат_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.447342+00:00",
+              "created": "2026-04-15T20:01:48.040568+00:00",
               "previews": {
                 "128": "default/thumbs/128/автомат_v3.png",
                 "256": "default/thumbs/256/автомат_v3.png",
@@ -1652,7 +1723,7 @@
               "filename": "папа_v1.png",
               "path": "default/папа_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.579342+00:00",
+              "created": "2026-04-15T20:01:48.170568+00:00",
               "previews": {
                 "128": "default/thumbs/128/папа_v1.png",
                 "256": "default/thumbs/256/папа_v1.png",
@@ -1664,7 +1735,7 @@
               "filename": "папа_v2.png",
               "path": "default/папа_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.580342+00:00",
+              "created": "2026-04-15T20:01:48.170568+00:00",
               "previews": {
                 "128": "default/thumbs/128/папа_v2.png",
                 "256": "default/thumbs/256/папа_v2.png",
@@ -1687,7 +1758,7 @@
               "filename": "жук_v1.png",
               "path": "default/жук_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.505342+00:00",
+              "created": "2026-04-15T20:01:48.097568+00:00",
               "previews": {
                 "128": "default/thumbs/128/жук_v1.png",
                 "256": "default/thumbs/256/жук_v1.png",
@@ -1699,7 +1770,7 @@
               "filename": "жук_v2.png",
               "path": "default/жук_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.505342+00:00",
+              "created": "2026-04-15T20:01:48.097568+00:00",
               "previews": {
                 "128": "default/thumbs/128/жук_v2.png",
                 "256": "default/thumbs/256/жук_v2.png",
@@ -1711,7 +1782,7 @@
               "filename": "жук_v3.png",
               "path": "default/жук_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.506342+00:00",
+              "created": "2026-04-15T20:01:48.098568+00:00",
               "previews": {
                 "128": "default/thumbs/128/жук_v3.png",
                 "256": "default/thumbs/256/жук_v3.png",
@@ -1734,7 +1805,7 @@
               "filename": "книжка_v1.png",
               "path": "default/книжка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.526342+00:00",
+              "created": "2026-04-15T20:01:48.117568+00:00",
               "previews": {
                 "128": "default/thumbs/128/книжка_v1.png",
                 "256": "default/thumbs/256/книжка_v1.png",
@@ -1746,7 +1817,7 @@
               "filename": "книжка_v2.png",
               "path": "default/книжка_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.526342+00:00",
+              "created": "2026-04-15T20:01:48.117568+00:00",
               "previews": {
                 "128": "default/thumbs/128/книжка_v2.png",
                 "256": "default/thumbs/256/книжка_v2.png",
@@ -1758,7 +1829,7 @@
               "filename": "книжка_v3.png",
               "path": "default/книжка_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.526342+00:00",
+              "created": "2026-04-15T20:01:48.118568+00:00",
               "previews": {
                 "128": "default/thumbs/128/книжка_v3.png",
                 "256": "default/thumbs/256/книжка_v3.png",
@@ -1781,7 +1852,7 @@
               "filename": "лапа_v1.png",
               "path": "default/лапа_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.545342+00:00",
+              "created": "2026-04-15T20:01:48.136568+00:00",
               "previews": {
                 "128": "default/thumbs/128/лапа_v1.png",
                 "256": "default/thumbs/256/лапа_v1.png",
@@ -1793,7 +1864,7 @@
               "filename": "лапа_v2.png",
               "path": "default/лапа_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.545342+00:00",
+              "created": "2026-04-15T20:01:48.136568+00:00",
               "previews": {
                 "128": "default/thumbs/128/лапа_v2.png",
                 "256": "default/thumbs/256/лапа_v2.png",
@@ -1816,7 +1887,7 @@
               "filename": "кит_v1.png",
               "path": "default/кит_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.520342+00:00",
+              "created": "2026-04-15T20:01:48.111568+00:00",
               "previews": {
                 "128": "default/thumbs/128/кит_v1.png",
                 "256": "default/thumbs/256/кит_v1.png",
@@ -1828,7 +1899,7 @@
               "filename": "кит_v2.png",
               "path": "default/кит_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.520342+00:00",
+              "created": "2026-04-15T20:01:48.112568+00:00",
               "previews": {
                 "128": "default/thumbs/128/кит_v2.png",
                 "256": "default/thumbs/256/кит_v2.png",
@@ -1840,7 +1911,7 @@
               "filename": "кит_v3.png",
               "path": "default/кит_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.521342+00:00",
+              "created": "2026-04-15T20:01:48.113568+00:00",
               "previews": {
                 "128": "default/thumbs/128/кит_v3.png",
                 "256": "default/thumbs/256/кит_v3.png",
@@ -1863,7 +1934,7 @@
               "filename": "веник_v1.png",
               "path": "default/веник_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.475342+00:00",
+              "created": "2026-04-15T20:01:48.067568+00:00",
               "previews": {
                 "128": "default/thumbs/128/веник_v1.png",
                 "256": "default/thumbs/256/веник_v1.png",
@@ -1875,7 +1946,7 @@
               "filename": "веник_v2.png",
               "path": "default/веник_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.475342+00:00",
+              "created": "2026-04-15T20:01:48.067568+00:00",
               "previews": {
                 "128": "default/thumbs/128/веник_v2.png",
                 "256": "default/thumbs/256/веник_v2.png",
@@ -1887,11 +1958,46 @@
               "filename": "веник_v3.png",
               "path": "default/веник_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.476342+00:00",
+              "created": "2026-04-15T20:01:48.068568+00:00",
               "previews": {
                 "128": "default/thumbs/128/веник_v3.png",
                 "256": "default/thumbs/256/веник_v3.png",
                 "512": "default/thumbs/512/веник_v3.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "сова": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "сова_v1.png",
+              "path": "default/сова_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.242568+00:00",
+              "previews": {
+                "128": "default/thumbs/128/сова_v1.png",
+                "256": "default/thumbs/256/сова_v1.png",
+                "512": "default/thumbs/512/сова_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "сова_v2.png",
+              "path": "default/сова_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.241568+00:00",
+              "previews": {
+                "128": "default/thumbs/128/сова_v2.png",
+                "256": "default/thumbs/256/сова_v2.png",
+                "512": "default/thumbs/512/сова_v2.png"
               }
             }
           ]
@@ -1910,7 +2016,7 @@
               "filename": "рука_v1.png",
               "path": "default/рука_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.620341+00:00",
+              "created": "2026-04-15T20:01:48.209568+00:00",
               "previews": {
                 "128": "default/thumbs/128/рука_v1.png",
                 "256": "default/thumbs/256/рука_v1.png",
@@ -1922,7 +2028,7 @@
               "filename": "рука_v2.png",
               "path": "default/рука_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.620341+00:00",
+              "created": "2026-04-15T20:01:48.210568+00:00",
               "previews": {
                 "128": "default/thumbs/128/рука_v2.png",
                 "256": "default/thumbs/256/рука_v2.png",
@@ -1945,7 +2051,7 @@
               "filename": "рот_v1.png",
               "path": "default/рот_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.620341+00:00",
+              "created": "2026-04-15T20:01:48.208568+00:00",
               "previews": {
                 "128": "default/thumbs/128/рот_v1.png",
                 "256": "default/thumbs/256/рот_v1.png",
@@ -1957,7 +2063,7 @@
               "filename": "рот_v2.png",
               "path": "default/рот_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.619341+00:00",
+              "created": "2026-04-15T20:01:48.209568+00:00",
               "previews": {
                 "128": "default/thumbs/128/рот_v2.png",
                 "256": "default/thumbs/256/рот_v2.png",
@@ -1980,7 +2086,7 @@
               "filename": "весна_v1.png",
               "path": "default/весна_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.476342+00:00",
+              "created": "2026-04-15T20:01:48.068568+00:00",
               "previews": {
                 "128": "default/thumbs/128/весна_v1.png",
                 "256": "default/thumbs/256/весна_v1.png",
@@ -1992,7 +2098,7 @@
               "filename": "весна_v2.png",
               "path": "default/весна_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.477342+00:00",
+              "created": "2026-04-15T20:01:48.069568+00:00",
               "previews": {
                 "128": "default/thumbs/128/весна_v2.png",
                 "256": "default/thumbs/256/весна_v2.png",
@@ -2004,7 +2110,7 @@
               "filename": "весна_v3.png",
               "path": "default/весна_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.478342+00:00",
+              "created": "2026-04-15T20:01:48.070568+00:00",
               "previews": {
                 "128": "default/thumbs/128/весна_v3.png",
                 "256": "default/thumbs/256/весна_v3.png",
@@ -2027,7 +2133,7 @@
               "filename": "мандарин_v1.png",
               "path": "default/мандарин_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.563342+00:00",
+              "created": "2026-04-15T20:01:48.154568+00:00",
               "previews": {
                 "128": "default/thumbs/128/мандарин_v1.png",
                 "256": "default/thumbs/256/мандарин_v1.png",
@@ -2039,7 +2145,7 @@
               "filename": "мандарин_v2.png",
               "path": "default/мандарин_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.564342+00:00",
+              "created": "2026-04-15T20:01:48.154568+00:00",
               "previews": {
                 "128": "default/thumbs/128/мандарин_v2.png",
                 "256": "default/thumbs/256/мандарин_v2.png",
@@ -2062,7 +2168,7 @@
               "filename": "свеча_v1.png",
               "path": "default/свеча_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.630341+00:00",
+              "created": "2026-04-15T20:01:48.220568+00:00",
               "previews": {
                 "128": "default/thumbs/128/свеча_v1.png",
                 "256": "default/thumbs/256/свеча_v1.png",
@@ -2074,7 +2180,7 @@
               "filename": "свеча_v2.png",
               "path": "default/свеча_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.630341+00:00",
+              "created": "2026-04-15T20:01:48.220568+00:00",
               "previews": {
                 "128": "default/thumbs/128/свеча_v2.png",
                 "256": "default/thumbs/256/свеча_v2.png",
@@ -2097,7 +2203,7 @@
               "filename": "коньки_v1.png",
               "path": "default/коньки_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.531342+00:00",
+              "created": "2026-04-15T20:01:48.122568+00:00",
               "previews": {
                 "128": "default/thumbs/128/коньки_v1.png",
                 "256": "default/thumbs/256/коньки_v1.png",
@@ -2109,7 +2215,7 @@
               "filename": "коньки_v2.png",
               "path": "default/коньки_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.531342+00:00",
+              "created": "2026-04-15T20:01:48.123568+00:00",
               "previews": {
                 "128": "default/thumbs/128/коньки_v2.png",
                 "256": "default/thumbs/256/коньки_v2.png",
@@ -2132,7 +2238,7 @@
               "filename": "роса_v1.png",
               "path": "default/роса_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.618341+00:00",
+              "created": "2026-04-15T20:01:48.207568+00:00",
               "previews": {
                 "128": "default/thumbs/128/роса_v1.png",
                 "256": "default/thumbs/256/роса_v1.png",
@@ -2144,7 +2250,7 @@
               "filename": "роса_v2.png",
               "path": "default/роса_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.618341+00:00",
+              "created": "2026-04-15T20:01:48.208568+00:00",
               "previews": {
                 "128": "default/thumbs/128/роса_v2.png",
                 "256": "default/thumbs/256/роса_v2.png",
@@ -2167,7 +2273,7 @@
               "filename": "веер_v1.png",
               "path": "default/веер_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.468342+00:00",
+              "created": "2026-04-15T20:01:48.060568+00:00",
               "previews": {
                 "128": "default/thumbs/128/веер_v1.png",
                 "256": "default/thumbs/256/веер_v1.png",
@@ -2179,7 +2285,7 @@
               "filename": "веер_v2.png",
               "path": "default/веер_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.469342+00:00",
+              "created": "2026-04-15T20:01:48.061568+00:00",
               "previews": {
                 "128": "default/thumbs/128/веер_v2.png",
                 "256": "default/thumbs/256/веер_v2.png",
@@ -2191,7 +2297,7 @@
               "filename": "веер_v3.png",
               "path": "default/веер_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.469342+00:00",
+              "created": "2026-04-15T20:01:48.061568+00:00",
               "previews": {
                 "128": "default/thumbs/128/веер_v3.png",
                 "256": "default/thumbs/256/веер_v3.png",
@@ -2214,7 +2320,7 @@
               "filename": "машина_v1.png",
               "path": "default/машина_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.567342+00:00",
+              "created": "2026-04-15T20:01:48.158568+00:00",
               "previews": {
                 "128": "default/thumbs/128/машина_v1.png",
                 "256": "default/thumbs/256/машина_v1.png",
@@ -2226,7 +2332,7 @@
               "filename": "машина_v2.png",
               "path": "default/машина_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.568341+00:00",
+              "created": "2026-04-15T20:01:48.158568+00:00",
               "previews": {
                 "128": "default/thumbs/128/машина_v2.png",
                 "256": "default/thumbs/256/машина_v2.png",
@@ -2241,19 +2347,31 @@
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "телёнок_v1.png",
               "path": "default/телёнок_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.657341+00:00",
+              "created": "2026-04-15T20:01:48.257567+00:00",
               "previews": {
                 "128": "default/thumbs/128/телёнок_v1.png",
                 "256": "default/thumbs/256/телёнок_v1.png",
                 "512": "default/thumbs/512/телёнок_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "телёнок_v2.png",
+              "path": "default/телёнок_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.257567+00:00",
+              "previews": {
+                "128": "default/thumbs/128/телёнок_v2.png",
+                "256": "default/thumbs/256/телёнок_v2.png",
+                "512": "default/thumbs/512/телёнок_v2.png"
               }
             }
           ]
@@ -2272,7 +2390,7 @@
               "filename": "дно_v1.png",
               "path": "default/дно_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.491342+00:00",
+              "created": "2026-04-15T20:01:48.082568+00:00",
               "previews": {
                 "128": "default/thumbs/128/дно_v1.png",
                 "256": "default/thumbs/256/дно_v1.png",
@@ -2284,7 +2402,7 @@
               "filename": "дно_v2.png",
               "path": "default/дно_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.491342+00:00",
+              "created": "2026-04-15T20:01:48.083568+00:00",
               "previews": {
                 "128": "default/thumbs/128/дно_v2.png",
                 "256": "default/thumbs/256/дно_v2.png",
@@ -2296,7 +2414,7 @@
               "filename": "дно_v3.png",
               "path": "default/дно_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.491342+00:00",
+              "created": "2026-04-15T20:01:48.083568+00:00",
               "previews": {
                 "128": "default/thumbs/128/дно_v3.png",
                 "256": "default/thumbs/256/дно_v3.png",
@@ -2319,7 +2437,7 @@
               "filename": "светильник_v1.png",
               "path": "default/светильник_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.628341+00:00",
+              "created": "2026-04-15T20:01:48.217568+00:00",
               "previews": {
                 "128": "default/thumbs/128/светильник_v1.png",
                 "256": "default/thumbs/256/светильник_v1.png",
@@ -2331,7 +2449,7 @@
               "filename": "светильник_v2.png",
               "path": "default/светильник_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.627342+00:00",
+              "created": "2026-04-15T20:01:48.217568+00:00",
               "previews": {
                 "128": "default/thumbs/128/светильник_v2.png",
                 "256": "default/thumbs/256/светильник_v2.png",
@@ -2354,7 +2472,7 @@
               "filename": "лодка_v1.png",
               "path": "default/лодка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.552342+00:00",
+              "created": "2026-04-15T20:01:48.142568+00:00",
               "previews": {
                 "128": "default/thumbs/128/лодка_v1.png",
                 "256": "default/thumbs/256/лодка_v1.png",
@@ -2366,7 +2484,7 @@
               "filename": "лодка_v2.png",
               "path": "default/лодка_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.552342+00:00",
+              "created": "2026-04-15T20:01:48.143568+00:00",
               "previews": {
                 "128": "default/thumbs/128/лодка_v2.png",
                 "256": "default/thumbs/256/лодка_v2.png",
@@ -2389,7 +2507,7 @@
               "filename": "свечка_v1.png",
               "path": "default/свечка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.631341+00:00",
+              "created": "2026-04-15T20:01:48.220568+00:00",
               "previews": {
                 "128": "default/thumbs/128/свечка_v1.png",
                 "256": "default/thumbs/256/свечка_v1.png",
@@ -2401,7 +2519,7 @@
               "filename": "свечка_v2.png",
               "path": "default/свечка_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.631341+00:00",
+              "created": "2026-04-15T20:01:48.221568+00:00",
               "previews": {
                 "128": "default/thumbs/128/свечка_v2.png",
                 "256": "default/thumbs/256/свечка_v2.png",
@@ -2424,7 +2542,7 @@
               "filename": "лужа_v1.png",
               "path": "default/лужа_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.555342+00:00",
+              "created": "2026-04-15T20:01:48.146568+00:00",
               "previews": {
                 "128": "default/thumbs/128/лужа_v1.png",
                 "256": "default/thumbs/256/лужа_v1.png",
@@ -2436,7 +2554,7 @@
               "filename": "лужа_v2.png",
               "path": "default/лужа_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.555342+00:00",
+              "created": "2026-04-15T20:01:48.146568+00:00",
               "previews": {
                 "128": "default/thumbs/128/лужа_v2.png",
                 "256": "default/thumbs/256/лужа_v2.png",
@@ -2451,19 +2569,31 @@
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "улица_v1.png",
               "path": "default/улица_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.659341+00:00",
+              "created": "2026-04-15T20:01:48.260567+00:00",
               "previews": {
                 "128": "default/thumbs/128/улица_v1.png",
                 "256": "default/thumbs/256/улица_v1.png",
                 "512": "default/thumbs/512/улица_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "улица_v2.png",
+              "path": "default/улица_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.259567+00:00",
+              "previews": {
+                "128": "default/thumbs/128/улица_v2.png",
+                "256": "default/thumbs/256/улица_v2.png",
+                "512": "default/thumbs/512/улица_v2.png"
               }
             }
           ]
@@ -2482,7 +2612,7 @@
               "filename": "зонтик_v1.png",
               "path": "default/зонтик_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.510342+00:00",
+              "created": "2026-04-15T20:01:48.102568+00:00",
               "previews": {
                 "128": "default/thumbs/128/зонтик_v1.png",
                 "256": "default/thumbs/256/зонтик_v1.png",
@@ -2494,7 +2624,7 @@
               "filename": "зонтик_v2.png",
               "path": "default/зонтик_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.511342+00:00",
+              "created": "2026-04-15T20:01:48.102568+00:00",
               "previews": {
                 "128": "default/thumbs/128/зонтик_v2.png",
                 "256": "default/thumbs/256/зонтик_v2.png",
@@ -2506,7 +2636,7 @@
               "filename": "зонтик_v3.png",
               "path": "default/зонтик_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.511342+00:00",
+              "created": "2026-04-15T20:01:48.103568+00:00",
               "previews": {
                 "128": "default/thumbs/128/зонтик_v3.png",
                 "256": "default/thumbs/256/зонтик_v3.png",
@@ -2529,7 +2659,7 @@
               "filename": "птичка_v1.png",
               "path": "default/птичка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.607342+00:00",
+              "created": "2026-04-15T20:01:48.197568+00:00",
               "previews": {
                 "128": "default/thumbs/128/птичка_v1.png",
                 "256": "default/thumbs/256/птичка_v1.png",
@@ -2541,7 +2671,7 @@
               "filename": "птичка_v2.png",
               "path": "default/птичка_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.607342+00:00",
+              "created": "2026-04-15T20:01:48.197568+00:00",
               "previews": {
                 "128": "default/thumbs/128/птичка_v2.png",
                 "256": "default/thumbs/256/птичка_v2.png",
@@ -2564,7 +2694,7 @@
               "filename": "бак_v1.png",
               "path": "default/бак_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.456342+00:00",
+              "created": "2026-04-15T20:01:48.049568+00:00",
               "previews": {
                 "128": "default/thumbs/128/бак_v1.png",
                 "256": "default/thumbs/256/бак_v1.png",
@@ -2576,7 +2706,7 @@
               "filename": "бак_v2.png",
               "path": "default/бак_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.457342+00:00",
+              "created": "2026-04-15T20:01:48.049568+00:00",
               "previews": {
                 "128": "default/thumbs/128/бак_v2.png",
                 "256": "default/thumbs/256/бак_v2.png",
@@ -2588,7 +2718,7 @@
               "filename": "бак_v3.png",
               "path": "default/бак_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.457342+00:00",
+              "created": "2026-04-15T20:01:48.050568+00:00",
               "previews": {
                 "128": "default/thumbs/128/бак_v3.png",
                 "256": "default/thumbs/256/бак_v3.png",
@@ -2611,7 +2741,7 @@
               "filename": "сало_v1.png",
               "path": "default/сало_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.624341+00:00",
+              "created": "2026-04-15T20:01:48.213568+00:00",
               "previews": {
                 "128": "default/thumbs/128/сало_v1.png",
                 "256": "default/thumbs/256/сало_v1.png",
@@ -2623,7 +2753,7 @@
               "filename": "сало_v2.png",
               "path": "default/сало_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.623341+00:00",
+              "created": "2026-04-15T20:01:48.213568+00:00",
               "previews": {
                 "128": "default/thumbs/128/сало_v2.png",
                 "256": "default/thumbs/256/сало_v2.png",
@@ -2646,7 +2776,7 @@
               "filename": "автопилот_v1.png",
               "path": "default/автопилот_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.448342+00:00",
+              "created": "2026-04-15T20:01:48.041568+00:00",
               "previews": {
                 "128": "default/thumbs/128/автопилот_v1.png",
                 "256": "default/thumbs/256/автопилот_v1.png",
@@ -2658,7 +2788,7 @@
               "filename": "автопилот_v2.png",
               "path": "default/автопилот_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.449342+00:00",
+              "created": "2026-04-15T20:01:48.041568+00:00",
               "previews": {
                 "128": "default/thumbs/128/автопилот_v2.png",
                 "256": "default/thumbs/256/автопилот_v2.png",
@@ -2670,7 +2800,7 @@
               "filename": "автопилот_v3.png",
               "path": "default/автопилот_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.450342+00:00",
+              "created": "2026-04-15T20:01:48.043568+00:00",
               "previews": {
                 "128": "default/thumbs/128/автопилот_v3.png",
                 "256": "default/thumbs/256/автопилот_v3.png",
@@ -2685,19 +2815,31 @@
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "телефон_v1.png",
               "path": "default/телефон_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.657341+00:00",
+              "created": "2026-04-15T20:01:48.256567+00:00",
               "previews": {
                 "128": "default/thumbs/128/телефон_v1.png",
                 "256": "default/thumbs/256/телефон_v1.png",
                 "512": "default/thumbs/512/телефон_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "телефон_v2.png",
+              "path": "default/телефон_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.256567+00:00",
+              "previews": {
+                "128": "default/thumbs/128/телефон_v2.png",
+                "256": "default/thumbs/256/телефон_v2.png",
+                "512": "default/thumbs/512/телефон_v2.png"
               }
             }
           ]
@@ -2716,7 +2858,7 @@
               "filename": "перо_v1.png",
               "path": "default/перо_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.583342+00:00",
+              "created": "2026-04-15T20:01:48.173568+00:00",
               "previews": {
                 "128": "default/thumbs/128/перо_v1.png",
                 "256": "default/thumbs/256/перо_v1.png",
@@ -2728,7 +2870,7 @@
               "filename": "перо_v2.png",
               "path": "default/перо_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.583342+00:00",
+              "created": "2026-04-15T20:01:48.174568+00:00",
               "previews": {
                 "128": "default/thumbs/128/перо_v2.png",
                 "256": "default/thumbs/256/перо_v2.png",
@@ -2751,7 +2893,7 @@
               "filename": "лис_v1.png",
               "path": "default/лис_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.550342+00:00",
+              "created": "2026-04-15T20:01:48.141568+00:00",
               "previews": {
                 "128": "default/thumbs/128/лис_v1.png",
                 "256": "default/thumbs/256/лис_v1.png",
@@ -2763,7 +2905,7 @@
               "filename": "лис_v2.png",
               "path": "default/лис_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.551342+00:00",
+              "created": "2026-04-15T20:01:48.142568+00:00",
               "previews": {
                 "128": "default/thumbs/128/лис_v2.png",
                 "256": "default/thumbs/256/лис_v2.png",
@@ -2786,7 +2928,7 @@
               "filename": "кошка_v1.png",
               "path": "default/кошка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.538342+00:00",
+              "created": "2026-04-15T20:01:48.129568+00:00",
               "previews": {
                 "128": "default/thumbs/128/кошка_v1.png",
                 "256": "default/thumbs/256/кошка_v1.png",
@@ -2798,7 +2940,7 @@
               "filename": "кошка_v2.png",
               "path": "default/кошка_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.538342+00:00",
+              "created": "2026-04-15T20:01:48.129568+00:00",
               "previews": {
                 "128": "default/thumbs/128/кошка_v2.png",
                 "256": "default/thumbs/256/кошка_v2.png",
@@ -2821,7 +2963,7 @@
               "filename": "черепаха_v1.png",
               "path": "default/черепаха_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.661341+00:00",
+              "created": "2026-04-15T20:01:48.264568+00:00",
               "previews": {
                 "128": "default/thumbs/128/черепаха_v1.png",
                 "256": "default/thumbs/256/черепаха_v1.png",
@@ -2844,7 +2986,7 @@
               "filename": "мошка_v1.png",
               "path": "default/мошка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.572341+00:00",
+              "created": "2026-04-15T20:01:48.162568+00:00",
               "previews": {
                 "128": "default/thumbs/128/мошка_v1.png",
                 "256": "default/thumbs/256/мошка_v1.png",
@@ -2856,7 +2998,7 @@
               "filename": "мошка_v2.png",
               "path": "default/мошка_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.572341+00:00",
+              "created": "2026-04-15T20:01:48.163568+00:00",
               "previews": {
                 "128": "default/thumbs/128/мошка_v2.png",
                 "256": "default/thumbs/256/мошка_v2.png",
@@ -2879,7 +3021,7 @@
               "filename": "велюр_v1.png",
               "path": "default/велюр_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.472342+00:00",
+              "created": "2026-04-15T20:01:48.064568+00:00",
               "previews": {
                 "128": "default/thumbs/128/велюр_v1.png",
                 "256": "default/thumbs/256/велюр_v1.png",
@@ -2891,7 +3033,7 @@
               "filename": "велюр_v2.png",
               "path": "default/велюр_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.472342+00:00",
+              "created": "2026-04-15T20:01:48.064568+00:00",
               "previews": {
                 "128": "default/thumbs/128/велюр_v2.png",
                 "256": "default/thumbs/256/велюр_v2.png",
@@ -2903,7 +3045,7 @@
               "filename": "велюр_v3.png",
               "path": "default/велюр_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.474342+00:00",
+              "created": "2026-04-15T20:01:48.066568+00:00",
               "previews": {
                 "128": "default/thumbs/128/велюр_v3.png",
                 "256": "default/thumbs/256/велюр_v3.png",
@@ -2926,7 +3068,7 @@
               "filename": "мама_v1.png",
               "path": "default/мама_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.562342+00:00",
+              "created": "2026-04-15T20:01:48.153568+00:00",
               "previews": {
                 "128": "default/thumbs/128/мама_v1.png",
                 "256": "default/thumbs/256/мама_v1.png",
@@ -2938,7 +3080,7 @@
               "filename": "мама_v2.png",
               "path": "default/мама_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.562342+00:00",
+              "created": "2026-04-15T20:01:48.153568+00:00",
               "previews": {
                 "128": "default/thumbs/128/мама_v2.png",
                 "256": "default/thumbs/256/мама_v2.png",
@@ -2961,7 +3103,7 @@
               "filename": "пруд_v1.png",
               "path": "default/пруд_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.603342+00:00",
+              "created": "2026-04-15T20:01:48.192568+00:00",
               "previews": {
                 "128": "default/thumbs/128/пруд_v1.png",
                 "256": "default/thumbs/256/пруд_v1.png",
@@ -2973,7 +3115,7 @@
               "filename": "пруд_v2.png",
               "path": "default/пруд_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.602341+00:00",
+              "created": "2026-04-15T20:01:48.193568+00:00",
               "previews": {
                 "128": "default/thumbs/128/пруд_v2.png",
                 "256": "default/thumbs/256/пруд_v2.png",
@@ -2996,7 +3138,7 @@
               "filename": "мышка_v1.png",
               "path": "default/мышка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.574342+00:00",
+              "created": "2026-04-15T20:01:48.165568+00:00",
               "previews": {
                 "128": "default/thumbs/128/мышка_v1.png",
                 "256": "default/thumbs/256/мышка_v1.png",
@@ -3008,7 +3150,7 @@
               "filename": "мышка_v2.png",
               "path": "default/мышка_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.575341+00:00",
+              "created": "2026-04-15T20:01:48.165568+00:00",
               "previews": {
                 "128": "default/thumbs/128/мышка_v2.png",
                 "256": "default/thumbs/256/мышка_v2.png",
@@ -3031,7 +3173,7 @@
               "filename": "змея_v1.png",
               "path": "default/змея_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.508342+00:00",
+              "created": "2026-04-15T20:01:48.100568+00:00",
               "previews": {
                 "128": "default/thumbs/128/змея_v1.png",
                 "256": "default/thumbs/256/змея_v1.png",
@@ -3043,7 +3185,7 @@
               "filename": "змея_v2.png",
               "path": "default/змея_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.509342+00:00",
+              "created": "2026-04-15T20:01:48.101568+00:00",
               "previews": {
                 "128": "default/thumbs/128/змея_v2.png",
                 "256": "default/thumbs/256/змея_v2.png",
@@ -3055,7 +3197,7 @@
               "filename": "змея_v3.png",
               "path": "default/змея_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.510342+00:00",
+              "created": "2026-04-15T20:01:48.102568+00:00",
               "previews": {
                 "128": "default/thumbs/128/змея_v3.png",
                 "256": "default/thumbs/256/змея_v3.png",
@@ -3078,7 +3220,7 @@
               "filename": "слоны_v1.png",
               "path": "default/слоны_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.645341+00:00",
+              "created": "2026-04-15T20:01:48.234568+00:00",
               "previews": {
                 "128": "default/thumbs/128/слоны_v1.png",
                 "256": "default/thumbs/256/слоны_v1.png",
@@ -3090,7 +3232,7 @@
               "filename": "слоны_v2.png",
               "path": "default/слоны_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.645341+00:00",
+              "created": "2026-04-15T20:01:48.234568+00:00",
               "previews": {
                 "128": "default/thumbs/128/слоны_v2.png",
                 "256": "default/thumbs/256/слоны_v2.png",
@@ -3113,7 +3255,7 @@
               "filename": "кот_v1.png",
               "path": "default/кот_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.536342+00:00",
+              "created": "2026-04-15T20:01:48.128568+00:00",
               "previews": {
                 "128": "default/thumbs/128/кот_v1.png",
                 "256": "default/thumbs/256/кот_v1.png",
@@ -3125,7 +3267,7 @@
               "filename": "кот_v2.png",
               "path": "default/кот_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.537342+00:00",
+              "created": "2026-04-15T20:01:48.128568+00:00",
               "previews": {
                 "128": "default/thumbs/128/кот_v2.png",
                 "256": "default/thumbs/256/кот_v2.png",
@@ -3148,7 +3290,7 @@
               "filename": "скакалка_v1.png",
               "path": "default/скакалка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.638341+00:00",
+              "created": "2026-04-15T20:01:48.228568+00:00",
               "previews": {
                 "128": "default/thumbs/128/скакалка_v1.png",
                 "256": "default/thumbs/256/скакалка_v1.png",
@@ -3160,7 +3302,7 @@
               "filename": "скакалка_v2.png",
               "path": "default/скакалка_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.638341+00:00",
+              "created": "2026-04-15T20:01:48.228568+00:00",
               "previews": {
                 "128": "default/thumbs/128/скакалка_v2.png",
                 "256": "default/thumbs/256/скакалка_v2.png",
@@ -3183,7 +3325,7 @@
               "filename": "клип_v1.png",
               "path": "default/клип_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.521342+00:00",
+              "created": "2026-04-15T20:01:48.113568+00:00",
               "previews": {
                 "128": "default/thumbs/128/клип_v1.png",
                 "256": "default/thumbs/256/клип_v1.png",
@@ -3195,7 +3337,7 @@
               "filename": "клип_v2.png",
               "path": "default/клип_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.522342+00:00",
+              "created": "2026-04-15T20:01:48.113568+00:00",
               "previews": {
                 "128": "default/thumbs/128/клип_v2.png",
                 "256": "default/thumbs/256/клип_v2.png",
@@ -3207,7 +3349,7 @@
               "filename": "клип_v3.png",
               "path": "default/клип_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.523342+00:00",
+              "created": "2026-04-15T20:01:48.114568+00:00",
               "previews": {
                 "128": "default/thumbs/128/клип_v3.png",
                 "256": "default/thumbs/256/клип_v3.png",
@@ -3230,7 +3372,7 @@
               "filename": "пирожок_v1.png",
               "path": "default/пирожок_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.592341+00:00",
+              "created": "2026-04-15T20:01:48.182568+00:00",
               "previews": {
                 "128": "default/thumbs/128/пирожок_v1.png",
                 "256": "default/thumbs/256/пирожок_v1.png",
@@ -3242,7 +3384,7 @@
               "filename": "пирожок_v2.png",
               "path": "default/пирожок_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.592341+00:00",
+              "created": "2026-04-15T20:01:48.183568+00:00",
               "previews": {
                 "128": "default/thumbs/128/пирожок_v2.png",
                 "256": "default/thumbs/256/пирожок_v2.png",
@@ -3265,7 +3407,7 @@
               "filename": "ложка_v1.png",
               "path": "default/ложка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.553342+00:00",
+              "created": "2026-04-15T20:01:48.144568+00:00",
               "previews": {
                 "128": "default/thumbs/128/ложка_v1.png",
                 "256": "default/thumbs/256/ложка_v1.png",
@@ -3277,7 +3419,7 @@
               "filename": "ложка_v2.png",
               "path": "default/ложка_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.553342+00:00",
+              "created": "2026-04-15T20:01:48.144568+00:00",
               "previews": {
                 "128": "default/thumbs/128/ложка_v2.png",
                 "256": "default/thumbs/256/ложка_v2.png",
@@ -3300,7 +3442,7 @@
               "filename": "сапог_v1.png",
               "path": "default/сапог_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.626341+00:00",
+              "created": "2026-04-15T20:01:48.215568+00:00",
               "previews": {
                 "128": "default/thumbs/128/сапог_v1.png",
                 "256": "default/thumbs/256/сапог_v1.png",
@@ -3312,7 +3454,7 @@
               "filename": "сапог_v2.png",
               "path": "default/сапог_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.626341+00:00",
+              "created": "2026-04-15T20:01:48.215568+00:00",
               "previews": {
                 "128": "default/thumbs/128/сапог_v2.png",
                 "256": "default/thumbs/256/сапог_v2.png",
@@ -3335,7 +3477,7 @@
               "filename": "нос_v1.png",
               "path": "default/нос_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.578341+00:00",
+              "created": "2026-04-15T20:01:48.168568+00:00",
               "previews": {
                 "128": "default/thumbs/128/нос_v1.png",
                 "256": "default/thumbs/256/нос_v1.png",
@@ -3347,7 +3489,7 @@
               "filename": "нос_v2.png",
               "path": "default/нос_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.578341+00:00",
+              "created": "2026-04-15T20:01:48.169568+00:00",
               "previews": {
                 "128": "default/thumbs/128/нос_v2.png",
                 "256": "default/thumbs/256/нос_v2.png",
@@ -3370,7 +3512,7 @@
               "filename": "светлячок_v1.png",
               "path": "default/светлячок_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.629341+00:00",
+              "created": "2026-04-15T20:01:48.218568+00:00",
               "previews": {
                 "128": "default/thumbs/128/светлячок_v1.png",
                 "256": "default/thumbs/256/светлячок_v1.png",
@@ -3382,7 +3524,7 @@
               "filename": "светлячок_v2.png",
               "path": "default/светлячок_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.628341+00:00",
+              "created": "2026-04-15T20:01:48.218568+00:00",
               "previews": {
                 "128": "default/thumbs/128/светлячок_v2.png",
                 "256": "default/thumbs/256/светлячок_v2.png",
@@ -3397,42 +3539,31 @@
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "эскалатор_v1.png",
               "path": "default/эскалатор_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.664341+00:00",
+              "created": "2026-04-15T20:01:48.271568+00:00",
               "previews": {
                 "128": "default/thumbs/128/эскалатор_v1.png",
                 "256": "default/thumbs/256/эскалатор_v1.png",
                 "512": "default/thumbs/512/эскалатор_v1.png"
               }
-            }
-          ]
-        }
-      }
-    },
-    "сова": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
+            },
             {
-              "n": 1,
-              "filename": "сова_v1.png",
-              "path": "default/сова_v1.png",
+              "n": 2,
+              "filename": "эскалатор_v2.png",
+              "path": "default/эскалатор_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.650341+00:00",
+              "created": "2026-04-15T20:01:48.270567+00:00",
               "previews": {
-                "128": "default/thumbs/128/сова_v1.png",
-                "256": "default/thumbs/256/сова_v1.png",
-                "512": "default/thumbs/512/сова_v1.png"
+                "128": "default/thumbs/128/эскалатор_v2.png",
+                "256": "default/thumbs/256/эскалатор_v2.png",
+                "512": "default/thumbs/512/эскалатор_v2.png"
               }
             }
           ]
@@ -3451,7 +3582,7 @@
               "filename": "картошка_v1.png",
               "path": "default/картошка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.516342+00:00",
+              "created": "2026-04-15T20:01:48.108568+00:00",
               "previews": {
                 "128": "default/thumbs/128/картошка_v1.png",
                 "256": "default/thumbs/256/картошка_v1.png",
@@ -3463,7 +3594,7 @@
               "filename": "картошка_v2.png",
               "path": "default/картошка_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.516342+00:00",
+              "created": "2026-04-15T20:01:48.108568+00:00",
               "previews": {
                 "128": "default/thumbs/128/картошка_v2.png",
                 "256": "default/thumbs/256/картошка_v2.png",
@@ -3475,7 +3606,7 @@
               "filename": "картошка_v3.png",
               "path": "default/картошка_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.517342+00:00",
+              "created": "2026-04-15T20:01:48.109568+00:00",
               "previews": {
                 "128": "default/thumbs/128/картошка_v3.png",
                 "256": "default/thumbs/256/картошка_v3.png",
@@ -3498,7 +3629,7 @@
               "filename": "доски_v1.png",
               "path": "default/доски_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.497342+00:00",
+              "created": "2026-04-15T20:01:48.089568+00:00",
               "previews": {
                 "128": "default/thumbs/128/доски_v1.png",
                 "256": "default/thumbs/256/доски_v1.png",
@@ -3510,7 +3641,7 @@
               "filename": "доски_v2.png",
               "path": "default/доски_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.498342+00:00",
+              "created": "2026-04-15T20:01:48.089568+00:00",
               "previews": {
                 "128": "default/thumbs/128/доски_v2.png",
                 "256": "default/thumbs/256/доски_v2.png",
@@ -3522,7 +3653,7 @@
               "filename": "доски_v3.png",
               "path": "default/доски_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.498342+00:00",
+              "created": "2026-04-15T20:01:48.090568+00:00",
               "previews": {
                 "128": "default/thumbs/128/доски_v3.png",
                 "256": "default/thumbs/256/доски_v3.png",
@@ -3545,7 +3676,7 @@
               "filename": "сердце_v1.png",
               "path": "default/сердце_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.633341+00:00",
+              "created": "2026-04-15T20:01:48.221568+00:00",
               "previews": {
                 "128": "default/thumbs/128/сердце_v1.png",
                 "256": "default/thumbs/256/сердце_v1.png",
@@ -3557,7 +3688,7 @@
               "filename": "сердце_v2.png",
               "path": "default/сердце_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.632341+00:00",
+              "created": "2026-04-15T20:01:48.222568+00:00",
               "previews": {
                 "128": "default/thumbs/128/сердце_v2.png",
                 "256": "default/thumbs/256/сердце_v2.png",
@@ -3580,7 +3711,7 @@
               "filename": "дочь_v1.png",
               "path": "default/дочь_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.501342+00:00",
+              "created": "2026-04-15T20:01:48.093568+00:00",
               "previews": {
                 "128": "default/thumbs/128/дочь_v1.png",
                 "256": "default/thumbs/256/дочь_v1.png",
@@ -3592,7 +3723,7 @@
               "filename": "дочь_v2.png",
               "path": "default/дочь_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.502342+00:00",
+              "created": "2026-04-15T20:01:48.094568+00:00",
               "previews": {
                 "128": "default/thumbs/128/дочь_v2.png",
                 "256": "default/thumbs/256/дочь_v2.png",
@@ -3604,7 +3735,7 @@
               "filename": "дочь_v3.png",
               "path": "default/дочь_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.503342+00:00",
+              "created": "2026-04-15T20:01:48.094568+00:00",
               "previews": {
                 "128": "default/thumbs/128/дочь_v3.png",
                 "256": "default/thumbs/256/дочь_v3.png",
@@ -3627,7 +3758,7 @@
               "filename": "лук_v1.png",
               "path": "default/лук_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.556342+00:00",
+              "created": "2026-04-15T20:01:48.147568+00:00",
               "previews": {
                 "128": "default/thumbs/128/лук_v1.png",
                 "256": "default/thumbs/256/лук_v1.png",
@@ -3639,7 +3770,7 @@
               "filename": "лук_v2.png",
               "path": "default/лук_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.556342+00:00",
+              "created": "2026-04-15T20:01:48.147568+00:00",
               "previews": {
                 "128": "default/thumbs/128/лук_v2.png",
                 "256": "default/thumbs/256/лук_v2.png",
@@ -3662,7 +3793,7 @@
               "filename": "лото_v1.png",
               "path": "default/лото_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.554342+00:00",
+              "created": "2026-04-15T20:01:48.145568+00:00",
               "previews": {
                 "128": "default/thumbs/128/лото_v1.png",
                 "256": "default/thumbs/256/лото_v1.png",
@@ -3674,7 +3805,7 @@
               "filename": "лото_v2.png",
               "path": "default/лото_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.554342+00:00",
+              "created": "2026-04-15T20:01:48.145568+00:00",
               "previews": {
                 "128": "default/thumbs/128/лото_v2.png",
                 "256": "default/thumbs/256/лото_v2.png",
@@ -3697,7 +3828,7 @@
               "filename": "пирог_v1.png",
               "path": "default/пирог_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.590342+00:00",
+              "created": "2026-04-15T20:01:48.180568+00:00",
               "previews": {
                 "128": "default/thumbs/128/пирог_v1.png",
                 "256": "default/thumbs/256/пирог_v1.png",
@@ -3709,7 +3840,7 @@
               "filename": "пирог_v2.png",
               "path": "default/пирог_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.589341+00:00",
+              "created": "2026-04-15T20:01:48.181568+00:00",
               "previews": {
                 "128": "default/thumbs/128/пирог_v2.png",
                 "256": "default/thumbs/256/пирог_v2.png",
@@ -3732,7 +3863,7 @@
               "filename": "плюшка_v1.png",
               "path": "default/плюшка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.595341+00:00",
+              "created": "2026-04-15T20:01:48.185568+00:00",
               "previews": {
                 "128": "default/thumbs/128/плюшка_v1.png",
                 "256": "default/thumbs/256/плюшка_v1.png",
@@ -3744,7 +3875,7 @@
               "filename": "плюшка_v2.png",
               "path": "default/плюшка_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.595341+00:00",
+              "created": "2026-04-15T20:01:48.186568+00:00",
               "previews": {
                 "128": "default/thumbs/128/плюшка_v2.png",
                 "256": "default/thumbs/256/плюшка_v2.png",
@@ -3767,7 +3898,7 @@
               "filename": "крупа_v1.png",
               "path": "default/крупа_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.541342+00:00",
+              "created": "2026-04-15T20:01:48.132568+00:00",
               "previews": {
                 "128": "default/thumbs/128/крупа_v1.png",
                 "256": "default/thumbs/256/крупа_v1.png",
@@ -3779,7 +3910,7 @@
               "filename": "крупа_v2.png",
               "path": "default/крупа_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.542342+00:00",
+              "created": "2026-04-15T20:01:48.133568+00:00",
               "previews": {
                 "128": "default/thumbs/128/крупа_v2.png",
                 "256": "default/thumbs/256/крупа_v2.png",
@@ -3802,7 +3933,7 @@
               "filename": "река_v1.png",
               "path": "default/река_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.613341+00:00",
+              "created": "2026-04-15T20:01:48.201568+00:00",
               "previews": {
                 "128": "default/thumbs/128/река_v1.png",
                 "256": "default/thumbs/256/река_v1.png",
@@ -3814,7 +3945,7 @@
               "filename": "река_v2.png",
               "path": "default/река_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.612341+00:00",
+              "created": "2026-04-15T20:01:48.202568+00:00",
               "previews": {
                 "128": "default/thumbs/128/река_v2.png",
                 "256": "default/thumbs/256/река_v2.png",
@@ -3837,7 +3968,7 @@
               "filename": "зуб_v1.png",
               "path": "default/зуб_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.512342+00:00",
+              "created": "2026-04-15T20:01:48.103568+00:00",
               "previews": {
                 "128": "default/thumbs/128/зуб_v1.png",
                 "256": "default/thumbs/256/зуб_v1.png",
@@ -3849,7 +3980,7 @@
               "filename": "зуб_v2.png",
               "path": "default/зуб_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.512342+00:00",
+              "created": "2026-04-15T20:01:48.104568+00:00",
               "previews": {
                 "128": "default/thumbs/128/зуб_v2.png",
                 "256": "default/thumbs/256/зуб_v2.png",
@@ -3861,7 +3992,7 @@
               "filename": "зуб_v3.png",
               "path": "default/зуб_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.512342+00:00",
+              "created": "2026-04-15T20:01:48.104568+00:00",
               "previews": {
                 "128": "default/thumbs/128/зуб_v3.png",
                 "256": "default/thumbs/256/зуб_v3.png",
@@ -3884,7 +4015,7 @@
               "filename": "люлька_v1.png",
               "path": "default/люлька_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.558342+00:00",
+              "created": "2026-04-15T20:01:48.149568+00:00",
               "previews": {
                 "128": "default/thumbs/128/люлька_v1.png",
                 "256": "default/thumbs/256/люлька_v1.png",
@@ -3896,7 +4027,7 @@
               "filename": "люлька_v2.png",
               "path": "default/люлька_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.558342+00:00",
+              "created": "2026-04-15T20:01:48.149568+00:00",
               "previews": {
                 "128": "default/thumbs/128/люлька_v2.png",
                 "256": "default/thumbs/256/люлька_v2.png",
@@ -3919,7 +4050,7 @@
               "filename": "рога_v1.png",
               "path": "default/рога_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.617342+00:00",
+              "created": "2026-04-15T20:01:48.206568+00:00",
               "previews": {
                 "128": "default/thumbs/128/рога_v1.png",
                 "256": "default/thumbs/256/рога_v1.png",
@@ -3931,7 +4062,7 @@
               "filename": "рога_v2.png",
               "path": "default/рога_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.616341+00:00",
+              "created": "2026-04-15T20:01:48.207568+00:00",
               "previews": {
                 "128": "default/thumbs/128/рога_v2.png",
                 "256": "default/thumbs/256/рога_v2.png",
@@ -3954,7 +4085,7 @@
               "filename": "птица_v1.png",
               "path": "default/птица_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.606341+00:00",
+              "created": "2026-04-15T20:01:48.196568+00:00",
               "previews": {
                 "128": "default/thumbs/128/птица_v1.png",
                 "256": "default/thumbs/256/птица_v1.png",
@@ -3966,7 +4097,7 @@
               "filename": "птица_v2.png",
               "path": "default/птица_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.606341+00:00",
+              "created": "2026-04-15T20:01:48.196568+00:00",
               "previews": {
                 "128": "default/thumbs/128/птица_v2.png",
                 "256": "default/thumbs/256/птица_v2.png",
@@ -3989,7 +4120,7 @@
               "filename": "персик_v1.png",
               "path": "default/персик_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.584342+00:00",
+              "created": "2026-04-15T20:01:48.174568+00:00",
               "previews": {
                 "128": "default/thumbs/128/персик_v1.png",
                 "256": "default/thumbs/256/персик_v1.png",
@@ -4001,7 +4132,7 @@
               "filename": "персик_v2.png",
               "path": "default/персик_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.584342+00:00",
+              "created": "2026-04-15T20:01:48.175568+00:00",
               "previews": {
                 "128": "default/thumbs/128/персик_v2.png",
                 "256": "default/thumbs/256/персик_v2.png",
@@ -4024,7 +4155,7 @@
               "filename": "лак_v1.png",
               "path": "default/лак_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.542342+00:00",
+              "created": "2026-04-15T20:01:48.133568+00:00",
               "previews": {
                 "128": "default/thumbs/128/лак_v1.png",
                 "256": "default/thumbs/256/лак_v1.png",
@@ -4036,7 +4167,7 @@
               "filename": "лак_v2.png",
               "path": "default/лак_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.542342+00:00",
+              "created": "2026-04-15T20:01:48.133568+00:00",
               "previews": {
                 "128": "default/thumbs/128/лак_v2.png",
                 "256": "default/thumbs/256/лак_v2.png",
@@ -4059,7 +4190,7 @@
               "filename": "грач_v1.png",
               "path": "default/грач_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.487342+00:00",
+              "created": "2026-04-15T20:01:48.079568+00:00",
               "previews": {
                 "128": "default/thumbs/128/грач_v1.png",
                 "256": "default/thumbs/256/грач_v1.png",
@@ -4071,7 +4202,7 @@
               "filename": "грач_v2.png",
               "path": "default/грач_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.488342+00:00",
+              "created": "2026-04-15T20:01:48.080568+00:00",
               "previews": {
                 "128": "default/thumbs/128/грач_v2.png",
                 "256": "default/thumbs/256/грач_v2.png",
@@ -4083,7 +4214,7 @@
               "filename": "грач_v3.png",
               "path": "default/грач_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.488342+00:00",
+              "created": "2026-04-15T20:01:48.080568+00:00",
               "previews": {
                 "128": "default/thumbs/128/грач_v3.png",
                 "256": "default/thumbs/256/грач_v3.png",
@@ -4106,7 +4237,7 @@
               "filename": "конфеты_v1.png",
               "path": "default/конфеты_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.529342+00:00",
+              "created": "2026-04-15T20:01:48.121568+00:00",
               "previews": {
                 "128": "default/thumbs/128/конфеты_v1.png",
                 "256": "default/thumbs/256/конфеты_v1.png",
@@ -4118,7 +4249,7 @@
               "filename": "конфеты_v2.png",
               "path": "default/конфеты_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.530342+00:00",
+              "created": "2026-04-15T20:01:48.121568+00:00",
               "previews": {
                 "128": "default/thumbs/128/конфеты_v2.png",
                 "256": "default/thumbs/256/конфеты_v2.png",
@@ -4141,7 +4272,7 @@
               "filename": "меч_v1.png",
               "path": "default/меч_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.568341+00:00",
+              "created": "2026-04-15T20:01:48.159568+00:00",
               "previews": {
                 "128": "default/thumbs/128/меч_v1.png",
                 "256": "default/thumbs/256/меч_v1.png",
@@ -4153,7 +4284,7 @@
               "filename": "меч_v2.png",
               "path": "default/меч_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.569342+00:00",
+              "created": "2026-04-15T20:01:48.159568+00:00",
               "previews": {
                 "128": "default/thumbs/128/меч_v2.png",
                 "256": "default/thumbs/256/меч_v2.png",
@@ -4176,7 +4307,7 @@
               "filename": "малина_v1.png",
               "path": "default/малина_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.560342+00:00",
+              "created": "2026-04-15T20:01:48.151568+00:00",
               "previews": {
                 "128": "default/thumbs/128/малина_v1.png",
                 "256": "default/thumbs/256/малина_v1.png",
@@ -4188,11 +4319,46 @@
               "filename": "малина_v2.png",
               "path": "default/малина_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.561342+00:00",
+              "created": "2026-04-15T20:01:48.152568+00:00",
               "previews": {
                 "128": "default/thumbs/128/малина_v2.png",
                 "256": "default/thumbs/256/малина_v2.png",
                 "512": "default/thumbs/512/малина_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "собака": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "собака_v1.png",
+              "path": "default/собака_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.241568+00:00",
+              "previews": {
+                "128": "default/thumbs/128/собака_v1.png",
+                "256": "default/thumbs/256/собака_v1.png",
+                "512": "default/thumbs/512/собака_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "собака_v2.png",
+              "path": "default/собака_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.240568+00:00",
+              "previews": {
+                "128": "default/thumbs/128/собака_v2.png",
+                "256": "default/thumbs/256/собака_v2.png",
+                "512": "default/thumbs/512/собака_v2.png"
               }
             }
           ]
@@ -4211,7 +4377,7 @@
               "filename": "мяч_v1.png",
               "path": "default/мяч_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.577342+00:00",
+              "created": "2026-04-15T20:01:48.167568+00:00",
               "previews": {
                 "128": "default/thumbs/128/мяч_v1.png",
                 "256": "default/thumbs/256/мяч_v1.png",
@@ -4223,7 +4389,7 @@
               "filename": "мяч_v2.png",
               "path": "default/мяч_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.577342+00:00",
+              "created": "2026-04-15T20:01:48.168568+00:00",
               "previews": {
                 "128": "default/thumbs/128/мяч_v2.png",
                 "256": "default/thumbs/256/мяч_v2.png",
@@ -4246,7 +4412,7 @@
               "filename": "речка_v1.png",
               "path": "default/речка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.616341+00:00",
+              "created": "2026-04-15T20:01:48.204568+00:00",
               "previews": {
                 "128": "default/thumbs/128/речка_v1.png",
                 "256": "default/thumbs/256/речка_v1.png",
@@ -4258,7 +4424,7 @@
               "filename": "речка_v2.png",
               "path": "default/речка_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.615341+00:00",
+              "created": "2026-04-15T20:01:48.205568+00:00",
               "previews": {
                 "128": "default/thumbs/128/речка_v2.png",
                 "256": "default/thumbs/256/речка_v2.png",
@@ -4281,7 +4447,7 @@
               "filename": "доска_v1.png",
               "path": "default/доска_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.495342+00:00",
+              "created": "2026-04-15T20:01:48.087568+00:00",
               "previews": {
                 "128": "default/thumbs/128/доска_v1.png",
                 "256": "default/thumbs/256/доска_v1.png",
@@ -4293,7 +4459,7 @@
               "filename": "доска_v2.png",
               "path": "default/доска_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.496342+00:00",
+              "created": "2026-04-15T20:01:48.087568+00:00",
               "previews": {
                 "128": "default/thumbs/128/доска_v2.png",
                 "256": "default/thumbs/256/доска_v2.png",
@@ -4305,7 +4471,7 @@
               "filename": "доска_v3.png",
               "path": "default/доска_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.497342+00:00",
+              "created": "2026-04-15T20:01:48.088568+00:00",
               "previews": {
                 "128": "default/thumbs/128/доска_v3.png",
                 "256": "default/thumbs/256/доска_v3.png",
@@ -4328,7 +4494,7 @@
               "filename": "велосипед_v1.png",
               "path": "default/велосипед_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.470342+00:00",
+              "created": "2026-04-15T20:01:48.062568+00:00",
               "previews": {
                 "128": "default/thumbs/128/велосипед_v1.png",
                 "256": "default/thumbs/256/велосипед_v1.png",
@@ -4340,7 +4506,7 @@
               "filename": "велосипед_v2.png",
               "path": "default/велосипед_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.470342+00:00",
+              "created": "2026-04-15T20:01:48.062568+00:00",
               "previews": {
                 "128": "default/thumbs/128/велосипед_v2.png",
                 "256": "default/thumbs/256/велосипед_v2.png",
@@ -4352,7 +4518,7 @@
               "filename": "велосипед_v3.png",
               "path": "default/велосипед_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.471342+00:00",
+              "created": "2026-04-15T20:01:48.063568+00:00",
               "previews": {
                 "128": "default/thumbs/128/велосипед_v3.png",
                 "256": "default/thumbs/256/велосипед_v3.png",
@@ -4375,7 +4541,7 @@
               "filename": "лев_v1.png",
               "path": "default/лев_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.546342+00:00",
+              "created": "2026-04-15T20:01:48.137568+00:00",
               "previews": {
                 "128": "default/thumbs/128/лев_v1.png",
                 "256": "default/thumbs/256/лев_v1.png",
@@ -4387,7 +4553,7 @@
               "filename": "лев_v2.png",
               "path": "default/лев_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.547342+00:00",
+              "created": "2026-04-15T20:01:48.138568+00:00",
               "previews": {
                 "128": "default/thumbs/128/лев_v2.png",
                 "256": "default/thumbs/256/лев_v2.png",
@@ -4410,7 +4576,7 @@
               "filename": "перец_v1.png",
               "path": "default/перец_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.581342+00:00",
+              "created": "2026-04-15T20:01:48.172568+00:00",
               "previews": {
                 "128": "default/thumbs/128/перец_v1.png",
                 "256": "default/thumbs/256/перец_v1.png",
@@ -4422,7 +4588,7 @@
               "filename": "перец_v2.png",
               "path": "default/перец_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.582341+00:00",
+              "created": "2026-04-15T20:01:48.173568+00:00",
               "previews": {
                 "128": "default/thumbs/128/перец_v2.png",
                 "256": "default/thumbs/256/перец_v2.png",
@@ -4445,7 +4611,7 @@
               "filename": "мясо_v1.png",
               "path": "default/мясо_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.575341+00:00",
+              "created": "2026-04-15T20:01:48.166568+00:00",
               "previews": {
                 "128": "default/thumbs/128/мясо_v1.png",
                 "256": "default/thumbs/256/мясо_v1.png",
@@ -4457,7 +4623,7 @@
               "filename": "мясо_v2.png",
               "path": "default/мясо_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.576342+00:00",
+              "created": "2026-04-15T20:01:48.167568+00:00",
               "previews": {
                 "128": "default/thumbs/128/мясо_v2.png",
                 "256": "default/thumbs/256/мясо_v2.png",
@@ -4472,19 +4638,66 @@
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "сорока_v1.png",
               "path": "default/сорока_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.652341+00:00",
+              "created": "2026-04-15T20:01:48.245568+00:00",
               "previews": {
                 "128": "default/thumbs/128/сорока_v1.png",
                 "256": "default/thumbs/256/сорока_v1.png",
                 "512": "default/thumbs/512/сорока_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "сорока_v2.png",
+              "path": "default/сорока_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.245568+00:00",
+              "previews": {
+                "128": "default/thumbs/128/сорока_v2.png",
+                "256": "default/thumbs/256/сорока_v2.png",
+                "512": "default/thumbs/512/сорока_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "сок": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "сок_v1.png",
+              "path": "default/сок_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.243567+00:00",
+              "previews": {
+                "128": "default/thumbs/128/сок_v1.png",
+                "256": "default/thumbs/256/сок_v1.png",
+                "512": "default/thumbs/512/сок_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "сок_v2.png",
+              "path": "default/сок_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.243567+00:00",
+              "previews": {
+                "128": "default/thumbs/128/сок_v2.png",
+                "256": "default/thumbs/256/сок_v2.png",
+                "512": "default/thumbs/512/сок_v2.png"
               }
             }
           ]
@@ -4503,7 +4716,7 @@
               "filename": "банки_v1.png",
               "path": "default/банки_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.458342+00:00",
+              "created": "2026-04-15T20:01:48.050568+00:00",
               "previews": {
                 "128": "default/thumbs/128/банки_v1.png",
                 "256": "default/thumbs/256/банки_v1.png",
@@ -4515,7 +4728,7 @@
               "filename": "банки_v2.png",
               "path": "default/банки_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.458342+00:00",
+              "created": "2026-04-15T20:01:48.051568+00:00",
               "previews": {
                 "128": "default/thumbs/128/банки_v2.png",
                 "256": "default/thumbs/256/банки_v2.png",
@@ -4527,7 +4740,7 @@
               "filename": "банки_v3.png",
               "path": "default/банки_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.460342+00:00",
+              "created": "2026-04-15T20:01:48.052568+00:00",
               "previews": {
                 "128": "default/thumbs/128/банки_v3.png",
                 "256": "default/thumbs/256/банки_v3.png",
@@ -4550,7 +4763,7 @@
               "filename": "слон_v1.png",
               "path": "default/слон_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.644341+00:00",
+              "created": "2026-04-15T20:01:48.233567+00:00",
               "previews": {
                 "128": "default/thumbs/128/слон_v1.png",
                 "256": "default/thumbs/256/слон_v1.png",
@@ -4562,7 +4775,7 @@
               "filename": "слон_v2.png",
               "path": "default/слон_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.643341+00:00",
+              "created": "2026-04-15T20:01:48.233567+00:00",
               "previews": {
                 "128": "default/thumbs/128/слон_v2.png",
                 "256": "default/thumbs/256/слон_v2.png",
@@ -4585,7 +4798,7 @@
               "filename": "гриб_v1.png",
               "path": "default/гриб_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.489342+00:00",
+              "created": "2026-04-15T20:01:48.081568+00:00",
               "previews": {
                 "128": "default/thumbs/128/гриб_v1.png",
                 "256": "default/thumbs/256/гриб_v1.png",
@@ -4597,7 +4810,7 @@
               "filename": "гриб_v2.png",
               "path": "default/гриб_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.489342+00:00",
+              "created": "2026-04-15T20:01:48.081568+00:00",
               "previews": {
                 "128": "default/thumbs/128/гриб_v2.png",
                 "256": "default/thumbs/256/гриб_v2.png",
@@ -4609,7 +4822,7 @@
               "filename": "гриб_v3.png",
               "path": "default/гриб_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.490342+00:00",
+              "created": "2026-04-15T20:01:48.082568+00:00",
               "previews": {
                 "128": "default/thumbs/128/гриб_v3.png",
                 "256": "default/thumbs/256/гриб_v3.png",
@@ -4624,19 +4837,31 @@
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "сук_v1.png",
               "path": "default/сук_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.654341+00:00",
+              "created": "2026-04-15T20:01:48.250567+00:00",
               "previews": {
                 "128": "default/thumbs/128/сук_v1.png",
                 "256": "default/thumbs/256/сук_v1.png",
                 "512": "default/thumbs/512/сук_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "сук_v2.png",
+              "path": "default/сук_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.250567+00:00",
+              "previews": {
+                "128": "default/thumbs/128/сук_v2.png",
+                "256": "default/thumbs/256/сук_v2.png",
+                "512": "default/thumbs/512/сук_v2.png"
               }
             }
           ]
@@ -4655,7 +4880,7 @@
               "filename": "зенит_v1.png",
               "path": "default/зенит_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.506342+00:00",
+              "created": "2026-04-15T20:01:48.098568+00:00",
               "previews": {
                 "128": "default/thumbs/128/зенит_v1.png",
                 "256": "default/thumbs/256/зенит_v1.png",
@@ -4667,7 +4892,7 @@
               "filename": "зенит_v2.png",
               "path": "default/зенит_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.507342+00:00",
+              "created": "2026-04-15T20:01:48.098568+00:00",
               "previews": {
                 "128": "default/thumbs/128/зенит_v2.png",
                 "256": "default/thumbs/256/зенит_v2.png",
@@ -4679,7 +4904,7 @@
               "filename": "зенит_v3.png",
               "path": "default/зенит_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.507342+00:00",
+              "created": "2026-04-15T20:01:48.099568+00:00",
               "previews": {
                 "128": "default/thumbs/128/зенит_v3.png",
                 "256": "default/thumbs/256/зенит_v3.png",
@@ -4694,19 +4919,31 @@
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "телега_v1.png",
               "path": "default/телега_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.656341+00:00",
+              "created": "2026-04-15T20:01:48.254568+00:00",
               "previews": {
                 "128": "default/thumbs/128/телега_v1.png",
                 "256": "default/thumbs/256/телега_v1.png",
                 "512": "default/thumbs/512/телега_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "телега_v2.png",
+              "path": "default/телега_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.254568+00:00",
+              "previews": {
+                "128": "default/thumbs/128/телега_v2.png",
+                "256": "default/thumbs/256/телега_v2.png",
+                "512": "default/thumbs/512/телега_v2.png"
               }
             }
           ]
@@ -4725,7 +4962,7 @@
               "filename": "помощница_v1.png",
               "path": "default/помощница_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.600342+00:00",
+              "created": "2026-04-15T20:01:48.189568+00:00",
               "previews": {
                 "128": "default/thumbs/128/помощница_v1.png",
                 "256": "default/thumbs/256/помощница_v1.png",
@@ -4737,7 +4974,7 @@
               "filename": "помощница_v2.png",
               "path": "default/помощница_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.600342+00:00",
+              "created": "2026-04-15T20:01:48.190568+00:00",
               "previews": {
                 "128": "default/thumbs/128/помощница_v2.png",
                 "256": "default/thumbs/256/помощница_v2.png",
@@ -4760,7 +4997,7 @@
               "filename": "помидор_v1.png",
               "path": "default/помидор_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.598341+00:00",
+              "created": "2026-04-15T20:01:48.187568+00:00",
               "previews": {
                 "128": "default/thumbs/128/помидор_v1.png",
                 "256": "default/thumbs/256/помидор_v1.png",
@@ -4772,7 +5009,7 @@
               "filename": "помидор_v2.png",
               "path": "default/помидор_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.597342+00:00",
+              "created": "2026-04-15T20:01:48.188568+00:00",
               "previews": {
                 "128": "default/thumbs/128/помидор_v2.png",
                 "256": "default/thumbs/256/помидор_v2.png",
@@ -4795,7 +5032,7 @@
               "filename": "пирожное_v1.png",
               "path": "default/пирожное_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.591341+00:00",
+              "created": "2026-04-15T20:01:48.181568+00:00",
               "previews": {
                 "128": "default/thumbs/128/пирожное_v1.png",
                 "256": "default/thumbs/256/пирожное_v1.png",
@@ -4807,7 +5044,7 @@
               "filename": "пирожное_v2.png",
               "path": "default/пирожное_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.591341+00:00",
+              "created": "2026-04-15T20:01:48.182568+00:00",
               "previews": {
                 "128": "default/thumbs/128/пирожное_v2.png",
                 "256": "default/thumbs/256/пирожное_v2.png",
@@ -4830,7 +5067,7 @@
               "filename": "корочка_v1.png",
               "path": "default/корочка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.534342+00:00",
+              "created": "2026-04-15T20:01:48.125568+00:00",
               "previews": {
                 "128": "default/thumbs/128/корочка_v1.png",
                 "256": "default/thumbs/256/корочка_v1.png",
@@ -4842,7 +5079,7 @@
               "filename": "корочка_v2.png",
               "path": "default/корочка_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.535342+00:00",
+              "created": "2026-04-15T20:01:48.126568+00:00",
               "previews": {
                 "128": "default/thumbs/128/корочка_v2.png",
                 "256": "default/thumbs/256/корочка_v2.png",
@@ -4865,7 +5102,7 @@
               "filename": "коробка_v1.png",
               "path": "default/коробка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.532342+00:00",
+              "created": "2026-04-15T20:01:48.123568+00:00",
               "previews": {
                 "128": "default/thumbs/128/коробка_v1.png",
                 "256": "default/thumbs/256/коробка_v1.png",
@@ -4877,7 +5114,7 @@
               "filename": "коробка_v2.png",
               "path": "default/коробка_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.532342+00:00",
+              "created": "2026-04-15T20:01:48.124568+00:00",
               "previews": {
                 "128": "default/thumbs/128/коробка_v2.png",
                 "256": "default/thumbs/256/коробка_v2.png",
@@ -4892,19 +5129,31 @@
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "хлеб_v1.png",
               "path": "default/хлеб_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.659341+00:00",
+              "created": "2026-04-15T20:01:48.262568+00:00",
               "previews": {
                 "128": "default/thumbs/128/хлеб_v1.png",
                 "256": "default/thumbs/256/хлеб_v1.png",
                 "512": "default/thumbs/512/хлеб_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "хлеб_v2.png",
+              "path": "default/хлеб_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.261568+00:00",
+              "previews": {
+                "128": "default/thumbs/128/хлеб_v2.png",
+                "256": "default/thumbs/256/хлеб_v2.png",
+                "512": "default/thumbs/512/хлеб_v2.png"
               }
             }
           ]
@@ -4923,7 +5172,7 @@
               "filename": "пища_v1.png",
               "path": "default/пища_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.594342+00:00",
+              "created": "2026-04-15T20:01:48.183568+00:00",
               "previews": {
                 "128": "default/thumbs/128/пища_v1.png",
                 "256": "default/thumbs/256/пища_v1.png",
@@ -4935,7 +5184,7 @@
               "filename": "пища_v2.png",
               "path": "default/пища_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.594342+00:00",
+              "created": "2026-04-15T20:01:48.184568+00:00",
               "previews": {
                 "128": "default/thumbs/128/пища_v2.png",
                 "256": "default/thumbs/256/пища_v2.png",
@@ -4958,7 +5207,7 @@
               "filename": "баранка_v1.png",
               "path": "default/баранка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.462342+00:00",
+              "created": "2026-04-15T20:01:48.055568+00:00",
               "previews": {
                 "128": "default/thumbs/128/баранка_v1.png",
                 "256": "default/thumbs/256/баранка_v1.png",
@@ -4970,7 +5219,7 @@
               "filename": "баранка_v2.png",
               "path": "default/баранка_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.463342+00:00",
+              "created": "2026-04-15T20:01:48.055568+00:00",
               "previews": {
                 "128": "default/thumbs/128/баранка_v2.png",
                 "256": "default/thumbs/256/баранка_v2.png",
@@ -4982,11 +5231,46 @@
               "filename": "баранка_v3.png",
               "path": "default/баранка_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.464342+00:00",
+              "created": "2026-04-15T20:01:48.056568+00:00",
               "previews": {
                 "128": "default/thumbs/128/баранка_v3.png",
                 "256": "default/thumbs/256/баранка_v3.png",
                 "512": "default/thumbs/512/баранка_v3.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "стол": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "стол_v1.png",
+              "path": "default/стол_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.248568+00:00",
+              "previews": {
+                "128": "default/thumbs/128/стол_v1.png",
+                "256": "default/thumbs/256/стол_v1.png",
+                "512": "default/thumbs/512/стол_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "стол_v2.png",
+              "path": "default/стол_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.247568+00:00",
+              "previews": {
+                "128": "default/thumbs/128/стол_v2.png",
+                "256": "default/thumbs/256/стол_v2.png",
+                "512": "default/thumbs/512/стол_v2.png"
               }
             }
           ]
@@ -5005,7 +5289,7 @@
               "filename": "лес_v1.png",
               "path": "default/лес_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.548342+00:00",
+              "created": "2026-04-15T20:01:48.138568+00:00",
               "previews": {
                 "128": "default/thumbs/128/лес_v1.png",
                 "256": "default/thumbs/256/лес_v1.png",
@@ -5017,7 +5301,7 @@
               "filename": "лес_v2.png",
               "path": "default/лес_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.548342+00:00",
+              "created": "2026-04-15T20:01:48.139568+00:00",
               "previews": {
                 "128": "default/thumbs/128/лес_v2.png",
                 "256": "default/thumbs/256/лес_v2.png",
@@ -5040,7 +5324,7 @@
               "filename": "мушка_v1.png",
               "path": "default/мушка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.573342+00:00",
+              "created": "2026-04-15T20:01:48.164568+00:00",
               "previews": {
                 "128": "default/thumbs/128/мушка_v1.png",
                 "256": "default/thumbs/256/мушка_v1.png",
@@ -5052,7 +5336,7 @@
               "filename": "мушка_v2.png",
               "path": "default/мушка_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.574342+00:00",
+              "created": "2026-04-15T20:01:48.164568+00:00",
               "previews": {
                 "128": "default/thumbs/128/мушка_v2.png",
                 "256": "default/thumbs/256/мушка_v2.png",
@@ -5067,19 +5351,31 @@
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "череп_v1.png",
               "path": "default/череп_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.660341+00:00",
+              "created": "2026-04-15T20:01:48.263567+00:00",
               "previews": {
                 "128": "default/thumbs/128/череп_v1.png",
                 "256": "default/thumbs/256/череп_v1.png",
                 "512": "default/thumbs/512/череп_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "череп_v2.png",
+              "path": "default/череп_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.263567+00:00",
+              "previews": {
+                "128": "default/thumbs/128/череп_v2.png",
+                "256": "default/thumbs/256/череп_v2.png",
+                "512": "default/thumbs/512/череп_v2.png"
               }
             }
           ]
@@ -5090,19 +5386,31 @@
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "фото_v1.png",
               "path": "default/фото_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.659341+00:00",
+              "created": "2026-04-15T20:01:48.261568+00:00",
               "previews": {
                 "128": "default/thumbs/128/фото_v1.png",
                 "256": "default/thumbs/256/фото_v1.png",
                 "512": "default/thumbs/512/фото_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "фото_v2.png",
+              "path": "default/фото_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.260567+00:00",
+              "previews": {
+                "128": "default/thumbs/128/фото_v2.png",
+                "256": "default/thumbs/256/фото_v2.png",
+                "512": "default/thumbs/512/фото_v2.png"
               }
             }
           ]
@@ -5121,7 +5429,7 @@
               "filename": "светофор_v1.png",
               "path": "default/светофор_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.630341+00:00",
+              "created": "2026-04-15T20:01:48.219568+00:00",
               "previews": {
                 "128": "default/thumbs/128/светофор_v1.png",
                 "256": "default/thumbs/256/светофор_v1.png",
@@ -5133,11 +5441,46 @@
               "filename": "светофор_v2.png",
               "path": "default/светофор_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.629341+00:00",
+              "created": "2026-04-15T20:01:48.219568+00:00",
               "previews": {
                 "128": "default/thumbs/128/светофор_v2.png",
                 "256": "default/thumbs/256/светофор_v2.png",
                 "512": "default/thumbs/512/светофор_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "сом": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "сом_v1.png",
+              "path": "default/сом_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.244568+00:00",
+              "previews": {
+                "128": "default/thumbs/128/сом_v1.png",
+                "256": "default/thumbs/256/сом_v1.png",
+                "512": "default/thumbs/512/сом_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "сом_v2.png",
+              "path": "default/сом_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.244568+00:00",
+              "previews": {
+                "128": "default/thumbs/128/сом_v2.png",
+                "256": "default/thumbs/256/сом_v2.png",
+                "512": "default/thumbs/512/сом_v2.png"
               }
             }
           ]
@@ -5156,7 +5499,7 @@
               "filename": "рама_v1.png",
               "path": "default/рама_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.611341+00:00",
+              "created": "2026-04-15T20:01:48.200568+00:00",
               "previews": {
                 "128": "default/thumbs/128/рама_v1.png",
                 "256": "default/thumbs/256/рама_v1.png",
@@ -5168,7 +5511,7 @@
               "filename": "рама_v2.png",
               "path": "default/рама_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.611341+00:00",
+              "created": "2026-04-15T20:01:48.201568+00:00",
               "previews": {
                 "128": "default/thumbs/128/рама_v2.png",
                 "256": "default/thumbs/256/рама_v2.png",
@@ -5191,7 +5534,7 @@
               "filename": "башмак_v1.png",
               "path": "default/башмак_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.464342+00:00",
+              "created": "2026-04-15T20:01:48.056568+00:00",
               "previews": {
                 "128": "default/thumbs/128/башмак_v1.png",
                 "256": "default/thumbs/256/башмак_v1.png",
@@ -5203,7 +5546,7 @@
               "filename": "башмак_v2.png",
               "path": "default/башмак_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.465342+00:00",
+              "created": "2026-04-15T20:01:48.057568+00:00",
               "previews": {
                 "128": "default/thumbs/128/башмак_v2.png",
                 "256": "default/thumbs/256/башмак_v2.png",
@@ -5215,7 +5558,7 @@
               "filename": "башмак_v3.png",
               "path": "default/башмак_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.465342+00:00",
+              "created": "2026-04-15T20:01:48.057568+00:00",
               "previews": {
                 "128": "default/thumbs/128/башмак_v3.png",
                 "256": "default/thumbs/256/башмак_v3.png",
@@ -5238,7 +5581,7 @@
               "filename": "прут_v1.png",
               "path": "default/прут_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.605341+00:00",
+              "created": "2026-04-15T20:01:48.194568+00:00",
               "previews": {
                 "128": "default/thumbs/128/прут_v1.png",
                 "256": "default/thumbs/256/прут_v1.png",
@@ -5250,7 +5593,7 @@
               "filename": "прут_v2.png",
               "path": "default/прут_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.605341+00:00",
+              "created": "2026-04-15T20:01:48.195568+00:00",
               "previews": {
                 "128": "default/thumbs/128/прут_v2.png",
                 "256": "default/thumbs/256/прут_v2.png",
@@ -5261,46 +5604,35 @@
         }
       }
     },
-    "сом": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "сом_v1.png",
-              "path": "default/сом_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T19:58:55.651341+00:00",
-              "previews": {
-                "128": "default/thumbs/128/сом_v1.png",
-                "256": "default/thumbs/256/сом_v1.png",
-                "512": "default/thumbs/512/сом_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
     "стул": {
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "стул_v1.png",
               "path": "default/стул_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.653341+00:00",
+              "created": "2026-04-15T20:01:48.249568+00:00",
               "previews": {
                 "128": "default/thumbs/128/стул_v1.png",
                 "256": "default/thumbs/256/стул_v1.png",
                 "512": "default/thumbs/512/стул_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "стул_v2.png",
+              "path": "default/стул_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.249568+00:00",
+              "previews": {
+                "128": "default/thumbs/128/стул_v2.png",
+                "256": "default/thumbs/256/стул_v2.png",
+                "512": "default/thumbs/512/стул_v2.png"
               }
             }
           ]
@@ -5319,7 +5651,7 @@
               "filename": "коробок_v1.png",
               "path": "default/коробок_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.533342+00:00",
+              "created": "2026-04-15T20:01:48.124568+00:00",
               "previews": {
                 "128": "default/thumbs/128/коробок_v1.png",
                 "256": "default/thumbs/256/коробок_v1.png",
@@ -5331,7 +5663,7 @@
               "filename": "коробок_v2.png",
               "path": "default/коробок_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.533342+00:00",
+              "created": "2026-04-15T20:01:48.125568+00:00",
               "previews": {
                 "128": "default/thumbs/128/коробок_v2.png",
                 "256": "default/thumbs/256/коробок_v2.png",
@@ -5346,19 +5678,31 @@
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "стук_v1.png",
               "path": "default/стук_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.653341+00:00",
+              "created": "2026-04-15T20:01:48.248568+00:00",
               "previews": {
                 "128": "default/thumbs/128/стук_v1.png",
                 "256": "default/thumbs/256/стук_v1.png",
                 "512": "default/thumbs/512/стук_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "стук_v2.png",
+              "path": "default/стук_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.248568+00:00",
+              "previews": {
+                "128": "default/thumbs/128/стук_v2.png",
+                "256": "default/thumbs/256/стук_v2.png",
+                "512": "default/thumbs/512/стук_v2.png"
               }
             }
           ]
@@ -5369,19 +5713,31 @@
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "точка_v1.png",
               "path": "default/точка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.658341+00:00",
+              "created": "2026-04-15T20:01:48.258568+00:00",
               "previews": {
                 "128": "default/thumbs/128/точка_v1.png",
                 "256": "default/thumbs/256/точка_v1.png",
                 "512": "default/thumbs/512/точка_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "точка_v2.png",
+              "path": "default/точка_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.258568+00:00",
+              "previews": {
+                "128": "default/thumbs/128/точка_v2.png",
+                "256": "default/thumbs/256/точка_v2.png",
+                "512": "default/thumbs/512/точка_v2.png"
               }
             }
           ]
@@ -5400,7 +5756,7 @@
               "filename": "бабочка_v1.png",
               "path": "default/бабочка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.455342+00:00",
+              "created": "2026-04-15T20:01:48.047568+00:00",
               "previews": {
                 "128": "default/thumbs/128/бабочка_v1.png",
                 "256": "default/thumbs/256/бабочка_v1.png",
@@ -5412,7 +5768,7 @@
               "filename": "бабочка_v2.png",
               "path": "default/бабочка_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.455342+00:00",
+              "created": "2026-04-15T20:01:48.048568+00:00",
               "previews": {
                 "128": "default/thumbs/128/бабочка_v2.png",
                 "256": "default/thumbs/256/бабочка_v2.png",
@@ -5424,7 +5780,7 @@
               "filename": "бабочка_v3.png",
               "path": "default/бабочка_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.456342+00:00",
+              "created": "2026-04-15T20:01:48.048568+00:00",
               "previews": {
                 "128": "default/thumbs/128/бабочка_v3.png",
                 "256": "default/thumbs/256/бабочка_v3.png",
@@ -5447,7 +5803,7 @@
               "filename": "перчик_v1.png",
               "path": "default/перчик_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.585341+00:00",
+              "created": "2026-04-15T20:01:48.175568+00:00",
               "previews": {
                 "128": "default/thumbs/128/перчик_v1.png",
                 "256": "default/thumbs/256/перчик_v1.png",
@@ -5459,7 +5815,7 @@
               "filename": "перчик_v2.png",
               "path": "default/перчик_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.585341+00:00",
+              "created": "2026-04-15T20:01:48.176568+00:00",
               "previews": {
                 "128": "default/thumbs/128/перчик_v2.png",
                 "256": "default/thumbs/256/перчик_v2.png",
@@ -5482,7 +5838,7 @@
               "filename": "пружина_v1.png",
               "path": "default/пружина_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.604342+00:00",
+              "created": "2026-04-15T20:01:48.193568+00:00",
               "previews": {
                 "128": "default/thumbs/128/пружина_v1.png",
                 "256": "default/thumbs/256/пружина_v1.png",
@@ -5494,80 +5850,11 @@
               "filename": "пружина_v2.png",
               "path": "default/пружина_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.604342+00:00",
+              "created": "2026-04-15T20:01:48.194568+00:00",
               "previews": {
                 "128": "default/thumbs/128/пружина_v2.png",
                 "256": "default/thumbs/256/пружина_v2.png",
                 "512": "default/thumbs/512/пружина_v2.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "телескоп": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "телескоп_v1.png",
-              "path": "default/телескоп_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T19:58:55.656341+00:00",
-              "previews": {
-                "128": "default/thumbs/128/телескоп_v1.png",
-                "256": "default/thumbs/256/телескоп_v1.png",
-                "512": "default/thumbs/512/телескоп_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "сок": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "сок_v1.png",
-              "path": "default/сок_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T19:58:55.651341+00:00",
-              "previews": {
-                "128": "default/thumbs/128/сок_v1.png",
-                "256": "default/thumbs/256/сок_v1.png",
-                "512": "default/thumbs/512/сок_v1.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "стол": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "стол_v1.png",
-              "path": "default/стол_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T19:58:55.653341+00:00",
-              "previews": {
-                "128": "default/thumbs/128/стол_v1.png",
-                "256": "default/thumbs/256/стол_v1.png",
-                "512": "default/thumbs/512/стол_v1.png"
               }
             }
           ]
@@ -5586,7 +5873,7 @@
               "filename": "лампа_v1.png",
               "path": "default/лампа_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.544342+00:00",
+              "created": "2026-04-15T20:01:48.135568+00:00",
               "previews": {
                 "128": "default/thumbs/128/лампа_v1.png",
                 "256": "default/thumbs/256/лампа_v1.png",
@@ -5598,7 +5885,7 @@
               "filename": "лампа_v2.png",
               "path": "default/лампа_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.545342+00:00",
+              "created": "2026-04-15T20:01:48.136568+00:00",
               "previews": {
                 "128": "default/thumbs/128/лампа_v2.png",
                 "256": "default/thumbs/256/лампа_v2.png",
@@ -5613,19 +5900,31 @@
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "эскимо_v1.png",
               "path": "default/эскимо_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.665341+00:00",
+              "created": "2026-04-15T20:01:48.272568+00:00",
               "previews": {
                 "128": "default/thumbs/128/эскимо_v1.png",
                 "256": "default/thumbs/256/эскимо_v1.png",
                 "512": "default/thumbs/512/эскимо_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "эскимо_v2.png",
+              "path": "default/эскимо_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.271568+00:00",
+              "previews": {
+                "128": "default/thumbs/128/эскимо_v2.png",
+                "256": "default/thumbs/256/эскимо_v2.png",
+                "512": "default/thumbs/512/эскимо_v2.png"
               }
             }
           ]
@@ -5644,7 +5943,7 @@
               "filename": "ананас_v1.png",
               "path": "default/ананас_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.451342+00:00",
+              "created": "2026-04-15T20:01:48.043568+00:00",
               "previews": {
                 "128": "default/thumbs/128/ананас_v1.png",
                 "256": "default/thumbs/256/ананас_v1.png",
@@ -5656,7 +5955,7 @@
               "filename": "ананас_v2.png",
               "path": "default/ананас_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.451342+00:00",
+              "created": "2026-04-15T20:01:48.044568+00:00",
               "previews": {
                 "128": "default/thumbs/128/ананас_v2.png",
                 "256": "default/thumbs/256/ананас_v2.png",
@@ -5668,7 +5967,7 @@
               "filename": "ананас_v3.png",
               "path": "default/ананас_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.452342+00:00",
+              "created": "2026-04-15T20:01:48.045568+00:00",
               "previews": {
                 "128": "default/thumbs/128/ананас_v3.png",
                 "256": "default/thumbs/256/ананас_v3.png",
@@ -5683,19 +5982,31 @@
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "снежок_v1.png",
               "path": "default/снежок_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.649341+00:00",
+              "created": "2026-04-15T20:01:48.239568+00:00",
               "previews": {
                 "128": "default/thumbs/128/снежок_v1.png",
                 "256": "default/thumbs/256/снежок_v1.png",
                 "512": "default/thumbs/512/снежок_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "снежок_v2.png",
+              "path": "default/снежок_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.239568+00:00",
+              "previews": {
+                "128": "default/thumbs/128/снежок_v2.png",
+                "256": "default/thumbs/256/снежок_v2.png",
+                "512": "default/thumbs/512/снежок_v2.png"
               }
             }
           ]
@@ -5714,7 +6025,7 @@
               "filename": "черепашка_v1.png",
               "path": "default/черепашка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.662341+00:00",
+              "created": "2026-04-15T20:01:48.265568+00:00",
               "previews": {
                 "128": "default/thumbs/128/черепашка_v1.png",
                 "256": "default/thumbs/256/черепашка_v1.png",
@@ -5737,7 +6048,7 @@
               "filename": "мантия_v1.png",
               "path": "default/мантия_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.564342+00:00",
+              "created": "2026-04-15T20:01:48.155568+00:00",
               "previews": {
                 "128": "default/thumbs/128/мантия_v1.png",
                 "256": "default/thumbs/256/мантия_v1.png",
@@ -5749,7 +6060,7 @@
               "filename": "мантия_v2.png",
               "path": "default/мантия_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.565341+00:00",
+              "created": "2026-04-15T20:01:48.156568+00:00",
               "previews": {
                 "128": "default/thumbs/128/мантия_v2.png",
                 "256": "default/thumbs/256/мантия_v2.png",
@@ -5772,7 +6083,7 @@
               "filename": "доспехи_v1.png",
               "path": "default/доспехи_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.499342+00:00",
+              "created": "2026-04-15T20:01:48.091568+00:00",
               "previews": {
                 "128": "default/thumbs/128/доспехи_v1.png",
                 "256": "default/thumbs/256/доспехи_v1.png",
@@ -5784,7 +6095,7 @@
               "filename": "доспехи_v2.png",
               "path": "default/доспехи_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.499342+00:00",
+              "created": "2026-04-15T20:01:48.091568+00:00",
               "previews": {
                 "128": "default/thumbs/128/доспехи_v2.png",
                 "256": "default/thumbs/256/доспехи_v2.png",
@@ -5796,7 +6107,7 @@
               "filename": "доспехи_v3.png",
               "path": "default/доспехи_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.500342+00:00",
+              "created": "2026-04-15T20:01:48.092568+00:00",
               "previews": {
                 "128": "default/thumbs/128/доспехи_v3.png",
                 "256": "default/thumbs/256/доспехи_v3.png",
@@ -5819,7 +6130,7 @@
               "filename": "лама_v1.png",
               "path": "default/лама_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.543342+00:00",
+              "created": "2026-04-15T20:01:48.134568+00:00",
               "previews": {
                 "128": "default/thumbs/128/лама_v1.png",
                 "256": "default/thumbs/256/лама_v1.png",
@@ -5831,7 +6142,7 @@
               "filename": "лама_v2.png",
               "path": "default/лама_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.544342+00:00",
+              "created": "2026-04-15T20:01:48.135568+00:00",
               "previews": {
                 "128": "default/thumbs/128/лама_v2.png",
                 "256": "default/thumbs/256/лама_v2.png",
@@ -5854,7 +6165,7 @@
               "filename": "снеговик_v1.png",
               "path": "default/снеговик_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.648341+00:00",
+              "created": "2026-04-15T20:01:48.236567+00:00",
               "previews": {
                 "128": "default/thumbs/128/снеговик_v1.png",
                 "256": "default/thumbs/256/снеговик_v1.png",
@@ -5866,7 +6177,7 @@
               "filename": "снеговик_v2.png",
               "path": "default/снеговик_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.647341+00:00",
+              "created": "2026-04-15T20:01:48.237568+00:00",
               "previews": {
                 "128": "default/thumbs/128/снеговик_v2.png",
                 "256": "default/thumbs/256/снеговик_v2.png",
@@ -5881,19 +6192,66 @@
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "экскаватор_v1.png",
               "path": "default/экскаватор_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.664341+00:00",
+              "created": "2026-04-15T20:01:48.270567+00:00",
               "previews": {
                 "128": "default/thumbs/128/экскаватор_v1.png",
                 "256": "default/thumbs/256/экскаватор_v1.png",
                 "512": "default/thumbs/512/экскаватор_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "экскаватор_v2.png",
+              "path": "default/экскаватор_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.269567+00:00",
+              "previews": {
+                "128": "default/thumbs/128/экскаватор_v2.png",
+                "256": "default/thumbs/256/экскаватор_v2.png",
+                "512": "default/thumbs/512/экскаватор_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "сыр": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "сыр_v1.png",
+              "path": "default/сыр_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.253567+00:00",
+              "previews": {
+                "128": "default/thumbs/128/сыр_v1.png",
+                "256": "default/thumbs/256/сыр_v1.png",
+                "512": "default/thumbs/512/сыр_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "сыр_v2.png",
+              "path": "default/сыр_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.252568+00:00",
+              "previews": {
+                "128": "default/thumbs/128/сыр_v2.png",
+                "256": "default/thumbs/256/сыр_v2.png",
+                "512": "default/thumbs/512/сыр_v2.png"
               }
             }
           ]
@@ -5912,7 +6270,7 @@
               "filename": "карман_v1.png",
               "path": "default/карман_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.514342+00:00",
+              "created": "2026-04-15T20:01:48.106568+00:00",
               "previews": {
                 "128": "default/thumbs/128/карман_v1.png",
                 "256": "default/thumbs/256/карман_v1.png",
@@ -5924,7 +6282,7 @@
               "filename": "карман_v2.png",
               "path": "default/карман_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.515342+00:00",
+              "created": "2026-04-15T20:01:48.106568+00:00",
               "previews": {
                 "128": "default/thumbs/128/карман_v2.png",
                 "256": "default/thumbs/256/карман_v2.png",
@@ -5936,34 +6294,11 @@
               "filename": "карман_v3.png",
               "path": "default/карман_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.516342+00:00",
+              "created": "2026-04-15T20:01:48.107568+00:00",
               "previews": {
                 "128": "default/thumbs/128/карман_v3.png",
                 "256": "default/thumbs/256/карман_v3.png",
                 "512": "default/thumbs/512/карман_v3.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "собака": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "собака_v1.png",
-              "path": "default/собака_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T19:58:55.649341+00:00",
-              "previews": {
-                "128": "default/thumbs/128/собака_v1.png",
-                "256": "default/thumbs/256/собака_v1.png",
-                "512": "default/thumbs/512/собака_v1.png"
               }
             }
           ]
@@ -5982,7 +6317,7 @@
               "filename": "луковица_v1.png",
               "path": "default/луковица_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.557342+00:00",
+              "created": "2026-04-15T20:01:48.148568+00:00",
               "previews": {
                 "128": "default/thumbs/128/луковица_v1.png",
                 "256": "default/thumbs/256/луковица_v1.png",
@@ -5994,7 +6329,7 @@
               "filename": "луковица_v2.png",
               "path": "default/луковица_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.557342+00:00",
+              "created": "2026-04-15T20:01:48.148568+00:00",
               "previews": {
                 "128": "default/thumbs/128/луковица_v2.png",
                 "256": "default/thumbs/256/луковица_v2.png",
@@ -6017,7 +6352,7 @@
               "filename": "педаль_v1.png",
               "path": "default/педаль_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.580342+00:00",
+              "created": "2026-04-15T20:01:48.171568+00:00",
               "previews": {
                 "128": "default/thumbs/128/педаль_v1.png",
                 "256": "default/thumbs/256/педаль_v1.png",
@@ -6029,7 +6364,7 @@
               "filename": "педаль_v2.png",
               "path": "default/педаль_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.581342+00:00",
+              "created": "2026-04-15T20:01:48.172568+00:00",
               "previews": {
                 "128": "default/thumbs/128/педаль_v2.png",
                 "256": "default/thumbs/256/педаль_v2.png",
@@ -6052,7 +6387,7 @@
               "filename": "сверло_v1.png",
               "path": "default/сверло_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.627342+00:00",
+              "created": "2026-04-15T20:01:48.216568+00:00",
               "previews": {
                 "128": "default/thumbs/128/сверло_v1.png",
                 "256": "default/thumbs/256/сверло_v1.png",
@@ -6064,7 +6399,7 @@
               "filename": "сверло_v2.png",
               "path": "default/сверло_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.627342+00:00",
+              "created": "2026-04-15T20:01:48.217568+00:00",
               "previews": {
                 "128": "default/thumbs/128/сверло_v2.png",
                 "256": "default/thumbs/256/сверло_v2.png",
@@ -6079,19 +6414,31 @@
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "снежинка_v1.png",
               "path": "default/снежинка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.648341+00:00",
+              "created": "2026-04-15T20:01:48.238568+00:00",
               "previews": {
                 "128": "default/thumbs/128/снежинка_v1.png",
                 "256": "default/thumbs/256/снежинка_v1.png",
                 "512": "default/thumbs/512/снежинка_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "снежинка_v2.png",
+              "path": "default/снежинка_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.238568+00:00",
+              "previews": {
+                "128": "default/thumbs/128/снежинка_v2.png",
+                "256": "default/thumbs/256/снежинка_v2.png",
+                "512": "default/thumbs/512/снежинка_v2.png"
               }
             }
           ]
@@ -6110,7 +6457,7 @@
               "filename": "прогулка_v1.png",
               "path": "default/прогулка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.601341+00:00",
+              "created": "2026-04-15T20:01:48.191568+00:00",
               "previews": {
                 "128": "default/thumbs/128/прогулка_v1.png",
                 "256": "default/thumbs/256/прогулка_v1.png",
@@ -6122,7 +6469,7 @@
               "filename": "прогулка_v2.png",
               "path": "default/прогулка_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.601341+00:00",
+              "created": "2026-04-15T20:01:48.191568+00:00",
               "previews": {
                 "128": "default/thumbs/128/прогулка_v2.png",
                 "256": "default/thumbs/256/прогулка_v2.png",
@@ -6145,7 +6492,7 @@
               "filename": "кони_v1.png",
               "path": "default/кони_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.528342+00:00",
+              "created": "2026-04-15T20:01:48.119568+00:00",
               "previews": {
                 "128": "default/thumbs/128/кони_v1.png",
                 "256": "default/thumbs/256/кони_v1.png",
@@ -6157,7 +6504,7 @@
               "filename": "кони_v2.png",
               "path": "default/кони_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.529342+00:00",
+              "created": "2026-04-15T20:01:48.120568+00:00",
               "previews": {
                 "128": "default/thumbs/128/кони_v2.png",
                 "256": "default/thumbs/256/кони_v2.png",
@@ -6180,7 +6527,7 @@
               "filename": "сетка_v1.png",
               "path": "default/сетка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.636341+00:00",
+              "created": "2026-04-15T20:01:48.224568+00:00",
               "previews": {
                 "128": "default/thumbs/128/сетка_v1.png",
                 "256": "default/thumbs/256/сетка_v1.png",
@@ -6192,7 +6539,7 @@
               "filename": "сетка_v2.png",
               "path": "default/сетка_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.635341+00:00",
+              "created": "2026-04-15T20:01:48.226568+00:00",
               "previews": {
                 "128": "default/thumbs/128/сетка_v2.png",
                 "256": "default/thumbs/256/сетка_v2.png",
@@ -6207,19 +6554,31 @@
       "default_style": "default",
       "styles": {
         "default": {
-          "latest": 1,
-          "best": 1,
+          "latest": 2,
+          "best": 2,
           "versions": [
             {
               "n": 1,
               "filename": "экран_v1.png",
               "path": "default/экран_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.663341+00:00",
+              "created": "2026-04-15T20:01:48.268568+00:00",
               "previews": {
                 "128": "default/thumbs/128/экран_v1.png",
                 "256": "default/thumbs/256/экран_v1.png",
                 "512": "default/thumbs/512/экран_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "экран_v2.png",
+              "path": "default/экран_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.268568+00:00",
+              "previews": {
+                "128": "default/thumbs/128/экран_v2.png",
+                "256": "default/thumbs/256/экран_v2.png",
+                "512": "default/thumbs/512/экран_v2.png"
               }
             }
           ]
@@ -6238,7 +6597,7 @@
               "filename": "ком_v1.png",
               "path": "default/ком_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.527342+00:00",
+              "created": "2026-04-15T20:01:48.118568+00:00",
               "previews": {
                 "128": "default/thumbs/128/ком_v1.png",
                 "256": "default/thumbs/256/ком_v1.png",
@@ -6250,7 +6609,7 @@
               "filename": "ком_v2.png",
               "path": "default/ком_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.527342+00:00",
+              "created": "2026-04-15T20:01:48.119568+00:00",
               "previews": {
                 "128": "default/thumbs/128/ком_v2.png",
                 "256": "default/thumbs/256/ком_v2.png",
@@ -6273,7 +6632,7 @@
               "filename": "повар_v1.png",
               "path": "default/повар_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.597342+00:00",
+              "created": "2026-04-15T20:01:48.186568+00:00",
               "previews": {
                 "128": "default/thumbs/128/повар_v1.png",
                 "256": "default/thumbs/256/повар_v1.png",
@@ -6285,11 +6644,46 @@
               "filename": "повар_v2.png",
               "path": "default/повар_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.596341+00:00",
+              "created": "2026-04-15T20:01:48.187568+00:00",
               "previews": {
                 "128": "default/thumbs/128/повар_v2.png",
                 "256": "default/thumbs/256/повар_v2.png",
                 "512": "default/thumbs/512/повар_v2.png"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "суп": {
+      "default_style": "default",
+      "styles": {
+        "default": {
+          "latest": 2,
+          "best": 2,
+          "versions": [
+            {
+              "n": 1,
+              "filename": "суп_v1.png",
+              "path": "default/суп_v1.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.252568+00:00",
+              "previews": {
+                "128": "default/thumbs/128/суп_v1.png",
+                "256": "default/thumbs/256/суп_v1.png",
+                "512": "default/thumbs/512/суп_v1.png"
+              }
+            },
+            {
+              "n": 2,
+              "filename": "суп_v2.png",
+              "path": "default/суп_v2.png",
+              "prompt": "",
+              "created": "2026-04-15T20:01:48.251568+00:00",
+              "previews": {
+                "128": "default/thumbs/128/суп_v2.png",
+                "256": "default/thumbs/256/суп_v2.png",
+                "512": "default/thumbs/512/суп_v2.png"
               }
             }
           ]
@@ -6308,7 +6702,7 @@
               "filename": "апельсин_v1.png",
               "path": "default/апельсин_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.453342+00:00",
+              "created": "2026-04-15T20:01:48.045568+00:00",
               "previews": {
                 "128": "default/thumbs/128/апельсин_v1.png",
                 "256": "default/thumbs/256/апельсин_v1.png",
@@ -6320,7 +6714,7 @@
               "filename": "апельсин_v2.png",
               "path": "default/апельсин_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.453342+00:00",
+              "created": "2026-04-15T20:01:48.046568+00:00",
               "previews": {
                 "128": "default/thumbs/128/апельсин_v2.png",
                 "256": "default/thumbs/256/апельсин_v2.png",
@@ -6332,7 +6726,7 @@
               "filename": "апельсин_v3.png",
               "path": "default/апельсин_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.454342+00:00",
+              "created": "2026-04-15T20:01:48.047568+00:00",
               "previews": {
                 "128": "default/thumbs/128/апельсин_v3.png",
                 "256": "default/thumbs/256/апельсин_v3.png",
@@ -6355,7 +6749,7 @@
               "filename": "абрикос_v1.png",
               "path": "default/абрикос_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.442342+00:00",
+              "created": "2026-04-15T20:01:48.035568+00:00",
               "previews": {
                 "128": "default/thumbs/128/абрикос_v1.png",
                 "256": "default/thumbs/256/абрикос_v1.png",
@@ -6367,7 +6761,7 @@
               "filename": "абрикос_v2.png",
               "path": "default/абрикос_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.442342+00:00",
+              "created": "2026-04-15T20:01:48.035568+00:00",
               "previews": {
                 "128": "default/thumbs/128/абрикос_v2.png",
                 "256": "default/thumbs/256/абрикос_v2.png",
@@ -6379,7 +6773,7 @@
               "filename": "абрикос_v3.png",
               "path": "default/абрикос_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.443342+00:00",
+              "created": "2026-04-15T20:01:48.036568+00:00",
               "previews": {
                 "128": "default/thumbs/128/абрикос_v3.png",
                 "256": "default/thumbs/256/абрикос_v3.png",
@@ -6402,7 +6796,7 @@
               "filename": "мишка_v1.png",
               "path": "default/мишка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.571342+00:00",
+              "created": "2026-04-15T20:01:48.161568+00:00",
               "previews": {
                 "128": "default/thumbs/128/мишка_v1.png",
                 "256": "default/thumbs/256/мишка_v1.png",
@@ -6414,34 +6808,11 @@
               "filename": "мишка_v2.png",
               "path": "default/мишка_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.571342+00:00",
+              "created": "2026-04-15T20:01:48.162568+00:00",
               "previews": {
                 "128": "default/thumbs/128/мишка_v2.png",
                 "256": "default/thumbs/256/мишка_v2.png",
                 "512": "default/thumbs/512/мишка_v2.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "сыр": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "сыр_v1.png",
-              "path": "default/сыр_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T19:58:55.655341+00:00",
-              "previews": {
-                "128": "default/thumbs/128/сыр_v1.png",
-                "256": "default/thumbs/256/сыр_v1.png",
-                "512": "default/thumbs/512/сыр_v1.png"
               }
             }
           ]
@@ -6460,7 +6831,7 @@
               "filename": "вечер_v1.png",
               "path": "default/вечер_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.480342+00:00",
+              "created": "2026-04-15T20:01:48.072568+00:00",
               "previews": {
                 "128": "default/thumbs/128/вечер_v1.png",
                 "256": "default/thumbs/256/вечер_v1.png",
@@ -6472,7 +6843,7 @@
               "filename": "вечер_v2.png",
               "path": "default/вечер_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.480342+00:00",
+              "created": "2026-04-15T20:01:48.072568+00:00",
               "previews": {
                 "128": "default/thumbs/128/вечер_v2.png",
                 "256": "default/thumbs/256/вечер_v2.png",
@@ -6484,34 +6855,11 @@
               "filename": "вечер_v3.png",
               "path": "default/вечер_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.481342+00:00",
+              "created": "2026-04-15T20:01:48.073568+00:00",
               "previews": {
                 "128": "default/thumbs/128/вечер_v3.png",
                 "256": "default/thumbs/256/вечер_v3.png",
                 "512": "default/thumbs/512/вечер_v3.png"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "суп": {
-      "default_style": "default",
-      "styles": {
-        "default": {
-          "latest": 1,
-          "best": 1,
-          "versions": [
-            {
-              "n": 1,
-              "filename": "суп_v1.png",
-              "path": "default/суп_v1.png",
-              "prompt": "",
-              "created": "2026-04-15T19:58:55.655341+00:00",
-              "previews": {
-                "128": "default/thumbs/128/суп_v1.png",
-                "256": "default/thumbs/256/суп_v1.png",
-                "512": "default/thumbs/512/суп_v1.png"
               }
             }
           ]
@@ -6530,7 +6878,7 @@
               "filename": "баночка_v1.png",
               "path": "default/баночка_v1.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.460342+00:00",
+              "created": "2026-04-15T20:01:48.053568+00:00",
               "previews": {
                 "128": "default/thumbs/128/баночка_v1.png",
                 "256": "default/thumbs/256/баночка_v1.png",
@@ -6542,7 +6890,7 @@
               "filename": "баночка_v2.png",
               "path": "default/баночка_v2.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.461342+00:00",
+              "created": "2026-04-15T20:01:48.053568+00:00",
               "previews": {
                 "128": "default/thumbs/128/баночка_v2.png",
                 "256": "default/thumbs/256/баночка_v2.png",
@@ -6554,7 +6902,7 @@
               "filename": "баночка_v3.png",
               "path": "default/баночка_v3.png",
               "prompt": "",
-              "created": "2026-04-15T19:58:55.462342+00:00",
+              "created": "2026-04-15T20:01:48.054568+00:00",
               "previews": {
                 "128": "default/thumbs/128/баночка_v3.png",
                 "256": "default/thumbs/256/баночка_v3.png",
@@ -6574,6 +6922,11 @@
     },
     "пуговица": {
       "concept": "пуговица",
+      "language": "default",
+      "pos": null
+    },
+    "телескоп": {
+      "concept": "телескоп",
       "language": "default",
       "pos": null
     },
@@ -6807,6 +7160,11 @@
       "language": "default",
       "pos": null
     },
+    "сова": {
+      "concept": "сова",
+      "language": "default",
+      "pos": null
+    },
     "рука": {
       "concept": "рука",
       "language": "default",
@@ -7017,11 +7375,6 @@
       "language": "default",
       "pos": null
     },
-    "сова": {
-      "concept": "сова",
-      "language": "default",
-      "pos": null
-    },
     "картошка": {
       "concept": "картошка",
       "language": "default",
@@ -7122,6 +7475,11 @@
       "language": "default",
       "pos": null
     },
+    "собака": {
+      "concept": "собака",
+      "language": "default",
+      "pos": null
+    },
     "мяч": {
       "concept": "мяч",
       "language": "default",
@@ -7159,6 +7517,11 @@
     },
     "сорока": {
       "concept": "сорока",
+      "language": "default",
+      "pos": null
+    },
+    "сок": {
+      "concept": "сок",
       "language": "default",
       "pos": null
     },
@@ -7232,6 +7595,11 @@
       "language": "default",
       "pos": null
     },
+    "стол": {
+      "concept": "стол",
+      "language": "default",
+      "pos": null
+    },
     "лес": {
       "concept": "лес",
       "language": "default",
@@ -7257,6 +7625,11 @@
       "language": "default",
       "pos": null
     },
+    "сом": {
+      "concept": "сом",
+      "language": "default",
+      "pos": null
+    },
     "рама": {
       "concept": "рама",
       "language": "default",
@@ -7269,11 +7642,6 @@
     },
     "прут": {
       "concept": "прут",
-      "language": "default",
-      "pos": null
-    },
-    "сом": {
-      "concept": "сом",
       "language": "default",
       "pos": null
     },
@@ -7309,21 +7677,6 @@
     },
     "пружина": {
       "concept": "пружина",
-      "language": "default",
-      "pos": null
-    },
-    "телескоп": {
-      "concept": "телескоп",
-      "language": "default",
-      "pos": null
-    },
-    "сок": {
-      "concept": "сок",
-      "language": "default",
-      "pos": null
-    },
-    "стол": {
-      "concept": "стол",
       "language": "default",
       "pos": null
     },
@@ -7377,13 +7730,13 @@
       "language": "default",
       "pos": null
     },
-    "карман": {
-      "concept": "карман",
+    "сыр": {
+      "concept": "сыр",
       "language": "default",
       "pos": null
     },
-    "собака": {
-      "concept": "собака",
+    "карман": {
+      "concept": "карман",
       "language": "default",
       "pos": null
     },
@@ -7437,6 +7790,11 @@
       "language": "default",
       "pos": null
     },
+    "суп": {
+      "concept": "суп",
+      "language": "default",
+      "pos": null
+    },
     "апельсин": {
       "concept": "апельсин",
       "language": "default",
@@ -7452,18 +7810,8 @@
       "language": "default",
       "pos": null
     },
-    "сыр": {
-      "concept": "сыр",
-      "language": "default",
-      "pos": null
-    },
     "вечер": {
       "concept": "вечер",
-      "language": "default",
-      "pos": null
-    },
-    "суп": {
-      "concept": "суп",
       "language": "default",
       "pos": null
     },
@@ -7475,6 +7823,6 @@
   },
   "metadata": {
     "total_concepts": 181,
-    "total_versions": 381
+    "total_versions": 410
   }
 }
