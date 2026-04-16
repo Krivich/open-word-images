@@ -145,7 +145,6 @@ clean lines, children's illustration style`;
         } else {
           selectedWords.add(word);
         }
-        // Toggle visual
         const cards = document.querySelectorAll(`.card[data-word="${word}"]`);
         cards.forEach(c => c.classList.toggle('selected', selectedWords.has(word)));
         updateSelectionBar();
@@ -170,7 +169,6 @@ clean lines, children's illustration style`;
       navigator.clipboard.writeText(words).then(() => {
         showToast('📋 Copied: ' + words);
       }).catch(() => {
-        // Fallback
         const ta = document.createElement('textarea');
         ta.value = words;
         document.body.appendChild(ta);
@@ -196,26 +194,29 @@ clean lines, children's illustration style`;
     function showVersions(word) {
       const wordImages = existingImages.filter(i => i.word === word.toLowerCase());
       if(!wordImages.length) return;
-      
+
       const latestImg = wordImages.find(i => i.version === 'latest');
-      
+
       document.getElementById('modal-title').textContent = word.charAt(0).toUpperCase() + word.slice(1) + ' — Versions';
-      
-      // Exclude 'latest' from the grid, just show v1, v2...
-      const sorted = wordImages.filter(i => i.version !== 'latest').sort((a, b) => {
-        return parseInt(a.version.slice(1)) - parseInt(b.version.slice(1));
+
+      const sorted = wordImages.slice().sort((a, b) => {
+        const aNum = parseInt(a.originalVersion.slice(1));
+        const bNum = parseInt(b.originalVersion.slice(1));
+        return aNum - bNum;
       });
-      
+
       document.getElementById('modal-body').innerHTML = sorted.map(img => {
-        const isLatest = latestImg && img.path === latestImg.path;
-        const fullPath = REPO_BASE + img.path;
+        const isLatest = latestImg && ((img.previews && latestImg.previews && img.previews['256'] === latestImg.previews['256']) || img.path === latestImg.path);
+        const previewPath = img.previews ? img.previews['256'] : img.path;
+        const downloadPath = REPO_BASE + img.path;
         return `
-        <div class="version-item ${isLatest ? 'latest' : ''}" onclick="downloadVersion('${fullPath}', '${word}_${img.version}.png')">
-          <img src="${fullPath}" loading="lazy">
-          <div class="version-label">${img.version} ${isLatest ? '✨' : ''}</div>
+        <div class="version-item ${isLatest ? 'latest' : ''}" onclick="downloadVersion('${downloadPath}', '${word}_${img.version}.png')">
+          <img src="${previewPath}" loading="lazy">
+          <div class="version-label">${img.isLatest ? img.originalVersion + ' (latest)' : img.version} ${isLatest ? '✨' : ''}</div>
         </div>
-      `}).join('');
-      
+      `;
+      }).join('');
+
       document.getElementById('modal-overlay').classList.add('active');
     }
 
@@ -252,7 +253,59 @@ clean lines, children's illustration style`;
         try {
           const tMan = performance.now();
           const resp = await fetch(REPO_BASE + 'manifest.json?t=' + Date.now());
-          existingImages = await resp.json();
+          const rawManifest = await resp.json();
+
+          // --------------------------------------------------------------
+          // 1️⃣ Build a word → {concept, language} map from `words`
+          // --------------------------------------------------------------
+          const wordMap = {};
+          if (rawManifest.words) {
+            for (const [w, info] of Object.entries(rawManifest.words)) {
+              wordMap[w] = { concept: info.concept, language: info.language };
+            }
+          }
+
+          // --------------------------------------------------------------
+          // 2️⃣ Flatten the concepts, but keep the *word* (the key from the
+          //     original request) as the searchable token.
+          // --------------------------------------------------------------
+          const flat = [];
+          if (rawManifest.concepts) {
+            for (const [conceptKey, concept] of Object.entries(rawManifest.concepts)) {
+              const defaultStyle = concept.default_style || 'default';
+              const styleObj = concept.styles && concept.styles[defaultStyle];
+              if (!styleObj || !styleObj.versions) continue;
+
+              // Find all words that point to this concept (could be many)
+              const wordsForConcept = Object.entries(wordMap)
+                .filter(([, v]) => v.concept === conceptKey)
+                .map(([k]) => k);
+
+              for (const v of styleObj.versions) {
+                const versionLabel = v.n === styleObj.latest ? 'latest' : `v${v.n}`;
+                const isLatest = v.n === styleObj.latest;
+                const previews = v.previews ? {
+                  '128': REPO_BASE + 'styles/' + v.previews['128'],
+                  '256': REPO_BASE + 'styles/' + v.previews['256'],
+                  '512': REPO_BASE + 'styles/' + v.previews['512']
+                } : null;
+
+                // Create an entry **for each word** that maps to this concept.
+                for (const w of wordsForConcept) {
+                  flat.push({
+                    word: w,
+                    version: versionLabel,
+                    originalVersion: `v${v.n}`,
+                    isLatest,
+                    path: REPO_BASE + 'styles/' + v.path,
+                    previews
+                  });
+                }
+              }
+            }
+          }
+
+          existingImages = flat;
           console.log(`✅ Manifest loaded: ${((performance.now()-tMan)/1000).toFixed(2)}s (${existingImages.length} entries)`);
         } catch(e) {
           console.warn('Manifest unavailable', e);
@@ -277,19 +330,25 @@ clean lines, children's illustration style`;
         grouped[img.word].push(img);
       });
 
-      // Build all HTML at once (no repeated innerHTML +=)
       let html = '';
       Object.entries(grouped).forEach(([word, imgs]) => {
         if(!imgs || imgs.length === 0) return;
         const latest = imgs.find(i=>i.version==='latest') || imgs[imgs.length-1];
         if(!latest || !latest.path) return;
-        const count = imgs.filter(i => i.version !== 'latest').length;
+        let count = imgs.filter(i => i.version !== 'latest').length;
+        if (count === 0 && imgs.some(i => i.version === 'latest')) count = 1;
 
-        // Build URLs with repo base path
-        const base = REPO_BASE + latest.path.replace('.png', '');
-        const src256 = base + '_256.png';
-        const src128 = base + '_128.png';
-        const src512 = base + '_512.png';
+        let src256, src128, src512;
+        if (latest.previews) {
+          src128 = latest.previews['128'];
+          src256 = latest.previews['256'];
+          src512 = latest.previews['512'];
+        } else {
+          const base = latest.path.replace('.png', '');
+          src256 = `${base}_256.png`;
+          src128 = `${base}_128.png`;
+          src512 = `${base}_512.png`;
+        }
 
         html += `
           <div class="card" onclick="selectCard(event, '${word}')" data-word="${word}">
@@ -314,7 +373,7 @@ clean lines, children's illustration style`;
 
     function showSuggestions(query) {
       if(!query || query.length < 2) { suggestionsBox.innerHTML = ''; return; }
-      
+
       const matches = dictionary
         .filter(([w]) => w.startsWith(query))
         .sort((a,b) => b[1]-a[1])
@@ -336,12 +395,10 @@ clean lines, children's illustration style`;
     function handleSearch(word) {
       currentWord = word;
       const gen = document.getElementById('generator');
-      
-      // Reset selection filter on search
+
       selectedWords.clear();
       updateSelectionBar();
 
-      // Exact match
       const exact = existingImages.find(i => i.word === word.toLowerCase());
       if(exact) {
         gen.style.display = 'none';
@@ -349,7 +406,6 @@ clean lines, children's illustration style`;
         return;
       }
 
-      // Filter gallery by prefix
       const prefixMatches = existingImages.filter(i => i.word.startsWith(word.toLowerCase()));
       if(prefixMatches.length > 0) {
         gen.style.display = 'none';
@@ -357,11 +413,9 @@ clean lines, children's illustration style`;
         return;
       }
 
-      // No matches at all — show generator (3+ chars) or just hide
       if(word.length >= 3) {
         document.getElementById('gen-word').textContent = `Word: ${word.toUpperCase()}`;
         const wordLower = word.toLowerCase();
-        // Sort by distance first, then frequency
         const similar = dictionary
           .map(([w, f]) => ({ word: w, freq: f, dist: levenshtein(w, wordLower) }))
           .filter(x => x.dist <= 3 && x.dist > 0)
@@ -443,7 +497,6 @@ clean lines, children's illustration style`;
           showToast('💾 Download started!');
         })
         .catch(() => {
-          // Fallback
           const a = document.createElement('a');
           a.href = lastImageUrl;
           a.download = `${currentWord.toLowerCase()}_v1.png`;
@@ -467,7 +520,6 @@ clean lines, children's illustration style`;
       showToast('🧹 Key cleared');
     }
 
-    // Close suggestions/modal on outside click or Escape
     document.addEventListener('click', (e) => {
       if(!e.target.closest('#search') && !e.target.closest('#suggestions')) {
         suggestionsBox.innerHTML = '';
