@@ -18,7 +18,7 @@ CORE RULES:
   • Missing path  → Ignored (no action taken)
   • Keys starting with "_" → Skipped (reserved for metadata like _manifest_hash)
 
-📦 ARRAY PATCHING RULES:
+ARRAY PATCHING RULES:
   • {}            → Keep the element at this index unchanged
   • null          → Delete the element at this index
   • dict/value    → Replace the existing element or append to the end
@@ -75,7 +75,7 @@ def patch_array(target: list, diff: list) -> list:
     Applies sparse patching to an array.
     - {}    → Keep element at index
     - null  → Delete element at index
-    - dict  → Recursively merge with existing element
+    - dict  → Recursively merge with existing element (with null support)
     - other → Replace or append element
     """
     res = target.copy()
@@ -87,8 +87,9 @@ def patch_array(target: list, diff: list) -> list:
         if patch is None:
             continue  # Deletions handled in pass 2
 
-        if isinstance(patch, dict) and i < len(res) and isinstance(res[i], dict):
-            deep_merge(res[i], patch)
+        if isinstance(patch, dict) and i < len(res):
+            # Применяем патч к элементу массива с поддержкой null
+            res[i] = apply_diff_to_array_element(res[i], patch)
         elif i < len(res):
             res[i] = patch
         else:
@@ -100,6 +101,88 @@ def patch_array(target: list, diff: list) -> list:
             res.pop(i)
 
     return res
+
+
+def deep_merge_with_null(target: dict, source: dict) -> None:
+    """
+    Улучшенная версия deep_merge с поддержкой null для удаления ключей.
+    """
+    for key, value in source.items():
+        if key.startswith("_"):
+            continue
+        if value is None:
+            target.pop(key, None)
+        elif isinstance(value, dict) and isinstance(target.get(key), dict):
+            deep_merge_with_null(target[key], value)
+        else:
+            target[key] = value
+
+
+def apply_patch_to_element(element, patch):
+    """
+    Рекурсивное применение патча к элементу массива.
+    """
+    if isinstance(patch, dict):
+        if isinstance(element, dict):
+            # Применяем патч к словарю с рекурсивной обработкой
+            for key, value in patch.items():
+                if key.startswith("_"):
+                    continue
+                if value is None:
+                    element.pop(key, None)
+                elif isinstance(value, dict):
+                    if key in element and isinstance(element[key], dict):
+                        apply_patch_to_element(element[key], value)
+                    else:
+                        element[key] = value
+                else:
+                    element[key] = value
+        else:
+            # Если элемент не словарь, заменяем его
+            for key, value in patch.items():
+                if key.startswith("_"):
+                    continue
+                if value is None:
+                    if hasattr(element, key):
+                        delattr(element, key)
+                else:
+                    setattr(element, key, value)
+    elif patch is None:
+        # Удаляем элемент
+        return None
+    else:
+        # Заменяем элемент
+        return patch
+    return element
+
+
+def apply_diff_to_array_element(element, patch):
+    """
+    Рекурсивное применение патча к элементу массива с поддержкой null.
+    """
+    if patch is None:
+        # Удаляем элемент
+        return None
+    elif isinstance(patch, dict):
+        if isinstance(element, dict):
+            # Применяем патч к словарю
+            result = element.copy()
+            for key, value in patch.items():
+                if key.startswith("_"):
+                    continue
+                if value is None:
+                    result.pop(key, None)
+                elif isinstance(value, dict) and key in result and isinstance(result[key], dict):
+                    result[key] = apply_diff_to_array_element(result[key], value)
+                else:
+                    result[key] = value
+            return result
+        else:
+            # Если элемент не словарь, заменяем его
+            return patch
+    else:
+        # Простой тип - замена
+        return patch
 
 
 def apply_diff(node: dict, diff: dict, log_func: Optional[callable] = None) -> int:
@@ -122,12 +205,20 @@ def apply_diff(node: dict, diff: dict, log_func: Optional[callable] = None) -> i
                 node[key] = {}
             elif not isinstance(node[key], dict):
                 node[key] = {}  # Type conflict resolution
-                log_func and log_func(f"  📦 INIT_DICT: {key}")
+                log_func and log_func(f"  INIT_DICT: {key}")
             changes += apply_diff(node[key], value, log_func)
         elif isinstance(value, list):
             if isinstance(node.get(key), list):
                 node[key] = patch_array(node[key], value)
-                log_func and log_func(f"  🔄 PATCH_ARRAY: {key} ({len(value)} ops)")
+                log_func and log_func(f"  PATCH_ARRAY: {key} ({len(value)} ops)")
+                changes += 1
+            elif isinstance(node.get(key), dict):
+                # Преобразуем словарь в массив перед применением патча
+                dict_array = []
+                for concept_name, concept_data in node[key].items():
+                    dict_array.append(concept_data)
+                node[key] = patch_array(dict_array, value)
+                log_func and log_func(f"  DICT_TO_ARRAY: {key} ({len(value)} ops)")
                 changes += 1
             else:
                 node[key] = value
@@ -161,11 +252,11 @@ def main():
     migration_path = args.base_dir / "manifest-migration.json"
 
     if not manifest_path.exists():
-        print(f"❌ Manifest not found: {manifest_path}", file=sys.stderr)
+        print(f"Manifest not found: {manifest_path}", file=sys.stderr)
         sys.exit(1)
 
     if not migration_path.exists():
-        print("ℹ️  manifest-migration.json not found. Nothing to apply.")
+        print("manifest-migration.json not found. Nothing to apply.")
         sys.exit(0)
 
     # Load files
@@ -178,7 +269,7 @@ def main():
     if not args.skip_hash_check and "_manifest_hash" in migration:
         current_hash = compute_file_hash(manifest_path)
         if current_hash != migration["_manifest_hash"]:
-            print("❌ HASH MISMATCH! Manifest changed since migration was created.", file=sys.stderr)
+            print("HASH MISMATCH! Manifest changed since migration was created.", file=sys.stderr)
             print(f"   Expected: {migration['_manifest_hash']}")
             print(f"   Found:    {current_hash}")
             print("   Use --skip-hash-check or regenerate the migration.", file=sys.stderr)
@@ -186,26 +277,26 @@ def main():
 
     # Apply diff
     logger = lambda m: print(f"[MIGRATE] {m}") if args.verbose else None
-    logger("📦 Loading and applying migration...")
+    logger("Loading and applying migration...")
     changes = apply_diff(manifest, migration, log_func=logger)
 
     if changes == 0:
-        logger("✅ No changes detected.")
+        logger("No changes detected.")
         if not args.dry_run:
             migration_path.unlink()
         sys.exit(0)
 
     # Save or dry-run
     if args.dry_run:
-        logger("🔍 DRY RUN COMPLETE. Files NOT saved.")
+        logger("DRY RUN COMPLETE. Files NOT saved.")
     else:
         with open(manifest_path, "w", encoding="utf-8") as f:
             json.dump(manifest, f, ensure_ascii=False, indent=2)
             f.write("\n")
         migration_path.unlink()
-        logger(f"✅ Migration applied successfully ({changes} changes).")
+        logger(f"Migration applied successfully ({changes} changes).")
 
-    print("\n📊 Summary:")
+    print("\nSummary:")
     print(f"   Changes applied : {changes}")
 
 

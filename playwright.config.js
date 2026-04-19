@@ -1,22 +1,27 @@
-// @ts-check
 const { defineConfig } = require('@playwright/test');
 
 module.exports = defineConfig({
   testDir: './tests',
-  timeout: 30000,
-  expect: {
-    timeout: 5000
-  },
+  fullyParallel: true,
+  forbidOnly: !!process.env.CI,
+  retries: process.env.CI ? 2 : 0,
+  workers: process.env.CI ? 1 : undefined,
+  reporter: 'html',
   use: {
     baseURL: 'http://localhost:8080',
-    browserName: 'chromium',
-    headless: true,
-    viewport: { width: 1280, height: 720 },
+    trace: 'on-first-retry',
   },
+
+  projects: [
+    {
+      name: 'chromium',
+      use: { browserName: 'chromium' },
+    },
+  ],
+
   webServer: {
-    command: 'python -m http.server 8080',
-    port: 8080,
-    reuseExistingServer: true,
-    cwd: process.cwd(),
+    command: 'npx http-server -p 8080 -c-1 --cors',
+    url: 'http://localhost:8080',
+    reuseExistingServer: !process.env.CI,
   },
 });

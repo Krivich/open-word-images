@@ -246,6 +246,33 @@
       word-break: break-all; max-height: 400px;
     }
     .modal-actions { display: flex; gap: 8px; margin-top: 16px; }
+    
+    /* Migration Stats */
+    .migration-stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+    .stat-item {
+      text-align: center;
+      padding: 12px;
+      background: #f3f4f6;
+      border-radius: 6px;
+      border: 1px solid #e5e7eb;
+    }
+    .stat-label {
+      display: block;
+      font-size: 12px;
+      color: #6b7280;
+      margin-bottom: 4px;
+    }
+    .stat-value {
+      display: block;
+      font-size: 18px;
+      font-weight: 600;
+      color: #2563eb;
+    }
   </style>
 </head>
 <body>
@@ -257,6 +284,7 @@
     <button class="btn btn-secondary" onclick="selectAll()">Все latest</button>
     <button class="btn btn-secondary" onclick="clearAll()">Сбросить</button>
     <button class="btn btn-primary" onclick="showExport()">📥 Export</button>
+    <button class="btn btn-primary" onclick="showMigration()">📤 Export Migration</button>
   </header>
 
   <div class="kbd-hints">
@@ -297,6 +325,32 @@
     </div>
   </div>
 
+  <div class="modal-overlay" id="migration-modal" onclick="closeModal(event)">
+    <div class="modal">
+      <h3>📤 Экспорт миграции</h3>
+      <div class="migration-stats">
+        <div class="stat-item">
+          <span class="stat-label">Всего концептов:</span>
+          <span class="stat-value" id="migration-total">0</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Выбрано версий:</span>
+          <span class="stat-value" id="migration-selected">0</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Без изменений:</span>
+          <span class="stat-value" id="migration-unchanged">0</span>
+        </div>
+      </div>
+      <pre id="migration-data"></pre>
+      <div class="modal-actions">
+        <button class="btn btn-primary" onclick="copyMigration()">📋 Копировать</button>
+        <button class="btn btn-primary" onclick="downloadMigration()">💾 Скачать JSON</button>
+        <button class="btn btn-secondary" onclick="closeModal()">Закрыть</button>
+      </div>
+    </div>
+  </div>
+
   <script>
     // Base path for GitHub Pages (same as index.html)
     const REPO_BASE = (() => {
@@ -310,7 +364,7 @@
     })();
     // === STATE ===
     // Концепты, а не отдельные слова
-    let conceptsData = [];          // массив {concept, words: [], versions: [], bestVersion, latestVersion}
+    window.conceptsData = [];          // массив {concept, words: [], versions: [], bestVersion, latestVersion}
     let selected = {};              // {concept: version}
     let latestMap = {};             // {concept: 'latest' version} — из manifest
     let maxVersions = 5;
@@ -329,13 +383,15 @@
     async function init() {
       try {
         const rawManifest = await fetch('manifest.json?t=' + Date.now()).then(r => r.json());
+        window.rawManifestGlobal = rawManifest;
+        console.log('✅ Manifest loaded:', Object.keys(window.rawManifestGlobal.concepts || {}).length, 'concepts');
 
         // --------------------------------------------------------------
         // 1️⃣  Build map word → concept (из раздела `words`)
         // --------------------------------------------------------------
         const wordToConcept = {};
-        if (rawManifest.words) {
-          for (const [w, info] of Object.entries(rawManifest.words)) {
+        if (window.rawManifestGlobal && window.rawManifestGlobal.words) {
+          for (const [w, info] of Object.entries(window.rawManifestGlobal.words)) {
             wordToConcept[w] = info.concept;
           }
         }
@@ -360,7 +416,7 @@
         }
 
         // Walk through concepts → styles → versions
-        for (const [conceptKey, conceptObj] of Object.entries(rawManifest.concepts || {})) {
+        for (const [conceptKey, conceptObj] of Object.entries(window.rawManifestGlobal?.concepts || {})) {
           const defaultStyle = conceptObj.default_style || 'default';
           const styleObj = conceptObj.styles && conceptObj.styles[defaultStyle];
           if (!styleObj || !styleObj.versions) continue;
@@ -393,10 +449,10 @@
         }
 
         // Convert map → sorted array
-        conceptsData = Object.values(conceptsMap).sort((a, b) => (a.concept || '').localeCompare(b.concept || ''));
+        window.conceptsData = Object.values(conceptsMap).sort((a, b) => (a.concept || '').localeCompare(b.concept || ''));
 
-        // Sort versions inside each concept numerically
-        conceptsData.forEach(c => {
+        // Sort versions inside each concept numerically and extract prompts
+        window.conceptsData.forEach(c => {
           c.versions.sort((a, b) => {
             const na = parseInt(a.originalVersion.replace('v','')) || 0;
             const nb = parseInt(b.originalVersion.replace('v','')) || 0;
@@ -409,19 +465,31 @@
         // --------------------------------------------------------------
         let humanNames = {};
         try {
-          const txt = await fetch('words.py?t=' + Date.now()).then(r => r.text());
-          const re = /"(\w+)":\s*"([^\"]+)"/g;
-          let m;
-          while ((m = re.exec(txt)) !== null) humanNames[m[1]] = m[2];
-        } catch(e) {}
-        conceptsData.forEach(c => {
+          // Try to load words.py if it exists (optional file for human-readable names)
+          const wordsResponse = await fetch('words.py?t=' + Date.now());
+          if (wordsResponse.ok) {
+            const txt = await wordsResponse.text();
+            const re = /"(\w+)":\s*"([^\"]+)"/g;
+            let m;
+            while ((m = re.exec(txt)) !== null) humanNames[m[1]] = m[2];
+          }
+        } catch(e) {
+          // words.py not available or failed - this is OK, it's optional
+          console.log('ℹ️ words.py not available (optional file)');
+        }
+        window.conceptsData.forEach(c => {
           c.humanName = humanNames[c.concept] || '';
         });
+
+        console.log('✅ Data processed:', window.conceptsData.length, 'concepts with prompts');
+
+        // Initialize concept order for migration
+        initConceptOrder();
 
         // --------------------------------------------------------------
         // 4️⃣  UI‑подготовка
         // --------------------------------------------------------------
-        maxVersions = Math.min(5, Math.max(...conceptsData.map(c => c.versions.length), 1));
+        maxVersions = Math.min(5, Math.max(...window.conceptsData.map(c => c.versions.length), 1));
         document.documentElement.style.setProperty('--max-versions', maxVersions);
 
         // Build table header (добавляем колонки версий)
@@ -440,15 +508,16 @@
         viewport = document.getElementById('viewport');
         spacer = document.getElementById('spacer');
         content = document.getElementById('content');
-        spacer.style.height = (conceptsData.length * ROW_HEIGHT) + 'px';
+        spacer.style.height = (window.conceptsData.length * ROW_HEIGHT) + 'px';
 
         document.getElementById('loading').style.display = 'none';
         viewport.style.display = 'block';
-        document.getElementById('total-words').textContent = conceptsData.length;
+        document.getElementById('total-words').textContent = window.conceptsData.length;
+        console.log('✅ UI initialized:', window.conceptsData.length, 'concepts loaded');
         viewport.addEventListener('scroll', onScroll, { passive: true });
 
         // Initial focus
-        if (conceptsData.length > 0) {
+        if (window.conceptsData.length > 0) {
           focusedRow = 0;
           focusedCol = getPreferredCol(0);
         }
@@ -458,12 +527,13 @@
         updateProgress();
         scrollToFocused();
       } catch(e) {
+        console.error('❌ Error in init():', e);
         document.getElementById('loading').innerHTML = `❌ ${e.message}`;
       }
     }
 
     function getPreferredCol(rowIdx) {
-      const c = conceptsData[rowIdx];
+      const c = window.conceptsData[rowIdx];
       if (!c || !c.versions.length) return 0;
       // Если уже выбрана версия для концепта – вернуть её индекс
       if (selected[c.concept]) {
@@ -486,7 +556,7 @@
       const viewH = viewport.clientHeight;
 
       const start = Math.max(0, Math.floor(scrollTop / ROW_HEIGHT) - BUFFER);
-      const end = Math.min(conceptsData.length - 1, Math.ceil((scrollTop + viewH) / ROW_HEIGHT) + BUFFER);
+      const end = Math.min(window.conceptsData.length - 1, Math.ceil((scrollTop + viewH) / ROW_HEIGHT) + BUFFER);
 
       // Re-render if range changed OR forced (e.g. focus change)
       if (!force && start === renderStart && end === renderEnd) return;
@@ -497,7 +567,7 @@
 
       let html = '';
       for (let i = start; i <= end; i++) {
-        const c = conceptsData[i];
+        const c = window.conceptsData[i];
         const isSel = !!selected[c.concept];
         const isFocused = i === focusedRow;
         const rowClass = (isFocused ? 'focused ' : '') + (isSel ? 'selected' : '');
@@ -557,7 +627,7 @@
     }
 
     function moveRow(delta) {
-      const newRow = Math.max(0, Math.min(conceptsData.length - 1, focusedRow + delta));
+      const newRow = Math.max(0, Math.min(window.conceptsData.length - 1, focusedRow + delta));
       if (newRow !== focusedRow) {
         focusedRow = newRow;
         focusedCol = getPreferredCol(newRow);
@@ -567,7 +637,7 @@
     }
 
     function moveCol(delta) {
-      const c = conceptsData[focusedRow];
+      const c = window.conceptsData[focusedRow];
       if (!c) return;
       const newCol = Math.max(0, Math.min(c.versions.length - 1, focusedCol + delta));
       if (newCol !== focusedCol) {
@@ -577,7 +647,7 @@
     }
 
     function toggleCurrent() {
-      const c = conceptsData[focusedRow];
+      const c = window.conceptsData[focusedRow];
       if (!c || !c.versions[focusedCol]) return;
       const ver = c.versions[focusedCol].version;
 
@@ -597,7 +667,7 @@
     }
 
     function resetToLatest() {
-      const c = conceptsData[focusedRow];
+      const c = window.conceptsData[focusedRow];
       if (!c) return;
       if (c.latestVersion) {
         selected[c.concept] = c.latestVersion;
@@ -620,7 +690,7 @@
     }
 
     function selectAll() {
-      conceptsData.forEach(c => {
+      window.conceptsData.forEach(c => {
         if (c.latestVersion) {
           selected[c.concept] = c.latestVersion;
         } else if (c.versions.length) {
@@ -680,7 +750,7 @@
         scrollToFocused();
       } else if (e.key === 'End') {
         e.preventDefault();
-        focusedRow = conceptsData.length - 1;
+        focusedRow = window.conceptsData.length - 1;
         focusedCol = getPreferredCol(focusedRow);
         renderVisibleRows(true);
         scrollToFocused();
@@ -692,7 +762,7 @@
 
     // === EXPORT ===
     function getExportData() {
-      return conceptsData
+      return window.conceptsData
         .filter(c => selected[c.concept])
         .map(c => ({
           concept: c.concept,
@@ -710,12 +780,104 @@
     function closeModal(e) {
       if (e && e.target !== e.currentTarget) return;
       document.getElementById('export-modal').classList.remove('active');
+      document.getElementById('migration-modal').classList.remove('active');
     }
 
     function copyExport() {
       navigator.clipboard.writeText(JSON.stringify(getExportData(), null, 2)).then(() => {
         showToast('📋 Скопировано');
       });
+    }
+    
+    function showMigrationModal() {
+      const data = buildMigration();
+      const totalConcepts = manifestConceptOrder.length;
+      const selectedConcepts = window.conceptsData.filter(c => selected[c.concept] !== undefined).length;
+      const unchangedConcepts = totalConcepts - selectedConcepts;
+      
+      // Update stats
+      document.getElementById('migration-total').textContent = totalConcepts;
+      document.getElementById('migration-selected').textContent = selectedConcepts;
+      document.getElementById('migration-unchanged').textContent = unchangedConcepts;
+      
+      // Update data
+      document.getElementById('migration-data').textContent = JSON.stringify(data, null, 2);
+      
+      // Show modal
+      document.getElementById('migration-modal').classList.add('active');
+    }
+    
+    function copyMigration() {
+      const data = document.getElementById('migration-data').textContent;
+      navigator.clipboard.writeText(data).then(() => {
+        showToast('📋 Миграция скопирована');
+      });
+    }
+    
+    function downloadMigration() {
+      const data = document.getElementById('migration-data').textContent;
+      const blob = new Blob([data], { type: 'application/json' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'manifest-migration.json';
+      a.click();
+      URL.revokeObjectURL(a.href);
+      showToast('📤 Миграция скачана');
+    }
+
+    // --- Migration Export ---
+    // Preserve original manifest ordering by using placeholders for unchanged concepts
+    let manifestConceptOrder = [];
+    function initConceptOrder() {
+      if (window.rawManifestGlobal && window.rawManifestGlobal.concepts) {
+        manifestConceptOrder = Object.keys(window.rawManifestGlobal.concepts);
+      }
+    }
+    function buildMigration() {
+      const mig = { 
+        _manifest_hash: computeManifestHash(),
+        concepts: []
+      };
+      
+      // Fill with placeholders for all concepts in original order
+      for (let i = 0; i < manifestConceptOrder.length; i++) {
+        mig.concepts[i] = {};
+      }
+      
+      // Apply selected versions
+      window.conceptsData.forEach(c => {
+        if (selected[c.concept] !== undefined) {
+          const sel = selected[c.concept];
+          const num = sel && sel.startsWith('v') ? parseInt(sel.slice(1)) : null;
+          const idx = manifestConceptOrder.indexOf(c.concept);
+          if (idx >= 0) {
+            mig.concepts[idx] = { styles: { default: { best: num } } };
+          }
+        }
+      });
+      
+      return mig;
+    }
+    
+    function computeManifestHash() {
+      // Simple hash based on manifest content and selected versions
+      const manifestStr = JSON.stringify(window.rawManifestGlobal);
+      const selectedStr = JSON.stringify(selected);
+      const combined = manifestStr + selectedStr;
+      
+      // Simple hash function
+      let hash = 0;
+      for (let i = 0; i < combined.length; i++) {
+        const char = combined.charCodeAt(i);
+        hash = ((hash << 5) - hash) + char;
+        hash = hash & hash; // Convert to 32-bit integer
+      }
+      return Math.abs(hash).toString(16);
+    }
+    // Initialize order after manifest load (called from init())
+
+    function showMigration() {
+      showMigrationModal();
     }
 
     function downloadExport() {
