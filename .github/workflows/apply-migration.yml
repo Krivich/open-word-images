@@ -27,9 +27,12 @@ jobs:
           with open('manifest-migration.json') as f:
               m = json.load(f)
           if 'concepts' not in m:
-              print('ERROR: migration missing concepts')
+              print('ERROR: migration missing concepts key')
               exit(1)
-          print(f'Migration contains {len(m.concepts)} concept changes')
+          if not isinstance(m['concepts'], dict):
+              print('ERROR: concepts must be a dict')
+              exit(1)
+          print(f\"Migration contains {len(m['concepts'])} concept changes\")
           "
 
       - name: Dry run (validate)
