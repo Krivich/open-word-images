@@ -1,0 +1,1559 @@
+{
+  "_manifest_hash": "682a05ee",
+  "concepts": {
+    "абрикос": {
+      "styles": {
+        "default": {
+          "best": 3
+        }
+      }
+    },
+    "авоська": {
+      "styles": {
+        "default": {
+          "best": 2
+        }
+      }
+    },
+    "автомат": {
+      "styles": {
+        "default": {
+          "best": 2
+        }
+      }
+    },
+    "автопилот": {
+      "styles": {
+        "default": {
+          "best": 2
+        }
+      }
+    },
+    "ананас": {
+      "styles": {
+        "default": {
+          "best": 2
+        }
+      }
+    },
+    "апельсин": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "бабочка": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "бак": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "банки": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "баночка": {
+      "styles": {
+        "default": {
+          "best": 2
+        }
+      }
+    },
+    "баранка": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "башмак": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "бык": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "велосипед": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "велюр": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "веник": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "весна": {
+      "styles": {
+        "default": {
+          "best": 2
+        }
+      }
+    },
+    "вечер": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "вилка": {
+      "styles": {
+        "default": {
+          "best": 2
+        }
+      }
+    },
+    "вишня": {
+      "styles": {
+        "default": {
+          "best": 2
+        }
+      }
+    },
+    "грач": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "гриб": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "дно": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "доспехи": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "дым": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "жук": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "зенит": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "змея": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "зонтик": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "зуб": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "карандаш": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "карусель": {
+      "styles": {
+        "default": {
+          "best": 2
+        }
+      }
+    },
+    "кит": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "ключ": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "книжка": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "ком": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "кони": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "конфеты": {
+      "styles": {
+        "default": {
+          "best": 1
+        }
+      }
+    },
+    "коньки": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "корочка": {
+      "styles": {
+        "default": {
+          "best": 1
+        }
+      }
+    },
+    "коса": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "кот": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "краб": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "крошка": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "крупа": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "лак": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "лама": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "лампа": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "лапа": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "лев": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "лес": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "лис": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "ложка": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "луковица": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "люлька": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "мак": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "малина": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "мандарин": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "мантия": {
+      "styles": {
+        "default": {
+          "best": 1
+        }
+      }
+    },
+    "маска": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "миска": {
+      "styles": {
+        "default": {
+          "best": 1
+        }
+      }
+    },
+    "мошка": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "мушка": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "мышка": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "мясо": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "мяч": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "перец": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "перо": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "персик": {
+      "styles": {
+        "default": {
+          "best": 1
+        }
+      }
+    },
+    "перчик": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "печка": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "пират": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "пирог": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "пирожное": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "повар": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "помидор": {
+      "styles": {
+        "default": {
+          "best": 1
+        }
+      }
+    },
+    "помощник": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "помощница": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "пруд": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "прут": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "птичка": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "рак": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "рама": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "речка": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "рога": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "роса": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "сани": {
+      "styles": {
+        "default": {
+          "best": 2
+        }
+      }
+    },
+    "сапог": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "светильник": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "светлячок": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "светофор": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "свеча": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "свечка": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "сестра": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "сказка": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "скакалка": {
+      "styles": {
+        "default": {
+          "best": 1
+        }
+      }
+    },
+    "скалолаз": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "скачка": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "слон": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "слоны": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "снеговик": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "снежинка": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "снежок": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "сова": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "сок": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "сом": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "сорока": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "сосна": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "стук": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "сук": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "суп": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "сыр": {
+      "styles": {
+        "default": {
+          "best": 1
+        }
+      }
+    },
+    "телега": {
+      "styles": {
+        "default": {
+          "best": 2
+        }
+      }
+    },
+    "телёнок": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "телескоп": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "хлеб": {
+      "styles": {
+        "default": {
+          "best": 1
+        }
+      }
+    },
+    "череп": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "черепаха": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "черепашка": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "черника": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "чернила": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "экран": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "экскаватор": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "эскалатор": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "эскимо": {
+      "styles": {
+        "default": {
+          "best": 1
+        }
+      }
+    },
+    "agree": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "aircraft": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "beach": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "bear": {
+      "styles": {
+        "default": {
+          "best": 2
+        }
+      }
+    },
+    "beautiful": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "bed": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "bird": {
+      "styles": {
+        "default": {
+          "best": 2
+        }
+      }
+    },
+    "boat": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "book": {
+      "styles": {
+        "default": {
+          "best": 1
+        }
+      }
+    },
+    "box": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "building": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "bus": {
+      "styles": {
+        "default": {
+          "best": 3
+        }
+      }
+    },
+    "camera": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "camp": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "car": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "cat": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "chair": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "computer": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "cup": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "dance": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "daughter": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "dog": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "door": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "drink": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "earth": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "farm": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "father": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "fish": {
+      "styles": {
+        "default": {
+          "best": 2
+        }
+      }
+    },
+    "food": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "fun": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "gift": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "give": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "goal": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "hand": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "heart": {
+      "styles": {
+        "default": {
+          "best": 2
+        }
+      }
+    },
+    "horse": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "hotel": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "house": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "ice": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "island": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "lake": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "letter": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "listen": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "love": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "meet": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "money": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "mother": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "mouth": {
+      "styles": {
+        "default": {
+          "best": 1
+        }
+      }
+    },
+    "movie": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "net": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "phone": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "photo": {
+      "styles": {
+        "default": {
+          "best": 2
+        }
+      }
+    },
+    "picture": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "plane": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "plant": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "play": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "playing": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "radio": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "rain": {
+      "styles": {
+        "default": {
+          "best": 1
+        }
+      }
+    },
+    "read": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "red": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "rest": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "ride": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "rise": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "river": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "rock": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "room": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "run": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "sad": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "safe": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "school": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "sea": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "seat": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "ship": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "shop": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "sit": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "sleep": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "station": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "store": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "street": {
+      "styles": {
+        "default": {
+          "best": 1
+        }
+      }
+    },
+    "summer": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "sweet": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "table": {
+      "styles": {
+        "default": {
+          "best": 1
+        }
+      }
+    },
+    "tea": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "town": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "train": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "travel": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "tree": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "van": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "village": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "wake": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "walk": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "wall": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "wear": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "weather": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "welcome": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    },
+    "year": {
+      "styles": {
+        "default": {
+          "best": null
+        }
+      }
+    }
+  }
+}
