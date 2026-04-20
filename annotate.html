@@ -180,6 +180,21 @@
       color: var(--gray);
     }
     .version-cell.selected .ver-label { color: var(--selected); }
+    .version-cell .ver-prompt {
+      font-size: 7px;
+      color: var(--gray);
+      position: absolute;
+      bottom: 2px;
+      left: 2px;
+      right: 2px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      opacity: 0.6;
+    }
+    .version-cell:hover .ver-prompt {
+      opacity: 1;
+    }
     .version-cell .check-mark {
       position: absolute;
       top: 1px; right: 1px;
@@ -283,7 +298,8 @@
     </div>
     <button class="btn btn-secondary" onclick="selectAll()">Все latest</button>
     <button class="btn btn-secondary" onclick="clearAll()">Сбросить</button>
-    <button class="btn btn-primary" onclick="showExport()">📥 Export</button>
+    <button class="btn btn-secondary" onclick="toggleFilter('pending')" id="btn-filter-pending">Только без best</button>
+    
     <button class="btn btn-primary" onclick="showMigration()">📤 Export Migration</button>
   </header>
 
@@ -312,18 +328,6 @@
   </div>
 
   <div class="toast" id="toast"></div>
-
-  <div class="modal-overlay" id="export-modal" onclick="closeModal(event)">
-    <div class="modal">
-      <h3>📥 Экспорт выбранных версий</h3>
-      <pre id="export-data"></pre>
-      <div class="modal-actions">
-        <button class="btn btn-primary" onclick="copyExport()">📋 Копировать</button>
-        <button class="btn btn-secondary" onclick="downloadExport()">💾 Скачать JSON</button>
-        <button class="btn btn-secondary" onclick="closeModal()">Закрыть</button>
-      </div>
-    </div>
-  </div>
 
   <div class="modal-overlay" id="migration-modal" onclick="closeModal(event)">
     <div class="modal">
@@ -374,6 +378,9 @@
     // Focus state
     let focusedRow = 0;
     let focusedCol = 0;  // index within versions array
+
+    // Filter state
+    let filterMode = 'all';  // 'all' | 'pending' (только без best)
 
     // Virtual scroll
     let viewport, spacer, content;
@@ -440,7 +447,8 @@
               isLatest,
               isBest,
               path: REPO_BASE + 'styles/' + v.path,
-              url: previews ? previews['256'] : REPO_BASE + 'styles/' + v.path
+              url: previews ? previews['256'] : REPO_BASE + 'styles/' + v.path,
+              prompt: v.prompt || ''
             });
 
             if (isLatest) conceptEntry.latestVersion = versionLabel;
@@ -517,7 +525,7 @@
         viewport.addEventListener('scroll', onScroll, { passive: true });
 
         // Initial focus
-        if (window.conceptsData.length > 0) {
+        if (getVisibleConcepts().length > 0) {
           focusedRow = 0;
           focusedCol = getPreferredCol(0);
         }
@@ -533,7 +541,8 @@
     }
 
     function getPreferredCol(rowIdx) {
-      const c = window.conceptsData[rowIdx];
+      const visible = getVisibleConcepts();
+      const c = visible[rowIdx];
       if (!c || !c.versions.length) return 0;
       // Если уже выбрана версия для концепта – вернуть её индекс
       if (selected[c.concept]) {
@@ -544,6 +553,23 @@
       return c.versions.length - 1;
     }
 
+    function getVisibleConcepts() {
+      if (filterMode === 'all') return window.conceptsData;
+      return window.conceptsData.filter(c => !c.bestVersion);
+    }
+
+    function toggleFilter(mode) {
+      filterMode = mode;
+      document.getElementById('btn-filter-pending').classList.toggle('btn-primary', filterMode === 'pending');
+      document.getElementById('btn-filter-pending').classList.toggle('btn-secondary', filterMode !== 'pending');
+      const visible = getVisibleConcepts();
+      spacer.style.height = (visible.length * ROW_HEIGHT) + 'px';
+      focusedRow = 0;
+      focusedCol = getPreferredCol(0);
+      updateStats();
+      renderVisibleRows(true);
+    }
+
     // === VIRTUAL SCROLL ===
     function onScroll() {
       renderVisibleRows(false);
@@ -552,11 +578,12 @@
 
     function renderVisibleRows(force) {
       if (!viewport) return;
+      const visible = getVisibleConcepts();
       const scrollTop = viewport.scrollTop;
       const viewH = viewport.clientHeight;
 
       const start = Math.max(0, Math.floor(scrollTop / ROW_HEIGHT) - BUFFER);
-      const end = Math.min(window.conceptsData.length - 1, Math.ceil((scrollTop + viewH) / ROW_HEIGHT) + BUFFER);
+      const end = Math.min(visible.length - 1, Math.ceil((scrollTop + viewH) / ROW_HEIGHT) + BUFFER);
 
       // Re-render if range changed OR forced (e.g. focus change)
       if (!force && start === renderStart && end === renderEnd) return;
@@ -567,7 +594,7 @@
 
       let html = '';
       for (let i = start; i <= end; i++) {
-        const c = window.conceptsData[i];
+        const c = visible[i];
         const isSel = !!selected[c.concept];
         const isFocused = i === focusedRow;
         const rowClass = (isFocused ? 'focused ' : '') + (isSel ? 'selected' : '');
@@ -585,10 +612,12 @@
             const isSelVer = selected[c.concept] === ver.version;
             const isFocusedCell = isFocused && j === focusedCol;
             const cellClass = (isSelVer ? 'selected ' : '') + (isFocusedCell ? 'focused' : '');
+            const promptText = ver.prompt ? ver.prompt.substring(0, 40) + (ver.prompt.length > 40 ? '...' : '') : '';
             html += `<div class="version-cell ${cellClass}${ver.isBest ? ' best' : ''}" data-row="${i}" data-col="${j}" onclick="clickVersion(${i},${j})">
               <span class="check-mark">✓</span>
               <img src="${ver.url}" loading="lazy" onerror="this.style.display='none'">
               <span class="ver-label">${ver.originalVersion}</span>
+              ${promptText ? `<span class="ver-prompt" title="${esc(ver.prompt)}">${esc(promptText)}</span>` : ''}
             </div>`;
           } else {
             html += `<div class="version-cell empty"><span class="ver-label">—</span></div>`;
@@ -627,7 +656,8 @@
     }
 
     function moveRow(delta) {
-      const newRow = Math.max(0, Math.min(window.conceptsData.length - 1, focusedRow + delta));
+      const visible = getVisibleConcepts();
+      const newRow = Math.max(0, Math.min(visible.length - 1, focusedRow + delta));
       if (newRow !== focusedRow) {
         focusedRow = newRow;
         focusedCol = getPreferredCol(newRow);
@@ -647,7 +677,8 @@
     }
 
     function toggleCurrent() {
-      const c = window.conceptsData[focusedRow];
+      const visible = getVisibleConcepts();
+      const c = visible[focusedRow];
       if (!c || !c.versions[focusedCol]) return;
       const ver = c.versions[focusedCol].version;
 
@@ -667,7 +698,8 @@
     }
 
     function resetToLatest() {
-      const c = window.conceptsData[focusedRow];
+      const visible = getVisibleConcepts();
+      const c = visible[focusedRow];
       if (!c) return;
       if (c.latestVersion) {
         selected[c.concept] = c.latestVersion;
@@ -716,13 +748,16 @@
     }
 
     function updateStats() {
+      const visible = getVisibleConcepts();
+      const total = visible.length;
+      const pending = visible.filter(c => !c.bestVersion).length;
       document.getElementById('selected-count').textContent = Object.keys(selected).length;
+      document.getElementById('total-words').textContent = filterMode === 'pending' ? `${pending}/${window.conceptsData.length}` : total;
     }
 
     // === KEYBOARD ===
     document.addEventListener('keydown', (e) => {
       if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
-      if (document.getElementById('export-modal').classList.contains('active')) return;
 
       if (e.key === 'ArrowDown') {
         e.preventDefault();
@@ -760,35 +795,11 @@
       }
     });
 
-    // === EXPORT ===
-    function getExportData() {
-      return window.conceptsData
-        .filter(c => selected[c.concept])
-        .map(c => ({
-          concept: c.concept,
-          words: c.words,
-          selected_version: selected[c.concept],
-          all_versions: c.versions.map(v => v.version)
-        }));
-    }
-
-    function showExport() {
-      document.getElementById('export-data').textContent = JSON.stringify(getExportData(), null, 2);
-      document.getElementById('export-modal').classList.add('active');
-    }
-
     function closeModal(e) {
       if (e && e.target !== e.currentTarget) return;
-      document.getElementById('export-modal').classList.remove('active');
       document.getElementById('migration-modal').classList.remove('active');
     }
 
-    function copyExport() {
-      navigator.clipboard.writeText(JSON.stringify(getExportData(), null, 2)).then(() => {
-        showToast('📋 Скопировано');
-      });
-    }
-    
     function showMigrationModal() {
       const data = buildMigration();
       const totalConcepts = manifestConceptOrder.length;
@@ -840,11 +851,18 @@
       };
       
       // Apply selected versions ( структура 1 в 1 как манифест )
+      // - v1, v2... -> best = ИНДЕКС версии в массиве (не номер!)
+      // - latest -> best = индекс latest в массиве (осознанный выбор!)
+      // - не выбрано / undefined -> не включаем (пропуск)
       window.conceptsData.forEach(c => {
-        if (selected[c.concept] !== undefined) {
-          const sel = selected[c.concept];
-          const num = sel && sel.startsWith('v') ? parseInt(sel.slice(1)) : null;
-          mig.concepts[c.concept] = { styles: { default: { best: num } } };
+        const sel = selected[c.concept];
+        if (!sel) return;
+
+        // Находим индекс выбранной версии в массиве versions
+        const idx = c.versions.findIndex(v => v.version === sel);
+        if (idx >= 0) {
+          // best = индекс + 1 (1-based для человека)
+          mig.concepts[c.concept] = { styles: { default: { best: idx + 1 } } };
         }
       });
       
@@ -870,16 +888,6 @@
 
     function showMigration() {
       showMigrationModal();
-    }
-
-    function downloadExport() {
-      const blob = new Blob([JSON.stringify(getExportData(), null, 2)], { type: 'application/json' });
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(blob);
-      a.download = 'selected_versions.json';
-      a.click();
-      URL.revokeObjectURL(a.href);
-      showToast('💾 Скачано');
     }
 
     function showToast(msg) {
