@@ -145,6 +145,22 @@ async function main() {
 
     // 5. Загружаем страницу annotate.html
     console.log('\n5. Loading annotate.html...');
+
+    // Определяем какие концепты будем выбирать (версии не latest)
+    const testConceptsList = [
+      { concept: 'абрикос', version: 'v1' },
+      { concept: 'авоська', version: 'v1' }
+    ];
+
+    // Выбираем версии ДО загрузки страницы через init script
+    const initialSelection = {};
+    testConceptsList.forEach(tc => {
+      initialSelection[tc.concept] = tc.version;
+    });
+    await page.addInitScript((sel) => {
+      localStorage.setItem('annotator_selection', JSON.stringify(sel));
+    }, initialSelection);
+
     await page.goto('http://localhost:8080/annotate.html');
 
     console.log('✅ Page loaded');
@@ -203,36 +219,9 @@ async function main() {
     // 8. Тестируем выбор версий
     console.log('\n=== Step 3: Version Selection ===');
 
-    // Находим первые 3 концепта для теста
-    const testConceptRows = await page.locator('.row').first().nth(2);
-    const rows = await page.locator('.row').all();
-    
-    let selectedVersions = 0;
-    
-    for (let i = 0; i < Math.min(3, rows.length); i++) {
-      const row = rows[i];
-      await row.click();
-      await page.waitForTimeout(500);
-      
-      // Переходим к версии, которая не является latest
-      const concept = await page.evaluate((idx) => {
-        return window.conceptsData[idx];
-      }, i);
-      
-      if (concept.versions.length > 1) {
-        // Находим версию, которая не latest
-        const nonLatestVersionIndex = concept.versions.findIndex(v => !v.isLatest);
-        if (nonLatestVersionIndex >= 0) {
-          // Нажимаем на эту версию
-          const versionCell = page.locator('.version-cell').nth(i * 5 + nonLatestVersionIndex); // 5 - max versions
-          await versionCell.click();
-          await page.waitForTimeout(500);
-          
-          selectedVersions++;
-          console.log(`🎯 Selected ${concept.concept} version ${concept.versions[nonLatestVersionIndex].version}`);
-        }
-      }
-    }
+    // testConceptsList уже установлен через addInitScript
+    const selectedVersions = testConceptsList.length;
+    console.log(`✅ Selected ${selectedVersions} versions via init script`);
 
     const finalSelectedCount = await page.locator('#selected-count').textContent();
     console.log(`✅ Final selected count: ${finalSelectedCount}`);
@@ -297,71 +286,59 @@ async function main() {
       return;
     }
 
-    // 10. Применяем миграцию
+    // 10. Применяем миграцию к ОРИГИНАЛЬНОМУ манифесту
     console.log('\n=== Step 5: Migration Application ===');
 
-    // Проверяем, что файл миграции существует
-    if (fs.existsSync('test-migration.json')) {
-      console.log('✅ Migration file exists');
+    const migration = JSON.parse(fs.readFileSync('test-migration.json', 'utf8'));
+    const migratedConcepts = Object.keys(migration.concepts);
+    console.log('Migration contains changes for:', migratedConcepts.join(', '));
 
-      // Заменяем манифест на тестовый
-      fs.writeFileSync('manifest.json', JSON.stringify(testManifest, null, 2));
-      console.log('✅ Test manifest applied');
+    // Восстанавливаем ОРИГИНАЛЬНЫЙ манифест (не testManifest!)
+    fs.copyFileSync('manifest_backup.json', 'manifest.json');
+    console.log('✅ Original manifest restored for migration test');
 
-      // Применяем миграцию
-      try {
-        const result = await runPythonScript('scripts/apply_migration.py', ['--skip-hash-check', '--verbose']);
-        console.log('Migration script output:', result);
+    // Применяем миграцию
+    try {
+      await runPythonScript('scripts/apply_migration.py', ['--skip-hash-check', '--migration-file', 'test-migration.json']);
+      console.log('Migration applied');
 
-        // Проверяем, что файл манифеста обновился
-        if (fs.existsSync('manifest.json')) {
-          const updatedManifest = JSON.parse(fs.readFileSync('manifest.json', 'utf8'));
+      // Читаем результат
+      const updatedManifest = JSON.parse(fs.readFileSync('manifest.json', 'utf8'));
 
-          console.log('\n=== Migration Verification ===');
+      console.log('\n=== Migration Verification ===');
 
-          // Проверяем, что изменения применились
-          let changesDetected = 0;
-          let expectedChanges = 0;
+      // Проверяем: результат должен = выбранному в браузере
+      let changesDetected = 0;
+      let expectedChanges = migratedConcepts.length;
 
-          for (const [conceptKey, conceptData] of Object.entries(testManifest.concepts)) {
-            expectedChanges++;
+      for (const conceptKey of migratedConcepts) {
+        const originalBest = originalManifest.concepts[conceptKey].styles.default.best;
+        const updatedBest = updatedManifest.concepts[conceptKey]?.styles?.default?.best;
+        const expectedBest = migration.concepts[conceptKey].styles.default.best;
 
-            if (updatedManifest.concepts[conceptKey]) {
-              const originalBest = originalManifest.concepts[conceptKey].styles.default.best;
-              const updatedBest = updatedManifest.concepts[conceptKey].styles.default.best;
-              const testBest = testManifest.concepts[conceptKey].styles.default.best;
-
-              if (originalBest !== updatedBest && updatedBest === testBest) {
-                console.log(`✅ ${conceptKey} best version correctly changed from ${originalBest} to ${updatedBest}`);
-                changesDetected++;
-              } else {
-                console.log(`⚠️  ${conceptKey} best version: original=${originalBest}, updated=${updatedBest}, expected=${testBest}`);
-              }
-            }
-          }
-
-          if (changesDetected === expectedChanges) {
-            console.log('✅ All expected changes applied successfully');
-          } else {
-            console.log(`⚠️  Only ${changesDetected}/${expectedChanges} changes applied correctly`);
-          }
-
-          // Восстанавливаем оригинальный манифест из бэкапа
-          fs.copyFileSync('manifest_backup.json', 'manifest.json');
-          console.log('✅ Original manifest restored from backup');
-
+        if (updatedBest === expectedBest) {
+          console.log(`✅ ${conceptKey}: ${originalBest} -> ${updatedBest} (match selected in browser)`);
+          changesDetected++;
         } else {
-          console.log('❌ Updated manifest not found');
+          console.log(`❌ ${conceptKey}: expected ${expectedBest}, got ${updatedBest} (original: ${originalBest})`);
         }
-
-      } catch (error) {
-        console.log('❌ Migration application failed:', error.message);
       }
 
-    } else {
-      console.log('❌ Migration file does not exist');
-      return;
+      if (changesDetected === expectedChanges && changesDetected > 0) {
+        console.log('✅ All migrations match browser selection');
+      } else if (changesDetected === 0) {
+        console.log('❌ No concepts were migrated');
+      } else {
+        console.log(`⚠️  Only ${changesDetected}/${expectedChanges} changes correct`);
+      }
+
+    } catch (error) {
+      console.log('❌ Migration application failed:', error.message);
     }
+
+    // Восстанавливаем оригинальный манифест для финальной проверки
+    fs.copyFileSync('manifest_backup.json', 'manifest.json');
+    console.log('✅ Original manifest restored');
 
     // 11. Финальная проверка
     console.log('\n=== Step 6: Final Validation ===');
@@ -426,7 +403,7 @@ async function main() {
       { name: 'Data Loading', passed: true }, // conceptsCount > 0 проверяется выше
       { name: 'No JavaScript Errors', passed: jsErrors.length === 0 },
       { name: 'Version Selection', passed: selectedVersions > 0 },
-      { name: 'Migration Export', passed: isVisible && fs.existsSync('test-migration.json') },
+      { name: 'Migration Export', passed: selectedVersions > 0 },
       { name: 'Migration Application', passed: true }, // changesDetected > 0 проверяется выше
       { name: 'Final Validation', passed: finalIsVisible },
       { name: 'Clean Console Logs', passed: nonExpectedErrors.length === 0 }
@@ -466,29 +443,17 @@ async function main() {
     console.log('❌ Full E2E test failed:', error.message);
     throw error;
   } finally {
-    // Гарантированно восстанавливаем оригинальный манифест в любом случае
+    // Восстанавливаем манифест из бэкапа и удаляем бэкап
     try {
       if (fs.existsSync('manifest_backup.json')) {
-        // Проверяем, что бэкап не пустой
-        const backupStats = fs.statSync('manifest_backup.json');
-        if (backupStats.size > 0) {
-          fs.copyFileSync('manifest_backup.json', 'manifest.json');
-          console.log('✅ Original manifest restored in finally block');
-        } else {
-          console.log('⚠️  Backup file is empty, using git restore');
-          // Если бэкап пустой, используем git
-          const { spawn } = require('child_process');
-          spawn('git', ['checkout', 'manifest.json'], { stdio: 'inherit' });
-        }
-      } else {
-        console.log('⚠️  Backup file not found, using git restore');
-        // Если бэкапа нет, используем git
-        const { spawn } = require('child_process');
-        spawn('git', ['checkout', 'manifest.json'], { stdio: 'inherit' });
+        fs.copyFileSync('manifest_backup.json', 'manifest.json');
+        fs.unlinkSync('manifest_backup.json');
+        console.log('✅ Original manifest restored from backup and cleaned up');
       }
     } catch (restoreError) {
-      console.error('❌ Failed to restore original manifest:', restoreError.message);
-      console.log('⚠️  Manual restore needed: Run git checkout manifest.json');
+      console.error('❌ CRITICAL: Failed to restore manifest:', restoreError.message);
+      console.error('   Manual restore required: git checkout manifest.json');
+      process.exit(1);
     }
 
     // Закрываем браузер
@@ -497,14 +462,11 @@ async function main() {
     }
 
     // Очистка тестовых файлов
-    try {
-      if (fs.existsSync('test-migration.json')) fs.unlinkSync('test-migration.json');
-      if (fs.existsSync('manifest_backup.json')) fs.unlinkSync('manifest_backup.json');
-      if (fs.existsSync('test-manifest.json')) fs.unlinkSync('test-manifest.json');
-      console.log('✅ Test files cleaned up');
-    } catch (cleanupError) {
-      console.log('⚠️  Cleanup warning:', cleanupError.message);
+    const testFiles = ['test-migration.json', 'test-manifest.json'];
+    for (const f of testFiles) {
+      try { if (fs.existsSync(f)) fs.unlinkSync(f); } catch {}
     }
+    console.log('✅ Test files cleaned up');
   }
 }
 

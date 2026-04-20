@@ -1,0 +1,55 @@
+# .qwenignore — файлы которые qwen-code агенту ЗАПРЕЩЕНО читать
+# Работает аналогично .gitignore, но для агента
+
+# === СЕКРЕТЫ И КЛЮЧИ ===
+# Боевые файлы с реальными ключами — скрыты от агента
+.env
+.env.local
+.env.production
+.env.staging
+*.key
+*.pem
+*.token
+*.secret
+*.credentials
+
+# === КОНФИГИ АГЕНТА (содержат разрешения) ===
+.qwen/settings.json
+.qwen/config.json
+
+# === ЛОГИ (могут содержать токены) ===
+*.log
+logs/
+
+# === ВРЕМЕННЫЕ ФАЙЛЫ ===
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# === КЕШ PYTHON ===
+__pycache__/
+*.pyc
+*.pyo
+
+# === NODE_MODULES ===
+node_modules/
+
+# === GIT (не нужно читать) ===
+.git/
+.gitignore
+.gitattributes
+
+# === IDE ===
+.vscode/
+.idea/
+*.iml
+
+# === ТЕСТОВЫЕ РЕЗУЛЬТАТЫ ===
+test-results/
+playwright-report/
+.coverage
+
+# === ЧУВСТВИТЕЛЬНЫЕ ДАННЫЕ (добавляй сюда) ===
+# Пример: secrets/
+# Пример: config/private.yml

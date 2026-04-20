@@ -836,23 +836,15 @@
     function buildMigration() {
       const mig = { 
         _manifest_hash: computeManifestHash(),
-        concepts: []
+        concepts: {}
       };
       
-      // Fill with placeholders for all concepts in original order
-      for (let i = 0; i < manifestConceptOrder.length; i++) {
-        mig.concepts[i] = {};
-      }
-      
-      // Apply selected versions
+      // Apply selected versions ( структура 1 в 1 как манифест )
       window.conceptsData.forEach(c => {
         if (selected[c.concept] !== undefined) {
           const sel = selected[c.concept];
           const num = sel && sel.startsWith('v') ? parseInt(sel.slice(1)) : null;
-          const idx = manifestConceptOrder.indexOf(c.concept);
-          if (idx >= 0) {
-            mig.concepts[idx] = { styles: { default: { best: num } } };
-          }
+          mig.concepts[c.concept] = { styles: { default: { best: num } } };
         }
       });
       
