@@ -165,7 +165,6 @@ def build_manifest():
 
             manifest["concepts"][word]["styles"][style_name] = {
                 "latest": max_v,
-                "best": max_v,
                 "versions": ver_list
             }
 
