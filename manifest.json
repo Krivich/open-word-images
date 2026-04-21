@@ -20199,6 +20199,470 @@
       "concept": "august",
       "language": "default",
       "pos": null
+    },
+    "послеобеденное время": {
+      "concept": "afternoon",
+      "language": "rus"
+    },
+    "способный": {
+      "concept": "able",
+      "language": "rus"
+    },
+    "спросить": {
+      "concept": "ask",
+      "language": "rus"
+    },
+    "тётя": {
+      "concept": "aunt",
+      "language": "rus"
+    },
+    "американский": {
+      "concept": "american",
+      "language": "rus"
+    },
+    "аллея": {
+      "concept": "alley",
+      "language": "rus"
+    },
+    "появляться": {
+      "concept": "appear",
+      "language": "rus"
+    },
+    "бодрствующий": {
+      "concept": "awake",
+      "language": "rus"
+    },
+    "снова": {
+      "concept": "again",
+      "language": "rus"
+    },
+    "тоже": {
+      "concept": "also",
+      "language": "rus"
+    },
+    "после": {
+      "concept": "after",
+      "language": "rus"
+    },
+    "пробуждаться": {
+      "concept": "awaken",
+      "language": "rus"
+    },
+    "зола": {
+      "concept": "ash",
+      "language": "rus"
+    },
+    "автомобиль": {
+      "concept": "automobile",
+      "language": "rus"
+    },
+    "одинокий": {
+      "concept": "alone",
+      "language": "rus"
+    },
+    "жёлудь": {
+      "concept": "acorn",
+      "language": "rus"
+    },
+    "осень": {
+      "concept": "autumn",
+      "language": "rus"
+    },
+    "америка": {
+      "concept": "america",
+      "language": "rus"
+    },
+    "август": {
+      "concept": "august",
+      "language": "rus"
+    },
+    "позже": {
+      "concept": "afterwards",
+      "language": "rus"
+    },
+    "есть": {
+      "concept": "are",
+      "language": "rus"
+    },
+    "отсутствующий": {
+      "concept": "absent",
+      "language": "rus"
+    },
+    "адрес": {
+      "concept": "address",
+      "language": "rus"
+    },
+    "везде": {
+      "concept": "anywhere",
+      "language": "rus"
+    },
+    "арифметика": {
+      "concept": "arithmetic",
+      "language": "rus"
+    },
+    "любой": {
+      "concept": "any",
+      "language": "rus"
+    },
+    "цель": {
+      "concept": "aim",
+      "language": "rus"
+    },
+    "квартира": {
+      "concept": "apartment",
+      "language": "rus"
+    },
+    "обезьяна": {
+      "concept": "ape",
+      "language": "rus"
+    },
+    "проспект": {
+      "concept": "avenue",
+      "language": "rus"
+    },
+    "как": {
+      "concept": "as",
+      "language": "rus"
+    },
+    "у": {
+      "concept": "at",
+      "language": "rus"
+    },
+    "уже": {
+      "concept": "already",
+      "language": "rus"
+    },
+    "расставить": {
+      "concept": "arrange",
+      "language": "rus"
+    },
+    "вдоль": {
+      "concept": "along",
+      "language": "rus"
+    },
+    "возраст": {
+      "concept": "age",
+      "language": "rus"
+    },
+    "ангел": {
+      "concept": "angel",
+      "language": "rus"
+    },
+    "животное": {
+      "concept": "animal",
+      "language": "rus"
+    },
+    "легкий": {
+      "concept": "airy",
+      "language": "rus"
+    },
+    "всегда": {
+      "concept": "always",
+      "language": "rus"
+    },
+    "другой": {
+      "concept": "another",
+      "language": "rus"
+    },
+    "счёт": {
+      "concept": "account",
+      "language": "rus"
+    },
+    "ан": {
+      "concept": "an",
+      "language": "rus"
+    },
+    "и": {
+      "concept": "and",
+      "language": "rus"
+    },
+    "спящий": {
+      "concept": "asleep",
+      "language": "rus"
+    },
+    "над": {
+      "concept": "above",
+      "language": "rus"
+    },
+    "так_или_иначе": {
+      "concept": "anyhow",
+      "language": "rus"
+    },
+    "прибыл": {
+      "concept": "arrived",
+      "language": "rus"
+    },
+    "кто-нибудь": {
+      "concept": "anybody",
+      "language": "rus"
+    },
+    "аэродром": {
+      "concept": "airfield",
+      "language": "rus"
+    },
+    "вслух": {
+      "concept": "aloud",
+      "language": "rus"
+    },
+    "каждый": {
+      "concept": "apiece",
+      "language": "rus"
+    },
+    "вперед": {
+      "concept": "ahead",
+      "language": "rus"
+    },
+    "ответ": {
+      "concept": "answer",
+      "language": "rus"
+    },
+    "пепел": {
+      "concept": "ashes",
+      "language": "rus"
+    },
+    "искусство": {
+      "concept": "art",
+      "language": "rus"
+    },
+    "аэропорт": {
+      "concept": "airport",
+      "language": "rus"
+    },
+    "согласиться": {
+      "concept": "agree",
+      "language": "rus"
+    },
+    "принимать": {
+      "concept": "accept",
+      "language": "rus"
+    },
+    "восхищаться": {
+      "concept": "admire",
+      "language": "rus"
+    },
+    "добавлять": {
+      "concept": "add",
+      "language": "rus"
+    },
+    "яблоко": {
+      "concept": "apple",
+      "language": "rus"
+    },
+    "поднялся": {
+      "concept": "arose",
+      "language": "rus"
+    },
+    "муравей": {
+      "concept": "ant",
+      "language": "rus"
+    },
+    "все": {
+      "concept": "all",
+      "language": "rus"
+    },
+    "боль": {
+      "concept": "ache",
+      "language": "rus"
+    },
+    "дирижабль": {
+      "concept": "airship",
+      "language": "rus"
+    },
+    "через": {
+      "concept": "across",
+      "language": "rus"
+    },
+    "атака": {
+      "concept": "attack",
+      "language": "rus"
+    },
+    "разрешать": {
+      "concept": "allow",
+      "language": "rus"
+    },
+    "приключение": {
+      "concept": "adventure",
+      "language": "rus"
+    },
+    "количество": {
+      "concept": "amount",
+      "language": "rus"
+    },
+    "живой": {
+      "concept": "alive",
+      "language": "rus"
+    },
+    "прибыть": {
+      "concept": "arrive",
+      "language": "rus"
+    },
+    "действие": {
+      "concept": "act",
+      "language": "rus"
+    },
+    "ноющая": {
+      "concept": "aching",
+      "language": "rus"
+    },
+    "в сторону": {
+      "concept": "aside",
+      "language": "rus"
+    },
+    "авто": {
+      "concept": "auto",
+      "language": "rus"
+    },
+    "действия": {
+      "concept": "acts",
+      "language": "rus"
+    },
+    "среди": {
+      "concept": "among",
+      "language": "rus"
+    },
+    "апрель": {
+      "concept": "april",
+      "language": "rus"
+    },
+    "злой": {
+      "concept": "angry",
+      "language": "rus"
+    },
+    "ах": {
+      "concept": "ah",
+      "language": "rus"
+    },
+    "гектар": {
+      "concept": "acre",
+      "language": "rus"
+    },
+    "в_любом_случае": {
+      "concept": "anyway",
+      "language": "rus"
+    },
+    "вокруг": {
+      "concept": "around",
+      "language": "rus"
+    },
+    "художник": {
+      "concept": "artist",
+      "language": "rus"
+    },
+    "съел": {
+      "concept": "ate",
+      "language": "rus"
+    },
+    "пожилой": {
+      "concept": "aged",
+      "language": "rus"
+    },
+    "аллигатор": {
+      "concept": "alligator",
+      "language": "rus"
+    },
+    "автор": {
+      "concept": "author",
+      "language": "rus"
+    },
+    "назад": {
+      "concept": "ago",
+      "language": "rus"
+    },
+    "гнев": {
+      "concept": "anger",
+      "language": "rus"
+    },
+    "против": {
+      "concept": "against",
+      "language": "rus"
+    },
+    "на борту": {
+      "concept": "aboard",
+      "language": "rus"
+    },
+    "фартук": {
+      "concept": "apron",
+      "language": "rus"
+    },
+    "а": {
+      "concept": "a",
+      "language": "rus"
+    },
+    "возникать": {
+      "concept": "arise",
+      "language": "rus"
+    },
+    "груз": {
+      "concept": "armful",
+      "language": "rus"
+    },
+    "будильник": {
+      "concept": "alarm",
+      "language": "rus"
+    },
+    "стрела": {
+      "concept": "arrow",
+      "language": "rus"
+    },
+    "несчастный случай": {
+      "concept": "accident",
+      "language": "rus"
+    },
+    "врозь": {
+      "concept": "apart",
+      "language": "rus"
+    },
+    "армия": {
+      "concept": "army",
+      "language": "rus"
+    },
+    "посещать": {
+      "concept": "attend",
+      "language": "rus"
+    },
+    "похожий": {
+      "concept": "alike",
+      "language": "rus"
+    },
+    "почти": {
+      "concept": "almost",
+      "language": "rus"
+    },
+    "самолет": {
+      "concept": "airplane",
+      "language": "rus"
+    },
+    "воздух": {
+      "concept": "air",
+      "language": "rus"
+    },
+    "нет": {
+      "concept": "aren't",
+      "language": "rus"
+    },
+    "помощь": {
+      "concept": "aid",
+      "language": "rus"
+    },
+    "что_угодно": {
+      "concept": "anything",
+      "language": "rus"
+    },
+    "вдали": {
+      "concept": "afar",
+      "language": "rus"
+    },
+    "о": {
+      "concept": "about",
+      "language": "rus"
+    },
+    "внимание": {
+      "concept": "attention",
+      "language": "rus"
+    },
+    "испуганный": {
+      "concept": "afraid",
+      "language": "rus"
     }
   },
   "metadata": {
