@@ -40,7 +40,7 @@ _fix_images.py
 QWEN.md
 
 # Local tools and temporary data
-tools/
+tools/word-tagger/
 dictionary_tagged.json
 
 # Kaggle related
