@@ -161,17 +161,28 @@ You MUST insert the EXACT mascot string into 'f_prompt'.
 ❌ FORBIDDEN generic words: "girl", "child", "woman", "person", "teenager".
 ✅ REQUIRED exact string: "${MASCOTS['7yo_girl']}" (for example).
 
-Placement: Place the mascot naturally, usually as the subject.
+Placement: Place the mascot naturally.
 Example: "${MASCOTS['7yo_girl']}, jumping with joy" (Correct)
 Example: "girl jumping" (WRONG - generic)
 Example: "ball held by ${MASCOTS['7yo_girl']}" (Correct - object focus)
 
+=== COMPOSITIONAL HIERARCHY (CRITICAL - FIX "MASKOT DOMINANCE" PROBLEM) ===
+The Concept must be the HERO, the Mascot is the GUIDE.
+For words like "behind", "big", "under", "small":
+1. SCALE CUES: You MUST use words like "GIGANTIC", "TINY", "OVERSIZED", "MASSIVE".
+   ❌ "girl next to bear" → ✅ "GIANT teddy bear, tiny ${MASCOTS['7yo_girl']} hugging its leg"
+   ❌ "girl behind tree" → ✅ "MASSIVE oak tree filling frame, tiny ${MASCOTS['7yo_girl']} peeking from behind trunk"
+2. CONTEXT FIRST: Describe the large object BEFORE the mascot.
+   ❌ "Girl pointing at clock" → ✅ "Large wall clock showing 5 o'clock, ${MASCOTS['7yo_girl']} pointing at it"
+
 === VISUAL HEURISTICS (STEP 3: ANALYSIS & PROMPT) ===
 1. CONCRETE > ABSTRACT: ❌ "concept" → ✅ "pile of apples"
 2. ACTION > STATE: ❌ "happy" → ✅ "mascot laughing, hands clapping"
-3. ROLE DISTINCTNESS: Roles (Chef, Mom) need props (Chef hat, hugging baby).
-4. TECHNIQUE: "Reaction + Hint of Cause" → "delicious" → "mascot licking lips, ice cream slightly visible"
-5. The "Finger Test": Will a child say the target word instantly? If not, simplify.
+3. NO SYMBOLS/TEXT: ❌ "checkmark", "question mark", "sign with text" → ✅ "thumbs up", "shrugging", "pointing finger"
+4. CAUSE + REACTION: Show the object causing the emotion. ❌ "girl scared" → ✅ "girl hiding behind hands, large spider visible"
+5. DYNAMIC POSES: Ban generic "standing". Use "crouching", "climbing", "peeking", "hugging".
+6. ROLE DISTINCTNESS: Roles (Chef, Mom) need props (Chef hat, hugging baby).
+7. The "Finger Test": Will a child say the target word instantly? If not, simplify.
 
 === GENERATION CONTEXT ===
 Fill 'f_prompt' to replace {YOUR_PROMPT_HERE} in:
@@ -205,6 +216,30 @@ Fill 'f_prompt' to replace {YOUR_PROMPT_HERE} in:
     "g_confidence": 90,
     "h_min_age": 6,
     "i_content_tags": ["emotion"],
+    "j_selected_mascot": "7yo_girl"
+  },
+  {
+    "a_word": "big",
+    "b_category": "abstract_concept",
+    "c_analysis": "Scale concept. Anchor: Giant bear vs tiny girl.",
+    "d_risks": ["Without 'GIANT', objects look same size"],
+    "e_rus_word": "большой",
+    "f_prompt": "GIANT teddy bear, tiny ${MASCOTS['7yo_girl']} hugging its leg",
+    "g_confidence": 95,
+    "h_min_age": 4,
+    "i_content_tags": ["abstract", "size"],
+    "j_selected_mascot": "7yo_girl"
+  },
+  {
+    "a_word": "behind",
+    "b_category": "abstract_concept",
+    "c_analysis": "Spatial concept. Anchor: Massive tree, tiny girl peeking.",
+    "d_risks": ["Girl might cover the tree if not 'TINY'"],
+    "e_rus_word": "позади",
+    "f_prompt": "MASSIVE oak tree filling frame, tiny ${MASCOTS['7yo_girl']} peeking from behind trunk",
+    "g_confidence": 95,
+    "h_min_age": 4,
+    "i_content_tags": ["abstract", "spatial"],
     "j_selected_mascot": "7yo_girl"
   }
 ]
