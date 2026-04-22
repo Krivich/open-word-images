@@ -30,12 +30,48 @@ jobs:
       - name: Run Processor
         run: python3 scripts/process_images.py
 
-      - name: Commit & Push
+      - name: Commit & Push with Optimistic Retry
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add styles/ manifest.json
-          git diff --quiet && git diff --staged --quiet || git commit -m "chore: auto-version & update manifest v2 [skip ci]"
-          git push
+
+          # Динамическое определение ветки
+          BRANCH_NAME="${{ github.ref_name }}"
+          REMOTE_REF="origin/${BRANCH_NAME}"
+
+          MAX_RETRIES=3
+          RETRY_COUNT=0
+
+          while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+            # Добавляем изменения
+            git add styles/ manifest.json
+
+            # Проверяем, есть ли что коммитить
+            if ! git diff --cached --quiet; then
+              git commit -m "chore: auto-update [skip ci]"
+            fi
+
+            # Пытаемся запушить
+            if git push origin HEAD:${BRANCH_NAME}; then
+              echo "✅ Push successful to ${BRANCH_NAME}"
+              exit 0
+            fi
+
+            # Если не вышло — пробуем ребейз и повтор
+            RETRY_COUNT=$((RETRY_COUNT + 1))
+            echo "⚠️ Push failed (attempt $RETRY_COUNT/$MAX_RETRIES). Rebasing..."
+
+            git fetch origin "${BRANCH_NAME}"
+            git rebase "${REMOTE_REF}"
+
+            # Если после ребейза нет изменений для коммита — выходим успешно
+            if git diff --cached --quiet && git diff HEAD --quiet; then
+              echo "✅ No changes to push after rebase"
+              exit 0
+            fi
+          done
+
+          echo "❌ Failed to push after $MAX_RETRIES attempts"
+          exit 1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
