@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated": "2026-04-22T13:19:48.868784+00:00",
+  "updated": "2026-04-22T15:54:54.368598+00:00",
   "concepts": {
     "bed": {
       "default_style": "default",
@@ -41500,6 +41500,8 @@
   },
   "metadata": {
     "total_concepts": 1375,
-    "total_versions": 1739
-  }
+    "total_versions": 1739,
+    "last_build": "2026-04-22T15:54:54.368598+00:00"
+  },
+  "styles": {}
 }
