@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
-GitHub Action Script (FIXED): Versions new images in styles/default only.
-- ИГНОРИРУЕТ все папки кроме 'default' (до завершения миграции)
-- Безопасно пропускает старые превью (_latest_*, _best_*, _vN)
+GitHub Action Script (v3): Incremental Manifest Update & Versioning.
+- Версионирует новые PNG в разрешённых стилях (по умолчанию только 'default')
 - Генерирует превью в thumbs/{size}/
-- Строит manifest v2
+- ОБНОВЛЯЕТ manifest.json инкрементально (не пересоздаёт с нуля)
+- НЕ создаёт и не трогает симлинки (передано в отдельный workflow)
+- Сохраняет: best, status, planned_prompt, lang, words metadata и кастомные поля
 """
-import os, re, json, ast, shutil
+import os, re, json, ast
 from pathlib import Path
 from datetime import datetime, timezone
 from PIL import Image
@@ -15,8 +16,7 @@ SIZES = [128, 256, 512]
 STYLES_ROOT = Path("styles")
 MANIFEST_FILE = Path("manifest.json")
 
-# 🛑 ЖЕСТКОЕ ОГРАНИЧЕНИЕ: Обрабатываем ТОЛЬКО default
-# После миграции поменяйте на None, чтобы включить все стили
+# 🛑 Ограничение стиля. Поставьте None для обработки всех папок
 ALLOWED_STYLES = ["default"]
 
 def is_allowed_style(style_name: str) -> bool:
@@ -24,13 +24,12 @@ def is_allowed_style(style_name: str) -> bool:
     return style_name in ALLOWED_STYLES
 
 def parse_words_py(style_dir: Path) -> dict:
-    """Parse words.py to extract prompts."""
+    """Парсит words.py для получения промптов."""
     prompts = {}
     wp = style_dir / "words.py"
     if not wp.exists(): return prompts
     try:
         content = wp.read_text(encoding="utf-8")
-        # Удаляем # комментарии, но не трогаем строки
         lines = []
         for line in content.split("\n"):
             stripped = line.strip()
@@ -48,29 +47,23 @@ def parse_words_py(style_dir: Path) -> dict:
     return prompts
 
 def is_skip_file(name: str) -> bool:
-    """Пропускает версии, симлинки и старые превьюшки v1"""
-    if any(s in name for s in ["_v", "_latest", "_best", "_128", "_256", "_512"]):
-        return True
-    return False
+    """Пропускает версии, симлинки и превьюшки."""
+    return any(s in name for s in ["_v", "_latest", "_best", "_128", "_256", "_512"])
 
 def process_new_images():
-    """Find unversioned PNGs in ALLOWED styles, version them, update symlinks, generate thumbs."""
+    """Версионирует новые картинки и генерирует превью. Симлинки НЕ создаёт."""
     new_files_found = False
-
     for style_dir in STYLES_ROOT.iterdir():
         if not style_dir.is_dir() or style_dir.name.startswith("."): continue
-        if not is_allowed_style(style_dir.name): continue  # 🛑 SKIP
+        if not is_allowed_style(style_dir.name): continue
 
-        prompts = parse_words_py(style_dir)
         thumbs_base = style_dir / "thumbs"
-
         for src in style_dir.glob("*.png"):
             if src.is_symlink(): continue
-            if "thumbs" in src.parts: continue
+            if "thumbs" in src.parts or "latest" in src.parts or "best" in src.parts: continue
             if is_skip_file(src.name): continue
 
             word = src.stem
-            # Find max version
             max_v = 0
             for f in style_dir.glob(f"{word}_v*.png"):
                 if f.is_symlink(): continue
@@ -79,114 +72,139 @@ def process_new_images():
 
             new_v = max_v + 1
             dest = style_dir / f"{word}_v{new_v}.png"
-
-            # 1. Rename
             src.rename(dest)
             print(f"  📁 {style_dir.name}/{src.name} -> {dest.name}")
             new_files_found = True
 
-            # 2. Symlinks
-            latest_ln = style_dir / f"{word}_latest.png"
-            best_ln   = style_dir / f"{word}_best.png"
-            for ln in (latest_ln, best_ln):
-                if ln.exists() or ln.is_symlink(): ln.unlink()
-            latest_ln.symlink_to(dest.name)
-            best_ln.symlink_to(dest.name)
-
-            # 3. Thumbnails
+            # Генерация превью
             for size in SIZES:
                 out_dir = thumbs_base / str(size)
                 out_dir.mkdir(parents=True, exist_ok=True)
                 out_file = out_dir / f"{word}_v{new_v}.png"
-
                 if out_file.exists() and out_file.stat().st_mtime >= dest.stat().st_mtime:
                     continue
-
                 try:
                     img = Image.open(dest).convert("RGBA")
                     img.thumbnail((size, size), Image.LANCZOS)
                     img.save(out_file, "PNG", optimize=True)
                 except Exception as e:
                     print(f"  ⚠️ Thumb error {word}_{size}: {e}")
-
     return new_files_found
 
-def build_manifest():
-    """Scan ALLOWED styles and build manifest.json v2.0"""
-    manifest = {
-        "version": "2.0",
-        "updated": datetime.now(timezone.utc).isoformat(),
-        "concepts": {},
-        "words": {},
-        "metadata": {"total_concepts": 0, "total_versions": 0}
-    }
+def update_manifest():
+    """Загружает существующий манифест и аккуратно вплетает новые данные."""
+    if MANIFEST_FILE.exists():
+        try:
+            with open(MANIFEST_FILE, "r", encoding="utf-8") as f:
+                manifest = json.load(f)
+        except Exception as e:
+            print(f"⚠️ Failed to load manifest: {e}. Starting fresh.")
+            manifest = {}
+    else:
+        manifest = {}
+
+    manifest.setdefault("version", "2.0")
+    manifest.setdefault("concepts", {})
+    manifest.setdefault("words", {})
+    manifest.setdefault("styles", {})
+    manifest.setdefault("metadata", {})
+
+    total_versions = 0
 
     for style_dir in STYLES_ROOT.iterdir():
         if not style_dir.is_dir() or style_dir.name.startswith("."): continue
-        if not is_allowed_style(style_dir.name): continue  # 🛑 SKIP
+        if not is_allowed_style(style_dir.name): continue
 
         style_name = style_dir.name
         prompts = parse_words_py(style_dir)
+        style_files = {}  # word -> [(v, path)]
 
-        versions_map = {}
         for f in style_dir.glob("*_v*.png"):
             if f.is_symlink(): continue
+            if "thumbs" in f.parts or "latest" in f.parts or "best" in f.parts: continue
             m = re.match(r"(.+?)_v(\d+)\.png$", f.name)
             if m:
                 word, v = m.group(1), int(m.group(2))
-                versions_map.setdefault(word, []).append((v, f))
+                style_files.setdefault(word, []).append((v, f))
 
-        for word, vers in versions_map.items():
+        for word, vers in style_files.items():
             vers.sort(key=lambda x: x[0])
             max_v = vers[-1][0]
 
+            # Инициализация концепта (только если отсутствует)
             if word not in manifest["concepts"]:
                 manifest["concepts"][word] = {"default_style": style_name, "styles": {}}
 
-            ver_list = []
+            concept = manifest["concepts"][word]
+            if not concept.get("default_style"):
+                concept["default_style"] = style_name
+
+            # Инициализация блока стиля (сохраняет best, status, planned_prompt и др.)
+            if style_name not in concept["styles"]:
+                concept["styles"][style_name] = {
+                    "latest": None,
+                    "best": None,
+                    "status": "ready",
+                    "versions": []
+                }
+
+            style_data = concept["styles"][style_name]
+            style_data["latest"] = max_v  # latest всегда синхронизируется с диском
+
+            # Безопасное слияние версий
+            existing_versions = {v["n"]: v for v in style_data.get("versions", [])}
+
             for v_num, v_file in vers:
+                if v_num not in existing_versions:
+                    existing_versions[v_num] = {
+                        "n": v_num,
+                        "filename": v_file.name,
+                        "path": f"{style_name}/{v_file.name}",
+                        "prompt": prompts.get(word, "") if v_num == max_v else "",
+                        "created": datetime.fromtimestamp(v_file.stat().st_mtime, tz=timezone.utc).isoformat(),
+                        "previews": {}
+                    }
+                else:
+                    ev = existing_versions[v_num]
+                    ev["filename"] = v_file.name
+                    ev["path"] = f"{style_name}/{v_file.name}"
+                    if not ev.get("prompt") and v_num == max_v:
+                        ev["prompt"] = prompts.get(word, "")
+                    if "created" not in ev:
+                        ev["created"] = datetime.fromtimestamp(v_file.stat().st_mtime, tz=timezone.utc).isoformat()
+
+                # Пересчёт превью на основе файлов в папке
                 previews = {}
                 for s in SIZES:
                     p = style_dir / "thumbs" / str(s) / f"{word}_v{v_num}.png"
                     if p.exists():
                         previews[str(s)] = f"{style_name}/thumbs/{s}/{word}_v{v_num}.png"
+                existing_versions[v_num]["previews"] = previews
 
-                # Промпт берем только для latest версии, остальные можно оставить пустыми или заполнить по желанию
-                prompt = prompts.get(word, "") if v_num == max_v else ""
+            style_data["versions"] = sorted(existing_versions.values(), key=lambda x: x["n"])
+            total_versions += len(style_data["versions"])
 
-                ver_list.append({
-                    "n": v_num,
-                    "filename": v_file.name,
-                    "path": f"{style_name}/{v_file.name}",
-                    "prompt": prompt,
-                    "created": datetime.fromtimestamp(v_file.stat().st_mtime, tz=timezone.utc).isoformat(),
-                    "previews": previews
-                })
+            # Добавление в words ТОЛЬКО если отсутствует (сохраняет lang, freq, cefr, alias_of, note)
+            if word not in manifest["words"]:
+                lang = "eng" if style_name in ("eng", "flat") else ("rus" if "new" in style_name else style_name)
+                manifest["words"][word] = {"concept": word, "language": lang, "pos": None}
 
-            manifest["concepts"][word]["styles"][style_name] = {
-                "latest": max_v,
-                "versions": ver_list
-            }
-
-            lang = "eng" if style_name in ("eng", "flat") else ("rus" if "new" in style_name else style_name)
-            manifest["words"][word] = {"concept": word, "language": lang, "pos": None}
-
+    # Обновление метаданных (сохраняет languages, styles_used, pending_concepts, build_engine)
     manifest["metadata"]["total_concepts"] = len(manifest["concepts"])
-    manifest["metadata"]["total_versions"] = sum(
-        len(s["versions"]) for c in manifest["concepts"].values() for s in c["styles"].values()
-    )
+    manifest["metadata"]["total_versions"] = total_versions
+    now_iso = datetime.now(timezone.utc).isoformat()
+    manifest["metadata"]["last_build"] = now_iso
+    manifest["updated"] = now_iso
 
     with open(MANIFEST_FILE, "w", encoding="utf-8") as f:
         json.dump(manifest, f, indent=2, ensure_ascii=False)
-    print(f"📝 Manifest built: {manifest['metadata']['total_concepts']} concepts, {manifest['metadata']['total_versions']} versions.")
+    print(f"📝 Manifest synced: {len(manifest['concepts'])} concepts, {total_versions} versions.")
 
 def main():
-    print("🚀 Starting manifest processor v2 (RESTRICTED TO DEFAULT)...")
-    changed = process_new_images()
-    if changed or not MANIFEST_FILE.exists():
-        build_manifest()
-    else:
-        print("✨ No new images. Manifest up to date.")
+    print("🚀 Starting manifest processor v3 (INCREMENTAL + NO SYMLINKS)...")
+    process_new_images()
+    # Запускаем всегда, чтобы подхватить изменения words.py и сохранить структуру
+    update_manifest()
     print("✅ Done.")
 
 if __name__ == "__main__":

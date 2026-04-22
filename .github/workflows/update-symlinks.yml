@@ -1,0 +1,91 @@
+name: Sync Symlinks from Manifest
+on:
+  push:
+    paths:
+      - 'manifest.json'
+      - '.github/workflows/update-symlinks.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-symlinks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+
+      - name: Generate & Sync Symlinks
+        run: |
+          python3 - << 'PYEOF'
+          import json, shutil
+          from pathlib import Path
+
+          manifest = json.loads(Path("manifest.json").read_text())
+          styles_root = Path("styles")
+          SIZES = ["128", "256", "512"]
+
+          for style_dir in styles_root.iterdir():
+              if not style_dir.is_dir() or style_dir.name.startswith("."): continue
+
+              # 1. Чистим старые корневые симлинки (_latest, _best)
+              for ln in list(style_dir.glob("*_latest.png")) + list(style_dir.glob("*_best.png")):
+                  ln.unlink(missing_ok=True)
+
+              # 2. Полностью пересоздаём latest/ и best/ (гарантирует отсутствие мусора)
+              for folder in ("latest", "best"):
+                  target_dir = style_dir / folder
+                  if target_dir.exists():
+                      shutil.rmtree(target_dir)
+                  target_dir.mkdir(exist_ok=True)
+
+          # 3. Строим симлинки по манифесту
+          for word, concept in manifest.get("concepts", {}).items():
+              for style_name, style_data in concept.get("styles", {}).items():
+                  style_dir = styles_root / style_name
+                  if not style_dir.exists(): continue
+
+                  latest_v = style_data.get("latest")
+                  best_v   = style_data.get("best")
+
+                  def build_links(folder_name: str, version: int | None):
+                      if version is None: return
+                      src_name = f"{word}_v{version}.png"
+                      src_path = style_dir / src_name
+                      if not src_path.exists():
+                          print(f"  ⚠️ Source missing: {src_path}")
+                          return
+
+                      base = style_dir / folder_name
+          
+                      # Корневой симлинк: latest/cat.png -> ../cat_v3.png
+                      link_root = base / f"{word}.png"
+                      link_root.symlink_to(f"../{src_name}")
+
+                      # Превью: latest/thumbs/128/cat.png -> ../../../thumbs/128/cat_v3.png
+                      for s in SIZES:
+                          s_dir = base / "thumbs" / s
+                          s_dir.mkdir(parents=True, exist_ok=True)
+                          link_thumb = s_dir / f"{word}.png"
+                          # Поднимаемся на 3 уровня вверх до корня стиля, затем в thumbs/{size}
+                          link_thumb.symlink_to(f"../../../thumbs/{s}/{src_name}")
+                          print(f"  🔗 {link_thumb.relative_to(styles_root)} -> {src_name}")
+
+                  build_links("latest", latest_v)
+                  build_links("best", best_v)
+
+          print("✅ Symlinks structure synced.")
+          PYEOF
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add styles/
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: sync symlinks from manifest [skip ci]"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
