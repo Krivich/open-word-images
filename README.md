@@ -184,6 +184,12 @@ python scripts/apply_migration.py --skip-hash-check
   }
 }
 ```
+## 📚 Dictionary
+
+Autocomplete and suggestions use [wordfreq-en-25000](https://github.com/aparrish/wordfreq-en-25000).
+- **Author:** Allison Parrish
+- **License:** CC-BY-SA 4.0
+- **Words:** 25,000 most common English words with frequency scores
 
 ## 📜 License
 

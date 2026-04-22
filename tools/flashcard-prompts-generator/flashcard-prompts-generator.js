@@ -23,12 +23,24 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const CONFIG = {
-    SOURCE_FILES: {
-        nouns: path.join(__dirname, 'dicts', 'nouns_all_final.txt'),
-        adjs: path.join(__dirname, 'dicts', 'adjs_all_final.txt'),
-        verbs: path.join(__dirname, 'dicts', 'verbs_all_final.txt'),
+    // ========== DATA SOURCE ==========
+    // Change provider name and its config to switch data source
+    DATA_PROVIDER: 'txt_dicts',
+
+    PROVIDER_CONFIGS: {
+        csv_simple: {
+            source: path.join(__dirname, 'Dale-Chall', 'flashcards_Dale-Chall_final_v2.csv'),
+            column: 0,  // column index to extract words from
+        },
+        txt_dicts: {
+            nouns: path.join(__dirname, 'dicts', 'nouns_all_final.txt'),
+            adjs: path.join(__dirname, 'dicts', 'adjs_all_final.txt'),
+            verbs: path.join(__dirname, 'dicts', 'verbs_all_final.txt'),
+            excludeProvider: 'csv_simple',  // will exclude all words loaded by csv_simple provider
+        },
     },
-    BATCH_RATIOS: { nouns: 0.5, adjs: 0.3, verbs: 0.2 },
+
+    // ========== GENERATOR CONFIG ==========
     BATCH_SIZE: 15,
     OUTPUT_CSV: path.join(__dirname, 'flashcards_final.csv'),
     OUTPUT_JSON: path.join(__dirname, 'sgr_reasoning.json'),
@@ -103,13 +115,135 @@ function logSkippedWord(word, reason) {
     appendFileSync(CONFIG.SKIPPED_LOG, JSON.stringify(entry) + '\n', 'utf-8');
 }
 
-function loadWordList(filePath) {
-    if (!existsSync(filePath)) {
-        log('warn', `File not found: ${filePath}`);
-        return [];
+// ========== DATA PROVIDERS (Simple Iterators) ==========
+
+// CSV Provider: reads words sequentially from CSV column
+function createCsvProvider(config) {
+    const { source, column } = config;
+    let words = [];
+    let idx = 0;
+
+    function init() {
+        if (!existsSync(source)) {
+            log('warn', `CSV not found: ${source}`);
+            return;
+        }
+        const text = readFileSync(source, 'utf-8');
+        const lines = text.split('\n').filter(l => l.trim());
+        const header = lines[0].split(',');
+        log('info', `CSV Provider: column "${header[column]}" from ${source}`);
+
+        for (let i = 1; i < lines.length; i++) {
+            const cols = lines[i].split(',');
+            const word = (cols[column] || '').trim().toLowerCase();
+            if (word) words.push(word);
+        }
+        log('info', `CSV Provider: ${words.length} words total`);
     }
-    const text = readFileSync(filePath, 'utf-8');
-    return text.split('\n').map(w => w.trim().toLowerCase()).filter(w => w.length > 0);
+
+    return {
+        init,
+        next(batchSize) {
+            if (idx >= words.length) return [];
+            const batch = words.slice(idx, idx + batchSize);
+            idx += batchSize;
+            return batch;
+        },
+        reset() { idx = 0; },
+        remaining() { return words.length - idx; }
+    };
+}
+
+// TXT Dicts Provider: round-robin from noun/adj/verb files
+function createTxtDictsProvider(config) {
+    const { nouns, adjs, verbs, excludeProvider } = config;
+    let allWords = [];
+    let idx = 0;
+
+    function init() {
+        // Load exclude words from another provider
+        let excludeSet = new Set();
+        if (excludeProvider && CONFIG.PROVIDER_CONFIGS[excludeProvider]) {
+            const excludeProv = createProvider(excludeProvider);
+            excludeProv.init();
+            let batch = excludeProv.next(10000);
+            while (batch.length > 0) {
+                batch.forEach(w => excludeSet.add(w));
+                batch = excludeProv.next(10000);
+            }
+            log('info', `TXT Provider: excluding ${excludeSet.size} words from ${excludeProvider}`);
+        }
+
+        const load = (path) => existsSync(path)
+            ? readFileSync(path, 'utf-8')
+                .split('\n')
+                .map(w => w.trim().toLowerCase())
+                .filter(w => w && !excludeSet.has(w))
+            : [];
+
+        const pools = {
+            nouns: load(nouns),
+            adjs: load(adjs),
+            verbs: load(verbs),
+        };
+
+        // Calculate real ratios
+        const total = pools.nouns.length + pools.adjs.length + pools.verbs.length;
+        const ratios = {
+            nouns: pools.nouns.length / total,
+            adjs: pools.adjs.length / total,
+            verbs: pools.verbs.length / total,
+        };
+        log('info', `TXT Provider: nouns:${pools.nouns.length}, adjs:${pools.adjs.length}, verbs:${pools.verbs.length}`);
+        log('info', `TXT Provider: ratios - nouns:${ratios.nouns.toFixed(2)}, adjs:${ratios.adjs.toFixed(2)}, verbs:${ratios.verbs.toFixed(2)}`);
+
+        // Round-robin into single array
+        allWords = [];
+        const counts = { nouns: 0, adjs: 0, verbs: 0 };
+        const targets = {
+            nouns: Math.round(CONFIG.BATCH_SIZE * ratios.nouns),
+            adjs: Math.round(CONFIG.BATCH_SIZE * ratios.adjs),
+            verbs: Math.round(CONFIG.BATCH_SIZE * ratios.verbs),
+        };
+
+        while (counts.nouns < pools.nouns.length ||
+               counts.adjs < pools.adjs.length ||
+               counts.verbs < pools.verbs.length) {
+            for (const key of ['nouns', 'adjs', 'verbs']) {
+                const target = targets[key];
+                const pool = pools[key];
+                for (let i = 0; i < target && counts[key] < pool.length; i++) {
+                    allWords.push(pool[counts[key]++]);
+                }
+            }
+        }
+        log('info', `TXT Provider: ${allWords.length} words total`);
+    }
+
+    return {
+        init,
+        next(batchSize) {
+            if (idx >= allWords.length) return [];
+            const batch = allWords.slice(idx, idx + batchSize);
+            idx += batchSize;
+            return batch;
+        },
+        reset() { idx = 0; },
+        remaining() { return allWords.length - idx; }
+    };
+}
+
+// Provider factory
+function createProvider(providerName = CONFIG.DATA_PROVIDER) {
+    const providerConfig = CONFIG.PROVIDER_CONFIGS[providerName];
+    switch (providerName) {
+        case 'csv_simple':
+            return createCsvProvider(providerConfig);
+        case 'txt_dicts':
+            return createTxtDictsProvider(providerConfig);
+        default:
+            throw new Error(`Unknown provider: ${providerName}`);
+    }
 }
 
 function loadCheckpoint(csvPath) {
@@ -387,55 +521,57 @@ function appendToSGRJson(jsonPath, rows) {
     writeFileSync(jsonPath, JSON.stringify([...existing, ...rows], null, 2), 'utf-8');
 }
 
-function buildProportionalQueue(sourceFiles, ratios, batchSize, processedSet) {
-    const pools = {};
-    for (const [key, filePath] of Object.entries(sourceFiles)) {
-        const words = loadWordList(filePath);
-        pools[key] = words.filter(w => !processedSet.has(w));
-    }
+// Find batch starting after lastProcessed word
+function findResumeBatch(provider, lastProcessed) {
+    while (true) {
+        const batch = provider.next(CONFIG.BATCH_SIZE);
+        if (batch.length === 0) return batch;
 
-    const batch = [];
-    for (const [key, ratio] of Object.entries(ratios)) {
-        const count = Math.round(batchSize * ratio);
-        const pool = pools[key] || [];
-        batch.push(...pool.slice(0, count));
-    }
+        const idx = batch.indexOf(lastProcessed);
+        if (idx === -1) continue;  // word not in this batch, try next
 
-    for (let i = batch.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [batch[i], batch[j]] = [batch[j], batch[i]];
+        // Found - truncate or skip to next
+        if (idx >= batch.length - 1) {
+            // lastProcessed is last word - return next batch
+            return provider.next(CONFIG.BATCH_SIZE);
+        } else {
+            // Truncate to words after lastProcessed
+            return batch.slice(idx + 1);
+        }
     }
-    return batch;
 }
 
 async function main() {
     log('info', 'Flashcard Prompt Generator');
+    log('info', `Provider: ${CONFIG.DATA_PROVIDER}`);
 
     try {
         const processed = loadCheckpoint(CONFIG.OUTPUT_CSV);
         log('info', `Loaded checkpoint: ${processed.size} words processed.`);
 
+        const provider = createProvider();
+        provider.init();
+        log('info', `Provider ready: ${provider.remaining()} words total`);
+
+        // Resume from checkpoint: find batch with first unprocessed word
+        let batch = null;
+        const lastProcessed = processed.size > 0 ? [...processed][processed.size - 1] : null;
+        if (lastProcessed) {
+            log('info', `Resuming from after: ${lastProcessed}`);
+            batch = findResumeBatch(provider, lastProcessed);
+        } else {
+            batch = provider.next(CONFIG.BATCH_SIZE);
+        }
+
         let totalSaved = 0;
         let batchNum = 0;
 
-        while (true) {
+        do {
             batchNum++;
-            const batchWords = buildProportionalQueue(
-                CONFIG.SOURCE_FILES,
-                CONFIG.BATCH_RATIOS,
-                CONFIG.BATCH_SIZE,
-                processed
-            );
-
-            if (batchWords.length === 0) {
-                log('success', 'All available words processed!');
-                break;
-            }
-
-            log('info', `Batch #${batchNum} | Size: ${batchWords.length}`);
+            log('info', `Batch #${batchNum} | Size: ${batch.length}`);
 
             try {
-                const { results, unprocessed } = await processBatchWithCarryover(batchWords, batchNum);
+                const { results, unprocessed } = await processBatchWithCarryover(batch, batchNum);
 
                 if (results.length > 0) {
                     appendToCSV(CONFIG.OUTPUT_CSV, results);
@@ -445,13 +581,15 @@ async function main() {
                 }
 
                 log('info', `Total Saved: ${totalSaved} words`);
-                if (batchWords.length > 0) await sleep(3000 + Math.random() * 2000);
+                await sleep(3000 + Math.random() * 2000);
 
             } catch (err) {
                 log('error', `Batch #${batchNum} Failed: ${err.message}`);
                 await sleep(15000);
             }
-        }
+
+            batch = provider.next(CONFIG.BATCH_SIZE);
+        } while (batch.length > 0);
 
         log('success', 'Generation Complete!');
         log('info', `CSV: ${CONFIG.OUTPUT_CSV}`);
