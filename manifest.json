@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated": "2026-04-22T18:05:26.240000+00:00",
+  "updated": "2026-04-23T14:16:33.677549+00:00",
   "concepts": {
     "bed": {
       "default_style": "default",
@@ -53110,12 +53110,522 @@
     "испуганный": {
       "concept": "afraid",
       "language": "rus"
+    },
+    "house": {
+      "concept": "house",
+      "language": "default",
+      "pos": null
+    },
+    "umbrella": {
+      "concept": "umbrella",
+      "language": "default",
+      "pos": null
+    },
+    "lotto": {
+      "concept": "lotto",
+      "language": "default",
+      "pos": null
+    },
+    "frame": {
+      "concept": "frame",
+      "language": "default",
+      "pos": null
+    },
+    "thing": {
+      "concept": "thing",
+      "language": "default",
+      "pos": null
+    },
+    "matchbox": {
+      "concept": "matchbox",
+      "language": "default",
+      "pos": null
+    },
+    "race": {
+      "concept": "race",
+      "language": "default",
+      "pos": null
+    },
+    "jar": {
+      "concept": "jar",
+      "language": "default",
+      "pos": null
+    },
+    "mushroom": {
+      "concept": "mushroom",
+      "language": "default",
+      "pos": null
+    },
+    "string_bag": {
+      "concept": "string_bag",
+      "language": "default",
+      "pos": null
+    },
+    "lamp": {
+      "concept": "lamp",
+      "language": "default",
+      "pos": null
+    },
+    "mom": {
+      "concept": "mom",
+      "language": "default",
+      "pos": null
+    },
+    "zenith": {
+      "concept": "zenith",
+      "language": "default",
+      "pos": null
+    },
+    "rook": {
+      "concept": "rook",
+      "language": "default",
+      "pos": null
+    },
+    "tank": {
+      "concept": "tank",
+      "language": "default",
+      "pos": null
+    },
+    "apricot": {
+      "concept": "apricot",
+      "language": "default",
+      "pos": null
+    },
+    "pencil": {
+      "concept": "pencil",
+      "language": "default",
+      "pos": null
+    },
+    "midge": {
+      "concept": "midge",
+      "language": "default",
+      "pos": null
+    },
+    "tomato": {
+      "concept": "tomato",
+      "language": "default",
+      "pos": null
+    },
+    "snowball": {
+      "concept": "snowball",
+      "language": "default",
+      "pos": null
+    },
+    "fairy_tale": {
+      "concept": "fairy_tale",
+      "language": "default",
+      "pos": null
+    },
+    "puddle": {
+      "concept": "puddle",
+      "language": "default",
+      "pos": null
+    },
+    "forest": {
+      "concept": "forest",
+      "language": "default",
+      "pos": null
+    },
+    "autopilot": {
+      "concept": "autopilot",
+      "language": "default",
+      "pos": null
+    },
+    "climber": {
+      "concept": "climber",
+      "language": "default",
+      "pos": null
+    },
+    "paw": {
+      "concept": "paw",
+      "language": "default",
+      "pos": null
+    },
+    "skates": {
+      "concept": "skates",
+      "language": "default",
+      "pos": null
+    },
+    "mouse": {
+      "concept": "mouse",
+      "language": "default",
+      "pos": null
+    },
+    "snowflake": {
+      "concept": "snowflake",
+      "language": "default",
+      "pos": null
+    },
+    "crayfish": {
+      "concept": "crayfish",
+      "language": "default",
+      "pos": null
+    },
+    "sled": {
+      "concept": "sled",
+      "language": "default",
+      "pos": null
+    },
+    "owl": {
+      "concept": "owl",
+      "language": "default",
+      "pos": null
+    },
+    "fork": {
+      "concept": "fork",
+      "language": "default",
+      "pos": null
+    },
+    "onion": {
+      "concept": "onion",
+      "language": "default",
+      "pos": null
+    },
+    "elephants": {
+      "concept": "elephants",
+      "language": "default",
+      "pos": null
+    },
+    "pine": {
+      "concept": "pine",
+      "language": "default",
+      "pos": null
+    },
+    "fox": {
+      "concept": "fox",
+      "language": "default",
+      "pos": null
+    },
+    "beetle": {
+      "concept": "beetle",
+      "language": "default",
+      "pos": null
+    },
+    "horns": {
+      "concept": "horns",
+      "language": "default",
+      "pos": null
+    },
+    "turtle": {
+      "concept": "turtle",
+      "language": "default",
+      "pos": null
+    },
+    "bagel": {
+      "concept": "bagel",
+      "language": "default",
+      "pos": null
+    },
+    "varnish": {
+      "concept": "varnish",
+      "language": "default",
+      "pos": null
+    },
+    "smoke": {
+      "concept": "smoke",
+      "language": "default",
+      "pos": null
+    },
+    "pedal": {
+      "concept": "pedal",
+      "language": "default",
+      "pos": null
+    },
+    "tangerine": {
+      "concept": "tangerine",
+      "language": "default",
+      "pos": null
+    },
+    "llama": {
+      "concept": "llama",
+      "language": "default",
+      "pos": null
+    },
+    "pineapple": {
+      "concept": "pineapple",
+      "language": "default",
+      "pos": null
+    },
+    "raspberry": {
+      "concept": "raspberry",
+      "language": "default",
+      "pos": null
+    },
+    "candies": {
+      "concept": "candies",
+      "language": "default",
+      "pos": null
+    },
+    "tooth": {
+      "concept": "tooth",
+      "language": "default",
+      "pos": null
+    },
+    "whale": {
+      "concept": "whale",
+      "language": "default",
+      "pos": null
+    },
+    "lion": {
+      "concept": "lion",
+      "language": "default",
+      "pos": null
+    },
+    "poppy": {
+      "concept": "poppy",
+      "language": "default",
+      "pos": null
+    },
+    "mask": {
+      "concept": "mask",
+      "language": "default",
+      "pos": null
+    },
+    "magpie": {
+      "concept": "magpie",
+      "language": "default",
+      "pos": null
+    },
+    "snowman": {
+      "concept": "snowman",
+      "language": "default",
+      "pos": null
+    },
+    "sword": {
+      "concept": "sword",
+      "language": "default",
+      "pos": null
+    },
+    "sister": {
+      "concept": "sister",
+      "language": "default",
+      "pos": null
+    },
+    "steering_wheel": {
+      "concept": "steering_wheel",
+      "language": "default",
+      "pos": null
+    },
+    "lump": {
+      "concept": "lump",
+      "language": "default",
+      "pos": null
+    },
+    "pie": {
+      "concept": "pie",
+      "language": "default",
+      "pos": null
+    },
+    "telescope": {
+      "concept": "telescope",
+      "language": "default",
+      "pos": null
+    },
+    "carousel": {
+      "concept": "carousel",
+      "language": "default",
+      "pos": null
+    },
+    "helper": {
+      "concept": "helper",
+      "language": "default",
+      "pos": null
+    },
+    "pepper": {
+      "concept": "pepper",
+      "language": "default",
+      "pos": null
+    },
+    "snake": {
+      "concept": "snake",
+      "language": "default",
+      "pos": null
+    },
+    "velour": {
+      "concept": "velour",
+      "language": "default",
+      "pos": null
+    },
+    "stream": {
+      "concept": "stream",
+      "language": "default",
+      "pos": null
+    },
+    "knock": {
+      "concept": "knock",
+      "language": "default",
+      "pos": null
+    },
+    "jump_rope": {
+      "concept": "jump_rope",
+      "language": "default",
+      "pos": null
+    },
+    "cans": {
+      "concept": "cans",
+      "language": "default",
+      "pos": null
+    },
+    "rod": {
+      "concept": "rod",
+      "language": "default",
+      "pos": null
+    },
+    "boards": {
+      "concept": "boards",
+      "language": "default",
+      "pos": null
+    },
+    "pocket": {
+      "concept": "pocket",
+      "language": "default",
+      "pos": null
+    },
+    "screen": {
+      "concept": "screen",
+      "language": "default",
+      "pos": null
+    },
+    "potato": {
+      "concept": "potato",
+      "language": "default",
+      "pos": null
+    },
+    "braid": {
+      "concept": "braid",
+      "language": "default",
+      "pos": null
+    },
+    "pastry": {
+      "concept": "pastry",
+      "language": "default",
+      "pos": null
+    },
+    "spoon": {
+      "concept": "spoon",
+      "language": "default",
+      "pos": null
+    },
+    "ice_cream": {
+      "concept": "ice_cream",
+      "language": "default",
+      "pos": null
+    },
+    "orange": {
+      "concept": "orange",
+      "language": "default",
+      "pos": null
+    },
+    "peach": {
+      "concept": "peach",
+      "language": "default",
+      "pos": null
+    },
+    "armor": {
+      "concept": "armor",
+      "language": "default",
+      "pos": null
+    },
+    "nose": {
+      "concept": "nose",
+      "language": "default",
+      "pos": null
+    },
+    "juice": {
+      "concept": "juice",
+      "language": "default",
+      "pos": null
+    },
+    "robe": {
+      "concept": "robe",
+      "language": "default",
+      "pos": null
+    },
+    "pirate": {
+      "concept": "pirate",
+      "language": "default",
+      "pos": null
+    },
+    "stove": {
+      "concept": "stove",
+      "language": "default",
+      "pos": null
+    },
+    "excavator": {
+      "concept": "excavator",
+      "language": "default",
+      "pos": null
+    },
+    "turnip": {
+      "concept": "turnip",
+      "language": "default",
+      "pos": null
+    },
+    "traffic_light": {
+      "concept": "traffic_light",
+      "language": "default",
+      "pos": null
+    },
+    "soup": {
+      "concept": "soup",
+      "language": "default",
+      "pos": null
+    },
+    "ink": {
+      "concept": "ink",
+      "language": "default",
+      "pos": null
+    },
+    "key": {
+      "concept": "key",
+      "language": "default",
+      "pos": null
+    },
+    "firefly": {
+      "concept": "firefly",
+      "language": "default",
+      "pos": null
+    },
+    "escalator": {
+      "concept": "escalator",
+      "language": "default",
+      "pos": null
+    },
+    "shuttlecock": {
+      "concept": "shuttlecock",
+      "language": "default",
+      "pos": null
+    },
+    "horses": {
+      "concept": "horses",
+      "language": "default",
+      "pos": null
+    },
+    "skull": {
+      "concept": "skull",
+      "language": "default",
+      "pos": null
+    },
+    "pond": {
+      "concept": "pond",
+      "language": "default",
+      "pos": null
+    },
+    "meat": {
+      "concept": "meat",
+      "language": "default",
+      "pos": null
+    },
+    "hand": {
+      "concept": "hand",
+      "language": "default",
+      "pos": null
     }
   },
   "metadata": {
     "total_concepts": 1296,
     "total_versions": 2697,
-    "last_build": "migrate_v3_safe"
+    "last_build": "2026-04-23T14:16:33.677549+00:00"
   },
   "styles": {}
 }
