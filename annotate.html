@@ -5,20 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Annotator — Выбор лучшей версии</title>
   <style>
-    :root {
-      --bg: #f5f5f5;
-      --card: #fff;
-      --selected: #2563eb;
-      --selected-bg: #dbeafe;
-      --focus-ring: #f59e0b;
-      --focus-bg: #fef3c7;
-      --text: #1f2937;
-      --gray: #6b7280;
-      --border: #e5e7eb;
-      --hover: #f3f4f6;
-      --row-height: 118px;
-      --max-width: 1400px;
-    }
+:root {
+  --bg: #f5f5f5;
+  --card: #fff;
+  --selected: #2563eb;
+  --selected-bg: #dbeafe;
+  --focus-ring: #f59e0b;
+  --focus-bg: #fef3c7;
+  --text: #1f2937;
+  --gray: #6b7280;
+  --border: #e5e7eb;
+  --hover: #f3f4f6;
+  --row-height: 175px;
+  --max-width: 1400px;
+}
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -81,21 +81,7 @@
       border: 1px solid #d1d5db;
     }
 
-    /* Table header */
-    .table-header {
-      display: grid;
-      grid-template-columns: 100px 1fr repeat(var(--max-versions, 5), 100px);
-      gap: 8px;
-      padding: 6px 16px;
-      background: var(--card);
-      border-bottom: 1px solid var(--border);
-      font-weight: 600;
-      font-size: 11px;
-      color: var(--gray);
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      flex-shrink: 0;
-    }
+/* Table header - removed */
 
     /* Virtual scroll */
     .scroll-viewport {
@@ -110,22 +96,55 @@
       top: 0; left: 0; right: 0;
     }
 
-    /* Row */
-    .row {
-      display: grid;
-      grid-template-columns: 100px 1fr repeat(var(--max-versions, 5), 100px);
-      gap: 8px;
-      padding: 8px 16px;
-      height: var(--row-height);
-      background: var(--card);
-      border-bottom: 1px solid var(--border);
-      align-items: center;
-      transition: background 0.1s;
-    }
-    .row:hover { background: var(--hover); }
-    .row.focused { background: var(--focus-bg); outline: 2px solid var(--focus-ring); outline-offset: -2px; }
-    .row.selected { background: var(--selected-bg); }
-    .row.focused.selected { background: #bfdbfe; }
+/* Row */
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px 16px;
+  height: var(--row-height);
+  background: var(--card);
+  border-bottom: 1px solid var(--border);
+  transition: background 0.1s;
+}
+.row:hover { background: var(--hover); }
+.row.focused { background: var(--focus-bg); outline: 2px solid var(--focus-ring); outline-offset: -2px; }
+.row.selected { background: var(--selected-bg); }
+.row.focused.selected { background: #bfdbfe; }
+
+/* Meta row 1 - word list + min_age + concept */
+.row .meta-row-1 {
+  display: grid;
+  grid-template-columns: 300px 60px 1fr;
+  gap: 8px;
+  align-items: center;
+}
+
+/* Meta row 2 - prompt */
+.row .meta-row-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+  font-size: 10px;
+  color: var(--gray);
+  min-height: 14px;
+}
+
+/* Versions row - third line */
+.row .versions-row {
+  display: grid;
+  grid-template-columns: repeat(var(--max-versions, 5), 110px);
+  gap: 16px;
+  justify-content: start;
+  align-items: start;
+}
+
+.col-min-age {
+  font-weight: 600;
+  font-size: 12px;
+  color: var(--text);
+  white-space: nowrap;
+}
 
     .col-word {
       font-weight: 600;
@@ -143,59 +162,37 @@
     }
 
     /* Version cell */
-    .version-cell {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 3px;
-      cursor: pointer;
-      padding: 3px;
-      border-radius: 6px;
-      border: 2px solid transparent;
-      transition: all 0.1s;
-      position: relative;
-    }
-    .version-cell:hover { border-color: var(--selected); }
-    .version-cell.selected {
-      border-color: var(--selected);
-      background: var(--selected-bg);
-    }
-    .version-cell.focused {
-      border-color: var(--focus-ring);
-      background: var(--focus-bg);
-      box-shadow: 0 0 0 2px var(--focus-ring);
-    }
+.version-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 2px;
+  border-radius: 8px;
+  border: 3px solid transparent;
+  transition: all 0.1s;
+  position: relative;
+}
+.version-cell:hover { border-color: var(--selected); }
+.version-cell.selected {
+  border-color: var(--selected);
+  background: var(--selected-bg);
+}
+.version-cell.focused {
+  border-color: var(--focus-ring);
+  background: var(--focus-bg);
+  box-shadow: 0 0 0 3px var(--focus-ring);
+}
     .version-cell.empty { cursor: default; opacity: 0.3; }
-    .version-cell img {
-      width: 86px;
-      height: 86px;
-      object-fit: contain;
-      border-radius: 4px;
-      background: #fff;
-      border: 1px solid var(--border);
-    }
-    .version-cell .ver-label {
-      font-size: 10px;
-      font-weight: 600;
-      color: var(--gray);
-    }
-    .version-cell.selected .ver-label { color: var(--selected); }
-    .version-cell .ver-prompt {
-      font-size: 7px;
-      color: var(--gray);
-      position: absolute;
-      bottom: 2px;
-      left: 2px;
-      right: 2px;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      opacity: 0.6;
-    }
-    .version-cell:hover .ver-prompt {
-      opacity: 1;
-    }
-    .version-cell .check-mark {
+.version-cell img {
+  width: 94px;
+  height: 94px;
+  object-fit: contain;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid var(--border);
+}
+.version-cell .check-mark {
       position: absolute;
       top: 1px; right: 1px;
       width: 16px; height: 16px;
@@ -243,24 +240,42 @@
     }
     .toast.show { opacity: 1; }
 
-    /* Modal */
-    .modal-overlay {
-      position: fixed; top: 0; left: 0; right: 0; bottom: 0;
-      background: rgba(0,0,0,0.5); display: none; z-index: 300;
-      justify-content: center; align-items: center;
-    }
-    .modal-overlay.active { display: flex; }
-    .modal {
-      background: var(--card); border-radius: 12px; padding: 24px;
-      max-width: 700px; width: 90%; max-height: 80vh; overflow-y: auto;
-    }
-    .modal h3 { margin-bottom: 16px; }
-    .modal pre {
-      background: #f3f4f6; padding: 12px; border-radius: 8px;
-      font-size: 12px; overflow-x: auto; white-space: pre-wrap;
-      word-break: break-all; max-height: 400px;
-    }
-    .modal-actions { display: flex; gap: 8px; margin-top: 16px; }
+/* Modal */
+.modal-overlay {
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5); display: none; z-index: 300;
+  justify-content: center; align-items: center;
+}
+.modal-overlay.active { display: flex; }
+.modal {
+  background: var(--card); border-radius: 12px; padding: 24px;
+  max-width: 700px; width: 90%; max-height: 80vh; overflow-y: auto;
+}
+.modal h3 { margin-bottom: 16px; }
+.modal pre {
+  background: #f3f4f6; padding: 12px; border-radius: 8px;
+  font-size: 12px; overflow-x: auto; white-space: pre-wrap;
+  word-break: break-all; max-height: 400px;
+}
+.modal-actions { display: flex; gap: 8px; margin-top: 16px; }
+
+/* Image Preview Overlay */
+.preview-overlay {
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.85); display: none; z-index: 400;
+  justify-content: center; align-items: center; cursor: pointer;
+}
+.preview-overlay.active { display: flex; }
+.preview-overlay img {
+  max-width: 90vw; max-height: 90vh;
+  object-fit: contain; border-radius: 8px;
+  box-shadow: 0 0 40px rgba(0,0,0,0.5);
+}
+.preview-overlay .preview-hint {
+  position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%);
+  background: rgba(0,0,0,0.7); color: #fff; padding: 8px 16px;
+  border-radius: 6px; font-size: 12px; pointer-events: none;
+}
     
     /* Migration Stats */
     .migration-stats {
@@ -311,10 +326,7 @@
     <kbd>Home</kbd> <kbd>End</kbd>
   </div>
 
-  <div class="table-header" id="table-header">
-    <div>Word</div>
-    <div>Concept</div>
-  </div>
+<!-- Table header removed -->
 
   <div class="loading" id="loading">
     <span class="spinner"></span> Загрузка...
@@ -329,31 +341,37 @@
 
   <div class="toast" id="toast"></div>
 
-  <div class="modal-overlay" id="migration-modal" onclick="closeModal(event)">
-    <div class="modal">
-      <h3>📤 Экспорт миграции</h3>
-      <div class="migration-stats">
-        <div class="stat-item">
-          <span class="stat-label">Всего концептов:</span>
-          <span class="stat-value" id="migration-total">0</span>
-        </div>
-        <div class="stat-item">
-          <span class="stat-label">Выбрано версий:</span>
-          <span class="stat-value" id="migration-selected">0</span>
-        </div>
-        <div class="stat-item">
-          <span class="stat-label">Без изменений:</span>
-          <span class="stat-value" id="migration-unchanged">0</span>
-        </div>
+<div class="modal-overlay" id="migration-modal" onclick="closeModal(event)">
+  <div class="modal">
+    <h3>📤 Экспорт миграции</h3>
+    <div class="migration-stats">
+      <div class="stat-item">
+        <span class="stat-label">Всего концептов:</span>
+        <span class="stat-value" id="migration-total">0</span>
       </div>
-      <pre id="migration-data"></pre>
-      <div class="modal-actions">
-        <button class="btn btn-primary" onclick="copyMigration()">📋 Копировать</button>
-        <button class="btn btn-primary" onclick="downloadMigration()">💾 Скачать JSON</button>
-        <button class="btn btn-secondary" onclick="closeModal()">Закрыть</button>
+      <div class="stat-item">
+        <span class="stat-label">Выбрано версий:</span>
+        <span class="stat-value" id="migration-selected">0</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">Без изменений:</span>
+        <span class="stat-value" id="migration-unchanged">0</span>
       </div>
     </div>
+    <pre id="migration-data"></pre>
+    <div class="modal-actions">
+      <button class="btn btn-primary" onclick="copyMigration()">📋 Копировать</button>
+      <button class="btn btn-primary" onclick="downloadMigration()">💾 Скачать JSON</button>
+      <button class="btn btn-secondary" onclick="closeModal()">Закрыть</button>
+    </div>
   </div>
+</div>
+
+<!-- Image Preview Overlay -->
+<div class="preview-overlay" id="preview-overlay" onclick="closePreview()" onmouseleave="closePreview()">
+  <img id="preview-image" src="" alt="Preview">
+  <div class="preview-hint">Click, press ESC, or move mouse away to close</div>
+</div>
 
   <script>
     // Base path for GitHub Pages (same as index.html)
@@ -372,7 +390,7 @@
     let selected = {};              // {concept: version}
     let latestMap = {};             // {concept: 'latest' version} — из manifest
     let maxVersions = 5;
-    const ROW_HEIGHT = 118;
+    const ROW_HEIGHT = 175;
     const BUFFER = 5;
 
     // Focus state
@@ -382,11 +400,32 @@
     // Filter state
     let filterMode = 'all';  // 'all' | 'pending' (только без best)
 
-    // Virtual scroll
-    let viewport, spacer, content;
-    let renderStart = 0, renderEnd = 0;
+// Virtual scroll
+let viewport, spacer, content;
+let renderStart = 0, renderEnd = 0;
 
-    // === INIT ===
+// Preview state
+let longTapTimeout = null;
+let touchStartTarget = null;
+let currentPreviewSrc = null;
+let pointerDownTime = 0;
+
+    // === IMAGE PREVIEW ===
+function showPreview(imgSrc) {
+  const overlay = document.getElementById('preview-overlay');
+  const img = document.getElementById('preview-image');
+  img.src = imgSrc;
+  currentPreviewSrc = imgSrc;
+  overlay.classList.add('active');
+}
+
+function closePreview() {
+  const overlay = document.getElementById('preview-overlay');
+  overlay.classList.remove('active');
+  currentPreviewSrc = null;
+}
+
+// === INIT ===
     async function init() {
       try {
         const rawManifest = await fetch('manifest.json?t=' + Date.now()).then(r => r.json());
@@ -408,13 +447,13 @@
         // --------------------------------------------------------------
         const conceptsMap = {};   // conceptKey → {concept, words: [], versions: [], bestVersion, latestVersion}
 
-        // Helper: ensure entry exists
-        const ensureConcept = (c) => {
-          if (!conceptsMap[c]) {
-            conceptsMap[c] = { concept: c, words: [], versions: [], bestVersion: null, latestVersion: null };
-          }
-          return conceptsMap[c];
-        };
+// Helper: ensure entry exists
+const ensureConcept = (c) => {
+  if (!conceptsMap[c]) {
+    conceptsMap[c] = { concept: c, words: [], versions: [], bestVersion: null, latestVersion: null, minAge: null };
+  }
+  return conceptsMap[c];
+};
 
         // Populate words list for each concept
         for (const [word, conceptKey] of Object.entries(wordToConcept)) {
@@ -422,14 +461,15 @@
           entry.words.push(word);
         }
 
-        // Walk through concepts → styles → versions
-        for (const [conceptKey, conceptObj] of Object.entries(window.rawManifestGlobal?.concepts || {})) {
-          const defaultStyle = conceptObj.default_style || 'default';
-          const styleObj = conceptObj.styles && conceptObj.styles[defaultStyle];
-          if (!styleObj || !styleObj.versions) continue;
+// Walk through concepts → styles → versions
+for (const [conceptKey, conceptObj] of Object.entries(window.rawManifestGlobal?.concepts || {})) {
+  const defaultStyle = conceptObj.default_style || 'default';
+  const styleObj = conceptObj.styles && conceptObj.styles[defaultStyle];
+  if (!styleObj || !styleObj.versions) continue;
 
-          const conceptEntry = ensureConcept(conceptKey);
-          const bestVer = styleObj.best ? `v${styleObj.best}` : null;
+  const conceptEntry = ensureConcept(conceptKey);
+  conceptEntry.minAge = conceptObj.min_age || null;
+  const bestVer = styleObj.best ? `v${styleObj.best}` : null;
 
           for (const v of styleObj.versions) {
             const versionLabel = v.n === styleObj.latest ? 'latest' : `v${v.n}`;
@@ -441,23 +481,30 @@
               '512': REPO_BASE + 'styles/' + v.previews['512']
             } : null;
 
-            conceptEntry.versions.push({
-              version: versionLabel,
-              originalVersion: `v${v.n}`,
-              isLatest,
-              isBest,
-              path: REPO_BASE + 'styles/' + v.path,
-              url: previews ? previews['256'] : REPO_BASE + 'styles/' + v.path,
-              prompt: v.prompt || ''
-            });
+conceptEntry.versions.push({
+  version: versionLabel,
+  originalVersion: `v${v.n}`,
+  isLatest,
+  isBest,
+  path: REPO_BASE + 'styles/' + v.path,
+  url: previews ? previews['256'] : REPO_BASE + 'styles/' + v.path,
+  url512: previews ? previews['512'] : (previews ? previews['256'] : REPO_BASE + 'styles/' + v.path),
+  prompt: v.prompt || ''
+});
 
             if (isLatest) conceptEntry.latestVersion = versionLabel;
             if (isBest)   conceptEntry.bestVersion   = versionLabel;
           }
         }
 
-        // Convert map → sorted array
-        window.conceptsData = Object.values(conceptsMap).sort((a, b) => (a.concept || '').localeCompare(b.concept || ''));
+// Convert map → sorted array (Russian concepts first, then English)
+window.conceptsData = Object.values(conceptsMap).sort((a, b) => {
+  const aIsRu = /^[а-яё]/i.test(a.concept);
+  const bIsRu = /^[а-яё]/i.test(b.concept);
+  if (aIsRu && !bIsRu) return -1;
+  if (!aIsRu && bIsRu) return 1;
+  return (a.concept || '').localeCompare(b.concept || '');
+});
 
         // Sort versions inside each concept numerically and extract prompts
         window.conceptsData.forEach(c => {
@@ -500,14 +547,7 @@
         maxVersions = Math.min(5, Math.max(...window.conceptsData.map(c => c.versions.length), 1));
         document.documentElement.style.setProperty('--max-versions', maxVersions);
 
-        // Build table header (добавляем колонки версий)
-        const hdr = document.getElementById('table-header');
-        for (let i = 0; i < maxVersions; i++) {
-          const d = document.createElement('div');
-          d.style.textAlign = 'center';
-          d.textContent = `v${i+1}`;
-          hdr.appendChild(d);
-        }
+// Table header removed - no version columns to build anymore
 
         // Restore previous selection (по концептам)
         try { selected = JSON.parse(localStorage.getItem('annotator_selection') || '{}'); } catch(e) {}
@@ -592,39 +632,61 @@
 
       content.style.transform = `translateY(${start * ROW_HEIGHT}px)`;
 
-      let html = '';
-      for (let i = start; i <= end; i++) {
-        const c = visible[i];
-        const isSel = !!selected[c.concept];
-        const isFocused = i === focusedRow;
-        const rowClass = (isFocused ? 'focused ' : '') + (isSel ? 'selected' : '');
+let html = '';
+for (let i = start; i <= end; i++) {
+  const c = visible[i];
+  const isSel = !!selected[c.concept];
+  const isFocused = i === focusedRow;
+  const rowClass = (isFocused ? 'focused ' : '') + (isSel ? 'selected' : '');
 
-        // Первая колонка – список всех слов, связанных с концептом
-        const wordsList = c.words.join(', ');
-        html += `<div class="row ${rowClass}" data-row="${i}">`;
-        html += `<div class="col-word" title="${esc(wordsList)}">${esc(wordsList)}</div>`;
-        // Вторая колонка – человекочитаемое имя (если есть)
-        html += `<div class="col-concept" title="${esc(c.humanName)}">${esc(c.humanName) || '—'}</div>`;
+  // Список всех слов, связанных с концептом (Russian first)
+  const sortedWords = [...c.words].sort((a, b) => {
+    const aIsRu = /^[а-яё]/i.test(a);
+    const bIsRu = /^[а-яё]/i.test(b);
+    if (aIsRu && !bIsRu) return -1;
+    if (!aIsRu && bIsRu) return 1;
+    return a.localeCompare(b);
+  });
+  const wordsList = sortedWords.join(', ');
+  html += `<div class="row ${rowClass}" data-row="${i}">`;
+  
+  // Row 1: word list (3x wider) + min_age+ + concept
+  html += `<div class="meta-row-1">`;
+  html += `<div class="col-word" title="${esc(wordsList)}">${esc(wordsList)}</div>`;
+  html += `<div class="col-min-age">${c.minAge !== null ? c.minAge + '+' : '—'}</div>`;
+  html += `<div class="col-concept" title="${esc(c.humanName)}">${esc(c.humanName) || '—'}</div>`;
+  html += `</div>`;
 
-        for (let j = 0; j < maxVersions; j++) {
-          const ver = c.versions[j];
-          if (ver) {
-            const isSelVer = selected[c.concept] === ver.version;
-            const isFocusedCell = isFocused && j === focusedCol;
-            const cellClass = (isSelVer ? 'selected ' : '') + (isFocusedCell ? 'focused' : '');
-            const promptText = ver.prompt ? ver.prompt.substring(0, 40) + (ver.prompt.length > 40 ? '...' : '') : '';
-            html += `<div class="version-cell ${cellClass}${ver.isBest ? ' best' : ''}" data-row="${i}" data-col="${j}" onclick="clickVersion(${i},${j})">
-              <span class="check-mark">✓</span>
-              <img src="${ver.url}" loading="lazy" onerror="this.style.display='none'">
-              <span class="ver-label">${ver.originalVersion}</span>
-              ${promptText ? `<span class="ver-prompt" title="${esc(ver.prompt)}">${esc(promptText)}</span>` : ''}
-            </div>`;
-          } else {
-            html += `<div class="version-cell empty"><span class="ver-label">—</span></div>`;
-          }
-        }
-        html += `</div>`;
-      }
+  // Row 2: prompt (from first version or selected version)
+  html += `<div class="meta-row-2">`;
+  const firstVer = c.versions[0];
+  const promptText = firstVer && firstVer.prompt ? firstVer.prompt.substring(0, 80) + (firstVer.prompt.length > 80 ? '...' : '') : '';
+  html += `<div title="${esc(firstVer && firstVer.prompt || '')}">${esc(promptText)}</div>`;
+  html += `</div>`;
+
+  // Row 3: version cells
+  html += `<div class="versions-row">`;
+  for (let j = 0; j < maxVersions; j++) {
+    const ver = c.versions[j];
+    if (ver) {
+      const isSelVer = selected[c.concept] === ver.version;
+      const isFocusedCell = isFocused && j === focusedCol;
+      const cellClass = (isSelVer ? 'selected ' : '') + (isFocusedCell ? 'focused' : '');
+      html += `<div class="version-cell ${cellClass}${ver.isBest ? ' best' : ''}" data-row="${i}" data-col="${j}" data-prv="${ver.url512}"
+        onclick="if(Date.now()-pointerDownTime<400) clickVersion(${i},${j})"
+        onpointerdown="pointerDownTime=Date.now(); longTapTimeout=setTimeout(()=>{showPreview('${ver.url512}'); pointerDownTime=0},500)"
+        onpointerup="clearTimeout(longTapTimeout)"
+        onpointerleave="clearTimeout(longTapTimeout)">
+        <span class="check-mark">✓</span>
+        <img src="${ver.url}" loading="lazy" onerror="this.style.display='none'">
+      </div>`;
+    } else {
+      html += `<div class="version-cell empty"><span class="ver-label">—</span></div>`;
+    }
+  }
+  html += `</div>`;
+  html += `</div>`;
+}
 
       content.innerHTML = html;
     }
@@ -755,11 +817,11 @@
       document.getElementById('total-words').textContent = filterMode === 'pending' ? `${pending}/${window.conceptsData.length}` : total;
     }
 
-    // === KEYBOARD ===
-    document.addEventListener('keydown', (e) => {
-      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+// === KEYBOARD ===
+document.addEventListener('keydown', (e) => {
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
 
-      if (e.key === 'ArrowDown') {
+  if (e.key === 'ArrowDown') {
         e.preventDefault();
         moveRow(1);
       } else if (e.key === 'ArrowUp') {
@@ -789,10 +851,24 @@
         focusedCol = getPreferredCol(focusedRow);
         renderVisibleRows(true);
         scrollToFocused();
-      } else if (e.key === 'a' && (e.ctrlKey || e.metaKey)) {
-        e.preventDefault();
-        selectAll();
-      }
+} else if (e.key === 'a' && (e.ctrlKey || e.metaKey)) {
+  e.preventDefault();
+  selectAll();
+} else if (e.key === 'Escape') {
+  closePreview();
+} else if (e.key === 'Control') {
+  const overlay = document.getElementById('preview-overlay');
+  if (overlay.classList.contains('active')) {
+    closePreview();
+  } else {
+    // Show preview of currently focused version
+    const visible = getVisibleConcepts();
+    const c = visible[focusedRow];
+    if (c && c.versions[focusedCol] && c.versions[focusedCol].url512) {
+      showPreview(c.versions[focusedCol].url512);
+    }
+  }
+}
     });
 
     function closeModal(e) {
